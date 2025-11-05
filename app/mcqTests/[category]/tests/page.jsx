@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import McqQuestionList from "@/app/Components/McqQuestionList";
 import useMCQ from "@/app/Hooks/useMcq";
-import ButtonDesigns from "@/app/Components/ButtonDesigns";
 
 const McqSetPage = ({ params }) => {
   const { category: cat } = React.use(params);
@@ -24,15 +23,34 @@ const McqSetPage = ({ params }) => {
     let correctCount = 0;
 
     answers.forEach((answer) => {
-      const rightAnswer = filteredQuestions.find((q) => q.id === answer.id);
+      const rightAnswer = filteredQuestions.find((q) => q.id == answer.id);
       if (rightAnswer && answer.selectedOption === rightAnswer.correct_answer) {
         correctCount += 1;
       }
     });
 
-    alert(
-      `Set: ${selectedSet}\nYou got ${correctCount} out of ${filteredQuestions.length} correct!`
-    );
+    // ---------------------------
+    const percentage = (
+      (correctCount / filteredQuestions.length) *
+      100
+    ).toFixed(0);
+    let message = `🎉 Congratulations! 🎉\n\n`;
+    message += `Set: ${selectedSet}\n`;
+    message += `You answered ${correctCount} out of ${filteredQuestions.length} questions correctly.\n`;
+    message += `Your score: ${percentage}%\n\n`;
+
+    if (percentage === "100") {
+      message += "💯 Perfect score! Amazing job!";
+    } else if (percentage >= 80) {
+      message += "👏 Great work! Keep it up!";
+    } else if (percentage >= 50) {
+      message += "🙂 Good effort! You can do even better next time!";
+    } else {
+      message += "😅 Don't worry, try again and you'll improve!";
+    }
+
+    alert(message);
+    // ---------------------------
 
     // Refresh page
     window.location.reload();

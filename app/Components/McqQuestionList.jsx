@@ -56,7 +56,7 @@ const McqQuestionList = ({ questions, selectedSet, onSubmit }) => {
       <div className="flex flex-col items-center gap-4">
         <p className="text-lg font-medium">Select time per question:</p>
         <div className="flex gap-4 flex-wrap">
-          {[30, 20, 10].map((sec) => (
+          {[10, 15, 20].map((sec) => (
             <ButtonDesigns
               key={sec}
               label={`${sec} sec`}
