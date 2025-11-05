@@ -8,13 +8,12 @@ const McqSetPage = ({ params }) => {
   const { category: cat } = React.use(params);
   const { mcq } = useMCQ();
   const mcqQuestionSet = mcq?.[cat] || [];
+  const [mcqKey, setMcqKey] = useState(0); // key to reset McqQuestionList
 
-  // Get unique set names
   const sets = [...new Set(mcqQuestionSet.map((item) => item.question_set))];
-
   const [selectedSet, setSelectedSet] = useState("");
+  const [result, setResult] = useState(null); // For modal
 
-  // Filter questions for the selected set
   const filteredQuestions = selectedSet
     ? mcqQuestionSet.filter((q) => q.question_set === selectedSet)
     : [];
@@ -29,31 +28,32 @@ const McqSetPage = ({ params }) => {
       }
     });
 
-    // ---------------------------
     const percentage = (
       (correctCount / filteredQuestions.length) *
       100
     ).toFixed(0);
-    let message = `🎉 Congratulations! 🎉\n\n`;
-    message += `Set: ${selectedSet}\n`;
-    message += `You answered ${correctCount} out of ${filteredQuestions.length} questions correctly.\n`;
-    message += `Your score: ${percentage}%\n\n`;
+    let message = "";
 
-    if (percentage === "100") {
-      message += "💯 Perfect score! Amazing job!";
-    } else if (percentage >= 80) {
-      message += "👏 Great work! Keep it up!";
-    } else if (percentage >= 50) {
-      message += "🙂 Good effort! You can do even better next time!";
-    } else {
-      message += "😅 Don't worry, try again and you'll improve!";
-    }
+    if (percentage === "100") message = "💯 Perfect score! Amazing job!";
+    else if (percentage >= 80) message = "👏 Great work! Keep it up!";
+    else if (percentage >= 50)
+      message = "🙂 Good effort! You can do even better next time!";
+    else message = "😅 Don't worry, try again and you'll improve!";
 
-    alert(message);
-    // ---------------------------
+    // Set modal result
+    setResult({
+      setName: selectedSet,
+      correctCount,
+      total: filteredQuestions.length,
+      percentage,
+      message,
+    });
+  };
 
-    // Refresh page
-    window.location.reload();
+  const closeModal = () => {
+    setResult(null); // Close the modal
+    setSelectedSet((prev) => prev); // Keep the same set
+    setMcqKey((prev) => prev + 1); // Force re-render of McqQuestionList
   };
 
   return (
@@ -83,10 +83,34 @@ const McqSetPage = ({ params }) => {
       {selectedSet && (
         <div className="w-full max-w-2xl flex flex-col gap-6">
           <McqQuestionList
+            key={mcqKey} // forces rerender and clears answers
             questions={filteredQuestions}
             onSubmit={handleSubmit}
             selectedSet={selectedSet}
           />
+        </div>
+      )}
+
+      {/* Result Modal */}
+      {result && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+          <div className="bg-white rounded-xl p-6 max-w-sm w-full shadow-lg text-center">
+            <h2 className="text-2xl font-bold mb-4">🎉 Result 🎉</h2>
+            <p className="mb-2">
+              Set: <span className="font-semibold">{result.setName}</span>
+            </p>
+            <p className="mb-2">
+              Score: {result.correctCount} / {result.total} ({result.percentage}
+              %)
+            </p>
+            <p className="mt-4 text-lg">{result.message}</p>
+            <button
+              onClick={closeModal}
+              className="mt-6 bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg shadow-lg transition transform hover:scale-105"
+            >
+              Close
+            </button>
+          </div>
         </div>
       )}
     </div>
