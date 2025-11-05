@@ -1,2271 +1,2271 @@
 {
   "computer_operation": [
     {
+      "unit": "MS Word",
       "question": "What is Indention?",
       "answer": {
         "en": "The empty space between the margin and the start of a paragraph is called Indention.",
         "bn": "মার্জিন এবং প্যারাগ্রাফের শুরুর মধ্যে যেটি ফাঁকা স্থান থাকে তাকে Indention বলে।"
       },
-      "unit": "MS Word",
       "id": 1
     },
     {
+      "unit": "MS Word",
       "question": "Write down four word processing application software?",
       "answer": {
         "en": "WordPad, Microsoft Word, WordPerfect, Work Pages, OpenOffice Writer, Notepad.",
         "bn": "ওয়ার্ডপ্যাড, মাইক্রোসফট ওয়ার্ড, ওয়ার্ডপারফেক্ট, ওয়ার্ক পেজেস, ওপেনঅফিস রাইটার,"
       },
-      "unit": "MS Word",
       "id": 2
     },
     {
+      "unit": "MS Excel",
       "question": "What do you mean by Filtering?",
       "answer": {
         "en": "Filtering is the process of displaying only the rows that meet specific conditions and hiding the rest.",
         "bn": "ফিল্টারিং হল নির্দিষ্ট শর্ত পূরণকারী সারিগুলিকে প্রদর্শন করা এবং বাকি সারিগুলি লুকিয়ে রাখা।"
       },
-      "unit": "MS Excel",
       "id": 3
     },
     {
+      "unit": "MS Excel",
       "question": "What happens when dollar signs ($) are entered in a cell address?",
       "answer": {
         "en": "Using the dollar sign ($) creates an absolute cell address.",
         "bn": "ডলার চিহ্ন ($) ব্যবহার করলে একটি (absolute cell address) তৈরি হয়।"
       },
-      "unit": "MS Excel",
       "id": 4
     },
     {
+      "unit": "MS Excel",
       "question": "Why do we use Line Chart in Excel?",
       "answer": {
         "en": "Line charts are useful for displaying changes over time.",
         "bn": "লাইন চার্ট সময়ের সাথে সাথে পরিবর্তনগুলি প্রদর্শনের জন্য কার্যকর।"
       },
-      "unit": "MS Excel",
       "id": 5
     },
     {
+      "unit": "MS Excel",
       "question": "What does the IF function do in Excel?",
       "answer": {
         "en": "The IF function checks whether a condition is true or false. If true, it returns one result; if false, it returns another.",
         "bn": "IF ফাংশন কোনো শর্ত সত্য বা মিথ্যা তা পরীক্ষা করে। শর্ত সত্য হলে একটি ফলাফল দেয়, মিথ্যা হলে অন্য ফলাফল দেয়।"
       },
-      "unit": "MS Excel",
       "id": 6
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What is a transition in PowerPoint?",
       "answer": {
         "en": "A slide transition is an animation-like effect that appears when moving from one slide to another.",
         "bn": "স্লাইড ট্রানজিশন হল এক স্লাইড থেকে অন্য স্লাইডে যাওয়ার সময় যে অ্যানিমেশনের-মতো effect দেখা যায়।"
       },
-      "unit": "MS Powerpoint",
       "id": 7
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What do you understand by a placeholder?",
       "answer": {
         "en": "A placeholder is a dotted-bordered area on a slide where you can insert content.",
         "bn": "স্লাইডের উপর ডটেড ( . . . ) বর্ডারে ঘেরা যে এলাকা থাকে তাকে placeholder বলে।"
       },
-      "unit": "MS Powerpoint",
       "id": 8
     },
     {
+      "unit": "Operate Computer",
       "question": "What is a subfolder in a computer?",
       "answer": {
         "en": "A subfolder is a folder that exists within another folder for better organization.",
         "bn": "কম্পিউটারের একটি সাবফোল্ডার হল এমন একটি ফোল্ডার যা অন্য একটি ফোল্ডারের ভিতরে অবস্থান করে।"
       },
-      "unit": "Operate Computer",
       "id": 9
     },
     {
+      "unit": "Troubleshooting",
       "question": "What are the main causes of OS failures?",
       "answer": {
         "en": "OS failures can be caused by hardware malfunctions or software crashes, which prevent the operating system from booting properly.",
         "bn": "OS failure এর কারণ হতে পারে হার্ডওয়্যার ত্রুটি বা সফটওয়্যার ক্র্যাশ, যা সাধারণত অপারেটিং সিস্টেম বুট করতে না পারার কারণ হয়।"
       },
-      "unit": "Troubleshooting",
       "id": 10
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is diagnostic in computer education?",
       "answer": {
         "en": "Hardware diagnostics is a method of identifying problems in a computer's hardware system.",
         "bn": "হার্ডওয়্যার ডায়াগনস্টিক হল কম্পিউটারের হার্ডওয়্যার সিস্টেমে সমস্যা খুঁজে বের করার একটি পদ্ধতি।"
       },
-      "unit": "Troubleshooting",
       "id": 11
     },
     {
+      "unit": "Troubleshooting",
       "question": "Write down four common printer errors.",
       "answer": {
         "en": "Paper Jam, No Toner, Low Toner, MIO Not Ready, Error 20 - Memory Overflow.",
         "bn": "পেপার জ্যাম, টোনার নেই, টোনার লো, MIO প্রস্তু"
       },
-      "unit": "Troubleshooting",
       "id": 12
     },
     {
+      "unit": "MS Excel",
       "question": "What does the COUNTA() function do?",
       "answer": {
         "en": "It counts the number of non-empty cells.",
         "bn": "ফাঁকা নয় এমন সেলগুলো গণনা করে।"
       },
-      "unit": "MS Excel",
       "id": 13
     },
     {
+      "unit": "MS Excel",
       "question": "What are charts in MS Excel?",
       "answer": {
         "en": "Charts in MS Excel are used to graphically represent data. Users can choose different chart types such as column, bar, line, and pie from the Insert Tab.",
         "bn": "চার্ট MS Excel-এ ডেটার গ্রাফিকাল তথ্য উপস্থাপনার জন্য ব্যবহার করা হয়। ব্যবহারকারী Insert Tab থেকে কলাম, বার, লাইন, পাই ইত্যাদি যেকোনো চার্ট টাইপ বেছে নিতে পারেন।"
       },
-      "unit": "MS Excel",
       "id": 14
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What is the animation pane in PowerPoint?",
       "answer": {
         "en": "The Animation Pane is a tool that displays a list of animated objects on a slide. It helps manage and preview animation effects.",
         "bn": "অ্যানিমেশন প্যান একটি টুল যা স্লাইডে অ্যানিমেটেড অবজেক্টের তালিকা প্রদর্শন করে। এটি আপনাকে বর্তমান স্লাইডে থাকা সমস্ত effect দেখতে এবং পরিচালনা করতে সাহায্য করে।"
       },
-      "unit": "MS Powerpoint",
       "id": 15
     },
     {
+      "unit": "Troubleshooting",
       "question": "When should I replace the toner?",
       "answer": {
         "en": "Replace the toner when the toner level reaches 10%, faded printouts appear, or a low toner warning is displayed.",
         "bn": "যখন টোনার স্তর ১০% এ পৌঁছায়, faded printout (ঝাপসা) বা low toner সতর্কতা দেখায়, যদি প্রিন্ট হালকা হয়, টোনার পরিবর্তনের প্রয়োজন হতে পারে।"
       },
-      "unit": "Troubleshooting",
       "id": 16
     },
     {
+      "unit": "Troubleshooting",
       "question": "What causes print failure?",
       "answer": {
         "en": "Common causes include driver issues, software problems, hardware failure, and excessive use.",
         "bn": "সাধারণ কারণগুলির মধ্যে রয়েছে ড্রাইভার সমস্যা, সফটওয়্যার সমস্যা, হার্ডওয়্যার ব্যর্থতা এবং অতিরিক্ত ব্যবহার।"
       },
-      "unit": "Troubleshooting",
       "id": 17
     },
     {
+      "unit": "Troubleshooting",
       "question": "How do we identify if our network switch is bad?",
       "answer": {
         "en": "Check the LED lights on the back panel; they should be blinking. Perform a loopback test to verify functionality.",
         "bn": "সুইচ কাজ করছে কিনা যাচাই করতে, ব্যাক প্যানেলের LED লাইট চেক করুন; এগুলি জ্বলজ্বল করা উচিত। লুপব্যাক টেস্ট করে কার্যকারিতা নিশ্চিত করতে পারেন।"
       },
-      "unit": "Troubleshooting",
       "id": 18
     },
     {
+      "unit": "MS Word",
       "question": "Write down the types of page orientation.",
       "answer": {
         "en": "Landscape and Portrait.",
         "bn": "Landscape এবং Portrait।"
       },
-      "unit": "MS Word",
       "id": 19
     },
     {
+      "unit": "MS Word",
       "question": "What is the shortcut key to insert a page break?",
       "answer": {
         "en": "Ctrl+Enter",
         "bn": "Ctrl+Enter"
       },
-      "unit": "MS Word",
       "id": 20
     },
     {
+      "unit": "MS Excel",
       "question": "What are cells?",
       "answer": {
         "en": "Cells are the storage units in Excel where data is stored.",
         "bn": "এক্সেল এর ডেটা সংরক্ষণ করার ঘর গুলোকে সেল বলা হয়।"
       },
-      "unit": "MS Excel",
       "id": 21
     },
     {
+      "unit": "MS Excel",
       "question": "Why is the COUNT function used in Excel?",
       "answer": {
         "en": "The COUNT function is used to count cells containing numeric values, dates, etc., excluding empty cells.",
         "bn": "COUNT ফাংশনটি ফাঁকা সেলগুলো বাদ দিয়েম সংখ্যাসূচক মান, তারিখ ইত্যাদি থাকা সেলগুলো গণনা করতে ব্যবহৃত হয়।"
       },
-      "unit": "MS Excel",
       "id": 22
     },
     {
+      "unit": "MS Excel",
       "question": "What are the advantages of using formulas in Excel sheet?",
       "answer": {
         "en": "Using formulas in Excel allows for easy calculations, automatic recalculation when numbers change, and simplifies complex calculations.",
         "bn": "ফর্মুলা ব্যবহার করে এক্সেল শিটে সহজে গণনা করা যায়। এটি স্বয়ংক্রিয়ভাবে সংখ্যা পরিবর্তনের সাথে সাথে পুনরায় গণনা করে এবং জটিল গণনাকে সহজ করে।"
       },
-      "unit": "MS Excel",
       "id": 23
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What do you understand by motion path in PowerPoint?",
       "answer": {
         "en": "A motion path is a way to move objects within a slide in PowerPoint.",
         "bn": "মোশন পাথ হল পাওয়ারপয়েন্টে স্লাইডের মধ্যে অবজেক্টকে নাড়া চাড়া করার একটি উপায়।"
       },
-      "unit": "MS Powerpoint",
       "id": 24
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What do you understand by a trigger in context of animation?",
       "answer": {
         "en": "A trigger is an event that occurs when clicking on a slide. It is part of the Advanced Animation section.",
         "bn": "ট্রিগার হল একটি ইভেন্ট যা স্লাইডে ক্লিক করার সময় সম্পন্ন হয়। এটি অ্যাডভান্সড অ্যানিমেশন বিভাগের অন্তর্ভুক্ত।"
       },
-      "unit": "MS Powerpoint",
       "id": 25
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What is entrance effect in MS PowerPoint?",
       "answer": {
         "en": "The Entrance effect determines how an object appears on a slide.",
         "bn": "Entrence ইফেক্ট নির্ধারণ করে কীভাবে কোনো অবজেক্ট স্লাইডে প্রবেশ করবে।"
       },
-      "unit": "MS Powerpoint",
       "id": 26
     },
     {
+      "unit": "Operate Computer",
       "question": "In computer, GUI stands for",
       "answer": {
         "en": "Graphical User Interface.",
         "bn": "Graphical User Interface।"
       },
-      "unit": "Operate Computer",
       "id": 27
     },
     {
+      "unit": "Operate Computer",
       "question": "What is a folder in a computer?",
       "answer": {
         "en": "A folder in a computer is a virtual location for storing applications, documents, data, or other subfolders.",
         "bn": "কম্পিউটারে একটি ফোল্ডার হল অ্যাপ্লিকেশন, ডকুমেন্ট, ডেটা বা অন্যান্য সাব-ফোল্ডার সংরক্ষণের জন্য একটি ভার্চুয়াল স্থান।"
       },
-      "unit": "Operate Computer",
       "id": 28
     },
     {
+      "unit": "Operate Computer",
       "question": "What is an Icon?",
       "answer": {
         "en": "An icon is a small graphical representation of a program, feature, or file.",
         "bn": "আইকন হল প্রোগ্রাম, ফিচার বা ফাইলের একটি ছোট গ্রাফিকাল উপস্থাপনা।"
       },
-      "unit": "Operate Computer",
       "id": 29
     },
     {
+      "unit": "Troubleshooting",
       "question": "What causes boot failure on a device?",
       "answer": {
         "en": "Boot failure occurs when the device cannot find the operating system, preventing it from booting.",
         "bn": "বুট ব্যর্থতার কারণ হল যন্ত্রটি অপারেটিং সিস্টেম খুঁজে পায় না, ফলে এটি বুট করতে অক্ষম হয়।"
       },
-      "unit": "Troubleshooting",
       "id": 30
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is device driver?",
       "answer": {
         "en": "A device driver is a set of files that instructs hardware to communicate with the computer's operating system to function.",
         "bn": "একটি ডিভাইস ড্রাইভার হল এমন একটি ফাইল সেট যা হার্ডওয়্যারকে কম্পিউটারের অপারেটিং সিস্টেমের সাথে যোগাযোগ করার মাধ্যমে কাজ করতে বলে।"
       },
-      "unit": "Troubleshooting",
       "id": 31
     },
     {
+      "unit": "Troubleshooting",
       "question": "How do we test our Ethernet connection?",
       "answer": {
         "en": "Control Panel > Network and Internet > Network Connections.",
         "bn": "Control Panel > Network and Internet > Network Connections।"
       },
-      "unit": "Troubleshooting",
       "id": 32
     },
     {
+      "unit": "MS Excel",
       "question": "__________software packages allow the user to manipulate numbers.",
       "answer": {
         "en": "MS Excel",
         "bn": "MS Excel"
       },
-      "unit": "MS Excel",
       "id": 33
     },
     {
+      "unit": "MS Excel",
       "question": "How would you format a cell?",
       "answer": {
         "en": "To format a cell, use the Format Cell option.",
         "bn": "সেল ফরম্যাট করতে ফরম্যাট সেল অপশন ব্যবহার করা হয়।"
       },
-      "unit": "MS Excel",
       "id": 34
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What is 'Exit' effect in MS PowerPoint?",
       "answer": {
         "en": "The Exit animation effect determines how slide objects will exit the slide area.",
         "bn": "Exit অ্যানিমেশন ইফেক্ট নির্ধারণ করে কীভাবে স্লাইড অবজেক্টগুলি স্লাইড এলাকা থেকে বের হবে।"
       },
-      "unit": "MS Powerpoint",
       "id": 35
     },
     {
+      "unit": "Troubleshooting",
       "question": "How do we identify our network switch is bad?",
       "answer": {
         "en": "To check if your switch is working, check the LED lights on the back panel; they should be lit. A loopback test can also confirm the switch's functionality.",
         "bn": "আপনার সুইচ কাজ করছে কিনা যাচাই করতে, ব্যাক প্যানেলের LED লাইট চেক করুন; এগুলো জ্বলে থাকা উচিত। লুপব্যাক টেস্ট করেও সুইচের কার্যকারিতা নিশ্চিত করা যায়।"
       },
-      "unit": "Troubleshooting",
       "id": 36
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What is Presentation Animation?",
       "answer": {
         "en": "Presentation animation makes our presentations engaging and visually appealing. It is used to highlight, emphasize, and explain important information.",
         "bn": "প্রেজেন্টেশন অ্যানিমেশন আমাদের প্রেজেন্টেশনকে আকর্ষণীয় এবং দৃশ্যত মনোগ্রাহী করে তোলে। এটি গুরুত্বপূর্ণ তথ্য হাইলাইট, জোর দেওয়া এবং ব্যাখ্যা করতে ব্যবহৃত হয়।"
       },
-      "unit": "MS Powerpoint",
       "id": 37
     },
     {
+      "unit": "MS Word",
       "question": "What is Ribbon?",
       "answer": {
         "en": "The Ribbon is a graphical user interface (GUI) present in Microsoft Office programs. It is located at the top of the program window and provides various tabs and tools.",
         "bn": "রিবন হলো একটি গ্রাফিকাল ইউজার ইন্টারফেস (GUI) যা মাইক্রোসফট অফিস প্রোগ্রামে উপস্থিত থাকে। এটি প্রোগ্রামের উইন্ডোর উপরে থাকে এবং বিভিন্ন ট্যাব ও সরঞ্জাম প্রদান করে।"
       },
-      "unit": "MS Word",
       "id": 38
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is Paper Jam?",
       "answer": {
         "en": "A paper jam is a situation where paper gets stuck in a printer or copier, obstructing the normal paper flow. It usually occurs when the paper is not loaded correctly.",
         "bn": "পেপার জ্যাম হলো এমন একটি পরিস্থিতি যেখানে প্রিন্টার বা কপিয়ারে কাগজ আটকে যায়, যা সাধারণ কাগজ প্রবাহে বাধা সৃষ্টি করে। এটি সাধারণত কাগজ সঠিকভাবে না বসানো হলে ঘটে।"
       },
-      "unit": "Troubleshooting",
       "id": 39
     },
     {
+      "unit": "Troubleshooting",
       "question": "What are the main differences between RAM and ROM?",
       "answer": {
         "en": "RAM is volatile, while ROM is non-volatile.",
         "bn": "RAM হলো উষ্ণাত্মক (volatile) আর ROM হলো উষ্ণাত্মক নয় (non-volatile)।"
       },
-      "unit": "Troubleshooting",
       "id": 40
     },
     {
+      "unit": "MS Word",
       "question": "What is the difference between Save and Save As?",
       "answer": {
         "en": "The difference between Save and Save As is that Save updates the current content, while Save As allows saving with a new name or format.",
         "bn": "Save এবং Save As ফাংশনের মধ্যে পার্থক্য হলো Save বর্তমান কনটেন্ট সংরক্ষণ করে, যেখানে Save As নতুন নামে বা ফরম্যাটে সংরক্ষণের সুযোগ দেয়।"
       },
-      "unit": "MS Word",
       "id": 41
     },
     {
+      "unit": "MS Excel",
       "question": "What distinguishes a Workbook from a Worksheet?",
       "answer": {
         "en": "A Workbook has an extension, while a Worksheet does not have an extension.",
         "bn": "Workbook-এর একটি এক্সটেনশন থাকে, কিন্তু Worksheet-এর এক্সটেনশন থাকে না।"
       },
-      "unit": "MS Excel",
       "id": 42
     },
     {
+      "unit": "Operate Computer",
       "question": "Name three software used for internet browsing.",
       "answer": {
         "en": "Google Chrome, Firefox, Safari, Opera Mini.",
         "bn": "গুগল ক্রোম, ফায়ারফক্স, সাফারি, অপেরা মিনি।"
       },
-      "unit": "Operate Computer",
       "id": 43
     },
     {
+      "unit": "MS Word",
       "question": "List three examples each of Word Processing, Spreadsheet, and Presentation software.",
       "answer": {
         "en": "Word Processing: MS Word, LibreOffice, Google Docs. Spreadsheet: MS Excel, LibreOffice Calc, Google Sheets. Presentation: MS PowerPoint, LibreOffice Impress, Google Slides.",
         "bn": "Word_Processing: এমএস ওয়ার্ড, লিব্রে অফিস, গুগল ডক্স। Spreadsheet: এমএস এক্সেল, লিব্রে অফিস এক্সেল, গুগল শিট। Presentation: এমএস পাওয়ারপয়েন্ট, লিব্রে অফিস ইমপ্রেস, গুগল স্লাইড।"
       },
-      "unit": "MS Word",
       "id": 44
     },
     {
+      "unit": "MS Word",
       "question": "What is Mail Merge?",
       "answer": {
         "en": "Mail Merge is a feature used to send bulk emails in a personalized way. It combines the same content for multiple recipients.",
         "bn": "মেইল মার্জ একটি বৈশিষ্ট্য যা ব্যক্তিগতভাবে অনেক ইমেল পাঠাতে ব্যবহৃত হয়। এটি একই কনটেন্ট বিভিন্ন গ্রাহকের জন্য একত্রিত করে।"
       },
-      "unit": "MS Word",
       "id": 45
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is the diagnostic in computer education?",
       "answer": {
         "en": "In computer education, diagnostic refers to a method of identifying hardware problems.",
         "bn": "কম্পিউটার শিক্ষায় ডায়াগনস্টিক বলতে হার্ডওয়্যারের সমস্যা সনাক্ত করার একটি পদ্ধতিকে বোঝায়।"
       },
-      "unit": "Troubleshooting",
       "id": 46
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What is animation pane in PowerPoint?",
       "answer": {
         "en": "The Animation Pane shows a list of all animated objects on a slide.",
         "bn": "অ্যানিমেশন প্যান স্লাইডের সমস্ত অ্যানিমেটেড অবজেক্টের একটি তালিকা দেখায়।"
       },
-      "unit": "MS Powerpoint",
       "id": 47
     },
     {
+      "unit": "Operate Computer",
       "question": "What are the 3 virtual Video conferencing Platforms?",
       "answer": {
         "en": "Zoom, Google Meet, Skype.",
         "bn": "জুম, গুগল মিট, স্কাইপ।"
       },
-      "unit": "Operate Computer",
       "id": 48
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down the Top 5 cloud data storage services?",
       "answer": {
         "en": "Google Drive, OneDrive, Dropbox, Mega, pCloud.",
         "bn": "গুগল ড্রাইভ, ওয়ানড্রাইভ, ড্রপবক্স, মেগা, পিক্লাউড।"
       },
-      "unit": "Operate Computer",
       "id": 49
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down 10 (Ten) Cloud Storage Services Name?",
       "answer": {
         "en": "Sync.com, pCloud, Icedrive, MEGA, IDrive, OneDrive, Google Drive, Koofr, Dropbox, Box.",
         "bn": "সিঙ্ক.কম, পিক্লাউড, আইসড্রাইভ, মেগা, আইড্রাইভ, ওয়ানড্রাইভ, গুগল ড্রাইভ, কুফর, ড্রপবক্স, বক্স।"
       },
-      "unit": "Operate Computer",
       "id": 50
     },
     {
+      "unit": "Troubleshooting",
       "question": "Top 5 Most Common Computer Peripherals.",
       "answer": {
         "en": "Mouse, keyboard, monitor, speaker, printer.",
         "bn": "মাউস, কিবোর্ড, মনিটর, স্পিকার, প্রিন্টার।"
       },
-      "unit": "Troubleshooting",
       "id": 51
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is Antivirus?",
       "answer": {
         "en": "Antivirus is software that detects and removes malware from a computer.",
         "bn": "অ্যান্টিভাইরাস একটি সফটওয়্যার যা কম্পিউটার থেকে ম্যালওয়্যার সনাক্ত এবং অপসারণ করে।"
       },
-      "unit": "Troubleshooting",
       "id": 52
     },
     {
+      "unit": "Operate Computer",
       "question": "What is CC and BCC in Email?",
       "answer": {
         "en": "CC means 'Carbon Copy' and BCC means 'Blind Carbon Copy'.",
         "bn": "CC অর্থ 'কার্বন কপি' এবং BCC অর্থ 'ব্লাইন্ড কার্বন কপি'।"
       },
-      "unit": "Operate Computer",
       "id": 53
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is the name of 3 Network Devices?",
       "answer": {
         "en": "Switch, router, hub.",
         "bn": "সুইচ, রাউটার, হাব।"
       },
-      "unit": "Troubleshooting",
       "id": 54
     },
     {
+      "unit": "Operate Computer",
       "question": "Name 3 Best Email Provider Names:",
       "answer": {
         "en": "Gmail, Yahoo, Outlook.",
         "bn": "জিমেইল, ইয়াহু, আউটলুক।"
       },
-      "unit": "Operate Computer",
       "id": 55
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What are the 3 Examples of presentation software?",
       "answer": {
         "en": "Microsoft PowerPoint, Google Slides, Prezi, Canva, Visme.",
         "bn": "মাইক্রোসফট পাওয়ারপয়েন্ট, গুগল স্লাইডস, প্রেজি, ক্যানভা, ভিসমি।"
       },
-      "unit": "MS Powerpoint",
       "id": 56
     },
     {
+      "unit": "MS Word",
       "question": "What are 5 font names?",
       "answer": {
         "en": "Arial, Calibri, Times New Roman, Kuro, Verdana, Vrinda, Tahoma.",
         "bn": "এরিয়াল, ক্যালিব্রি, টাইমস নিউ রোমান, কুরো, ভার্দানা, বৃন্দা, তাহোমা।"
       },
-      "unit": "MS Word",
       "id": 57
     },
     {
+      "unit": "Operate Computer",
       "question": "Name 2 Typing Application Software in Bangla.",
       "answer": {
         "en": "Bijoy, Avro.",
         "bn": "বিজয়, অভ্র।"
       },
-      "unit": "Operate Computer",
       "id": 58
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is Driver Software?",
       "answer": {
         "en": "Driver software provides an interface between hardware devices and software, enabling the operating system to access the hardware's functions.",
         "bn": "ড্রাইভার সফটওয়্যার হার্ডওয়্যার ডিভাইসের সাথে সফটওয়্যারের ইন্টারফেস প্রদান করে, যা অপারেটিং সিস্টেমকে হার্ডওয়্যারের কার্যক্রম অ্যাক্সেস করতে সক্ষম করে।"
       },
-      "unit": "Troubleshooting",
       "id": 59
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is the use of Ethernet Port?",
       "answer": {
         "en": "The Ethernet port is used to connect multiple computers or to access the internet.",
         "bn": "ইথারনেট পোর্ট ব্যবহার করা হয় একাধিক কম্পিউটার সংযোগ করার জন্য অথবা ইন্টারনেট অ্যাক্সেস করতে।"
       },
-      "unit": "Troubleshooting",
       "id": 60
     },
     {
+      "unit": "Troubleshooting",
       "question": "Write down the 3 Antivirus names.",
       "answer": {
         "en": "Avast, Avira, ESET, Kaspersky.",
         "bn": "অ্যাভাস্ট, অ্যাভিরা, ইএসইটি, ক্যাসপারস্কি।"
       },
-      "unit": "Troubleshooting",
       "id": 61
     },
     {
+      "unit": "Troubleshooting",
       "question": "Write down the names of 3 viruses.",
       "answer": {
         "en": "Trojan, Ransomware, I Love You, Creeper, Morris Worm, Shlayer, WannaCry, Melissa, Code Red, Conficker.",
         "bn": "ট্রোজান, র‍্যানসমওয়্যার, আই লাভ ইউ, ক্রিপার, মরিস ওয়ার্ম, শ্লেয়ার, ওয়েলচিয়া, ওয়ানাক্রাই, মেলিসা, কোড রেড, কনফিকার।"
       },
-      "unit": "Troubleshooting",
       "id": 62
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is the purpose of Antivirus?",
       "answer": {
         "en": "Antivirus detects and removes viruses and other malicious software from a computer or laptop.",
         "bn": "অ্যান্টিভাইরাস কম্পিউটার বা ল্যাপটপ থেকে ভাইরাস এবং অন্যান্য ক্ষতিকারক সফটওয়্যার সনাক্ত এবং অপসারণ করে।"
       },
-      "unit": "Troubleshooting",
       "id": 63
     },
     {
+      "unit": "Troubleshooting",
       "question": "What are the 5 Input Devices?",
       "answer": {
         "en": "Mouse, keyboard, microphone, scanner, joystick.",
         "bn": "মাউস, কীবোর্ড, মাইক্রোফোন, স্ক্যানার, জয়স্টিক।"
       },
-      "unit": "Troubleshooting",
       "id": 64
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is CPU?",
       "answer": {
         "en": "The Central Processing Unit (CPU) is the most important processor in a computer that executes instructions of a computer program.",
         "bn": "সেন্ট্রাল প্রসেসিং ইউনিট (CPU) একটি কম্পিউটারের সবচেয়ে গুরুত্বপূর্ণ প্রসেসর যা একটি কম্পিউটার প্রোগ্রামের নির্দেশাবলী সম্পাদন করে।"
       },
-      "unit": "Troubleshooting",
       "id": 65
     },
     {
+      "unit": "MS Word",
       "question": "What is the shortcut for Replace command?",
       "answer": {
         "en": "Ctrl + H",
         "bn": "Ctrl + H"
       },
-      "unit": "MS Word",
       "id": 66
     },
     {
+      "unit": "Troubleshooting",
       "question": "Give an example of volatile memory.",
       "answer": {
         "en": "RAM",
         "bn": "র‍্যাম"
       },
-      "unit": "Troubleshooting",
       "id": 67
     },
     {
+      "unit": "MS Excel",
       "question": "What is the difference between function and formula in Excel?",
       "answer": {
         "en": "A formula is an expression that performs calculations. A function is a predefined operation that simplifies complex calculations.",
         "bn": "একটি ফর্মুলা হল একটি অভিব্যক্তি যা গণনা করে। একটি ফাংশন হল একটি পূর্বনির্ধারিত অপারেশন যা জটিল গণনা সহজতর করে।"
       },
-      "unit": "MS Excel",
       "id": 68
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down 'ঞ্জ' in Bijoy Unicode.",
       "answer": {
         "en": "ঞ্জ = (ঞ+জ)",
         "bn": "ঞ্জ = (ঞ+জ)"
       },
-      "unit": "Operate Computer",
       "id": 69
     },
     {
+      "unit": "Troubleshooting",
       "question": "How do I fix printer printing error?",
       "answer": {
         "en": "Unplug the printer and restart it, check the cable or wireless connection, reinstall the printer, install the latest driver, clean or reset the printer spooler.",
         "bn": "প্রিন্টারটি আনপ্লাগ করুন এবং পুনরায় চালু করুন, ক্যাবল বা ওয়্যারলেস সংযোগ পরীক্ষা করুন, প্রিন্টার পুনরায় ইনস্টল করুন, সর্বশেষ ড্রাইভার ইনস্টল করুন, প্রিন্টার স্পুলার পরিষ্কার বা রিসেট করুন।"
       },
-      "unit": "Troubleshooting",
       "id": 70
     },
     {
+      "unit": "Operate Computer",
       "question": "What do you mean by Unicode?",
       "answer": {
         "en": "Unicode is an international character encoding standard that provides a unique number for every character across all languages and scripts.",
         "bn": "ইউনিকোড একটি আন্তর্জাতিক চরিত্র এনকোডিং স্ট্যান্ডার্ড যা সমস্ত ভাষা এবং স্ক্রিপ্টের জন্য প্রতিটি চরিত্রের জন্য একটি অনন্য সংখ্যা প্রদান করে।"
       },
-      "unit": "Operate Computer",
       "id": 71
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is Firmware?",
       "answer": {
         "en": "Firmware is permanent software stored in ROM that ensures the proper functioning of all hardware devices when the computer starts up.",
         "bn": "ফার্মওয়্যার একটি স্থায়ী সফটওয়্যার যা রম-এ সংরক্ষিত থাকে এবং কম্পিউটার চালু হলে সমস্ত হার্ডওয়্যার ডিভাইসের সঠিক কার্যকারিতা নিশ্চিত করে।"
       },
-      "unit": "Troubleshooting",
       "id": 72
     },
     {
+      "unit": "MS Word",
       "question": "How can you remove a manual page break in Microsoft Word?",
       "answer": {
         "en": "Place the cursor before the manual page break and press the Backspace or Delete key.",
         "bn": "কার্সরটি ম্যানুয়াল পেজ ব্রেকের আগে রাখুন এবং Backspace বা Delete কী চাপুন।"
       },
-      "unit": "MS Word",
       "id": 73
     },
     {
+      "unit": "MS Word",
       "question": "What does the 'Collate' option in printing settings do?",
       "answer": {
         "en": "This option arranges documents in sequential order when printing multiple copies.",
         "bn": "এই অপশনটি একাধিক কপি প্রিন্ট করার সময় নথিগুলি ধারাবাহিক ক্রমে সাজায়।"
       },
-      "unit": "MS Word",
       "id": 74
     },
     {
+      "unit": "MS Word",
       "question": "What is the shortcut key for creating a hyperlink?",
       "answer": {
         "en": "Ctrl + K",
         "bn": "Ctrl + K"
       },
-      "unit": "MS Word",
       "id": 75
     },
     {
+      "unit": "Operate Computer",
       "question": "What does GUI stand for?",
       "answer": {
         "en": "Graphical User Interface",
         "bn": "গ্রাফিক্যাল ইউজার ইন্টারফেস"
       },
-      "unit": "Operate Computer",
       "id": 76
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is system software?",
       "answer": {
         "en": "System software manages hardware and provides a platform for running application software. It includes the operating system, device drivers, and utilities for interacting with hardware.",
         "bn": "সিস্টেম সফটওয়্যার হার্ডওয়্যার পরিচালনা করে এবং অ্যাপ্লিকেশন সফটওয়্যার চালানোর জন্য একটি প্ল্যাটফর্ম সরবরাহ করে। এটি অপারেটিং সিস্টেম, ডিভাইস ড্রাইভার এবং হার্ডওয়্যারের সাথে মিথস্ক্রিয়া করার জন্য ইউটিলিটিস অন্তর্ভুক্ত করে।"
       },
-      "unit": "Troubleshooting",
       "id": 77
     },
     {
+      "unit": "Operate Computer",
       "question": "Name five video conferencing platforms.",
       "answer": {
         "en": "1. Zoom\n2. Microsoft Teams\n3. Google Meet\n4. Cisco Webex\n5. Skype",
         "bn": "১. Zoom\n২. Microsoft Teams\n৩. Google Meet\n৪. Cisco Webex\n৫. Skype"
       },
-      "unit": "Operate Computer",
       "id": 78
     },
     {
+      "unit": "Troubleshooting",
       "question": "Name five popular antivirus software programs.",
       "answer": {
         "en": "1. Norton Antivirus\n2. McAfee Total Protection\n3. Kaspersky Anti-Virus\n4. Bitdefender Antivirus\n5. Sophos Home",
         "bn": "১. Norton Antivirus\n২. McAfee Total Protection\n৩. Kaspersky Anti-Virus\n৪. Bitdefender Antivirus\n৫. Sophos Home"
       },
-      "unit": "Troubleshooting",
       "id": 79
     },
     {
+      "unit": "MS Word",
       "question": "What is the shortcut for making text bold in Microsoft Word?",
       "answer": {
         "en": "Ctrl + B",
         "bn": "Ctrl + B"
       },
-      "unit": "MS Word",
       "id": 80
     },
     {
+      "unit": "MS Word",
       "question": "What is the shortcut for italicizing text in Microsoft Word?",
       "answer": {
         "en": "Ctrl + I",
         "bn": "Ctrl + I"
       },
-      "unit": "MS Word",
       "id": 81
     },
     {
+      "unit": "MS Word",
       "question": "What is the shortcut for underlining text in Microsoft Word?",
       "answer": {
         "en": "Ctrl + U",
         "bn": "Ctrl + U"
       },
-      "unit": "MS Word",
       "id": 82
     },
     {
+      "unit": "MS Word",
       "question": "What is the shortcut for saving a document in Microsoft Word?",
       "answer": {
         "en": "Ctrl + S",
         "bn": "Ctrl + S"
       },
-      "unit": "MS Word",
       "id": 83
     },
     {
+      "unit": "MS Word",
       "question": "What is the shortcut for left-aligning text in Microsoft Word?",
       "answer": {
         "en": "Ctrl + L",
         "bn": "Ctrl + L"
       },
-      "unit": "MS Word",
       "id": 84
     },
     {
+      "unit": "MS Word",
       "question": "What is the shortcut for right-aligning text in Microsoft Word?",
       "answer": {
         "en": "Ctrl + R",
         "bn": "Ctrl + R"
       },
-      "unit": "MS Word",
       "id": 85
     },
     {
+      "unit": "MS Word",
       "question": "What is the shortcut for increasing the font size in Microsoft Word?",
       "answer": {
         "en": "Ctrl + Shift + >",
         "bn": "Ctrl + Shift + >"
       },
-      "unit": "MS Word",
       "id": 86
     },
     {
+      "unit": "MS Word",
       "question": "What is the shortcut for decreasing the font size in Microsoft Word?",
       "answer": {
         "en": "Ctrl + Shift + <",
         "bn": "Ctrl + Shift + <"
       },
-      "unit": "MS Word",
       "id": 87
     },
     {
+      "unit": "MS Word",
       "question": "What is the shortcut for inserting today's date in Microsoft Word?",
       "answer": {
         "en": "Ctrl + ;",
         "bn": "Ctrl + ;"
       },
-      "unit": "MS Word",
       "id": 88
     },
     {
+      "unit": "MS Excel",
       "question": "What is the shortcut for locking a cell in Microsoft Excel?",
       "answer": {
         "en": "F4",
         "bn": "F4"
       },
-      "unit": "MS Excel",
       "id": 89
     },
     {
+      "unit": "MS Word",
       "question": "What is the shortcut for inserting the current time in Microsoft Word?",
       "answer": {
         "en": "Ctrl + Shift + ;",
         "bn": "Ctrl + Shift + ;"
       },
-      "unit": "MS Word",
       "id": 90
     },
     {
+      "unit": "MS Word",
       "question": "What is the shortcut for increasing font size by one point in Microsoft Word?",
       "answer": {
         "en": "Ctrl + }",
         "bn": "Ctrl + }"
       },
-      "unit": "MS Word",
       "id": 91
     },
     {
+      "unit": "MS Word",
       "question": "What is the shortcut for decreasing font size by one point in Microsoft Word?",
       "answer": {
         "en": "Ctrl + {",
         "bn": "Ctrl + {"
       },
-      "unit": "MS Word",
       "id": 92
     },
     {
+      "unit": "MS Word",
       "question": "What is the purpose of the =rand(para[num],line[num]) command in Microsoft Word?",
       "answer": {
         "en": "It generates random text.",
         "bn": "এটি একটি এলোমেলো টেক্সট জেনারেট করে।"
       },
-      "unit": "MS Word",
       "id": 93
     },
     {
+      "unit": "MS Word",
       "question": "What does F7 do in Microsoft Word?",
       "answer": {
         "en": "It checks for grammar and spelling errors.",
         "bn": "এটি ব্যাকরণ এবং বানানের ত্রুটি পরীক্ষা করে।"
       },
-      "unit": "MS Word",
       "id": 94
     },
     {
+      "unit": "MS Word",
       "question": "What is the shortcut for centering text in Microsoft Word?",
       "answer": {
         "en": "Ctrl + E",
         "bn": "Ctrl + E"
       },
-      "unit": "MS Word",
       "id": 95
     },
     {
+      "unit": "Operate Computer",
       "question": "What is Google Meet?",
       "answer": {
         "en": "Google Meet is a video conferencing service developed by Google.",
         "bn": "Google Meet হলো Google দ্বারা ডেভেলপ করা একটি ভিডিও কনফারেন্সিং সেবা।"
       },
-      "unit": "Operate Computer",
       "id": 96
     },
     {
+      "unit": "Operate Computer",
       "question": "What is Google?",
       "answer": {
         "en": "Google is a multinational technology company known for its search engine and various services.",
         "bn": "Google হলো একটি বহুজাতিক প্রযুক্তি কোম্পানি যা তাদের সার্চ ইঞ্জিনসহ বিভিন্ন সেবার জন্য পরিচিত।"
       },
-      "unit": "Operate Computer",
       "id": 97
     },
     {
+      "unit": "MS Excel",
       "question": "What is the difference between a function and a formula in Excel?",
       "answer": {
         "en": "A formula is an expression that performs calculations, and a function is a predefined formula that performs specific calculations.",
         "bn": "একটি ফর্মুলা হলো একটি অভিব্যক্তি যা গণনা সম্পন্ন করে, এবং একটি ফাংশন হলো একটি পূর্বনির্ধারিত ফর্মুলা যা নির্দিষ্ট গণনা সম্পন্ন করে।"
       },
-      "unit": "MS Excel",
       "id": 98
     },
     {
+      "unit": "MS Excel",
       "question": "How are columns represented in Microsoft Excel?",
       "answer": {
         "en": "Columns are represented by letters (A, B, C, ...).",
         "bn": "কলামগুলি অক্ষর (A, B, C, ...) দ্বারা উপস্থাপিত হয়।"
       },
-      "unit": "MS Excel",
       "id": 99
     },
     {
+      "unit": "MS Excel",
       "question": "How are rows represented in Microsoft Excel?",
       "answer": {
         "en": "Rows are represented by numbers (1, 2, 3, ...).",
         "bn": "রো সংখ্যা (1, 2, 3, ...) দ্বারা উপস্থাপিত হয়।"
       },
-      "unit": "MS Excel",
       "id": 100
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is the difference between etiquette and manner?",
       "answer": {
         "en": "Etiquette refers to the conventional rules of social behavior, while manner refers to the way a person behaves or conducts themselves.",
         "bn": "শিষ্টাচার হলো সামাজিক আচরণের প্রচলিত নিয়মাবলী, আর আচরণ হলো একজন ব্যক্তির আচরণের বা নিজেকে পরিচালনার ধরণ।"
       },
-      "unit": "Troubleshooting",
       "id": 101
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What is the short-cut key in PowerPoint to start slide show?",
       "answer": {
         "en": "F5 / Shift+F5",
         "bn": "F5 / Shift+F5"
       },
-      "unit": "MS Powerpoint",
       "id": 102
     },
     {
+      "unit": "MS Word",
       "question": "How to use split screen in MS Word?",
       "answer": {
         "en": "VIEW > Window > Split",
         "bn": "VIEW > Window > Split"
       },
-      "unit": "MS Word",
       "id": 103
     },
     {
+      "unit": "MS Excel",
       "question": "Which type of chart will you use to compare performance of sales of two products?",
       "answer": {
         "en": "Column Chart",
         "bn": "কলাম চার্ট (Column Chart)"
       },
-      "unit": "MS Excel",
       "id": 104
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What is the best way to create another copy of a slide?",
       "answer": {
         "en": "Duplicate Slide",
         "bn": "ডুপ্লিকেট স্লাইড (Duplicate Slide)"
       },
-      "unit": "MS Powerpoint",
       "id": 105
     },
     {
+      "unit": "MS Powerpoint",
       "question": "In Microsoft PowerPoint, in order to edit a chart, you can _______.",
       "answer": {
         "en": "Double click the chart object",
         "bn": "চার্ট অবজেক্টে ডাবল ক্লিক করুন। (Double click the chart object)"
       },
-      "unit": "MS Powerpoint",
       "id": 106
     },
     {
+      "unit": "MS Powerpoint",
       "question": "Which of the following should you use if you want all the slides in the presentation to have the same 'look'?",
       "answer": {
         "en": "A presentation design template",
         "bn": "একটি প্রেজেন্টেশন ডিজাইন টেমপ্লেট। (A presentation design template)"
       },
-      "unit": "MS Powerpoint",
       "id": 107
     },
     {
+      "unit": "MS Powerpoint",
       "question": "If you want a PowerPoint object slide show to play continuously?",
       "answer": {
         "en": "Click the [Slide Show] tab > Set Up Slide Show > Check 'Loop continuously until Esc'.",
         "bn": "Slide Show ট্যাবে ক্লিক করুন > Set Up Slide Show ক্লিক করুন > Loop Continuously until 'Esc' চেক করুন। (Click the [Slide Show] tab > Set Up Slide Show > Check 'Loop continuously until Esc')."
       },
-      "unit": "MS Powerpoint",
       "id": 108
     },
     {
+      "unit": "MS Powerpoint",
       "question": "The slide that is used to introduce a topic and set the tone for the presentation is called?",
       "answer": {
         "en": "Title Slide",
         "bn": "টাইটেল স্লাইড (Title Slide)"
       },
-      "unit": "MS Powerpoint",
       "id": 109
     },
     {
+      "unit": "MS Powerpoint",
       "question": "Special effects used for introducing slides in a presentation are called?",
       "answer": {
         "en": "Slide Transition",
         "bn": "স্লাইড ট্রানজিশন (Slide Transition)"
       },
-      "unit": "MS Powerpoint",
       "id": 110
     },
     {
+      "unit": "Operate Computer",
       "question": "What is a scanner?",
       "answer": {
         "en": "A scanner is a device that digitizes physical documents or images into digital format.",
         "bn": "স্ক্যানার হলো একটি ডিভাইস যা ফিজিকাল ডকুমেন্ট বা ইমেজ ডিজিটাল ফরম্যাটে রূপান্তর করে। (A scanner digitizes physical documents or images into digital format)."
       },
-      "unit": "Operate Computer",
       "id": 111
     },
     {
+      "unit": "MS Powerpoint",
       "question": "Which shortcut key do we use to start and end a PowerPoint?",
       "answer": {
         "en": "F5 to start and ESC to end.",
         "bn": "শুরু করতে F5 এবং শেষ করতে ESC। (F5 to start and ESC to end)."
       },
-      "unit": "MS Powerpoint",
       "id": 112
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down the name of 3 antiviruses.",
       "answer": {
         "en": "Kaspersky, McAfee, Panda, Norton.",
         "bn": "ক্যাসপারস্কি, ম্যাকাফি, পান্ডা, নরটন। (Kaspersky, McAfee, Panda, Norton)"
       },
-      "unit": "Operate Computer",
       "id": 113
     },
     {
+      "unit": "Troubleshooting",
       "question": "Top 05 Most Common Computer Problems.",
       "answer": {
         "en": "1. Slow Computer, 2. Computer Freezes, 3. Blue Screen, 4. Software Errors, 5. Slow Internet.",
         "bn": "১. ধীর কম্পিউটার, ২. কম্পিউটার হ্যাং করা, ৩. ব্লু স্ক্রিন, ৪. সফটওয়্যার ত্রুটি, ৫. ধীর ইন্টারনেট। (1. Slow Computer, 2. Computer Freezes, 3. Blue Screen, 4. Software Errors, 5. Slow Internet)"
       },
-      "unit": "Troubleshooting",
       "id": 114
     },
     {
+      "unit": "Operate Computer",
       "question": "What is the use of Ethernet Port?",
       "answer": {
         "en": "It is used to connect the internet to a computer.",
         "bn": "কম্পিউটারে ইন্টারনেট সংযোগের জন্য এটি ব্যবহৃত হয়। (It is used to connect the internet to a computer)."
       },
-      "unit": "Operate Computer",
       "id": 115
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What is animation pane in PowerPoint?",
       "answer": {
         "en": "Displays the list of animated objects on a slide.",
         "bn": "এটি স্লাইডে অ্যানিমেট করা অবজেক্টগুলির তালিকা প্রদর্শন করে। (Displays the list of animated objects on a slide)."
       },
-      "unit": "MS Powerpoint",
       "id": 116
     },
     {
+      "unit": "Troubleshooting",
       "question": "What causes print failure?",
       "answer": {
         "en": "The most common causes of printer failure are ink clogs, paper jams, and head failures.",
         "bn": "প্রিন্টার ব্যর্থতার সাধারণ কারণ হলো কালি জমাট বাঁধা, কাগজ আটকে যাওয়া এবং হেড ব্যর্থতা। (The most common causes of printer failure are ink clogs, paper jams, and head failures)."
       },
-      "unit": "Troubleshooting",
       "id": 117
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What is a handout in a PowerPoint presentation?",
       "answer": {
         "en": "A presentation/note that you give to the audience.",
         "bn": "একটি উপস্থাপনা/নোট যা আপনি দর্শকদের প্রদান করেন। (A presentation/note that you give to the audience)."
       },
-      "unit": "MS Powerpoint",
       "id": 118
     },
     {
+      "unit": "MS Excel",
       "question": "What is freeze pane in MS Excel?",
       "answer": {
         "en": "Lock rows or columns in place while scrolling.",
         "bn": "স্ক্রল করার সময় সারি বা কলাম লক করার প্রক্রিয়া। (Lock rows or columns in place while scrolling)."
       },
-      "unit": "MS Excel",
       "id": 119
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is printer toner?",
       "answer": {
         "en": "Printer toner is a fine powder that is used in laser printers, photocopiers, and multifunction printers.",
         "bn": "প্রিন্টার টোনার একটি সূক্ষ্ম পাউডার যা লেজার প্রিন্টার, ফটোকপিয়ার এবং মাল্টিফাংশন প্রিন্টারে ব্যবহৃত হয়। (Printer toner is a fine powder that is used in laser printers, photocopiers, and multifunction printers)."
       },
-      "unit": "Troubleshooting",
       "id": 120
     },
     {
+      "unit": "Troubleshooting",
       "question": "How can you remove a paper jam?",
       "answer": {
         "en": "1. Cancel the print job from your computer. 2. Gently pull out any jammed paper. 3. Open the front cover.",
         "bn": "১. কম্পিউটার থেকে প্রিন্ট কাজ বাতিল করুন।\n২. যত্নসহকারে আটকে থাকা কাগজ টেনে বের করুন।\n৩. সামনে কভার খুলুন।\n(1. Cancel the print job from your computer. 2. Gently pull out any jammed paper. 3. Open the front cover)."
       },
-      "unit": "Troubleshooting",
       "id": 121
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is a network switch?",
       "answer": {
         "en": "A network switch allows two or more IT devices to communicate with one another.",
         "bn": "একটি নেটওয়ার্ক সুইচ দুটি বা আরও বেশি আইটি ডিভাইসকে একে অপরের সাথে যোগাযোগ করার অনুমতি দেয়। (A network switch allows two or more IT devices to communicate with one another)."
       },
-      "unit": "Troubleshooting",
       "id": 122
     },
     {
+      "unit": "MS Word",
       "question": "How can you remove a manual page break in Microsoft Word?",
       "answer": {
         "en": "Place the cursor just before the manual page break, and press the Backspace or Delete key.",
         "bn": "ম্যানুয়াল পেজ ব্রেক মুছতে হলে, কার্সরটি ম্যানুয়াল পেজ ব্রেকের আগে রাখুন এবং ব্যাকস্পেস বা ডিলিট কী চাপুন। (Place the cursor just before the manual page break, and press the Backspace or Delete key)."
       },
-      "unit": "MS Word",
       "id": 123
     },
     {
+      "unit": "MS Word",
       "question": "What does the \"Collate\" option in printing settings do?",
       "answer": {
         "en": "It arranges printed copies in sequential order when printing multiple copies of a document.",
         "bn": "এটি একটি ডকুমেন্টের একাধিক কপি প্রিন্ট করার সময় কপি গুলি সিকোয়েন্সিয়াল অর্ডারে সাজায়। (It arranges printed copies in sequential order when printing multiple copies of a document)."
       },
-      "unit": "MS Word",
       "id": 124
     },
     {
+      "unit": "Operate Computer",
       "question": "The fourth generation of computers, which technology was used?",
       "answer": {
         "en": "Very Large Scale Integrated (VLSI) circuits were used.",
         "bn": "ভেরি লার্জ স্কেল ইনটিগ্রেটেড (VLSI) সার্কিট ব্যবহার করা হয়েছিল। (Very Large Scale Integrated (VLSI) circuits were used)."
       },
-      "unit": "Operate Computer",
       "id": 125
     },
     {
+      "unit": "Operate Computer",
       "question": "What is Application Software?",
       "answer": {
         "en": "Application software are customized software designed for personal use.",
         "bn": "অ্যাপ্লিকেশন সফটওয়্যার হল কাস্টমাইজড সফটওয়্যার যা ব্যক্তিগত ব্যবহারের জন্য ডিজাইন করা হয়। (Application software are customized software designed for personal use)."
       },
-      "unit": "Operate Computer",
       "id": 126
     },
     {
+      "unit": "Operate Computer",
       "question": "Types of malwares?",
       "answer": {
         "en": "These are various types of malware: a) Virus b) Ransomware c) Remote Access Malware d) Botnets e) Cryptojackers f) Fileless Malware g) Worms h) Trojan Horses i) Rootkits j) Scareware k) Spyware l) Adware m) Backdoor n) Keyloggers.",
         "bn": "এগুলি বিভিন্ন ধরনের ম্যালওয়্যার: a) ভাইরাস b) র‍্যানসমওয়্যার c) রিমোট অ্যাক্সেস ম্যালওয়্যার d) বটনেট e) ক্রিপটোজ্যাক্কার f) ফাইললেস ম্যালওয়্যার g) ওয়ার্মস h) ট্রোজান হর্স i) রুটকিটস j) স্কেয়ারওয়্যার k) স্পাইওয়্যার l) অ্যাডওয়্যার m) ব্যাকডোর n) কীলগারস"
       },
-      "unit": "Operate Computer",
       "id": 127
     },
     {
+      "unit": "Troubleshooting",
       "question": "How do I fix printer printing error?",
       "answer": {
         "en": "Some common steps to fix printer printing errors: 1. Unplug the printer and restart it. Sometimes power cycling can resolve printer issues. 2. Check the cable or wireless connection. 3. Uninstall and reinstall the printer. 4. Install the latest printer driver. 5. Clear and reset the print spooler. 6. Change the printer's status to 'Online'.",
         "bn": "প্রিন্টার প্রিন্টিং ত্রুটি ঠিক করার জন্য কিছু সাধারণ পদক্ষেপ: 1. প্রিন্টারটি আনপ্লাগ করুন এবং পুনরায় চালু করুন। কখনও কখনও পাওয়ার সাইক্লিং প্রিন্টারের সমস্যা সমাধান করতে পারে। 2. কেবল বা ওয়্যারলেস সংযোগ চেক করুন। 3. প্রিন্টারটি আনইনস্টল এবং পুনরায় ইনস্টল করুন। 4 প্রিন্টারের সর্বশেষ ড্রাইভার ইনস্টল করুন। 5. প্রিন্ট স্পুলার মুছুন এবং রিসেট করুন। 6. প্রিন্টারের অবস্থান 'অনলাইন' এ পরিবর্তন করুন।"
       },
-      "unit": "Troubleshooting",
       "id": 128
     },
     {
+      "unit": "Operate Computer",
       "question": "What is Application Software?",
       "answer": {
         "en": "Application software is customized software designed for personal use. These types of software help users perform basic tasks such as online research, setting alarms, designing, or even playing games. Examples: Word processors, multimedia software, web browsers, graphics software (Photoshop), etc.",
         "bn": "অ্যাপ্লিকেশন সফটওয়্যার হল কাস্টমাইজড সফটওয়্যার যা ব্যক্তিগত ব্যবহারের জন্য ডিজাইন করা হয়। এই ধরনের সফটওয়্যারগুলি ব্যবহারকারীদের অনলাইন গবেষণা, এলার্ম সেট করা, ডিজাইনিং, অথবা এমনকি গেম খেলা সহ মৌলিক কাজগুলি সম্পাদন করতে সাহায্য করে। উদাহরণ: ওয়ার্ড প্রসেসর, মাল্টিমিডিয়া সফটওয়্যার, ওয়েব ব্রাউজার, গ্রাফিক্স সফটওয়্যার (ফটোশপ) ইত্যাদি।"
       },
-      "unit": "Operate Computer",
       "id": 129
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down 5 (Five) Web Browsers software name?",
       "answer": {
         "en": "Google Chrome, Mozilla Firefox, Microsoft Edge, Internet Explorer, Opera, Safari.",
         "bn": "গুগল ক্রোম, মজিলা ফায়ারফক্স, মাইক্রোসফট এজ, ইন্টারনেট এক্সপ্লোরার, অপেরা সাফারি।"
       },
-      "unit": "Operate Computer",
       "id": 130
     },
     {
+      "unit": "Operate Computer",
       "question": "What is Stream Yard?",
       "answer": {
         "en": "StreamYard is a professional live streaming and recording studio that works in your browser. It is the easiest way to live stream and record your content, or go live on Facebook, YouTube, and other platforms.",
         "bn": "স্ট্রিমইয়ার্ড হল একটি পেশাদার লাইভ স্ট্রিমিং এবং রেকর্ডিং স্টুডিও যা আপনার ব্রাউজারে কাজ করে। এটি আপনার কনটেন্ট লাইভ স্ট্রিম এবং রেকর্ড করার সবচেয়ে সহজ উপায়, অথবা ফেসবুক, ইউটিউব এবং অন্যান্য প্ল্যাটফর্মে লাইভ স্ট্রিম করতে পারেন।"
       },
-      "unit": "Operate Computer",
       "id": 131
     },
     {
+      "unit": "MS Word",
       "question": "Which feature in Word helps identify and correct grammatical errors in a document?",
       "answer": {
         "en": "The feature in Word that helps you identify and correct grammatical errors in a document is the 'Spelling and Grammar Checker', which is found under the 'Review' tab.",
         "bn": "ওয়ার্ডে যে ফিচারটি আপনাকে ডকুমেন্টে ব্যাকরণগত ত্রুটি চিহ্নিত এবং সংশোধন করতে সাহায্য করে তা হল 'স্পেলিং এবং গ্রামার চেকার', যা 'রিভিউ' ট্যাবের অধীনে পাওয়া যায়।"
       },
-      "unit": "MS Word",
       "id": 132
     },
     {
+      "unit": "MS Word",
       "question": "What does the 'Collate' option in printing settings do?",
       "answer": {
         "en": "The 'Collate' option in printing settings arranges the printed documents in sequential order among multiple copies.",
         "bn": "'কলেট' অপশনটি প্রিন্টিং সেটিংসে একাধিক কপির মধ্যে প্রিন্ট হওয়া নথিগুলিকে সিকোয়েন্সিয়াল অর্ডারে সাজায়।"
       },
-      "unit": "MS Word",
       "id": 133
     },
     {
+      "unit": "Operate Computer",
       "question": "In the fourth generation of computers, which technology was used?",
       "answer": {
         "en": "The technology used in fourth-generation computers is 'Very Large Scale Integrated (VLSI) Circuits'.",
         "bn": "চতুর্থ প্রজন্মের কম্পিউটারগুলিতে ব্যবহৃত প্রযুক্তি হল 'ভেরি লার্জ স্কেল ইন্টিগ্রেটেড (VLSI) সার্কিটস'।"
       },
-      "unit": "Operate Computer",
       "id": 134
     },
     {
+      "unit": "Operate Computer",
       "question": "What are the 3 virtual Video Conferencing Platforms?",
       "answer": {
         "en": "Zoom, Google Meet, Skype, Google Hangouts.",
         "bn": "Zoom, Google Meet, Skype, Google Hangouts"
       },
-      "unit": "Operate Computer",
       "id": 135
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down 10 (Ten) Cloud Storage Services Name?",
       "answer": {
         "en": "Some cloud storage services: Personal and Business Storage\n1. Sync.com – Best cloud storage for sharing, versioning, large files, and iPhone\n2. pCloud – Best online storage for Windows, Mac, Linux, and music\n3. Icedrive – Best cloud drive for high speed\n4. MEGA – Highly secure service with 20GB free cloud storage\n5. IDrive – Best cloud storage and online backup hybrid\n6. OneDrive – Best cloud storage service for Office integration\n7. Google Drive – Top choice for integrated apps and students\n8. Koofr – Best for multiple cloud accounts\n9. Dropbox – Best for cloud collaboration\n10. Box – Great choice for business cloud storage.",
         "bn": "কিছু ক্লাউড স্টোরেজ সার্ভিস: ব্যক্তিগত এবং ব্যবসায়িক স্টোরেজ\n1. Sync.com – শেয়ারিং, ভার্সনিং, বড় ফাইল, এবং iPhone এর জন্য সেরা ক্লাউড স্টোরেজ\n2. pCloud – Windows, Mac, Linux এবং মিউজিকের জন্য সেরা অনলাইন স্টোরেজ\n3. Icedrive – উচ্চগতির জন্য সেরা ক্লাউড ড্রাইভ\n4. MEGA – ২০ জিবি ফ্রি ক্লাউড স্টোরেজ সহ অত্যন্ত সুরক্ষিত সার্ভিস\n5. IDrive – সেরা ক্লাউড স্টোরেজ এবং অনলাইন ব্যাকআপ হাইব্রিড\n6. OneDrive – অফিস ইন্টিগ্রেশনের জন্য সেরা ক্লাউড স্টোরেজ সার্ভিস\n7. Google Drive – ইন্টিগ্রেটেড অ্যাপ এবং শিক্ষার্থীদের জন্য শীর্ষ পছন্দ\n8. Koofr – মাল্টিপল ক্লাউড অ্যাকাউন্টের জন্য সেরা\n9. Dropbox – ক্লাউড সহযোগিতার জন্য সেরা\n10. Box – ব্যবসায়িক ক্লাউড স্টোরেজের জন্য দুর্দান্ত পছন্দ"
       },
-      "unit": "Operate Computer",
       "id": 136
     },
     {
+      "unit": "Operate Computer",
       "question": "Top 5 Most Common Computer Peripherals.",
       "answer": {
         "en": "Mouse, Keyboard, Monitor, Speaker, Printer.",
         "bn": "মাউস, কীবোর্ড, মনিটর, স্পিকার, প্রিন্টার"
       },
-      "unit": "Operate Computer",
       "id": 137
     },
     {
+      "unit": "Operate Computer",
       "question": "What is CC and BCC in Email?",
       "answer": {
         "en": "CC stands for 'Carbon Copy' and BCC stands for 'Blind Carbon Copy'. These features allow you to send copies of the email to additional recipients, either publicly or privately.",
         "bn": "CC এর অর্থ 'কার্বন কপি' এবং BCC এর অর্থ 'ব্লাইন্ড কার্বন কপি।' এই ফিচারগুলো আপনাকে অতিরিক্ত গ্রাহকদের কাছে মেইল ​​কপি পাঠানোর অনুমতি দেয়, য entweder প্রকাশ্যে বা গোপনে।"
       },
-      "unit": "Operate Computer",
       "id": 138
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is the name of 3 Network Device?",
       "answer": {
         "en": "Switch, Router, Microtik, Wireless Access Point, Hub.",
         "bn": "সুইচ, রাউটার, মাইক্রোটিক, ওয়্যারলেস অ্যাক্সেস পয়েন্ট, হাব"
       },
-      "unit": "Troubleshooting",
       "id": 139
     },
     {
+      "unit": "Operate Computer",
       "question": "Name 3 Best Email Provider Name:",
       "answer": {
         "en": "Gmail, Yahoo, Hotmail, Outlook.",
         "bn": "জিমেইল, ইয়াহু, হটমেইল, আউটলুক"
       },
-      "unit": "Operate Computer",
       "id": 140
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What are the 3 Examples of presentation software?",
       "answer": {
         "en": "Microsoft PowerPoint, Google Slides, Prezi, Canva, Visme.",
         "bn": "মাইক্রোসফট পাওয়ারপয়েন্ট, গুগল স্লাইডস, প্রেজি, ক্যানভা, ভিসমে"
       },
-      "unit": "MS Powerpoint",
       "id": 141
     },
     {
+      "unit": "MS Word",
       "question": "What is the 5 font Name?",
       "answer": {
         "en": "Arial, Calibri, Times New Roman, Kuro, Verdana, Vrinda, Tahoma.",
         "bn": "এরিয়াল, ক্যালিব্রি, টাইমস নিউ রোমান, কুরো, ভার্দানা, বৃন্দা, তাহোমা"
       },
-      "unit": "MS Word",
       "id": 142
     },
     {
+      "unit": "Operate Computer",
       "question": "Name 2 Typing Application Software in Bangla.",
       "answer": {
         "en": "Bijoy, Avro.",
         "bn": "বিজয়, অভ্র"
       },
-      "unit": "Operate Computer",
       "id": 143
     },
     {
+      "unit": "Operate Computer",
       "question": "What is Driver Software?",
       "answer": {
         "en": "Driver software provides a software interface for the operating system and other programs to access hardware functions of a device.",
         "bn": "একটি ড্রাইভার সফ্টওয়্যার ডিভাইসের সাথে হার্ডওয়্যার ফাংশন অ্যাক্সেস করার জন্য অপারেটিং সিস্টেম এবং অন্যান্য প্রোগ্রামগুলির জন্য একটি সফ্টওয়্যার ইন্টারফেস প্রদান করে।"
       },
-      "unit": "Operate Computer",
       "id": 144
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is the use of Ethernet Port?",
       "answer": {
         "en": "The Ethernet port is used to create a network by connecting two or more computers. It is also used to access the internet.",
         "bn": "ইথারনেট পোর্ট নেটওয়ার্ক তৈরি করতে ব্যবহৃত হয়, যা ২ বা ততোধিক কম্পিউটার সংযুক্ত করে। এটি ইন্টারনেট অ্যাক্সেস করতেও ব্যবহৃত হয়।"
       },
-      "unit": "Troubleshooting",
       "id": 145
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down the name of 3 VIRUS",
       "answer": {
         "en": "Trojan, Ransomware, I Love You, Creeper, Morris Worm, Shlayer, WannaCry, Melissa, Code Red, Conficker.",
         "bn": "ট্রোজান, র‍্যানসমওয়্যার, আই লাভ ইউ, ক্রিপার, মরিস ওয়ার্ম, শ্লেয়ার, ওয়েলচিয়া, ওয়ানাক্রাই, মেলিসা, কোড রেড, কনফিকার।"
       },
-      "unit": "Operate Computer",
       "id": 146
     },
     {
+      "unit": "Operate Computer",
       "question": "What is the purpose of Antivirus?",
       "answer": {
         "en": "Antivirus is software designed to detect and remove viruses and other types of malicious software.",
         "bn": "অ্যান্টিভাইরাস একটি সফ্টওয়্যার যা ভাইরাস এবং অন্যান্য ধরনের ক্ষতিকারক সফ্টওয়্যার সনাক্ত ও মুছে ফেলার জন্য ডিজাইন করা হয়েছে।"
       },
-      "unit": "Operate Computer",
       "id": 147
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is the name of 5 Input Device?",
       "answer": {
         "en": "Mouse, Keyboard, Microphone, Scanner, Joystick.",
         "bn": "মাউস, কীবোর্ড, মাইক্রোফোন, স্ক্যানার, জয়স্টিক"
       },
-      "unit": "Troubleshooting",
       "id": 148
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is CPU?",
       "answer": {
         "en": "The CPU or Central Processing Unit is the most important processor in a computer. It performs mathematical, logical, controlling, and input/output operations.",
         "bn": "সিপিইউ বা সেন্ট্রাল প্রসেসিং ইউনিট একটি কম্পিউটারের সবচেয়ে গুরুত্বপূর্ণ প্রসেসর। এটি গাণিতিক, লজিক্যাল, কন্ট্রোলিং এবং ইনপুট/আউটপুট অপারেশন সম্পাদন করে।"
       },
-      "unit": "Troubleshooting",
       "id": 149
     },
     {
+      "unit": "MS Excel",
       "question": "Write down 3 Arithmetic Operators Symbol?",
       "answer": {
         "en": "+, -, *, /",
         "bn": "+, -, *, /"
       },
-      "unit": "MS Excel",
       "id": 150
     },
     {
+      "unit": "MS Excel",
       "question": "Write down 3 Logical Operators?",
       "answer": {
         "en": "IF, AND, OR, NOT",
         "bn": "IF, AND, OR, NOT"
       },
-      "unit": "MS Excel",
       "id": 151
     },
     {
+      "unit": "MS Excel",
       "question": "Write down 3 Relation Operators Symbol?",
       "answer": {
         "en": "=, <=, >=, <>",
         "bn": "=, <=, >=, <>"
       },
-      "unit": "MS Excel",
       "id": 152
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down some Virtual Platforms Name?",
       "answer": {
         "en": "Zoom, Google Meet, WhatsApp, WeChat, Skype, Bip",
         "bn": "Zoom, Google Meet, WhatsApp, WeChat, Skype, Bip"
       },
-      "unit": "Operate Computer",
       "id": 153
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down some Online Form Name?",
       "answer": {
         "en": "Google Form, Microsoft Form, Typeform, Paper Form, Wufoo",
         "bn": "Google Form, Microsoft Form, Typeform, Paper Form, Wufoo"
       },
-      "unit": "Operate Computer",
       "id": 154
     },
     {
+      "unit": "MS Word",
       "question": "Write down some Unicode font name?",
       "answer": {
         "en": "Nikosh, Solaimanlipi, Kalpurush, Mukti, Vrinda, Sonar Bangla",
         "bn": "Nikosh, Solaimanlipi, Kalpurush, Mukti, Vrinda, Sonar Bangla"
       },
-      "unit": "MS Word",
       "id": 155
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is SSD in Laptop?",
       "answer": {
         "en": "SSD = Solid State Drive. A solid-state drive is a hard drive with no moving parts.",
         "bn": "SSD = সলিড স্টেট ড্রাইভ। একটি সলিড-স্টেট ড্রাইভ একটি হার্ড ড্রাইভ যা কোন চলমান অংশ নেই।"
       },
-      "unit": "Troubleshooting",
       "id": 156
     },
     {
+      "unit": "MS Word",
       "question": "What do you mean by Unicode?",
       "answer": {
         "en": "Unicode is an international character encoding standard that provides a unique number for every character across languages and scripts, making almost all characters accessible across platforms, programs, and devices.",
         "bn": "ইউনিকোড একটি আন্তর্জাতিক ক্যারেক্টার এনকোডিং স্ট্যান্ডার্ড যা প্রতিটি চরিত্রের জন্য একটি অনন্য সংখ্যা প্রদান করে যা ভাষা ও স্ক্রিপ্ট জুড়ে উপলব্ধ। এটি প্ল্যাটফর্ম, প্রোগ্রাম এবং ডিভাইস জুড়ে প্রায় সমস্ত অক্ষরকে অ্যাক্সেসযোগ্য করে তোলে।"
       },
-      "unit": "MS Word",
       "id": 157
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down some Common applications?",
       "answer": {
         "en": "WordPad, Notepad, Paint, Media Player, Calculator, Sticky Notes, Snipping Tool",
         "bn": "WordPad, Notepad, Paint, Media Player, Calculator, Sticky Notes, Snipping Tool"
       },
-      "unit": "Operate Computer",
       "id": 158
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down 2 file attributes?",
       "answer": {
         "en": "Date, Size",
         "bn": "তারিখ, আকার"
       },
-      "unit": "Operate Computer",
       "id": 159
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down 3 ways of communication?",
       "answer": {
         "en": "Verbal, Written, Online communication",
         "bn": "মৌখিক, লিখিত, অনলাইন যোগাযোগ"
       },
-      "unit": "Operate Computer",
       "id": 160
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down some channels of communication?",
       "answer": {
         "en": "Zoom, Google Meet, Microsoft Teams, GoToMeeting, Bolithok, Webex, Skype, WhatsApp",
         "bn": "Zoom, Google Meet, Microsoft Teams, GoToMeeting, Bolithok, Webex, Skype, WhatsApp"
       },
-      "unit": "Operate Computer",
       "id": 161
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down the name of 3 Word Processing Application Software?",
       "answer": {
         "en": "Microsoft Word, LibreOffice Writer, Google Docs, WPS Office Free Writer",
         "bn": "Microsoft Word, LibreOffice Writer, Google Docs, WPS Office Free Writer"
       },
-      "unit": "Operate Computer",
       "id": 162
     },
     {
+      "unit": "MS Excel",
       "question": "Write down the name of 3 Spreadsheet Application Software?",
       "answer": {
         "en": "Microsoft Excel, LibreOffice Calc, Google Sheets",
         "bn": "Microsoft Excel, LibreOffice Calc, Google Sheets"
       },
-      "unit": "MS Excel",
       "id": 163
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down the Name of 3 viruses?",
       "answer": {
         "en": "Aids, Bye Bye, Bad Boy, CIH, I Love You, Mydoom, Code Red, Melissa, Nimda, Trojan",
         "bn": "Aids, Bye Bye, Bad Boy, CIH, I Love You, Mydoom, Code Red, Melissa, Nimda, Trojan"
       },
-      "unit": "Operate Computer",
       "id": 164
     },
     {
+      "unit": "Troubleshooting",
       "question": "Top 05 Most Common Computer Problems?",
       "answer": {
         "en": "1. Slow Internet, 2. Blue screen, 3. Slow Computer, 4. Keyboard issues, 5. Printer problems, 6. Overheating, 7. Strange noise, 8. From screen to audio issues",
         "bn": "1. ধীর ইন্টারনেট, 2. ব্লু স্ক্রীন, 3. ধীর কম্পিউটার, 4. কীবোর্ড সমস্যা, 5. প্রিন্টার সমস্যা, 6. অতিরিক্ত গরম হওয়া, 7. অস্বাভাবিক শব্দ, 8. স্ক্রীন থেকে অডিও সমস্যা"
       },
-      "unit": "Troubleshooting",
       "id": 165
     },
     {
+      "unit": "Operate Computer",
       "question": "What is the use of an Ethernet port?",
       "answer": {
         "en": "Allows you to connect your computer to the internet.",
         "bn": "এটি আপনাকে আপনার কম্পিউটারটি ইন্টারনেটের সাথে সংযুক্ত করতে দেয়।"
       },
-      "unit": "Operate Computer",
       "id": 166
     },
     {
+      "unit": "Operate Computer",
       "question": "What is driver software?",
       "answer": {
         "en": "A client library for connecting to a database. A driver is a software component that lets the operating system and a device communicate.",
         "bn": "একটি ডেটাবেসের সাথে সংযোগ করার জন্য একটি ক্লায়েন্ট লাইব্রেরি। একটি ড্রাইভার হল একটি সফটওয়্যার উপাদান যা অপারেটিং সিস্টেম এবং একটি ডিভাইসের মধ্যে যোগাযোগ করতে সহায়তা করে।"
       },
-      "unit": "Operate Computer",
       "id": 167
     },
     {
+      "unit": "MS Word",
       "question": "What is the Function of Format Painter?",
       "answer": {
         "en": "The Format Painter tool is used to copy and paste character and paragraph formats to existing text.",
         "bn": "ফরম্যাট পেইন্টার টুলটি চরিত্র এবং প্যারাগ্রাফ ফরম্যাটগুলি বিদ্যমান টেক্সটে কপি এবং পেস্ট করতে ব্যবহৃত হয়।"
       },
-      "unit": "MS Word",
       "id": 168
     },
     {
+      "unit": "Operate Computer",
       "question": "What is CC and BCC in email writing?",
       "answer": {
         "en": "In email, CC is Carbon Copy and BCC is Blind Carbon Copy.",
         "bn": "ইমেলে, CC হল কার্বন কপি এবং BCC হল ব্লাইন্ড কার্বন কপি।"
       },
-      "unit": "Operate Computer",
       "id": 169
     },
     {
+      "unit": "Operate Computer",
       "question": "What is a Virus?",
       "answer": {
         "en": "A computer virus is a malicious program that can harm your computer files.",
         "bn": "একটি কম্পিউটার ভাইরাস হল একটি ক্ষতিকর প্রোগ্রাম যা আপনার কম্পিউটার ফাইলগুলিকে ক্ষতি করতে পারে।"
       },
-      "unit": "Operate Computer",
       "id": 170
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What is slide sorter view?",
       "answer": {
         "en": "Slide sorter view is a view to see the slides presentation in a sorter view.",
         "bn": "স্লাইড সোর্টার ভিউ হল একটি ভিউ যা স্লাইড প্রদর্শনীগুলি সজ্জিতভাবে দেখতে দেয়।"
       },
-      "unit": "MS Powerpoint",
       "id": 171
     },
     {
+      "unit": "Hardware",
       "question": "Five input devices name?",
       "answer": {
         "en": "Keyboard, Mouse, Scanner, Webcam, Touchpad, Microphone.",
         "bn": "কীবোর্ড, মাউস, স্ক্যানার, ওয়েবক্যাম, টাচপ্যাড, মাইক্রোফোন।"
       },
-      "unit": "Hardware",
       "id": 172
     },
     {
+      "unit": "Hardware",
       "question": "What is SSD in Laptop?",
       "answer": {
         "en": "SSD = Solid State Drive. A solid-state drive is a hard drive with no moving parts.",
         "bn": "SSD = সলিড স্টেট ড্রাইভ। একটি সলিড-স্টেট ড্রাইভ একটি হার্ড ড্রাইভ যা কোন চলমান অংশ নেই।"
       },
-      "unit": "Hardware",
       "id": 173
     },
     {
+      "unit": "MS Word",
       "question": "What do you mean by Unicode?",
       "answer": {
         "en": "Unicode is an international character encoding standard that provides a unique number for every character across languages and scripts, making almost all characters accessible across platforms, programs, and devices.",
         "bn": "ইউনিকোড একটি আন্তর্জাতিক ক্যারেক্টার এনকোডিং স্ট্যান্ডার্ড যা প্রতিটি চরিত্রের জন্য একটি অনন্য সংখ্যা প্রদান করে যা ভাষা ও স্ক্রিপ্ট জুড়ে উপলব্ধ। এটি প্ল্যাটফর্ম, প্রোগ্রাম এবং ডিভাইস জুড়ে প্রায় সমস্ত অক্ষরকে অ্যাক্সেসযোগ্য করে তোলে।"
       },
-      "unit": "MS Word",
       "id": 174
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down some Common applications?",
       "answer": {
         "en": "WordPad, Notepad, Paint, Media Player, Calculator, Sticky Notes, Snipping Tool.",
         "bn": "WordPad, Notepad, Paint, Media Player, Calculator, Sticky Notes, Snipping Tool।"
       },
-      "unit": "Operate Computer",
       "id": 175
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down 2 file attributes?",
       "answer": {
         "en": "Date, Size.",
         "bn": "তারিখ, আকার।"
       },
-      "unit": "Operate Computer",
       "id": 176
     },
     {
+      "unit": "Internet",
       "question": "Write down 3 ways of communication?",
       "answer": {
         "en": "Verbal, Written, Online communication.",
         "bn": "মৌখিক, লিখিত, অনলাইন যোগাযোগ।"
       },
-      "unit": "Internet",
       "id": 177
     },
     {
+      "unit": "Internet",
       "question": "Write down some channels of communication?",
       "answer": {
         "en": "Zoom, Google Meet, Microsoft Teams, GoToMeeting, Bolithok, Webex, Skype, WhatsApp.",
         "bn": "Zoom, Google Meet, Microsoft Teams, GoToMeeting, Bolithok, Webex, Skype, WhatsApp।"
       },
-      "unit": "Internet",
       "id": 178
     },
     {
+      "unit": "MS Excel",
       "question": "Which feature is allowing you to narrow down the data in your worksheet?",
       "answer": {
         "en": "A. Filters B. Reporting C. Sorting D. Statics",
         "bn": "A. ফিল্টার B. রিপোর্টিং C. সাজানো D. পরিসংখ্যান"
       },
-      "unit": "MS Excel",
       "id": 179
     },
     {
+      "unit": "MS Excel",
       "question": "Which formats represent the number with the dollar ($) sign?",
       "answer": {
         "en": "A. Automatic B. Number C. Currency D. Time",
         "bn": "A. স্বয়ংক্রিয় B. সংখ্যা C. মুদ্রা D. সময়"
       },
-      "unit": "MS Excel",
       "id": 180
     },
     {
+      "unit": "Operate Computer",
       "question": "A list of various coded instructions is known as?",
       "answer": {
         "en": "A. Flowchart B. Utility program C. Algorithm D. Computer",
         "bn": "A. ফ্লোচার্ট B. ইউটিলিটি প্রোগ্রাম C. অ্যালগোরিদম D. কম্পিউটার"
       },
-      "unit": "Operate Computer",
       "id": 181
     },
     {
+      "unit": "Internet",
       "question": "What is a URL?",
       "answer": {
         "en": "B. The address of a document or “page” on the World Wide Web",
         "bn": "B. একটি ডকুমেন্ট বা “পৃষ্ঠার” ঠিকানা বিশ্বব্যাপী ওয়েবের উপর"
       },
-      "unit": "Internet",
       "id": 182
     },
     {
+      "unit": "Operate Computer",
       "question": "Which of the following is not an operating system?",
       "answer": {
         "en": "D. PASCAL",
         "bn": "D. পাসকাল"
       },
-      "unit": "Operate Computer",
       "id": 183
     },
     {
+      "unit": "Hardware",
       "question": "Which is used to store firmware?",
       "answer": {
         "en": "B. ROM",
         "bn": "B. রোম"
       },
-      "unit": "Hardware",
       "id": 184
     },
     {
+      "unit": "Operate Computer",
       "question": "What is Application Software?",
       "answer": {
         "en": "Application software is a type of computer program that performs a specific personal, educational, and business function.",
         "bn": "অ্যাপ্লিকেশন সফটওয়্যার হল একটি ধরনের কম্পিউটার প্রোগ্রাম যা একটি নির্দিষ্ট ব্যক্তিগত, শিক্ষাগত এবং ব্যবসায়িক কার্যকারিতা সম্পাদন করে।"
       },
-      "unit": "Operate Computer",
       "id": 185
     },
     {
+      "unit": "Operate Computer",
       "question": "What is Firmware?",
       "answer": {
         "en": "Firmware is a form of microcode or program embedded into hardware devices to help them operate effectively.",
         "bn": "ফার্মওয়্যার হল মাইক্রোকোড বা প্রোগ্রামের একটি রূপ যা হার্ডওয়্যার ডিভাইসে এমবেড করা থাকে যাতে সেগুলি কার্যকরভাবে কাজ করতে সাহায্য করে।"
       },
-      "unit": "Operate Computer",
       "id": 186
     },
     {
+      "unit": "Hardware",
       "question": "What is Heat Sink?",
       "answer": {
         "en": "Heat sinks are widely used for cooling parts and components that produce heat while in use.",
         "bn": "হিট সিঙ্কগুলি ব্যাপকভাবে ব্যবহৃত হয় এমন যন্ত্রাংশ এবং উপাদানগুলি শীতল করতে যা ব্যবহারের সময় তাপ উৎপন্ন করে।"
       },
-      "unit": "Hardware",
       "id": 187
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is Diagnostic Computer in the Education sector?",
       "answer": {
         "en": "Software routines that test hardware components (memory, keyboard, disks, etc.). Diagnostics are often stored in ROM chips and activated on startup.",
         "bn": "সফটওয়্যার রুটিনগুলি যা হার্ডওয়্যার উপাদানগুলি (মেমরি, কীবোর্ড, ডিস্ক, ইত্যাদি) পরীক্ষা করে। ডায়াগনস্টিকগুলি প্রায়শই ROM চিপসে সংরক্ষিত থাকে এবং শুরুতে সক্রিয় হয়।"
       },
-      "unit": "Troubleshooting",
       "id": 188
     },
     {
+      "unit": "Internet",
       "question": "How to use a cable tester in networking?",
       "answer": {
         "en": "A network cable tester is an electronic device that measures the conductivity between two ends of a cable.",
         "bn": "একটি নেটওয়ার্ক কেবেল টেস্টার একটি ইলেকট্রনিক ডিভাইস যা কেবেলের দুটি প্রান্তের মধ্যে পরিবাহিতা পরিমাপ করে।"
       },
-      "unit": "Internet",
       "id": 189
     },
     {
+      "unit": "Hardware",
       "question": "What is M.2 SSD?",
       "answer": {
         "en": "M.2 SSDs are useful for someone who is building or upgrading a personal computer (PC) or laptop for use cases such as gaming, 3D animation, video editing, or large file transfers.",
         "bn": "M.2 SSD হল এমন একটি স্টোরেজ ডিভাইস যা ব্যক্তিগত কম্পিউটার (PC) বা ল্যাপটপ তৈরি বা আপগ্রেড করার জন্য ব্যবহার হয়, যেমন গেমিং, 3D অ্যানিমেশন, ভিডিও এডিটিং বা বড় ফাইল ট্রান্সফারের ক্ষেত্রে।"
       },
-      "unit": "Hardware",
       "id": 190
     },
     {
+      "unit": "MS Excel",
       "question": "Write down 3 Logical Operators?",
       "answer": {
         "en": "IF, AND, OR, NOT",
         "bn": "IF, AND, OR, NOT"
       },
-      "unit": "MS Excel",
       "id": 191
     },
     {
+      "unit": "MS Excel",
       "question": "Write down 3 Relation Operators Symbol?",
       "answer": {
         "en": "=, <=, >=, <>",
         "bn": "=, <=, >=, <>"
       },
-      "unit": "MS Excel",
       "id": 192
     },
     {
+      "unit": "Internet",
       "question": "Write down some Virtual Platforms Name?",
       "answer": {
         "en": "Zoom, Google Meet, WhatsApp, WeChat, Skype, Bip",
         "bn": "Zoom, Google Meet, WhatsApp, WeChat, Skype, Bip"
       },
-      "unit": "Internet",
       "id": 193
     },
     {
+      "unit": "Internet",
       "question": "Write down some Online Form Name?",
       "answer": {
         "en": "Google Form, Microsoft Form, Typeform, Paper Form, Wufoo",
         "bn": "Google Form, Microsoft Form, Typeform, Paper Form, Wufoo"
       },
-      "unit": "Internet",
       "id": 194
     },
     {
+      "unit": "MS Word",
       "question": "Write down some Unicode font name?",
       "answer": {
         "en": "Nikosh, Solaimanlipi, Kalpurush, Mukti, Vrinda, Sonar Bangla",
         "bn": "Nikosh, Solaimanlipi, Kalpurush, Mukti, Vrinda, Sonar Bangla"
       },
-      "unit": "MS Word",
       "id": 195
     },
     {
+      "unit": "MS Word",
       "question": "Write down 2 ASCII font name?",
       "answer": {
         "en": "SutonnyMJ, Ananda",
         "bn": "SutonnyMJ, Ananda"
       },
-      "unit": "MS Word",
       "id": 196
     },
     {
+      "unit": "Hardware",
       "question": "Give an example of non-volatile memory?",
       "answer": {
         "en": "HDD, ROM, SSD, MRAM, PRAM",
         "bn": "HDD, ROM, SSD, MRAM, PRAM"
       },
-      "unit": "Hardware",
       "id": 197
     },
     {
+      "unit": "Internet",
       "question": "What is StreamYard?",
       "answer": {
         "en": "StreamYard is a professional live streaming and recording studio in your browser. Record your content, or stream live to Facebook, YouTube, and other platforms.",
         "bn": "StreamYard হল একটি পেশাদার লাইভ স্ট্রিমিং এবং রেকর্ডিং স্টুডিও যা আপনার ব্রাউজারে কাজ করে। আপনার কনটেন্ট রেকর্ড করুন বা লাইভ Facebook, YouTube, এবং অন্যান্য প্ল্যাটফর্মে স্ট্রিম করুন।"
       },
-      "unit": "Internet",
       "id": 198
     },
     {
+      "unit": "Operate Computer",
       "question": "What is Application Software?",
       "answer": {
         "en": "Application software is a type of computer program that performs a specific personal, educational, and business function.",
         "bn": "অ্যাপ্লিকেশন সফটওয়্যার হল একটি ধরনের কম্পিউটার প্রোগ্রাম যা একটি নির্দিষ্ট ব্যক্তিগত, শিক্ষামূলক এবং ব্যবসায়িক কার্য সম্পাদন করে।"
       },
-      "unit": "Operate Computer",
       "id": 199
     },
     {
+      "unit": "Hardware",
       "question": "What is Firmware?",
       "answer": {
         "en": "Firmware is a form of microcode or program embedded into hardware devices to help them operate effectively.",
         "bn": "ফার্মওয়্যার হল মাইক্রোকোড বা প্রোগ্রামের একটি রূপ যা হার্ডওয়্যার ডিভাইসে এমবেড করা থাকে যাতে তারা কার্যকরভাবে কাজ করতে পারে।"
       },
-      "unit": "Hardware",
       "id": 200
     },
     {
+      "unit": "Hardware",
       "question": "What is Heat Sink?",
       "answer": {
         "en": "Heat sinks are widely used for cooling parts and components that produce heat while in use.",
         "bn": "হিট সিঙ্কগুলি ব্যাপকভাবে ব্যবহৃত হয় এমন অংশ এবং উপাদানগুলি শীতল করতে যা ব্যবহার করার সময় তাপ উৎপন্ন করে।"
       },
-      "unit": "Hardware",
       "id": 201
     },
     {
+      "unit": "Operate Computer",
       "question": "What is Diagnostic Computer in the Education sector?",
       "answer": {
         "en": "Software routines that test hardware components (memory, keyboard, disks, etc.). Diagnostics are often stored in ROM chips and activated on startup.",
         "bn": "সফটওয়্যার রুটিন যা হার্ডওয়্যার উপাদান (মেমরি, কীবোর্ড, ডিস্ক, ইত্যাদি) পরীক্ষা করে। ডায়াগনস্টিকস সাধারণত ROM চিপে সংরক্ষিত থাকে এবং স্টার্টআপে সক্রিয় হয়।"
       },
-      "unit": "Operate Computer",
       "id": 202
     },
     {
+      "unit": "Operate Computer",
       "question": "GUI stands for -",
       "answer": {
         "en": "GUI = Graphical User Interface.",
         "bn": "GUI = গ্রাফিকাল ইউজার ইন্টারফেস।"
       },
-      "unit": "Operate Computer",
       "id": 203
     },
     {
+      "unit": "Internet",
       "question": "Write down Cloud Storage Services Name?",
       "answer": {
         "en": "Sync.com, pCloud, Icedrive, MEGA, IDrive, OneDrive, Google Drive, Box, Dropbox.",
         "bn": "Sync.com, pCloud, Icedrive, MEGA, IDrive, OneDrive, Google Drive, Box, Dropbox."
       },
-      "unit": "Internet",
       "id": 204
     },
     {
+      "unit": "Operate Computer",
       "question": "What is Firmware?",
       "answer": {
         "en": "Firmware is known as permanent software of instructions stored in the motherboard storage or ROM (Read Only Memory) of the computer system.",
         "bn": "ফার্মওয়্যার হল স্থায়ী সফটওয়্যার যা নির্দেশাবলী হিসাবে মাদারবোর্ডের স্টোরেজ বা ROM (Read Only Memory) তে সংরক্ষিত থাকে।"
       },
-      "unit": "Operate Computer",
       "id": 205
     },
     {
+      "unit": "Hardware",
       "question": "What is the function of BIOS?",
       "answer": {
         "en": "BIOS (Basic Input / Output System) is the program a computer's microprocessor uses to start the computer system after it is powered on.",
         "bn": "BIOS (বেসিক ইনপুট / আউটপুট সিস্টেম) হল একটি প্রোগ্রাম যা কম্পিউটারের মাইক্রোপ্রসেসর ব্যবহার করে কম্পিউটার সিস্টেম চালু করার জন্য, যখন এটি চালু হয়।"
       },
-      "unit": "Hardware",
       "id": 206
     },
     {
+      "unit": "MS Word",
       "question": "What is a Mail Merge?",
       "answer": {
         "en": "Mail merge is a feature in data processing applications that automates the process of sending a similar letter, email, or document to multiple recipients that is personalized to each.",
         "bn": "মেইল মার্জ হল একটি বৈশিষ্ট্য যা ডেটা প্রক্রিয়াকরণ অ্যাপ্লিকেশনে ব্যবহৃত হয় যা একটি অনুরূপ চিঠি, ইমেইল বা ডকুমেন্ট একাধিক প্রাপককে পাঠানোর প্রক্রিয়া স্বয়ংক্রিয়ভাবে সম্পাদন করে এবং এটি প্রতিটি প্রাপককে ব্যক্তিগতকৃত করে।"
       },
-      "unit": "MS Word",
       "id": 207
     },
     {
+      "unit": "MS Excel",
       "question": "What is the function of the auto-fill function?",
       "answer": {
         "en": "Use the Auto Fill feature to fill cells with data that follows a pattern or are based on data in other cells.",
         "bn": "অটোফিল ফিচার ব্যবহার করে সেলগুলি পূর্ণ করুন যা একটি প্যাটার্ন অনুসরণ করে বা অন্য সেলগুলির ডেটার উপর ভিত্তি করে।"
       },
-      "unit": "MS Excel",
       "id": 208
     },
     {
+      "unit": "MS Word",
       "question": "What is the shortcut key for creating a hyperlink?",
       "answer": {
         "en": "Ctrl + K",
         "bn": "Ctrl + K"
       },
-      "unit": "MS Word",
       "id": 209
     },
     {
+      "unit": "Internet",
       "question": "Write down Web Browser Software name?",
       "answer": {
         "en": "Google Chrome, Mozilla Firefox, Safari, Microsoft Edge, Opera, Internet Explorer",
         "bn": "Google Chrome, Mozilla Firefox, Safari, Microsoft Edge, Opera, Internet Explorer"
       },
-      "unit": "Internet",
       "id": 210
     },
     {
+      "unit": "Internet",
       "question": "Write down Search engine name?",
       "answer": {
         "en": "Google, Bing, Yahoo, Yandex, DuckDuckGo, Baidu, Ask.com, Naver, Ecosia, AOL.",
         "bn": "Google, Bing, Yahoo, Yandex, DuckDuckGo, Baidu, Ask.com, Naver, Ecosia, AOL."
       },
-      "unit": "Internet",
       "id": 211
     },
     {
+      "unit": "MS Excel",
       "question": "Write down 3 Excel operators?",
       "answer": {
         "en": "Sub, Add, Multiply.",
         "bn": "Sub, Add, Multiply."
       },
-      "unit": "MS Excel",
       "id": 212
     },
     {
+      "unit": "Internet",
       "question": "Why do we use Virtual place?",
       "answer": {
         "en": "To connect the whole world and establish communication.",
         "bn": "সমগ্র বিশ্বকে সংযোগ করতে এবং যোগাযোগ স্থাপন করতে।"
       },
-      "unit": "Internet",
       "id": 213
     },
     {
+      "unit": "Internet",
       "question": "Write down 3 free accounts for using email?",
       "answer": {
         "en": "Gmail, AOL, Outlook, Neo, Yahoo, Hotmail.",
         "bn": "Gmail, AOL, Outlook, Neo, Yahoo, Hotmail।"
       },
-      "unit": "Internet",
       "id": 214
     },
     {
+      "unit": "MS Powerpoint",
       "question": "Write down Design style layout?",
       "answer": {
         "en": "Magazine layout, advertising layout, dynamic, adaptive or responsive.",
         "bn": "ম্যাগাজিন লেআউট, বিজ্ঞাপন লেআউট, গতিশীল, অভিযোজিত বা প্রতিক্রিয়া।"
       },
-      "unit": "MS Powerpoint",
       "id": 215
     },
     {
+      "unit": "Troubleshooting",
       "question": "What is troubleshooting?",
       "answer": {
         "en": "Troubleshooting is a systematic approach to solving a problem.",
         "bn": "ট্রাবলশুটিং হল একটি সিস্টেমেটিক পদ্ধতি যা একটি সমস্যা সমাধান করতে ব্যবহৃত হয়।"
       },
-      "unit": "Troubleshooting",
       "id": 216
     },
     {
+      "unit": "MS Word",
       "question": "Documents can be --- with MS Word.",
       "answer": {
         "en": "A. Created B. Edited C. Saved D. All of the above",
         "bn": "A. তৈরি করা B. সম্পাদিত C. সংরক্ষিত D. উপরোক্ত সব"
       },
-      "unit": "MS Word",
       "id": 217
     },
     {
+      "unit": "MS Word",
       "question": "Which of the following tab is the default in MS Word?",
       "answer": {
         "en": "A. Home B. Insert C. Page Layout D. Reference",
         "bn": "A. হোম B. ইনসার্ট C. পৃষ্ঠা লেআউট D. রেফারেন্স"
       },
-      "unit": "MS Word",
       "id": 218
     },
     {
+      "unit": "Hardware",
       "question": "Name 5 computer peripherals.",
       "answer": {
         "en": "Mouse, Keyboard, Monitor, Scanner, Printer, Speaker.",
         "bn": "মাউস, কিবোর্ড, মনিটর, স্ক্যানার, প্রিন্টার, স্পিকার।"
       },
-      "unit": "Hardware",
       "id": 219
     },
     {
+      "unit": "MS Word",
       "question": "Name 2 Typing application software in Bangla.",
       "answer": {
         "en": "Bijoy 52, Avro, Knotho.",
         "bn": "বিজয় ৫২, অভ্র, কণ্ঠ।"
       },
-      "unit": "MS Word",
       "id": 220
     },
     {
+      "unit": "MS Word",
       "question": "Name 3 font names.",
       "answer": {
         "en": "Times New Roman, Calibri, Arial, Sutonny MJ.",
         "bn": "টাইমস নিউ রোমান, ক্যালিব্রি, অ্যারিয়াল, সুতোন্নি এমজে।"
       },
-      "unit": "MS Word",
       "id": 221
     },
     {
+      "unit": "MS Excel",
       "question": "What is the difference between function and formula in Excel?",
       "answer": {
         "en": "A formula is any equation you create to perform calculations (e.g., =A1 + B1). A function is a predefined formula (e.g., =SUM(A1:A10)).",
         "bn": "একটি ফর্মুলা হল যে কোনও সমীকরণ যা আপনি গণনা করার জন্য তৈরি করেন (যেমন, =A1 + B1)। একটি ফাংশন হল একটি পূর্বনির্ধারিত ফর্মুলা (যেমন, =SUM(A1:A10))।"
       },
-      "unit": "MS Excel",
       "id": 222
     },
     {
+      "unit": "Operate Computer",
       "question": "What is system software?",
       "answer": {
         "en": "System software is a type of computer program that is designed to run a computer's hardware and application programs.",
         "bn": "সিস্টেম সফটওয়্যার হল একটি কম্পিউটার প্রোগ্রামের ধরন যা একটি কম্পিউটারের হার্ডওয়্যার এবং অ্যাপ্লিকেশন প্রোগ্রাম চালানোর জন্য ডিজাইন করা হয়েছে।"
       },
-      "unit": "Operate Computer",
       "id": 223
     },
     {
+      "unit": "Internet",
       "question": "Write down 4 Email service provider’s name? Best Email service provider list:",
       "answer": {
         "en": "1. Gmail 2. Outlook 3. AOL Mail 4. Yahoo Mail 5. iCloud Mail.",
         "bn": "১. জিমেইল ২. আউটলুক ৩. AOL মেইল ৪. ইয়াহু মেইল ৫. আইক্লাউড মেইল।"
       },
-      "unit": "Internet",
       "id": 224
     },
     {
+      "unit": "Operate Computer",
       "question": "What is the difference between files and folders?",
       "answer": {
         "en": "A file is a single unit of data while a folder is a container for multiple files.",
         "bn": "একটি ফাইল হল একক ডেটা একক, যখন একটি ফোল্ডার হল একাধিক ফাইলের জন্য একটি কন্টেইনার।"
       },
-      "unit": "Operate Computer",
       "id": 225
     },
     {
+      "unit": "Hardware",
       "question": "What are the uses of NIC?",
       "answer": {
         "en": "A network interface card (NIC) is a crucial component of any computer that needs a network. It serves as a bridge between the computer and the network, allowing data transmission and reception.",
         "bn": "নেটওয়ার্ক ইন্টারফেস কার্ড (NIC) হল এমন একটি কম্পিউটারের একটি গুরুত্বপূর্ণ উপাদান যা একটি নেটওয়ার্কের প্রয়োজন। এটি কম্পিউটার এবং নেটওয়ার্কের মধ্যে একটি সেতু হিসাবে কাজ করে, ডেটা ট্রান্সমিশন এবং প্রাপ্তি অনুমোদন করে।"
       },
-      "unit": "Hardware",
       "id": 226
     },
     {
+      "unit": "MS Excel",
       "question": "Which Excel function removes the irregular spacing, leaving one space between each value?",
       "answer": {
         "en": "The TRIM function in Excel removes the irregular spacing, leaving one space between each value.",
         "bn": "এক্সেলে TRIM ফাংশন অস্বাভাবিক স্পেসিং মুছে দেয়, প্রতিটি মানের মধ্যে একটি স্থান রেখে দেয়।"
       },
-      "unit": "MS Excel",
       "id": 227
     },
     {
+      "unit": "MS Word",
       "question": "A character that is raised and smaller above the baseline is known as ---?",
       "answer": {
         "en": "D. Superscript",
         "bn": "ডি। সুপারস্ক্রিপ্ট"
       },
-      "unit": "MS Word",
       "id": 228
     },
     {
+      "unit": "MS Excel",
       "question": "In computer spreadsheet, function which is used to count numbers of entries in given range is called -",
       "answer": {
         "en": "D. count",
         "bn": "ডি। কাউন্ট"
       },
-      "unit": "MS Excel",
       "id": 229
     },
     {
+      "unit": "MS Excel",
       "question": "What is an Excel feature that displays only the data in column(s) according to specified criteria?",
       "answer": {
         "en": "A. Filtering",
         "bn": "এ। ফিল্টারিং"
       },
-      "unit": "MS Excel",
       "id": 230
     },
     {
+      "unit": "MS Word",
       "question": "Which of the following function key activates the speller?",
       "answer": {
         "en": "C. F7",
         "bn": "সি। F7"
       },
-      "unit": "MS Word",
       "id": 231
     },
     {
+      "unit": "MS Excel",
       "question": "A change in the appearance of a value or label in a cell?",
       "answer": {
         "en": "B. format",
         "bn": "বি। ফরম্যাট"
       },
-      "unit": "MS Excel",
       "id": 232
     },
     {
+      "unit": "MS Powerpoint",
       "question": "Which of these font effects is NOT available in the PowerPoint font dialogue box?",
       "answer": {
         "en": "D. Emboss",
         "bn": "ডি। এমবস"
       },
-      "unit": "MS Powerpoint",
       "id": 233
     },
     {
+      "unit": "MS Powerpoint",
       "question": "Which type of template provides all the users with a design concept, color scheme, and fonts for a presentation?",
       "answer": {
         "en": "D. design",
         "bn": "ডি। ডিজাইন"
       },
-      "unit": "MS Powerpoint",
       "id": 234
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What is the default file extension of PowerPoint files?",
       "answer": {
         "en": ".ppt or .pptx.",
         "bn": ".ppt বা .pptx।"
       },
-      "unit": "MS Powerpoint",
       "id": 235
     },
     {
+      "unit": "Hardware",
       "question": "Computer not getting internet connection, what to check?",
       "answer": {
         "en": "For wired connection, check if the Ethernet cable is connected properly. For wireless connection, check if the Wi-Fi network is connected.",
         "bn": "ওয়্যারড সংযোগের জন্য, চেক করুন যদি ইথারনেট কেবল সঠিকভাবে সংযুক্ত থাকে। ওয়্যারলেস সংযোগের জন্য, চেক করুন যদি Wi-Fi নেটওয়ার্ক সংযুক্ত থাকে।"
       },
-      "unit": "Hardware",
       "id": 236
     },
     {
+      "unit": "Operate Computer",
       "question": "What does it mean to “Install” Software in a Computer?",
       "answer": {
         "en": "A computer software installation refers to the particular configuration of software or hardware with a view to making it usable with the computer.",
         "bn": "একটি কম্পিউটার সফটওয়্যার ইনস্টলেশন হল সফটওয়্যার বা হার্ডওয়্যার এর নির্দিষ্ট কনফিগারেশন যা কম্পিউটারটির সাথে এটি ব্যবহারযোগ্য করে তোলে।"
       },
-      "unit": "Operate Computer",
       "id": 237
     },
     {
+      "unit": "Operate Computer",
       "question": "What are five Computer Antivirus names?",
       "answer": {
         "en": "Norton, Bitdefender, Kaspersky, McAfee, Webroot, Avast, AVG, Panda, E-scan.",
         "bn": "নোর্টন, বিটডিফেন্ডার, কাসপারস্কি, ম্যাকএফি, ওয়েবরুট, অ্যাভাস্ট, AVG, পান্ডা, ই-স্ক্যান।"
       },
-      "unit": "Operate Computer",
       "id": 238
     },
     {
+      "unit": "Internet",
       "question": "Write down the top 5 cloud data storage services?",
       "answer": {
         "en": "MEGA, Dropbox, Google Drive, Box, pCloud, Amazon Drive.",
         "bn": "MEGA, ড্রপবক্স, গুগল ড্রাইভ, বক্স, pCloud, অ্যামাজন ড্রাইভ।"
       },
-      "unit": "Internet",
       "id": 239
     },
     {
+      "unit": "Operate Computer",
       "question": "What is a Computer Virus?",
       "answer": {
         "en": "A computer virus is a kind of malicious computer program.",
         "bn": "একটি কম্পিউটার ভাইরাস হল একটি প্রকারের ক্ষতিকর কম্পিউটার প্রোগ্রাম।"
       },
-      "unit": "Operate Computer",
       "id": 240
     },
     {
+      "unit": "Internet",
       "question": "What is Google Doc?",
       "answer": {
         "en": "Google Docs is a web-based word processor offered by Google as part of its Google Drive service.",
         "bn": "গুগল ডকস হল একটি ওয়েব-ভিত্তিক শব্দ প্রক্রিয়াকরণ প্রোগ্রাম যা গুগল তাদের গুগল ড্রাইভ সেবার অংশ হিসেবে অফার করে।"
       },
-      "unit": "Internet",
       "id": 241
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down the name of 3 antivirus?",
       "answer": {
         "en": "Avast, Avira, Bitdefender, Norton, AVG, Security Essential, Kaspersky, Total AV, eScan.",
         "bn": "অভাস্ট, আভিরা, বিটডিফেন্ডার, নোর্টন, AVG, সিকিউরিটি এসেনশিয়াল, কাসপারস্কি, টোটাল এভি, ই-স্ক্যান।"
       },
-      "unit": "Operate Computer",
       "id": 242
     },
     {
+      "unit": "Operate Computer",
       "question": "Write down the Name of 3 viruses?",
       "answer": {
         "en": "Aids, Bye Bye, Bad Boy, CIH, I Love You, Mydoom, Code Red, Melissa, Nimda, Trojan.",
         "bn": "এইডস, বাই বাই, ব্যাড বয়, CIH, আই লাভ ইউ, মাইডুম, কোড রেড, মেলিসা, নিংদা, ট্রোজান।"
       },
-      "unit": "Operate Computer",
       "id": 243
     },
     {
+      "unit": "Troubleshooting",
       "question": "Top 05 Most Common Computer Problems?",
       "answer": {
         "en": "1. Slow Internet, 2. Blue screen, 3. Slow Computer, 4. Keyboard issues, 5. Printer problems, 6. Overheating.",
         "bn": "1. স্লো ইন্টারনেট, 2. ব্লু স্ক্রীন, 3. স্লো কম্পিউটার, 4. কীবোর্ড সমস্যা, 5. প্রিন্টার সমস্যা, 6. অতিরিক্ত গরম হওয়া।"
       },
-      "unit": "Troubleshooting",
       "id": 244
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What is the animation pane in PowerPoint?",
       "answer": {
         "en": "The Animation Pane is a tool that displays the list of animated objects on your slide. It allows you to look at and manage all the effects that are on the present slide.",
         "bn": "এনিমেশন পেন হল একটি টুল যা আপনার স্লাইডে অ্যানিমেটেড বস্তুগুলির তালিকা প্রদর্শন করে। এটি আপনাকে বর্তমান স্লাইডে থাকা সমস্ত প্রভাব দেখতে এবং পরিচালনা করতে দেয়।"
       },
-      "unit": "MS Powerpoint",
       "id": 245
     },
     {
+      "unit": "MS Excel",
       "question": "What are charts in MS Excel?",
       "answer": {
         "en": "Charts are used to enable graphical representation of the data in Excel.",
         "bn": "চার্টগুলি এক্সেল-এ ডেটার গ্রাফিক্যাল উপস্থাপন সক্ষম করতে ব্যবহৃত হয়।"
       },
-      "unit": "MS Excel",
       "id": 246
     },
     {
+      "unit": "Internet",
       "question": "What is cloud computing?",
       "answer": {
         "en": "Cloud computing is a general term for anything that involves delivering hosted services.",
         "bn": "ক্লাউড কম্পিউটিং একটি সাধারণ শব্দ যা এমন কিছু নির্দেশ করে যা হোস্টেড পরিষেবাগুলি সরবরাহের সাথে সম্পর্কিত।"
       },
-      "unit": "Internet",
       "id": 247
     },
     {
+      "unit": "Internet",
       "question": "What is the internet?",
       "answer": {
         "en": "The internet is a worldwide/global system of interconnected computer networks.",
         "bn": "ইন্টারনেট হল আন্তঃসংযুক্ত কম্পিউটার নেটওয়ার্কের একটি বৈশ্বিক/বিশ্বব্যাপী ব্যবস্থা।"
       },
-      "unit": "Internet",
       "id": 248
     },
     {
+      "unit": "Hardware",
       "question": "What is an HDMI port in a computer?",
       "answer": {
         "en": "HDMI means High Definition Multimedia Interface. HDMI is a connector and cable for transmitting high-quality and high-bandwidth streams of audio and video between computer devices.",
         "bn": "HDMI এর মানে হল হাই ডেফিনিশন মাল্টিমিডিয়া ইন্টারফেস। HDMI একটি সংযোগকারী এবং কেবল যা কম্পিউটার ডিভাইসগুলির মধ্যে অডিও এবং ভিডিওর উচ্চ-মানের এবং উচ্চ-ব্যান্ডউইথ স্ট্রিম পাঠানোর জন্য ব্যবহৃত হয়।"
       },
-      "unit": "Hardware",
       "id": 249
     },
     {
+      "unit": "Hardware",
       "question": "When should I replace toner?",
       "answer": {
         "en": "We should start paying close attention to our printer once its toner levels reach about 10%. That means looking for those too-light print jobs or low toner alerts while regularly checking printer pages.",
         "bn": "আমাদের প্রিন্টারের টোনারের স্তর প্রায় 10% হলে আমরা আমাদের প্রিন্টারের প্রতি মনোযোগ দিতে শুরু করা উচিত। এর মানে হল যে স্লেটি প্রিন্ট কাজ বা কম টোনার এলার্টগুলি খুঁজে বের করা, যখন নিয়মিতভাবে প্রিন্টার পৃষ্ঠাগুলি চেক করা হয়।"
       },
-      "unit": "Hardware",
       "id": 250
     },
     {
+      "unit": "MS Powerpoint",
       "question": "What is the animation pane in PowerPoint?",
       "answer": {
         "en": "The Animation Pane is a tool that displays the list of animated objects on your slide. It allows you to look at and manage all the effects that are on the present slide.",
         "bn": "এনিমেশন পেন হল একটি টুল যা আপনার স্লাইডে অ্যানিমেটেড বস্তুগুলির তালিকা প্রদর্শন করে। এটি আপনাকে বর্তমান স্লাইডে থাকা সমস্ত প্রভাব দেখতে এবং পরিচালনা করতে দেয়।"
       },
-      "unit": "MS Powerpoint",
       "id": 251
     },
     {
+      "unit": "MS Excel",
       "question": "What are charts in MS Excel?",
       "answer": {
         "en": "Charts are used to enable graphical representation of the data in Excel.",
         "bn": "চার্টগুলি এক্সেল-এ ডেটার গ্রাফিক্যাল উপস্থাপন সক্ষম করতে ব্যবহৃত হয়।"
       },
-      "unit": "MS Excel",
       "id": 252
     }
   ]

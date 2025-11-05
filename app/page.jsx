@@ -22,15 +22,20 @@ const Home = () => {
         </p>
 
         {/* MCQ & Written Buttons */}
-        <div className="flex flex-col sm:flex-row gap-3 sm:gap-6 mt-4 sm:mt-6 justify-center w-full max-w-md">
+        <div className="flex flex-wrap justify-center gap-4 mt-6 w-full max-w-lg">
           <Link href="/mcqTests" className="w-full sm:w-auto">
-            <button className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 sm:px-8 py-3 sm:py-4 rounded-xl shadow-lg transition transform hover:scale-105">
-              🧠 MCQ Test
+            <button className="w-full sm:w-40 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl shadow-lg transition transform hover:scale-105">
+              🧠 MCQ
             </button>
           </Link>
           <Link href="/writtenTests" className="w-full sm:w-auto">
-            <button className="w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white font-semibold px-5 sm:px-8 py-3 sm:py-4 rounded-xl shadow-lg transition transform hover:scale-105">
-              ✍️ Written Test
+            <button className="w-full sm:w-40 bg-green-600 hover:bg-green-700 text-white font-semibold py-3 rounded-xl shadow-lg transition transform hover:scale-105">
+              ✍️ Written
+            </button>
+          </Link>
+          <Link href="/videos" className="w-full sm:w-auto">
+            <button className="w-full sm:w-40 bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 rounded-xl shadow-lg transition transform hover:scale-105">
+              📺 Youtube Videos
             </button>
           </Link>
         </div>

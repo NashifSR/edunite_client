@@ -5,12 +5,12 @@ import useUser from '../Hooks/useUser';
 
 // Nav items defined outside the component
 const NAV_ITEMS = [
-  { href: '/resources', label: 'Resources' },
-  { href: '/courseResources', label: 'Course Resources' },
+  { href: '/videos', label: 'Videos' },
   { href: '/mcqTests', label: 'MCQ' },
   { href: '/writtenTests', label: 'Written' },
+  { href: '/courseResources', label: 'Course Resources' },
+  { href: '/resources', label: 'Resources' },
   { href: '/dashboard', label: 'Dashboard' },
-  { href: '/logout', label: 'Logout', red: true },
 ];
 
 const Navbar = () => {
@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
         {/* Brand / Logo */}
         <Link href="/" className="text-2xl font-extrabold tracking-wide select-none">
-          EDUNITE
+          LearnDesk
         </Link>
 
         {/* Desktop Links */}
@@ -40,13 +40,6 @@ const Navbar = () => {
               {item.label}
             </Link>
           ))}
-
-          {/* User Name */}
-          {loading ? (
-            <span className="ml-4 text-gray-500">Loading...</span>
-          ) : (
-            <span className="ml-4 font-semibold">{user?.name || 'Student'}</span>
-          )}
         </div>
 
         {/* Mobile Menu Button */}
@@ -72,11 +65,6 @@ const Navbar = () => {
               {item.label}
             </Link>
           ))}
-          {loading ? (
-            <span className="mt-2 text-gray-500">Loading...</span>
-          ) : (
-            <span className="mt-2 font-semibold">{user?.name || 'Student'}</span>
-          )}
         </div>
       )}
     </nav>

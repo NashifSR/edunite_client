@@ -1,5 +1,5 @@
 {
-  "name": "edunite_client",
+  "name": "learndesk_client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,9 +12,9 @@
     "@reduxjs/toolkit": "^2.8.2",
     "@tanstack/react-query": "^5.83.0",
     "axios": "^1.13.1",
-    "next": "^16.0.2-canary.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "next": "^16.0.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "react-hook-form": "^7.56.4",
     "react-redux": "^9.2.0",
     "recharts": "^2.15.3"
