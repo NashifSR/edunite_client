@@ -63,6 +63,12 @@ const resources = () => {
         { label: 'Google Fonts – Open Source Fonts', url: 'https://fonts.google.com/' },
       ],
     },
+    {
+      title: '🎁 Usefull Links',
+      links: [
+        { label: 'NSDA Certificate', url: 'https://www.skillsportal.gov.bd/#/home/tci/tci-shared-list' },
+      ],
+    },
   ];
 
   return (

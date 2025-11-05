@@ -3,17 +3,19 @@ import theme from "../theme";
 import Carousel from "./Components/carousel";
 import Link from "next/link";
 import Resources from "./Components/Resources";
+import NoticeBoard from "./Components/NoticeBoard";
 
 const Home = () => {
   return (
     <main className="flex flex-col items-center justify-start px-4 sm:px-6 md:px-12 gap-12">
       {/* Full-screen Hero Section */}
+      <NoticeBoard></NoticeBoard>
       <section className="flex flex-col items-center justify-center min-h-screen w-full text-center gap-4 sm:gap-6 px-2 sm:px-0">
         <h1
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold drop-shadow-md leading-tight"
           style={{ color: theme.colors.headingText }}
         >
-          Welcome to the Student Portal
+          Welcome to <br></br> <span className="text-red-500 lowercase ">LEARNDESK.NETLIFY.APP</span>
         </h1>
         <p className="max-w-xl text-sm sm:text-base md:text-lg lg:text-xl italic mx-auto">
           “Knowledge is the crown of the mind.” <br />
@@ -45,7 +47,6 @@ const Home = () => {
       <section className="w-full px-2 sm:px-6">
         <Resources />
       </section>
-
       {/* Carousel Section */}
       <section className="w-full max-w-4xl px-2 sm:px-6 my-10">
         <Carousel />

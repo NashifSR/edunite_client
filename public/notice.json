@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "time": "2025-11-05T10:30:00Z",
+    "author": "Admin",
+    "message": "Welcome! New courses have been added this week. Check them out!"
+  },
+  {
+    "id": 2,
+    "time": "2025-11-04T15:00:00Z",
+    "author": "Admin",
+    "message": "Scheduled maintenance tomorrow from 2 PM to 4 PM. Services may be temporarily unavailable."
+  },
+  {
+    "id": 3,
+    "time": "2025-11-03T08:45:00Z",
+    "author": "Support Team",
+    "message": "Testing the noticeboard system"
+  }
+]

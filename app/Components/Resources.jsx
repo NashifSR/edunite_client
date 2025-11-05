@@ -3,7 +3,7 @@ import React from "react";
 
 const Resources = () => {
   return (
-    <div className="m-auto h-screen w-full max-w-6xl">
+    <div className="m-auto h-50vh w-full max-w-6xl">
       <h2 className="text-3xl font-bold mb-6 text-center">
         📚 Explore Courses
       </h2>
