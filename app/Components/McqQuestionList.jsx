@@ -34,10 +34,12 @@ const McqQuestionList = ({ questions, selectedSet, onSubmit }) => {
 
   const handleSubmit = () => {
     if (onSubmit) {
-      const submittedData = Object.entries(answers).map(([id, selectedOption]) => ({
-        id: Number(id),
-        selectedOption,
-      }));
+      const submittedData = Object.entries(answers).map(
+        ([id, selectedOption]) => ({
+          id: Number(id),
+          selectedOption,
+        })
+      );
       onSubmit({ selectedSet, answers: submittedData });
     }
     clearTimeout(timerRef.current);
@@ -83,10 +85,12 @@ const McqQuestionList = ({ questions, selectedSet, onSubmit }) => {
       )}
 
       {/* Live Timer */}
-      <p className="text-right font-semibold text-lg">
-        Time left: {Math.floor(timeLeft / 60)}:
-        {String(timeLeft % 60).padStart(2, "0")}
-      </p>
+      <div className="fixed top-20 right-0 shadow-md z-50 p-4 flex justify-end items-center bg-red-400 text-white rounded-3xl">
+        <p className="font-semibold text-lg">
+          Time left: {Math.floor(timeLeft / 60)}:
+          {String(timeLeft % 60).padStart(2, "0")}
+        </p>
+      </div>
 
       {questions.map((q, index) => (
         <QuestionCards
@@ -100,7 +104,11 @@ const McqQuestionList = ({ questions, selectedSet, onSubmit }) => {
 
       <div className="fixed bottom-4 left-0 w-full flex justify-center gap-4 z-50 px-4">
         {/* Submit Button */}
-        <ButtonDesigns label="Submit Quiz" variant="success" onClick={handleSubmit} />
+        <ButtonDesigns
+          label="Submit Quiz"
+          variant="success"
+          onClick={handleSubmit}
+        />
 
         {/* Scroll to Top */}
         <ButtonDesigns
@@ -114,7 +122,10 @@ const McqQuestionList = ({ questions, selectedSet, onSubmit }) => {
           label="↓ Bottom"
           variant="soft"
           onClick={() =>
-            window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" })
+            window.scrollTo({
+              top: document.body.scrollHeight,
+              behavior: "smooth",
+            })
           }
         />
       </div>
