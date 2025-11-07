@@ -14,7 +14,7 @@ const Resources = () => {
           { title: "Digital Marketing",},
           { title: "Computer Basics",},
         ].map((cat, i) => (
-            <div className="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-xl transition transform hover:scale-105 text-center cursor-pointer">
+            <div key={i} className="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-xl transition transform hover:scale-105 text-center cursor-pointer">
               <h3 className="text-xl font-semibold">{cat.title}</h3>
             </div>
         ))}

@@ -14,7 +14,7 @@ const categories = [
 
 const McqTests = () => {
   const router = useRouter();
-  const [section, setSection] = useState("answers"); // default section
+  const [section, setSection] = useState("tests"); // default section
 
   return (
     <div className="min-h-screen p-6 md:p-8 bg-white text-black flex flex-col items-center gap-8">
@@ -24,7 +24,7 @@ const McqTests = () => {
       </h1>
 
       {/* Section Toggle */}
-      <SectionToggle defaultSection="answers" onChange={setSection} />
+      <SectionToggle defaultSection="tests" onChange={setSection} />
 
       {/* Category Buttons */}
       <div className="w-full flex flex-col items-center mt-6 gap-6">
@@ -37,7 +37,7 @@ const McqTests = () => {
             <ButtonDesigns
               key={cat.slug}
               label={cat.name}
-              variant={section === "answers" ? "success" : "primary"}
+              variant={section === "tests" ? "danger" : "soft"}
               onClick={() => router.push(`/mcqTests/${cat.slug}/${section}`)}
               className="w-full"
             />

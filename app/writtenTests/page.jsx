@@ -32,10 +32,10 @@ const WrittenTests = () => {
             <button
               key={cat.slug}
               onClick={() => router.push(`/writtenTests/${cat.slug}/${section}`)}
-              className={`px-4 py-2 rounded shadow font-semibold text-black ${
+              className={`px-5 py-3 rounded-xl font-semibold shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 ${
                 section === "answers"
-                  ? "bg-green-300 border border-green-300 hover:bg-green-200"
-                  : "bg-blue-100 border border-blue-300 hover:bg-blue-200"
+                  ? "bg-blue-100 text-blue-800 hover:bg-blue-200"
+                  : "bg-red-600 text-white hover:bg-red-700"
               }`}
             >
               {cat.name}
