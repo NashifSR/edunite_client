@@ -21,7 +21,7 @@ const ButtonDesigns = ({ label, variant , onClick }) => {
   const className = `${structure} ${variants[variant] || variants.default}`;
 
   return (
-    <button className={`px-5 py-3 rounded-xl font-semibold shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 ${className}`} onClick={onClick}>
+    <button className={`px-3 mx-auto py-3 w-[200px] rounded-xl font-semibold shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 ${className}`} onClick={onClick}>
       {label}
     </button>
   );

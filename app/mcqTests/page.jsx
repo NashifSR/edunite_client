@@ -32,7 +32,7 @@ const McqTests = () => {
           {section.charAt(0).toUpperCase() + section.slice(1)}
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full max-w-4xl">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 w-full">
           {categories.map((cat) => (
             <ButtonDesigns
               key={cat.slug}

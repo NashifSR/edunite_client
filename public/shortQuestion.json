@@ -2267,6 +2267,946 @@
         "bn": "চার্টগুলি এক্সেল-এ ডেটার গ্রাফিক্যাল উপস্থাপন সক্ষম করতে ব্যবহৃত হয়।"
       },
       "id": 252
-    }
+    },
+    {
+      "unit": "Internet",
+      "question": "What is CC and BCC in email writing?",
+      "answer": {
+        "en": "The CC field in an email stands for Carbon Copy, while the BCC field stands for Blind Carbon Copy.",
+        "bn": "ইমেইলের CC ফিল্ডটি কার্বন কপি বোঝায়, আর BCC ফিল্ডটি ব্লাইন্ড কার্বন কপি বোঝায়।"
+      },
+      "id": 253
+    },
+    {
+      "unit": "Internet",
+      "question": "What do you use virtual platforms like Zoom and Google Meet for?",
+      "answer": {
+        "en": "You can schedule and start instant meetings and benefit from productivity features like screen sharing, team chat, meeting transcripts, and more.",
+        "bn": "আপনি ভার্চুয়াল প্ল্যাটফর্ম ব্যবহার করে মিটিং শিডিউল করতে ও তাত্ক্ষণিক মিটিং শুরু করতে পারেন এবং স্ক্রিন শেয়ারিং, টিম চ্যাট, মিটিং ট্রান্সক্রিপ্ট ইত্যাদি সুবিধা পেতে পারেন।"
+      },
+      "id": 254
+    },
+    {
+      "unit": "Troubleshooting",
+      "question": "Name five most common problems of a computer.",
+      "answer": {
+        "en": "1. PC will not turn on  2. Blue screen  3. Frozen screen  4. Computer is slow  5. Slow performance",
+        "bn": "১. পিসি চালু হয় না  ২. ব্লু স্ক্রিন  ৩. ফ্রোজেন স্ক্রিন  ৪. কম্পিউটার ধীর  ৫. পারফরম্যান্স ধীর"
+      },
+      "id": 255
+    },
+    {
+      "unit": "MS Powerpoint",
+      "question": "Name any four presentation software.",
+      "answer": {
+        "en": "1. Prezi  2. Google Slides  3. Microsoft PowerPoint  4. Canva",
+        "bn": "১. প্রেজি  ২. গুগল স্লাইডস  ৩. মাইক্রোসফট পাওয়ারপয়েন্ট  ৪. ক্যানভা"
+      },
+      "id": 256
+    },
+    {
+      "unit": "MS Excel",
+      "question": "Write down any five data types in MS Excel.",
+      "answer": {
+        "en": "1. True/False  2. Text  3. Date  4. Currency  5. Number",
+        "bn": "১. ট্রু/ফলস  ২. টেক্সট  ৩. তারিখ  ৪. কারেন্সি  ৫. সংখ্যা"
+      },
+      "id": 257
+    },
+    {
+      "unit": "Hardware",
+      "question": "Write down the name of 3 Antivirus software.",
+      "answer": {
+        "en": "Norton, Kaspersky, Bitdefender; Total AV, McAfee, Intego; Panda, Avira, Malwarebytes; Mackeeper, Windows Defender.",
+        "bn": "নর্টন, ক্যাসপারস্কি, বিটডিফেন্ডার; টোটাল এভি, ম্যাকাফি, ইনটেগো; পাণ্ডা, আভিরা, ম্যালওয়্যারবাইটস; ম্যাককিপার, উইন্ডোজ ডিফেন্ডার।"
+      },
+      "id": 258
+    },
+    {
+      "unit": "Hardware",
+      "question": "Write down the name of 3 viruses.",
+      "answer": {
+        "en": "Worm, ILOVEYOU, Ransomware; SQL Slammer, Cryptolocker, Shlayer; MyDoom, Storm Worm, Sasser & Netsky; Code Red, Stuxnet, Conficker.",
+        "bn": "ওয়ার্ম, আই লাভ ইউ, র‍্যানসমওয়্যার; SQL স্ল্যামার, ক্রিপ্টোলকার, শ্লেয়ার; মাইডুম, স্টর্ম ওয়ার্ম, সাসার ও নেটস্কি; কোড রেড, স্টাকসনেট, কনফিকার।"
+      },
+      "id": 259
+    },
+    {
+      "unit": "Hardware",
+      "question": "Top 5 most common printer problems.",
+      "answer": {
+        "en": "Paper jams, Poor print quality, Printer driver problem, Printer is unresponsive, Printer too slow; Extra blank sheet print, Offline Printer, disconnected cables, ink or toner issues.",
+        "bn": "কাগজ জ্যাম, কম প্রিন্ট মান, প্রিন্টার ড্রাইভার সমস্যা, প্রিন্টার রেসপন্স দেয় না, প্রিন্টার খুব ধীর; অতিরিক্ত খালি পৃষ্ঠা, অফলাইন প্রিন্টার, সংযোগ বিচ্ছিন্ন, ইঙ্ক বা টোনার সমস্যা।"
+      },
+      "id": 260
+    },
+    {
+      "unit": "Hardware",
+      "question": "What is the use of an Ethernet port?",
+      "answer": {
+        "en": "An Ethernet port, also known as an Ethernet jack, allows you to connect your computer to the internet via an Ethernet cord or cable.",
+        "bn": "ইথারনেট পোর্ট, যা ইথারনেট জ্যাক হিসেবেও পরিচিত, কম্পিউটারকে ইথারনেট তার বা কেবল ব্যবহার করে ইন্টারনেটে সংযুক্ত করতে সাহায্য করে।"
+      },
+      "id": 261
+    },
+    {
+      "unit": "Hardware",
+      "question": "What is driver software?",
+      "answer": {
+        "en": "A driver is a software component that lets the operating system and a device communicate.",
+        "bn": "ড্রাইভার হলো একটি সফটওয়্যার উপাদান যা অপারেটিং সিস্টেম এবং একটি ডিভাইসের মধ্যে যোগাযোগের অনুমতি দেয়।"
+      },
+      "id": 262
+    },
+    {
+      "unit": "Internet",
+      "question": "What are 3 virtual video conferencing platforms?",
+      "answer": {
+        "en": "Zoom, Google Hangouts, Dialpad Meetings, TrueConf Online, Skype, Free Conference, Blue Jeans.",
+        "bn": "জুম, গুগল হ্যাংআউটস, ডায়ালপ্যাড মিটিংস, ট্রু কনফ অনলাইন, স্কাইপ, ফ্রি কনফারেন্স, ব্লু জিনস।"
+      },
+      "id": 263
+    },
+    {
+      "unit": "Internet",
+      "question": "Write down the top 5 cloud data storage services.",
+      "answer": {
+        "en": "Dropbox, Google Drive, Box, pCloud, Amazon Drive, MEGA.",
+        "bn": "ড্রপবক্স, গুগল ড্রাইভ, বক্স, পি ক্লাউড, অ্যামাজন ড্রাইভ, মেগা।"
+      },
+      "id": 264
+    },
+    {
+      "unit": "Troubleshooting",
+      "question": "Top 10 most common computer problems.",
+      "answer": {
+        "en": "The computer won’t start, The screen is blank, Abnormally functioning OS or software, Windows won’t boot, The screen is frozen, Computer is slow, Strange noises, Slow internet, Overheating, Dropped internet connection.",
+        "bn": "কম্পিউটার চালু হয় না, স্ক্রিন খালি, অপারেটিং সিস্টেম বা সফটওয়্যার অস্বাভাবিকভাবে কাজ করছে, উইন্ডোজ বুট হয় না, স্ক্রিন ফ্রোজেন, কম্পিউটার ধীর, অদ্ভুত শব্দ, ইন্টারনেট ধীর, অতিরিক্ত গরম, ইন্টারনেট সংযোগ ছিন্ন।"
+      },
+      "id": 265
+    },
+    {
+      "unit": "Hardware",
+      "question": "What is the use of an Ethernet port?",
+      "answer": {
+        "en": "Ethernet port is used to connect a computer or other device to a wired local area network.",
+        "bn": "ইথারনেট পোর্ট কম্পিউটার বা অন্য ডিভাইসকে তারযুক্ত লোকাল এরিয়া নেটওয়ার্কে সংযুক্ত করতে ব্যবহৃত হয়।"
+      },
+      "id": 266
+    },
+    {
+      "unit": "Hardware",
+      "question": "What is driver software?",
+      "answer": {
+        "en": "Driver software is a type of program that allows the operating system (OS) to communicate with hardware devices.",
+        "bn": "ড্রাইভার সফটওয়্যার হলো একটি প্রোগ্রাম যা অপারেটিং সিস্টেমকে হার্ডওয়্যার ডিভাইসের সাথে যোগাযোগ করতে সক্ষম করে।"
+      },
+      "id": 267
+    },
+    {
+      "unit": "Hardware",
+      "question": "What are the function of computer driver?",
+      "answer": {
+        "en": "A driver is a software component that lets the operating system and a device communicate.",
+        "bn": "ড্রাইভার হলো একটি সফটওয়্যার কম্পোনেন্ট যা অপারেটিং সিস্টেমকে ডিভাইসের সাথে যোগাযোগ করতে সক্ষম করে।"
+      },
+      "id": 268
+    },
+    {
+      "unit": "Internet",
+      "question": "What is Incognito mode?",
+      "answer": {
+        "en": "Incognito mode means your activity data isn’t saved on your device, or to a Google Account you’re not signed into.",
+        "bn": "ইনকগনিটো মোড মানে আপনার কার্যক্রমের তথ্য আপনার ডিভাইসে সংরক্ষিত হয় না, বা আপনি যে গুগল অ্যাকাউন্টে লগ ইন করেননি সেখানে সংরক্ষিত হয় না।"
+      },
+      "id": 269
+    },
+    {
+      "unit": "Troubleshooting",
+      "question": "Write down 5 common computer problems.",
+      "answer": {
+        "en": "1. PC will not turn on, 2. Blue screen, 3. Frozen screen, 4. Computer is slow, 5. Slow performance.",
+        "bn": "১. কম্পিউটার চালু হয় না, ২. ব্লু স্ক্রিন, ৩. স্ক্রিন ফ্রোজেন, ৪. কম্পিউটার ধীর, ৫. ধীর কার্যক্ষমতা।"
+      },
+      "id": 270
+    },
+    {
+      "unit": "MS Excel",
+      "question": "What is called an Excel sheet?",
+      "answer": {
+        "en": "Workbook.",
+        "bn": "ওয়ার্কবুক।"
+      },
+      "id": 271
+    },
+    {
+      "unit": "MS Word",
+      "question": "What is the shortcut for spelling checker in Word?",
+      "answer": {
+        "en": "F7",
+        "bn": "F7"
+      },
+      "id": 272
+    },
+    {
+      "unit": "MS Word",
+      "question": "Which mode allows you to see header and footer in Word?",
+      "answer": {
+        "en": "Print Layout Mode",
+        "bn": "প্রিন্ট লেআউট মোড"
+      },
+      "id": 273
+    },
+    {
+      "unit": "MS Powerpoint",
+      "question": "Where can we find themes in PowerPoint?",
+      "answer": {
+        "en": "Design Tab",
+        "bn": "ডিজাইন ট্যাব"
+      },
+      "id": 274
+    },
+    {
+      "unit": "MS Word",
+      "question": "Where can we find page orientation in Word?",
+      "answer": {
+        "en": "Page Layout Tab",
+        "bn": "পেজ লেআউট ট্যাব"
+      },
+      "id": 275
+    },
+    {
+      "unit": "MS Word",
+      "question": "What do we do to use list something in a document?",
+      "answer": {
+        "en": "Use bullet points and numbering.",
+        "bn": "বুলেট পয়েন্ট এবং নাম্বারিং ব্যবহার করুন।"
+      },
+      "id": 276
+    },
+    {
+      "unit": "MS Excel",
+      "question": "Which function is not in Excel?",
+      "answer": {
+        "en": "AVG",
+        "bn": "AVG"
+      },
+      "id": 277
+    },
+    {
+      "unit": "MS Powerpoint",
+      "question": "Where can we set animation effects?",
+      "answer": {
+        "en": "Animation Tab / Transition Tab",
+        "bn": "অ্যানিমেশন ট্যাব / ট্রানজিশন ট্যাব"
+      },
+      "id": 278
+    },
+    {
+      "unit": "Operate Computer",
+      "question": "What is troubleshooting?",
+      "answer": {
+        "en": "Troubleshooting is a systematic approach to solving a problem.",
+        "bn": "ট্রাবলশুটিং হলো সমস্যার সমাধানের জন্য একটি পদ্ধতিগত প্রক্রিয়া।"
+      },
+      "id": 279
+    },
+    {
+      "unit": "Internet",
+      "question": "What is Google Chrome?",
+      "answer": {
+        "en": "Web browser.",
+        "bn": "ওয়েব ব্রাউজার।"
+      },
+      "id": 280
+    },
+    {
+      "unit": "Operate Computer",
+      "question": "Where can we restore deleted files?",
+      "answer": {
+        "en": "Recycle Bin.",
+        "bn": "রিসাইকেল বিন।"
+      },
+      "id": 281
+    },
+    {
+      "unit": "Operate Computer",
+      "question": "How can we close a window?",
+      "answer": {
+        "en": "Press ESC key.",
+        "bn": "ESC কী চাপুন।"
+      },
+      "id": 282
+    },
+    {
+      "unit": "Hardware",
+      "question": "Which peripheral device is not an input device?",
+      "answer": {
+        "en": "Printer.",
+        "bn": "প্রিন্টার।"
+      },
+      "id": 283
+    },
+    {
+      "unit": "Operate Computer",
+      "question": "Where can we restore deleted files?",
+      "answer": {
+        "en": "Recycle Bin.",
+        "bn": "রিসাইকেল বিন।"
+      },
+      "id": 284
+    },
+    {
+      "unit": "Operate Computer",
+      "question": "How can we close a window?",
+      "answer": {
+        "en": "Press ESC key.",
+        "bn": "ESC কী চাপুন।"
+      },
+      "id": 285
+    },
+    {
+      "unit": "MS Powerpoint",
+      "question": "Shortcut of PowerPoint screen slide show?",
+      "answer": {
+        "en": "F5 key to start the slideshow from beginning.",
+        "bn": "F5 কী দিয়ে শুরু থেকে স্লাইডশো চালু করা যায়।"
+      },
+      "id": 286
+    },
+    {
+      "unit": "MS Powerpoint",
+      "question": "Where can we find themes in PowerPoint?",
+      "answer": {
+        "en": "Design Tab",
+        "bn": "ডিজাইন ট্যাব"
+      },
+      "id": 287
+    },
+    {
+      "unit": "MS Word",
+      "question": "Where can we find page orientation?",
+      "answer": {
+        "en": "Page Layout Tab",
+        "bn": "পেজ লেআউট ট্যাব"
+      },
+      "id": 288
+    },
+    {
+      "unit": "MS Word",
+      "question": "Shortcut for spelling checker in Word?",
+      "answer": {
+        "en": "F7",
+        "bn": "F7"
+      },
+      "id": 289
+    },
+    {
+      "unit": "MS Word",
+      "question": "Which is not included in Word by default?",
+      "answer": {
+        "en": "Start Menu",
+        "bn": "স্টার্ট মেনু"
+      },
+      "id": 290
+    },
+    {
+      "unit": "MS Powerpoint",
+      "question": "Where can we set effects?",
+      "answer": {
+        "en": "Animation Tab / Transition Tab",
+        "bn": "অ্যানিমেশন ট্যাব / ট্রানজিশন ট্যাব"
+      },
+      "id": 291
+    },
+    {
+      "unit": "Workplace Ethics",
+      "question": "What is workplace ethical practice?",
+      "answer": {
+        "en": "Respect seniors and behave well with juniors in the workplace.",
+        "bn": "কর্মক্ষেত্রে সিনিয়রদের প্রতি সম্মান প্রদর্শন এবং জুনিয়রদের সাথে ভালো আচরণ করা।"
+      },
+      "id": 292
+    },
+    {
+      "unit": "MS Word",
+      "question": "Shortcut of Microsoft Word Help?",
+      "answer": {
+        "en": "F1",
+        "bn": "F1"
+      },
+      "id": 293
+    },
+    {
+      "unit": "MS Word",
+      "question": "Word highest zoom?",
+      "answer": {
+        "en": "500%",
+        "bn": "৫০০%"
+      },
+      "id": 294
+    },
+    {
+      "unit": "MS Word",
+      "question": "Which mode allows you to see header and footer in Word?",
+      "answer": {
+        "en": "Print Layout Mode",
+        "bn": "প্রিন্ট লেআউট মোড"
+      },
+      "id": 295
+    },
+    {
+      "unit": "MS Word",
+      "question": "Which option do we find by clicking on text?",
+      "answer": {
+        "en": "Underline",
+        "bn": "আন্ডারলাইন"
+      },
+      "id": 296
+    },
+    {
+      "unit": "MS Word",
+      "question": "How do we use lists in a document?",
+      "answer": {
+        "en": "Use bullets and numbering.",
+        "bn": "বুলেট এবং নাম্বারিং ব্যবহার করুন।"
+      },
+      "id": 297
+    },
+    {
+      "unit": "MS Excel",
+      "question": "Which function is not in Excel?",
+      "answer": {
+        "en": "AVG",
+        "bn": "AVG"
+      },
+      "id": 298
+    },
+    {
+      "unit": "Hardware",
+      "question": "Violating memory?",
+      "answer": {
+        "en": "RAM",
+        "bn": "র‍্যাম"
+      },
+      "id": 299
+    },
+    {
+      "unit": "Hardware",
+      "question": "Name 5 peripheral devices.",
+      "answer": {
+        "en": "Mouse, Monitor, Keyboard, CPU, Printer",
+        "bn": "মাউস, মনিটর, কীবোর্ড, সিপিইউ, প্রিন্টার"
+      },
+      "id": 300
+    },
+    {
+      "unit": "Operate Computer",
+      "question": "Space shortcut?",
+      "answer": {
+        "en": "Spacebar",
+        "bn": "স্পেসবার"
+      },
+      "id": 301
+    },
+    {
+      "unit": "MS Word",
+      "question": "Name 3 Bangla typing software.",
+      "answer": {
+        "en": "Bijoy, Avro, Munir",
+        "bn": "বিজয়, অvro, মুনির"
+      },
+      "id": 302
+    },
+    {
+      "unit": "MS Powerpoint",
+      "question": "Name 3 PowerPoint presentation software.",
+      "answer": {
+        "en": "PowerPoint, Movavi, Google Slides, Keynote",
+        "bn": "পাওয়ারপয়েন্ট, মোভাভি, গুগল স্লাইড, কি নোট"
+      },
+      "id": 303
+    },
+    {
+      "unit": "Troubleshooting",
+      "question": "How do I fix printing errors?",
+      "answer": {
+        "en": "1. Unplug and restart your printer.\n2. Check cables or wireless connection.\n3. Uninstall and reinstall your printer.\n4. Install the latest driver for your printer.",
+        "bn": "1. প্রিন্টার বন্ধ করে পুনরায় চালু করুন।\n2. কেবল বা ওয়্যারলেস সংযোগ পরীক্ষা করুন।\n3. প্রিন্টার আনইনস্টল ও পুনঃইনস্টল করুন।\n4. প্রিন্টারের সর্বশেষ ড্রাইভার ইনস্টল করুন।"
+      },
+      "id": 304
+    },
+    {
+      "unit": "Hardware",
+      "question": "Types of malware?",
+      "answer": {
+        "en": "1. Ransomware\n2. Fileless Malware\n3. Spyware\n4. Adware\n5. Trojans\n6. Worms\n7. Rootkits",
+        "bn": "1. র‍্যানসমওয়্যার\n2. ফাইলবিহীন ম্যালওয়্যার\n3. স্পাইওয়্যার\n4. অ্যাডওয়্যার\n5. ট্রোজান\n6. ওয়ার্ম\n7. রুটকিট"
+      },
+      "id": 305
+    },
+    {
+      "unit": "MS Word",
+      "question": "What is application software?",
+      "answer": {
+        "en": "Application software refers to programs or applications designed to perform specific tasks for the user.",
+        "bn": "অ্যাপ্লিকেশন সফটওয়্যার হলো এমন প্রোগ্রাম বা অ্যাপ্লিকেশন যা ব্যবহারকারীর জন্য নির্দিষ্ট কাজ সম্পাদনের জন্য ডিজাইন করা হয়েছে।"
+      },
+      "id": 306
+    },
+    {
+      "unit": "Internet",
+      "question": "Write down 5 web browser software names.",
+      "answer": {
+        "en": "1. Mozilla Firefox\n2. Opera\n3. Google Chrome\n4. Microsoft Edge\n5. Internet Explorer",
+        "bn": "1. মোজিলা ফায়ারফক্স\n2. অপেরা\n3. গুগল ক্রোম\n4. মাইক্রোসফট এজ\n5. ইন্টারনেট এক্সপ্লোরার"
+      },
+      "id": 307
+    },
+    {
+      "unit": "Internet",
+      "question": "What is StreamYard?",
+      "answer": {
+        "en": "StreamYard is a professional live streaming and recording studio in your browser.",
+        "bn": "স্ট্রিমইয়ার্ড হলো ব্রাউজারে একটি প্রফেশনাল লাইভ স্ট্রিমিং এবং রেকর্ডিং স্টুডিও।"
+      },
+      "id": 308
+    },
+    {
+      "unit": "MS Word",
+      "question": "Which feature in Word helps identify and correct grammatical errors in a document?",
+      "answer": {
+        "en": "Click the Review tab, and then click Spelling & Grammar to check spelling and grammar.",
+        "bn": "রিভিউ ট্যাবে ক্লিক করুন, তারপর স্পেলিং & গ্রামার এ ক্লিক করে বানান ও ব্যাকরণ পরীক্ষা করুন।"
+      },
+      "id": 309
+    },
+    {
+      "unit": "MS Word",
+      "question": "What does the 'Collate' option in printing settings do?",
+      "answer": {
+        "en": "The 'Collate' option prints multiple copies of a multi-page document in sequence, keeping pages together in order.",
+        "bn": "'কলেট' অপশনটি একাধিক কপি প্রিন্ট করার সময় প্রতিটি পৃষ্ঠাকে সঠিক ক্রমে একত্রিত রাখে।"
+      },
+      "id": 310
+    },
+    {
+      "unit": "MS Word",
+      "question": "What is the shortcut key for creating a hyperlink?",
+      "answer": {
+        "en": "CTRL + K",
+        "bn": "CTRL + K"
+      },
+      "id": 311
+    },
+    {
+      "unit": "Operate Computer",
+      "question": "GUI stands for?",
+      "answer": {
+        "en": "Graphical User Interface",
+        "bn": "গ্রাফিকাল ইউজার ইন্টারফেস"
+      },
+      "id": 312
+    },
+    {
+      "unit": "Hardware",
+      "question": "In the fourth generation of computers, which technology was used?",
+      "answer": {
+        "en": "VLSI technologies and Very Large Scale Integrated (VLSI) circuits.",
+        "bn": "ভিএলএসআই প্রযুক্তি এবং ভেরি লার্জ স্কেল ইন্টিগ্রেটেড (VLSI) সার্কিট।"
+      },
+      "id": 313
+    },
+    {
+      "unit": "MS Word",
+      "question": "What do you mean by Unicode?",
+      "answer": {
+        "en": "Unicode is a universal character encoding standard that assigns a unique number (code point) to every character, including letters, symbols, and emojis from virtually all the world’s writing systems.",
+        "bn": "ইউনিকোড হলো একটি সার্বজনীন ক্যারেক্টার এনকোডিং স্ট্যান্ডার্ড যা বিশ্বের প্রায় সকল লেখার ব্যবস্থার অক্ষর, প্রতীক ও ইমোজিগুলিকে একটি অনন্য সংখ্যা (কোড পয়েন্ট) বরাদ্দ করে।"
+      },
+      "id": 314
+    },
+    {
+      "unit": "Troubleshooting",
+      "question": "What does the 'Collate' option in printing settings do?",
+      "answer": {
+        "en": "The 'Collate' option in printing settings ensures that the printed pages are arranged in the correct order for a document.",
+        "bn": "'কলেট' অপশনটি প্রিন্ট করার সময় নিশ্চিত করে যে কাগজের পৃষ্ঠাগুলি সঠিক ক্রমে সাজানো হয়েছে।"
+      },
+      "id": 315
+    },
+    {
+      "unit": "Internet",
+      "question": "Write down 3 email service providers’ names.",
+      "answer": {
+        "en": "Gmail, Outlook, Yahoo Mail, iCloud Mail",
+        "bn": "জিমেইল, আউটলুক, ইয়াহু মেইল, আইক্লাউড মেইল"
+      },
+      "id": 316
+    },
+    {
+      "unit": "Hardware",
+      "question": "Write down 3 antivirus software names.",
+      "answer": {
+        "en": "ESET, Norton, Kaspersky, Avast, Microsoft Defender, Avira",
+        "bn": "ইসেট, নর্টন, ক্যাসপারস্কি, অ্যাভাস্ট, মাইক্রোসফট ডিফেন্ডার, অ্যাভিরা"
+      },
+      "id": 317
+    },
+    {
+      "unit": "MS Word",
+      "question": "What is Google Docs?",
+      "answer": {
+        "en": "Google Docs is a free online word processor that allows you to create, edit, and collaborate on documents.",
+        "bn": "গুগল ডকস হলো একটি বিনামূল্যের অনলাইন ওয়ার্ড প্রসেসর যা আপনাকে ডকুমেন্ট তৈরি, সম্পাদনা এবং সহযোগিতা করতে দেয়।"
+      },
+      "id": 318
+    },
+    {
+      "unit": "Operate Computer",
+      "question": "What is the difference between a file and a folder?",
+      "answer": {
+        "en": "A file is the common storage unit in a computer, and all programs and data are 'written' into a file and 'read' from a file. A folder holds one or more files and can be empty until it is filled.",
+        "bn": "ফাইল হলো কম্পিউটারে সাধারণ স্টোরেজ ইউনিট, এবং সমস্ত প্রোগ্রাম ও ডেটা ফাইলে 'লিখিত' হয় এবং ফাইল থেকে 'পড়া' হয়। একটি ফোল্ডার একটি বা একাধিক ফাইল ধারণ করে এবং এটি খালি থাকতে পারে যতক্ষণ না এটি পূর্ণ হয়।"
+      },
+      "id": 319
+    },
+    {
+      "unit": "Operate Computer",
+      "question": "What is System Software?",
+      "answer": {
+        "en": "System software is a type of computer program that is designed to run a computer’s hardware and application programs.",
+        "bn": "সিস্টেম সফটওয়্যার হলো কম্পিউটারের হার্ডওয়্যার এবং অ্যাপ্লিকেশন প্রোগ্রাম চালানোর জন্য তৈরি একটি প্রকারের কম্পিউটার প্রোগ্রাম।"
+      },
+      "id": 320
+    },
+    {
+      "unit": "Hardware",
+      "question": "Write down 5 (five) Antivirus software names.",
+      "answer": {
+        "en": "ESET, Kaspersky, Microsoft Defender, Norton, Avast, Avira",
+        "bn": "ইসেট, ক্যাসপারস্কি, মাইক্রোসফট ডিফেন্ডার, নর্টন, অ্যাভাস্ট, অ্যাভিরা"
+      },
+      "id": 321
+    },
+    {
+      "unit": "Hardware",
+      "question": "What are the uses of NIC?",
+      "answer": {
+        "en": "A NIC provides a computer with a dedicated, full-time connection to a network.",
+        "bn": "এনআইসি একটি কম্পিউটারকে নেটওয়ার্কের সাথে একটি নির্দিষ্ট, পূর্ণ-সময়ের সংযোগ প্রদান করে।"
+      },
+      "id": 322
+    },
+    {
+      "unit": "MS Word",
+      "question": "Write down the key used for typing 'হ্ম' in Bijoy Unicode.",
+      "answer": {
+        "en": "হ্ম = ( হ + ম )",
+        "bn": "হ্ম = ( হ + ম )"
+      },
+      "id": 323
+    },
+    {
+      "unit": "Operate Computer",
+      "question": "What does not secure a computer?",
+      "answer": {
+        "en": "Weak passwords, lack of antivirus, not using a firewall, using public WiFi without protection.",
+        "bn": "দুর্বল পাসওয়ার্ড, অ্যান্টিভাইরাস না থাকা, ফায়ারওয়াল ব্যবহার না করা, সুরক্ষাহীন পাবলিক WiFi ব্যবহার।"
+      },
+      "id": 324
+    },
+    {
+      "unit": "Operate Computer",
+      "question": "What is a computer virus?",
+      "answer": {
+        "en": "A computer virus is a type of malware that spreads between computers and damages data and software.",
+        "bn": "কম্পিউটার ভাইরাস হলো একটি ধরনের ম্যালওয়্যার যা কম্পিউটারের মধ্যে ছড়িয়ে পড়ে এবং ডেটা ও সফটওয়্যারকে ক্ষতি করে।"
+      },
+      "id": 325
+    },
+    {
+      "unit": "MS Excel",
+      "question": "What is Google Sheet?",
+      "answer": {
+        "en": "Google Sheet is an online spreadsheet app that lets you create and format spreadsheets and work with other people.",
+        "bn": "গুগল শীট একটি অনলাইন স্প্রেডশীট অ্যাপ যা আপনাকে স্প্রেডশীট তৈরি ও ফর্ম্যাট করতে এবং অন্যদের সাথে কাজ করতে দেয়।"
+      },
+      "id": 326
+    },
+    {
+      "unit": "Internet",
+      "question": "Write down 5 (five) online meeting / video conference software names.",
+      "answer": {
+        "en": "Zoom, Google Meet, Skype, WhatsApp, WeChat, Microsoft Teams",
+        "bn": "জুম, গুগল মিট, স্কাইপ, হোয়াটসঅ্যাপ, উইচ্যাট, মাইক্রোসফট টিমস"
+      },
+      "id": 327
+    },
+    {
+      "unit": "MS Word",
+      "question": "What is the purpose of the 'Mail Merge' feature?",
+      "answer": {
+        "en": "To create personalized letters or labels.",
+        "bn": "ব্যক্তিগতকৃত চিঠি বা লেবেল তৈরি করতে।"
+      },
+      "id": 328
+    },
+    {
+      "unit": "MS Word",
+      "question": "Explain how to use the 'Format Painter' tool.",
+      "answer": {
+        "en": "Select the text, go to Home > Format Painter, then select the text where the format needs to be applied.",
+        "bn": "টেক্সট নির্বাচন করুন, Home > Format Painter-এ যান, তারপর সেই টেক্সট নির্বাচন করুন যেখানে ফরম্যাট প্রয়োগ করতে হবে।"
+      },
+      "id": 329
+    },
+    {
+      "unit": "MS Word",
+      "question": "What is the function of the 'Page Break' feature?",
+      "answer": {
+        "en": "Page breaks are used to end a page without filling it with text.",
+        "bn": "পেজ ব্রেক ব্যবহার করা হয় একটি পৃষ্ঠা শেষ করার জন্য, পৃষ্ঠাটি টেক্সট দিয়ে পূরণ না করেই।"
+      },
+      "id": 330
+    },
+    {
+      "unit": "MS Excel",
+      "question": "What is the COUNT() function in Excel normally used for?",
+      "answer": {
+        "en": "The COUNT() function is generally used to count a range of cells containing numbers or dates, excluding blank cells.",
+        "bn": "COUNT() ফাংশন সাধারণত এমন একটি কোষের পরিসর গণনা করতে ব্যবহৃত হয় যা সংখ্যা বা তারিখ ধারণ করে, খালি কোষ বাদ দিয়ে।"
+      },
+      "id": 331
+    },
+    {
+      "unit": "MS Word",
+      "question": "What does the 'Duplex' printing option allow you to do?",
+      "answer": {
+        "en": "It enables printing on both sides of the paper.",
+        "bn": "এটি কাগজের উভয় পাশে মুদ্রণ করতে সক্ষম করে।"
+      },
+      "id": 332
+    },
+    {
+      "unit": "MS Word",
+      "question": "What is the purpose of a section break (Continuous) in a Word document?",
+      "answer": {
+        "en": "A section break is used to divide a page into two sections within the same page.",
+        "bn": "একটি সেকশন ব্রেক ব্যবহার করে একই পৃষ্ঠার মধ্যে দুটি অংশে ভাগ করা হয়।"
+      },
+      "id": 333
+    },
+    {
+      "unit": "MS Word",
+      "question": "Which command is used to wrap text around an illustration or image?",
+      "answer": {
+        "en": "Text Wrapping.",
+        "bn": "টেক্সট র‍্যাপিং।"
+      },
+      "id": 334
+    },
+    {
+      "unit": "Internet",
+      "question": "What is Google Meet used for?",
+      "answer": {
+        "en": "Google Meet is a video conferencing tool used for online meetings, video calls, and virtual gatherings.",
+        "bn": "Google Meet হল একটি ভিডিও কনফারেন্সিং টুল যা অনলাইন মিটিং, ভিডিও কল এবং ভার্চুয়াল সভার জন্য ব্যবহৃত হয়।"
+      },
+      "id": 335
+    },
+    {
+      "unit": "Internet",
+      "question": "How do I share my screen in Zoom?",
+      "answer": {
+        "en": "Click the 'Share Screen' button at the bottom of the meeting window, then choose which screen or application window you want to share.",
+        "bn": "মিটিং উইন্ডোর নিচে 'Share Screen' বোতামে ক্লিক করুন, তারপর যে স্ক্রীন বা অ্যাপ্লিকেশন উইন্ডোটি শেয়ার করতে চান তা নির্বাচন করুন।"
+      },
+      "id": 336
+    },
+    {
+      "unit": "Hardware",
+      "question": "What is utility tool or software? Give an example.",
+      "answer": {
+        "en": "Utility software is developed to analyze, optimize, configure, and maintain a computer system or its resources. It monitors system performance and makes changes or suggestions to improve overall functionality. Example: Disk Cleanup, CCleaner.",
+        "bn": "ইউটিলিটি সফটওয়্যার কম্পিউটার সিস্টেম বা তার সম্পদ বিশ্লেষণ, অপ্টিমাইজ, কনফিগার এবং রক্ষণাবেক্ষণ করতে তৈরি করা হয়। এটি সিস্টেম পারফরম্যান্স মনিটর করে এবং সামগ্রিক কার্যকারিতা উন্নত করার জন্য পরিবর্তন বা পরামর্শ দেয়। উদাহরণ: Disk Cleanup, CCleaner।"
+      },
+      "id": 337
+    },
+    {
+      "unit": "Internet",
+      "question": "What does Google mean?",
+      "answer": {
+        "en": "Google is an internet search engine and web-based software that uses a proprietary algorithm to retrieve and order search results to provide the most relevant and dependable information.",
+        "bn": "Google হল একটি ইন্টারনেট সার্চ ইঞ্জিন এবং ওয়েব-ভিত্তিক সফটওয়্যার যা একটি মালিকানা অ্যালগরিদম ব্যবহার করে অনুসন্ধান ফলাফল পুনরুদ্ধার এবং সাজায়, যাতে সবচেয়ে প্রাসঙ্গিক এবং নির্ভরযোগ্য তথ্য প্রদান করা যায়।"
+      },
+      "id": 338
+    },
+    {
+      "unit": "Operate Computer",
+      "question": "What is the basic difference between Etiquette and Manner?",
+      "answer": {
+        "en": "Etiquette is a code of conduct for positive human interaction, while manners are behaviors that reflect a person's attitude.",
+        "bn": "এটিকেট হল ইতিবাচক মানবিক আন্তঃক্রিয়ার জন্য আচরণবিধি, যেখানে ম্যানার্স হল এমন আচরণ যা একজন ব্যক্তির মনোভাবকে প্রতিফলিত করে।"
+      },
+      "id": 339
+    },
+    {
+      "unit": "Operate Computer",
+      "question": "Why is it necessary for employees to provide unbiased and objective information to clients?",
+      "answer": {
+        "en": "Providing unbiased and objective information fosters trust, ensures transparency, and allows clients to make informed decisions based on accurate data, enhancing organizational credibility and long-term client relationships.",
+        "bn": "পক্ষপাতহীন এবং উদ্দেশ্যমূলক তথ্য প্রদান আস্থা বাড়ায়, স্বচ্ছতা নিশ্চিত করে এবং ক্লায়েন্টদের সঠিক তথ্যের ভিত্তিতে সিদ্ধান্ত নিতে সাহায্য করে, যা সংস্থার বিশ্বাসযোগ্যতা এবং দীর্ঘমেয়াদী ক্লায়েন্ট সম্পর্ক উন্নত করে।"
+      },
+      "id": 340
+    },
+    {
+      "unit": "MS Powerpoint",
+      "question": "Mention the use of Snipping Tool.",
+      "answer": {
+        "en": "To take a snapshot of a document or image from all or part of your PC screen.",
+        "bn": "আপনার পিসি স্ক্রীনের সম্পূর্ণ বা আংশিক অংশ থেকে একটি ডকুমেন্ট বা চিত্রের স্ন্যাপশট নেওয়ার জন্য।"
+      },
+      "id": 341
+    },
+    [
+      {
+        "unit": "MS Word",
+        "question": "What is the purpose of the ‘Mail Merge’ feature?",
+        "answer": {
+          "en": "To create personalized letters or labels.",
+          "bn": "ব্যক্তিগতকৃত চিঠি বা লেবেল তৈরি করতে।"
+        },
+        "id": 342
+      },
+      {
+        "unit": "MS Word",
+        "question": "Explain how to use the ‘Format Painter’ tool?",
+        "answer": {
+          "en": "Select the text, go to Home > Format Painter, then select the text where the format is to be applied.",
+          "bn": "টেক্সট নির্বাচন করুন, Home > Format Painter এ যান, তারপর সেই টেক্সট নির্বাচন করুন যেখানে ফরম্যাট প্রয়োগ করতে চান।"
+        },
+        "id": 343
+      },
+      {
+        "unit": "MS Word",
+        "question": "What is the function of the ‘Page Break’ feature?",
+        "answer": {
+          "en": "Page breaks are used to end a page without filling it with text.",
+          "bn": "পেজ ব্রেক ব্যবহার করে একটি পৃষ্ঠা শেষ করা হয় এমনভাবে যাতে সেটি টেক্সট দিয়ে পূর্ণ না হয়।"
+        },
+        "id": 344
+      },
+      {
+        "unit": "MS Excel",
+        "question": "What is the COUNT() function in Excel normally used for?",
+        "answer": {
+          "en": "The COUNT() function is used to count a range of cells containing numbers or dates, excluding blank cells and text.",
+          "bn": "COUNT() ফাংশন সংখ্যাসহ বা তারিখ সহ সেলগুলোর পরিসর গণনা করতে ব্যবহৃত হয়, খালি সেল এবং টেক্সট বাদ দিয়ে।"
+        },
+        "id": 345
+      },
+      {
+        "unit": "MS Excel",
+        "question": "Which Excel function removes the irregular spacing leaving one space between each value?",
+        "answer": {
+          "en": "The TRIM() function is used to remove irregular spacing, leaving one space between each value.",
+          "bn": "TRIM() ফাংশন ব্যবহার করে অনিয়মিত ফাঁক দূর করা হয় এবং প্রতিটি মানের মধ্যে একমাত্র স্পেস রাখা হয়।"
+        },
+        "id": 346
+      },
+      {
+        "unit": "MS Excel",
+        "question": "Why is the ‘Wrap Text’ feature used in MS Excel?",
+        "answer": {
+          "en": "Wrap Text is used to break down lengthy text into multiple lines by increasing the row height, ensuring complete visibility of the content.",
+          "bn": "Wrap Text দীর্ঘ টেক্সটকে একাধিক লাইনে ভাগ করতে ব্যবহৃত হয়, সারির উচ্চতা বৃদ্ধি করে যাতে সামগ্রীর সম্পূর্ণ দৃশ্যমানতা নিশ্চিত হয়।"
+        },
+        "id": 347
+      },
+      {
+        "unit": "MS Powerpoint",
+        "question": "Which command is used to bring the user directly to the first slide of the presentation?",
+        "answer": {
+          "en": "The Ctrl+Home command directly takes you to the first slide of the PowerPoint presentation.",
+          "bn": "Ctrl+Home কমান্ড আপনাকে সরাসরি পাওয়ারপয়েন্ট প্রেজেন্টেশনের প্রথম স্লাইডে নিয়ে যায়।"
+        },
+        "id": 348
+      },
+      {
+        "unit": "MS Powerpoint",
+        "question": "Why are Transitions powerful in PowerPoint?",
+        "answer": {
+          "en": "Applying transitions makes presentations more engaging and professional by creating a smoother flow between slides.",
+          "bn": "ট্রানজিশন প্রয়োগ করলে স্লাইডগুলোর মধ্যে সহজ প্রবাহ তৈরি হয়, যা প্রেজেন্টেশনকে আরও আকর্ষণীয় এবং পেশাদার করে তোলে।"
+        },
+        "id": 349
+      },
+      {
+        "unit": "Operate Computer",
+        "question": "How to change the date & time of the system?",
+        "answer": {
+          "en": "Go to Settings > Time and Language and change the date and time, or go to Control Panel > Date and Time.",
+          "bn": "Settings > Time and Language এ যান এবং তারিখ ও সময় পরিবর্তন করুন, অথবা Control Panel > Date and Time এ যান।"
+        },
+        "id": 350
+      },
+      {
+        "unit": "Operate Computer",
+        "question": "Write 3 Operating System software names.",
+        "answer": {
+          "en": "Windows 11, MacOS, Ubuntu (Linux).",
+          "bn": "Windows 11, MacOS, Ubuntu (Linux)।"
+        },
+        "id": 351
+      },
+      [
+        {
+          "unit": "MS Word",
+          "question": "What do you mean by Unicode?",
+          "answer": {
+            "en": "Unicode is a universal character encoding standard that assigns a unique number (code point) to every character, including letters, symbols, and emojis, from virtually all the world’s writing systems.",
+            "bn": "Unicode হল একটি সার্বজনীন ক্যারেক্টার এনকোডিং স্ট্যান্ডার্ড যা প্রায় সব বিশ্বের লেখার সিস্টেমের অক্ষর, প্রতীক এবং ইমোজির জন্য একটি অনন্য নম্বর (কোড পয়েন্ট) বরাদ্দ করে।"
+          },
+          "id": 352
+        },
+        {
+          "unit": "MS Word",
+          "question": "What does the 'Collate' option in printing settings do?",
+          "answer": {
+            "en": "The 'Collate' option in printing ensures that the printed pages are arranged in the correct order. The printer prints one complete set of pages before moving on to the next set.",
+            "bn": "'Collate' অপশনটি মুদ্রণে নিশ্চিত করে যে পৃষ্ঠাগুলি সঠিক ক্রমে সাজানো আছে। প্রিন্টার একটি সম্পূর্ণ সেট প্রিন্ট করে তারপর পরবর্তী সেটে চলে যায়।"
+          },
+          "id": 353
+        },
+        {
+          "unit": "Internet",
+          "question": "Write down 3 email service providers' names.",
+          "answer": {
+            "en": "Gmail, Outlook, Yahoo Mail, iCloud Mail.",
+            "bn": "Gmail, Outlook, Yahoo Mail, iCloud Mail।"
+          },
+          "id": 354
+        },
+        {
+          "unit": "MS Security",
+          "question": "Write down 3 Antivirus Software names.",
+          "answer": {
+            "en": "ESET, Kaspersky, Microsoft Defender, Norton, Avast, Avira.",
+            "bn": "ESET, Kaspersky, Microsoft Defender, Norton, Avast, Avira।"
+          },
+          "id": 355
+        },
+        {
+          "unit": "MS Word",
+          "question": "What is Google Docs?",
+          "answer": {
+            "en": "Google Docs is a free online word processor that allows you to create, edit, and collaborate on documents.",
+            "bn": "Google Docs হল একটি ফ্রি অনলাইন ওয়ার্ড প্রসেসর যা আপনাকে ডকুমেন্ট তৈরি, সম্পাদনা এবং সহযোগিতা করার সুযোগ দেয়।"
+          },
+          "id": 356
+        }
+      ]
+    ]
   ]
 }

@@ -5,14 +5,15 @@ import McqQuestionList from "@/app/Components/McqQuestionList";
 import useMCQ from "@/app/Hooks/useMcq";
 
 const McqSetPage = ({ params }) => {
-  const { category: cat } = React.use(params);
-  const { mcq } = useMCQ();
-  const mcqQuestionSet = mcq?.[cat] || [];
   const [mcqKey, setMcqKey] = useState(0); // key to reset McqQuestionList
-
-  const sets = [...new Set(mcqQuestionSet.map((item) => item.question_set))];
   const [selectedSet, setSelectedSet] = useState("");
   const [result, setResult] = useState(null); // For modal
+  const { category: cat } = React.use(params);
+  const { mcq } = useMCQ();
+
+  const mcqQuestionSet = mcq?.[cat] || [];
+
+  const sets = [...new Set(mcqQuestionSet.map((item) => item.question_set))];
 
   const filteredQuestions = selectedSet
     ? mcqQuestionSet.filter((q) => q.question_set === selectedSet)

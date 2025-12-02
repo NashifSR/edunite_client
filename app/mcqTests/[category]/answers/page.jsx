@@ -2,12 +2,13 @@
 
 import React, { useState } from "react";
 import useMCQ from "@/app/Hooks/useMcq";
-import McqQuestionList from "@/app/Components/McqQuestionList";
 
 const McqAnswerPage = ({ params }) => {
   const { category: cat } = React.use(params);
   const { mcq } = useMCQ();
   const mcqQuestionSet = mcq?.[cat] || [];
+
+  console.log("testing",mcqQuestionSet)
 
   // Get unique set names
   const sets = [...new Set(mcqQuestionSet.map((item) => item.question_set))];

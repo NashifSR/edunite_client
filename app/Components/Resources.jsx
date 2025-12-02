@@ -13,6 +13,7 @@ const Resources = () => {
           { title: "Web Development",},
           { title: "Digital Marketing",},
           { title: "Computer Basics",},
+          { title: "CBT & A (Pedagogy lvl 4)",},
         ].map((cat, i) => (
             <div key={i} className="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-xl transition transform hover:scale-105 text-center cursor-pointer">
               <h3 className="text-xl font-semibold">{cat.title}</h3>

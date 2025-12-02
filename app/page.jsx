@@ -4,6 +4,7 @@ import Carousel from "./Components/carousel";
 import Link from "next/link";
 import Resources from "./Components/Resources";
 import NoticeBoard from "./Components/NoticeBoard";
+import QrCodes from "./Components/QrCodes";
 
 const Home = () => {
   return (
@@ -42,7 +43,11 @@ const Home = () => {
           </Link>
         </div>
       </section>
-
+      {/* QR Codes Section */}
+      <p className="text-5xl font-bold">Scan The QR Codes bellow</p>
+      <section className="w-full px-2 sm:px-6">
+        <QrCodes></QrCodes>
+      </section>
       {/* Resources Section */}
       <section className="w-full px-2 sm:px-6">
         <Resources />

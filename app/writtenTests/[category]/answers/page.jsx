@@ -13,15 +13,16 @@ const WrittenAnswerPage = ({ params }) => {
   const [searchQuery, setSearchQuery] = useState("");
 
   const categoryQuestions = shortQuestions?.[cat] || [];
-  const units = [...new Set(categoryQuestions.map(q => q.unit))];
+  const units = [...new Set(categoryQuestions.map((q) => q.unit))];
 
   const filteredQuestions = selectedUnit
-    ? categoryQuestions.filter(q => q.unit === selectedUnit)
+    ? categoryQuestions.filter((q) => q.unit === selectedUnit)
     : [];
 
-  const searchedQuestions = filteredQuestions.filter(q =>
-    q.question.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    q.id.toString() === searchQuery
+  const searchedQuestions = filteredQuestions.filter(
+    (q) =>
+      q.question.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      q.id.toString() === searchQuery
   );
 
   return (
@@ -31,10 +32,10 @@ const WrittenAnswerPage = ({ params }) => {
       </h1>
 
       {/* Unit buttons */}
-      <div className="flex flex-wrap gap-4 mb-6">
-        {units.map(unit => (
+      <div className="grid grid-cols-3 gap-3 mb-6">
+        {units.map((unit, index) => (
           <ButtonDesigns
-            key={unit}
+            key={index}
             label={unit}
             variant={selectedUnit === unit ? "primary" : "soft"}
             onClick={() => setSelectedUnit(unit)}
@@ -56,7 +57,7 @@ const WrittenAnswerPage = ({ params }) => {
       {selectedUnit && (
         <div className="mb-6">
           <ButtonDesigns
-            label={`Show ${showEnglish ? "Bangla" : "English"} Answers`}
+            label={`${showEnglish ? "Bangla" : "English"}`}
             variant="outline"
             onClick={() => setShowEnglish(!showEnglish)}
           />
@@ -65,11 +66,24 @@ const WrittenAnswerPage = ({ params }) => {
 
       {/* Questions */}
       <div className="w-full max-w-2xl space-y-4">
+        <p className="text-center font-bold underline underline-offset-8">
+          Total{" "}
+          <span className="font-bold text-xl text-red-400">
+            {searchedQuestions.length}
+          </span>{" "}
+          Questions in this Category
+        </p>
         {searchedQuestions.length > 0 ? (
           searchedQuestions.map((q, index) => (
-            <div key={q.id} className="border p-4 rounded shadow bg-white">
+            <div
+              key={q.id}
+              className={`border p-4 rounded shadow bg-white ${
+                showEnglish == "Bangla" ? "bg-black text-white" : "bg-white"
+              }`}
+            >
               <p className="font-semibold">
-                Q{index + 1} (ID: {q.id}): {q.question}
+                <span className="text-sm font-light">Id:{q.id} -</span> Q-
+                {index + 1}: {q.question}
               </p>
               <div className="mt-2 text-gray-700">
                 <p>

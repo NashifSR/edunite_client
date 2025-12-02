@@ -6064,6 +6064,1813 @@
         "It changes page orientation."
       ],
       "correct_answer": "It lists sources used in the document."
+    },
+    {
+      "id": "701",
+      "question_set": "Set 27",
+      "question": "The Central Processing Unit (CPU) is located in the",
+      "options": ["Hard Disk", "System Unit", "Memory Unit", "Monitor"],
+      "correct_answer": "System Unit"
+    },
+    {
+      "id": "702",
+      "question_set": "Set 27",
+      "question": "The shortcuts appearing on the Desktop are called",
+      "options": ["Image", "My Document", "Icon", "My Computer"],
+      "correct_answer": "Icon"
+    },
+    {
+      "id": "703",
+      "question_set": "Set 27",
+      "question": "Which one of the following is not an input device?",
+      "options": ["Keyboard", "Mouse", "Printer", "Scanner"],
+      "correct_answer": "Printer"
+    },
+    {
+      "id": "704",
+      "question_set": "Set 27",
+      "question": "What are the main components of the computer?",
+      "options": [
+        "CPU, CD-ROM, Mouse, Keyboard, Sound Card",
+        "Memory, Video Card, Monitor, Software, Hardware",
+        "Modem, Keyboard, Word Processor, Printer, Scanner",
+        "CPU, Memory, System Bus, Input, Output"
+      ],
+      "correct_answer": "CPU, Memory, System Bus, Input, Output"
+    },
+    {
+      "id": "705",
+      "question_set": "Set 27",
+      "question": "What is the meaning of 'Booting' in the system?",
+      "options": [
+        "Restarting computer",
+        "Install the program",
+        "To scan",
+        "To turn off"
+      ],
+      "correct_answer": "Restarting computer"
+    },
+    {
+      "id": "706",
+      "question_set": "Set 27",
+      "question": "Deleted data remains on a disk until…",
+      "options": [
+        "The data is overwritten",
+        "The Recycle Bin is emptied",
+        "File compression utility is used",
+        "The disk is scanned"
+      ],
+      "correct_answer": "The data is overwritten"
+    },
+    {
+      "id": "707",
+      "question_set": "Set 27",
+      "question": "Suppose you created a bulleted list but the bullets are close to the text. What is the best way to fix this?",
+      "options": [
+        "Press the Tab key to indent the text",
+        "Adjust the indent markers in the ruler",
+        "Change the page orientation",
+        "Press the Caps Lock key"
+      ],
+      "correct_answer": "Adjust the indent markers in the ruler"
+    },
+    {
+      "id": "708",
+      "question_set": "Set 27",
+      "question": "The process of removing unwanted parts of an image is called",
+      "options": ["Hiding", "Bordering", "Cropping", "Cutting"],
+      "correct_answer": "Cropping"
+    },
+    {
+      "id": "709",
+      "question_set": "Set 27",
+      "question": "To apply center alignment to a paragraph we can press",
+      "options": ["Ctrl + S", "Ctrl + C", "Ctrl + C + A", "Ctrl + E"],
+      "correct_answer": "Ctrl + E"
+    },
+    {
+      "id": "710",
+      "question_set": "Set 27",
+      "question": "Which item is placed at the end of a document?",
+      "options": ["Footer", "Footnote", "End Note", "Header"],
+      "correct_answer": "End Note"
+    },
+    {
+      "id": "711",
+      "question_set": "Set 27",
+      "question": "A number or letter that appears a little above the normal text is called",
+      "options": ["Superscript", "Subscript", "Super text", "Top text"],
+      "correct_answer": "Superscript"
+    },
+    {
+      "id": "712",
+      "question_set": "Set 27",
+      "question": "Which item appears dimly behind the main body text?",
+      "options": ["Watermark", "Background", "Water color", "Back color"],
+      "correct_answer": "Watermark"
+    },
+    {
+      "id": "713",
+      "question_set": "Set 27",
+      "question": "We can remove/hide the border of a shape by selecting",
+      "options": ["No line", "No Outline", "White Line", "No Border"],
+      "correct_answer": "No Outline"
+    },
+    {
+      "id": "714",
+      "question_set": "Set 27",
+      "question": "In MS-Excel, the keyboard shortcut for creating a chart from the selected cells is",
+      "options": ["F3", "F5", "F12", "F11"],
+      "correct_answer": "F11"
+    },
+    {
+      "id": "715",
+      "question_set": "Set 27",
+      "question": "In MS-Excel, which command do you use to enter the current date in a cell?",
+      "options": [
+        "Ctrl + Shift + ;",
+        "Ctrl + ;",
+        "Ctrl + F10",
+        "None of these"
+      ],
+      "correct_answer": "Ctrl + ;"
+    },
+    {
+      "id": "716",
+      "question_set": "Set 27",
+      "question": "In MS-Excel, a value used in a formula that does not change is called a",
+      "options": ["Cell Address", "Constant", "Function", "None of these"],
+      "correct_answer": "Constant"
+    },
+    {
+      "id": "717",
+      "question_set": "Set 27",
+      "question": "In MS-Excel, which of the following is an absolute cell reference?",
+      "options": ["A1", "$A$1", "#1#2", "a12"],
+      "correct_answer": "$A$1"
+    },
+    {
+      "id": "718",
+      "question_set": "Set 27",
+      "question": "Which effect do we see as the slides of PowerPoint change over?",
+      "options": ["Animation", "Timing", "Effect", "Transition"],
+      "correct_answer": "Transition"
+    },
+    {
+      "id": "719",
+      "question_set": "Set 27",
+      "question": "Which one is not a Unicode font?",
+      "options": ["SutonnyMJ", "Nikos", "Nirmala UI", "None of these"],
+      "correct_answer": "SutonnyMJ"
+    },
+    {
+      "id": "720",
+      "question_set": "Set 27",
+      "question": "To change line height to 1.5 use shortcut key",
+      "options": ["Ctrl + 1", "Ctrl + 2", "Ctrl + 3", "Ctrl + 5"],
+      "correct_answer": "Ctrl + 2"
+    },
+    {
+      "id": "721",
+      "question_set": "Set 27",
+      "question": "Which one of the following is not a search engine?",
+      "options": ["Bing", "Google", "Yahoo", "Windows"],
+      "correct_answer": "Windows"
+    },
+    {
+      "id": "722",
+      "question_set": "Set 27",
+      "question": "The process of transferring files from a computer on the internet to your computer is called",
+      "options": ["Uploading", "Forwarding", "FTP", "Downloading"],
+      "correct_answer": "Downloading"
+    },
+    {
+      "id": "723",
+      "question_set": "Set 27",
+      "question": "Which of the following is a correct format of email address?",
+      "options": [
+        "name@website@info",
+        "name@website.info",
+        "www.nameofbsite",
+        "name.website.com"
+      ],
+      "correct_answer": "name@website.info"
+    },
+    {
+      "id": "724",
+      "question_set": "Set 27",
+      "question": "What is a web browser?",
+      "options": [
+        "A kind of spider",
+        "A computer that stores WWW files",
+        "A person who likes to look at websites",
+        "A software program that allows you to access sites on the World Wide Web"
+      ],
+      "correct_answer": "A software program that allows you to access sites on the World Wide Web"
+    },
+    {
+      "id": "725",
+      "question_set": "Set 27",
+      "question": "Which one of the following is an example of browser software?",
+      "options": [
+        "Microsoft Word",
+        "Notepad",
+        "Internet Navigator",
+        "Microsoft Edge"
+      ],
+      "correct_answer": "Microsoft Edge"
+    },
+    {
+      "id": "726",
+      "question_set": "Set 29",
+      "question": "What is the meaning of 'Booting' in the system?",
+      "options": [
+        "Restarting the computer",
+        "Install the program",
+        "To scan",
+        "To turn off"
+      ],
+      "correct_answer": "Restarting the computer"
+    },
+    {
+      "id": "727",
+      "question_set": "Set 29",
+      "question": "The shortcut that appears on the Desktop is called?",
+      "options": ["Image", "My document", "Icon", "My computer"],
+      "correct_answer": "Icon"
+    },
+    {
+      "id": "728",
+      "question_set": "Set 29",
+      "question": "Which one of the following is an input device?",
+      "options": ["Monitor", "Printer", "Speaker", "Scanner"],
+      "correct_answer": "Scanner"
+    },
+    {
+      "id": "729",
+      "question_set": "Set 29",
+      "question": "Which one is NOT a computer peripheral?",
+      "options": ["Scanner", "HDD", "Microphone", "Webcam"],
+      "correct_answer": "HDD"
+    },
+    {
+      "id": "730",
+      "question_set": "Set 29",
+      "question": "The central processing unit (CPU) is located in the:",
+      "options": ["Hard disk", "System unit", "Memory unit", "Monitor"],
+      "correct_answer": "System unit"
+    },
+    {
+      "id": "731",
+      "question_set": "Set 29",
+      "question": "Deleted data remains on a disk until:",
+      "options": [
+        "The data is overwritten",
+        "The recycle bin is emptied",
+        "A file compression utility is used",
+        "The disk is scanned"
+      ],
+      "correct_answer": "The data is overwritten"
+    },
+    {
+      "id": "732",
+      "question_set": "Set 29",
+      "question": "While on the desktop in Windows, pressing F5 does what?",
+      "options": [
+        "Refreshes the screen",
+        "Opens help menu",
+        "Does nothing",
+        "Opens search"
+      ],
+      "correct_answer": "Refreshes the screen"
+    },
+    {
+      "id": "733",
+      "question_set": "Set 29",
+      "question": "What is the main advantage of using a text box?",
+      "options": [
+        "It automatically makes the text larger",
+        "It allows you to change the page orientation",
+        "It gives you more freedom to move the text around",
+        "It automatically appears on every page of your document"
+      ],
+      "correct_answer": "It gives you more freedom to move the text around"
+    },
+    {
+      "id": "734",
+      "question_set": "Set 29",
+      "question": "In which view are headers and footers visible?",
+      "options": [
+        "Normal View",
+        "Page Layout View",
+        "Print Layout View",
+        "Draft View"
+      ],
+      "correct_answer": "Print Layout View"
+    },
+    {
+      "id": "735",
+      "question_set": "Set 29",
+      "question": "Which items are placed at the end of a document?",
+      "options": ["Footer", "Footnote", "End note", "Header"],
+      "correct_answer": "End note"
+    },
+    {
+      "id": "736",
+      "question_set": "Set 29",
+      "question": "A number or letter that appears slightly below the normal text is called:",
+      "options": ["Superscript", "Subscript", "Super text", "Top text"],
+      "correct_answer": "Subscript"
+    },
+    {
+      "id": "737",
+      "question_set": "Set 29",
+      "question": "We can change the thickness of a line from:",
+      "options": ["Line width", "Line height", "Line thick", "Line style"],
+      "correct_answer": "Line width"
+    },
+    {
+      "id": "738",
+      "question_set": "Set 29",
+      "question": "To get to a specific location in a document we use:",
+      "options": ["Table", "Hypertext", "Bookmark", "Macro"],
+      "correct_answer": "Bookmark"
+    },
+    {
+      "id": "739",
+      "question_set": "Set 29",
+      "question": "Superscript, subscript and strikethrough are known as:",
+      "options": ["Font face", "Font style", "Font effects", "Font format"],
+      "correct_answer": "Font effects"
+    },
+    {
+      "id": "740",
+      "question_set": "Set 29",
+      "question": "In MS-Excel, graphic objects on a chart are used to:",
+      "options": [
+        "Add emphasis to chart data",
+        "Add interest to a chart",
+        "Help explain the chart data",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "id": "741",
+      "question_set": "Set 29",
+      "question": "What is the shortcut key to highlight the entire column in Excel?",
+      "options": [
+        "Ctrl + C",
+        "Ctrl + Enter",
+        "Ctrl + Page Up",
+        "Ctrl + Space Bar"
+      ],
+      "correct_answer": "Ctrl + Space Bar"
+    },
+    {
+      "id": "742",
+      "question_set": "Set 29",
+      "question": "In formulas, which symbol specifies fixed columns or rows?",
+      "options": ["S", "$", "%", "#"],
+      "correct_answer": "$"
+    },
+    {
+      "id": "743",
+      "question_set": "Set 29",
+      "question": "Which one is presentation software?",
+      "options": ["Google Docs", "Numbers", "Excel", "Google Slide"],
+      "correct_answer": "Google Slide"
+    },
+    {
+      "id": "744",
+      "question_set": "Set 29",
+      "question": "A spreadsheet is the best application for:",
+      "options": [
+        "Writing an information",
+        "Handling simple accounts",
+        "Producing a grid-reference map",
+        "Keeping an inventory of equipment used"
+      ],
+      "correct_answer": "Handling simple accounts"
+    },
+    {
+      "id": "745",
+      "question_set": "Set 29",
+      "question": "Which one is a Unicode font?",
+      "options": [
+        "Sutony MJ",
+        "Nikosh",
+        "Tonny Bangla OMJ",
+        "None of the above"
+      ],
+      "correct_answer": "Nikosh"
+    },
+    {
+      "id": "746",
+      "question_set": "Set 29",
+      "question": "Which one of the following is a search engine?",
+      "options": ["Bing", "Gmail", "Firefox", "Windows"],
+      "correct_answer": "Bing"
+    },
+    {
+      "id": "747",
+      "question_set": "Set 29",
+      "question": "The process of transferring files from your computer to a computer on the internet is called:",
+      "options": ["Uploading", "Forwarding", "FTP", "Downloading"],
+      "correct_answer": "Uploading"
+    },
+    {
+      "id": "748",
+      "question_set": "Set 29",
+      "question": "Verification of a login name and password is known as:",
+      "options": [
+        "Configuration",
+        "Accessibility",
+        "Authentication",
+        "Logging in"
+      ],
+      "correct_answer": "Authentication"
+    },
+    {
+      "id": "749",
+      "question_set": "Set 29",
+      "question": "What is a web browser?",
+      "options": [
+        "A kind of spider",
+        "A computer that stores WWW files",
+        "A person who likes to look at websites",
+        "A software program that allows you to access sites on the World Wide Web"
+      ],
+      "correct_answer": "A software program that allows you to access sites on the World Wide Web"
+    },
+    {
+      "id": "750",
+      "question_set": "Set 29",
+      "question": "The effect applied to display when slides change in slide show view is:",
+      "options": [
+        "Slide Animation",
+        "Custom Animation",
+        "Custom Transition",
+        "Slide Transition"
+      ],
+      "correct_answer": "Slide Transition"
+    },
+    {
+      "id": "751",
+      "question_set": "Set 31",
+      "question": "What is the full form of NIC?",
+      "options": [
+        "Network ID Card",
+        "Network Interface Card",
+        "National Interface Card",
+        "New Interface Card"
+      ],
+      "correct_answer": "Network Interface Card"
+    },
+    {
+      "id": "752",
+      "question_set": "Set 31",
+      "question": "A _______ is a networking device that connects all of the devices on the network to transport data to another device.",
+      "options": ["Switch", "Router", "Hub", "Modem"],
+      "correct_answer": "Switch"
+    },
+    {
+      "id": "753",
+      "question_set": "Set 31",
+      "question": "A WLAN device is installed in or attached to a PC to provide an interface to a wireless network.",
+      "options": [],
+      "correct_answer": "Wireless Network Interface Card (Wi-Fi adapter)"
+    },
+    {
+      "id": "754",
+      "question_set": "Set 31",
+      "question": "Which one of the following is a valid email address?",
+      "options": [
+        "javat@point.com",
+        "gmail.com",
+        "tpoint@.com",
+        "javatpoint@books"
+      ],
+      "correct_answer": "javat@point.com"
+    },
+    {
+      "id": "755",
+      "question_set": "Set 31",
+      "question": "How many pins does RJ-45 contain?",
+      "options": ["Two", "Four", "Eight", "Ten"],
+      "correct_answer": "Eight"
+    },
+    {
+      "id": "756",
+      "question_set": "Set 31",
+      "question": "Suppose you want to create a Word document of 2 pages. One of the pages will be Portrait and the other Landscape. Which one of the below you want to perform?",
+      "options": [
+        "Page Break",
+        "Section Break",
+        "Page wrapping",
+        "Column Break"
+      ],
+      "correct_answer": "Section Break"
+    },
+    {
+      "id": "757",
+      "question_set": "Set 31",
+      "question": "Abeeda inserted a flowchart in a newsletter, which object did she use?",
+      "options": ["Word Art", "Shape", "Create Flowchart", "Chart"],
+      "correct_answer": "Shape"
+    },
+    {
+      "id": "758",
+      "question_set": "Set 31",
+      "question": "Which feature in Microsoft Word is used for citing sources and creating a list of references?",
+      "options": ["Footnote", "Endnote", "Bibliography", "Index"],
+      "correct_answer": "Bibliography"
+    },
+    {
+      "id": "759",
+      "question_set": "Set 31",
+      "question": "You want to run MS Word using the 'Run' command. Which of the following should you write in the Run command?",
+      "options": ["Windword.exe", "Word.exe", "Msword.exe", "Word356.exe"],
+      "correct_answer": "Winword.exe"
+    },
+    {
+      "id": "760",
+      "question_set": "Set 31",
+      "question": "What is the advantage of saving a document in RTF (Rich Text Format) file format?",
+      "options": [
+        "It supports macros and automation",
+        "It preserves complex formatting",
+        "It reduces the file size",
+        "It allows password protection"
+      ],
+      "correct_answer": "It preserves complex formatting"
+    },
+    {
+      "id": "761",
+      "question_set": "Set 31",
+      "question": "A typical modern computer uses?",
+      "options": ["Valves", "LSI Chips", "Vacuum Tabs", "All of these"],
+      "correct_answer": "LSI Chips"
+    },
+    {
+      "id": "762",
+      "question_set": "Set 31",
+      "question": "Smart card is?",
+      "options": [
+        "Processing unit for software handling",
+        "Processing unit containing memory for storing",
+        "Microsoft cards",
+        "Special Purpose cards"
+      ],
+      "correct_answer": "Processing unit containing memory for storing"
+    },
+    {
+      "id": "763",
+      "question_set": "Set 31",
+      "question": "Personal logs or journal entries posted on the web are known as?",
+      "options": ["Smart logs", "Photo", "Blogs", "All of these"],
+      "correct_answer": "Blogs"
+    },
+    {
+      "id": "764",
+      "question_set": "Set 31",
+      "question": "Which of the following cannot be a part of an E-mail address?",
+      "options": ["Underscore (_)", "Space ( )", "At sign (@)", "Period (.)"],
+      "correct_answer": "Space ( )"
+    },
+    {
+      "id": "765",
+      "question_set": "Set 31",
+      "question": "In Windows operating systems, PowerPoint was offered in:",
+      "options": ["1989", "1990", "1991", "1992"],
+      "correct_answer": "1990"
+    },
+    {
+      "id": "766",
+      "question_set": "Set 31",
+      "question": "What is the shortcut key to delete the current slide in PowerPoint?",
+      "options": ["Delete", "Backspace", "Insert", "Both A and B"],
+      "correct_answer": "Both A and B"
+    },
+    {
+      "id": "767",
+      "question_set": "Set 31",
+      "question": "A PowerPoint template is saved as ______ file.",
+      "options": ["Pptx", "Potx", "Pstx", "Temx"],
+      "correct_answer": "Potx"
+    },
+    {
+      "id": "768",
+      "question_set": "Set 31",
+      "question": "______ is used to stack your open windows so you can see all of them at once.",
+      "options": [
+        "New Window",
+        "Arrange All View",
+        "Cascade View",
+        "All of the above"
+      ],
+      "correct_answer": "Arrange All View"
+    },
+    {
+      "id": "769",
+      "question_set": "Set 31",
+      "question": "How to add animations to text, pictures, shapes and more in your presentation?",
+      "options": [
+        "Select objects, select Animations, and choose an animation, Select Setup effects and choose an Effect",
+        "Select objects, go to the Home tab, Select Effects Settings, and choose an effect",
+        "Select objects, select Animations and choose an animation, Select Effect Options and choose an effect",
+        "All of the above"
+      ],
+      "correct_answer": "Select objects, select Animations and choose an animation, Select Effect Options and choose an effect"
+    },
+    {
+      "id": "770",
+      "question_set": "Set 31",
+      "question": "Wi-Fi stands for?",
+      "options": [
+        "Wireless Function",
+        "Wireless Fidelity",
+        "Wireless functioning",
+        "None of the above"
+      ],
+      "correct_answer": "Wireless Fidelity"
+    },
+    {
+      "id": "771",
+      "question_set": "Set 32",
+      "question": "______ is used to display values in ascending order.",
+      "options": ["Filtering", "Sorting", "Numbering", "Formatting"],
+      "correct_answer": "Sorting"
+    },
+    {
+      "id": "772",
+      "question_set": "Set 32",
+      "question": "When we want to scroll down the worksheet and lock the heading rows in place, which option is used?",
+      "options": [
+        "Freeze Panes",
+        "View heading rows",
+        "View Ruler",
+        "Split Windows"
+      ],
+      "correct_answer": "Freeze Panes"
+    },
+    {
+      "id": "773",
+      "question_set": "Set 32",
+      "question": "The process of touching an object with a computer mouse pointer is called:",
+      "options": ["Pausing", "Dropping", "Pointing", "Hovering"],
+      "correct_answer": "Pointing"
+    },
+    {
+      "id": "774",
+      "question_set": "Set 32",
+      "question": "Which of the following sections does NOT exist in a slide layout?",
+      "options": ["Title", "Lists", "Charts", "Animations"],
+      "correct_answer": "Animations"
+    },
+    {
+      "id": "775",
+      "question_set": "Set 32",
+      "question": "The space between the margin and the start of a paragraph is called:",
+      "options": [
+        "Blank Space",
+        "Positive Space",
+        "Negative Space",
+        "Indentation"
+      ],
+      "correct_answer": "Indentation"
+    },
+    {
+      "id": "776",
+      "question_set": "Set 32",
+      "question": "What is the shortcut key for creating a hyperlink?",
+      "options": ["CTRL+N", "CTRL+K", "CTRL+Z", "CTRL+Y"],
+      "correct_answer": "CTRL+K"
+    },
+    {
+      "id": "777",
+      "question_set": "Set 32",
+      "question": "AutoCorrect was originally designed to replace ______ words as you type.",
+      "options": [
+        "Misspelled",
+        "Short, Repetitive",
+        "Grammatically Incorrect",
+        "None of these"
+      ],
+      "correct_answer": "Misspelled"
+    },
+    {
+      "id": "778",
+      "question_set": "Set 32",
+      "question": "Excel function that returns TRUE or FALSE based on two or more conditions is:",
+      "options": ["=AveragelFS", "CONCAT", "=COUNTA", "=AND"],
+      "correct_answer": "=AND"
+    },
+    {
+      "id": "779",
+      "question_set": "Set 32",
+      "question": "Which Ribbon tab in MS Word contains options for adjusting the margins and orientation of the document?",
+      "options": ["Insert", "Home", "Page Layout", "References"],
+      "correct_answer": "Page Layout"
+    },
+    {
+      "id": "780",
+      "question_set": "Set 32",
+      "question": "What is the purpose of Slide Master in PowerPoint?",
+      "options": [
+        "To add animations to slides",
+        "To design and customize the appearance of slides",
+        "To record narration for slides",
+        "To record endnote for slides"
+      ],
+      "correct_answer": "To design and customize the appearance of slides"
+    },
+    {
+      "id": "781",
+      "question_set": "Set 32",
+      "question": "Which type of templates provides all users with a design concept, color scheme, and font for presentation?",
+      "options": ["Content", "Normal", "Format", "Design"],
+      "correct_answer": "Design"
+    },
+    {
+      "id": "782",
+      "question_set": "Set 32",
+      "question": "If you want to place a word with a character that is raised and smaller above the baseline, which option should you perform?",
+      "options": ["Subscript", "Superscript", "Strikethrough", "Raised"],
+      "correct_answer": "Superscript"
+    },
+    {
+      "id": "783",
+      "question_set": "Set 32",
+      "question": "What is the advantage of saving a document in RTF (Rich Text Format) file format?",
+      "options": [
+        "It supports macros and automation",
+        "It reduces the file size",
+        "It preserves complex formatting",
+        "It reduces the file size"
+      ],
+      "correct_answer": "It preserves complex formatting"
+    },
+    {
+      "id": "784",
+      "question_set": "Set 32",
+      "question": "What is the function of the 'Find and Replace' feature in MS Word?",
+      "options": [
+        "It helps you format text in different fonts and colors",
+        "It lets you search for specific words or phrases and replace them with new ones",
+        "It allows you to insert images from your computer",
+        "It creates automatic backups of your document"
+      ],
+      "correct_answer": "It lets you search for specific words or phrases and replace them with new ones"
+    },
+    {
+      "id": "785",
+      "question_set": "Set 32",
+      "question": "Which feature allows you to narrow down the data in your worksheet?",
+      "options": ["Filters", "Sorting", "Reporting", "Statistics"],
+      "correct_answer": "Filters"
+    },
+    {
+      "id": "786",
+      "question_set": "Set 32",
+      "question": "What is the purpose of the 'Track Change' feature in MS Word?",
+      "options": [
+        "It allows you to insert comments into the document",
+        "It keeps a record of the changes made to the document",
+        "It automatically saves the document at regular intervals",
+        "It adjusts the spacing between lines of text"
+      ],
+      "correct_answer": "It keeps a record of the changes made to the document"
+    },
+    {
+      "id": "787",
+      "question_set": "Set 32",
+      "question": "What is motion path?",
+      "options": [
+        "A type of animation entrance effect",
+        "A method to advance slides",
+        "A method of removing items on a slide",
+        "All of the above"
+      ],
+      "correct_answer": "A type of animation entrance effect"
+    },
+    {
+      "id": "788",
+      "question_set": "Set 32",
+      "question": "In Google Sheets, columns are represented by:",
+      "options": ["Numbers", "Letters", "Letters and Numbers", "Cell"],
+      "correct_answer": "Letters"
+    },
+    {
+      "id": "789",
+      "question_set": "Set 32",
+      "question": "Document can be ______ with MS Word.",
+      "options": ["Created", "Edited", "Saved", "All of the above"],
+      "correct_answer": "All of the above"
+    },
+    {
+      "id": "790",
+      "question_set": "Set 32",
+      "question": "Which feature in PowerPoint allows you to add motion and visual effects to text or objects on slides?",
+      "options": [
+        "Slide Sorter",
+        "Animation",
+        "Slide Show View",
+        "Presenter View"
+      ],
+      "correct_answer": "Animation"
+    },
+    {
+      "id": "791",
+      "question_set": "Set 32",
+      "question": "How can you freeze the top row and the first column in Excel?",
+      "options": [
+        "Use the Freeze panes option under the View tab",
+        "Use the Split option under the Home tab",
+        "Use the Freeze panes option under the Home tab",
+        "Use the Freeze panes option under the Format tab"
+      ],
+      "correct_answer": "Use the Freeze panes option under the View tab"
+    },
+    {
+      "id": "792",
+      "question_set": "Set 32",
+      "question": "How can you insert a new page in the middle of an existing document in Microsoft Word?",
+      "options": [
+        "Press Enter until a new page appears",
+        "Click on the Page Layout Tab",
+        "Use CTRL+N",
+        "Insert a page break"
+      ],
+      "correct_answer": "Insert a page break"
+    },
+    {
+      "id": "793",
+      "question_set": "Set 32",
+      "question": "Which is used to store firmware?",
+      "options": ["EPROM", "ROM", "CPROM", "RAM"],
+      "correct_answer": "ROM"
+    },
+    {
+      "id": "794",
+      "question_set": "Set 32",
+      "question": "A ______ is a central device that divides a network connection among several devices.",
+      "options": ["Switch", "Hub", "Router", "Modem"],
+      "correct_answer": "Hub"
+    },
+    {
+      "id": "795",
+      "question_set": "Set 32",
+      "question": "Which sign is used in a formula to use absolute reference?",
+      "options": ["Underscore (_)", "Equal (=)", "Dollar ($)", "Colon (:)"],
+      "correct_answer": "Dollar ($)"
+    },
+    {
+      "id": "796",
+      "question_set": "Set 33",
+      "question": "______ type of chart is good for a single series of data.",
+      "options": ["Column", "Cone chart", "Line Chart", "Pie Chart"],
+      "correct_answer": "Pie Chart"
+    },
+    {
+      "id": "797",
+      "question_set": "Set 33",
+      "question": "What is an Excel feature that displays only the data in column(s) according to specified criteria?",
+      "options": ["Filtering", "Sorting", "Formula", "Pivot"],
+      "correct_answer": "Filtering"
+    },
+    {
+      "id": "798",
+      "question_set": "Set 33",
+      "question": "Excel function that returns TRUE or FALSE based on two or more conditions is:",
+      "options": ["=AVERAGEIFS", "=CONCAT", "=COUNTA", "=AND"],
+      "correct_answer": "=AND"
+    },
+    {
+      "id": "799",
+      "question_set": "Set 33",
+      "question": "Which of these font effects is NOT available in the PowerPoint Font dialogue box?",
+      "options": ["Shadows", "Underline", "Strikethrough", "Emboss"],
+      "correct_answer": "Emboss"
+    },
+    {
+      "id": "800",
+      "question_set": "Set 33",
+      "question": "Which types of templates provides all the users with a design concept, color scheme, and fonts for presentation?",
+      "options": ["Content", "Format", "Normal", "Design"],
+      "correct_answer": "Design"
+    },
+    {
+      "id": "801",
+      "question_set": "Set 33",
+      "question": "PowerPoint presentations are widely used as:",
+      "options": [
+        "Note outlines for teachers",
+        "Project presentation by students",
+        "Communication of planning",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "id": "802",
+      "question_set": "Set 33",
+      "question": "What is motion path?",
+      "options": [
+        "A type of animation entrance effect",
+        "A method of advancing slides",
+        "A method of moving items on a slide",
+        "All of the above"
+      ],
+      "correct_answer": "A type of animation entrance effect"
+    },
+    {
+      "id": "803",
+      "question_set": "Set 33",
+      "question": "What happens when you click on CTRL+X after selecting cells in Excel?",
+      "options": [
+        "The cell content of selected cells disappears from the cell and is stored in a clipboard",
+        "Value in the cells selected is marked for cutting",
+        "The selected cells are deleted and cells are shifted left",
+        "The selected cells are deleted and cells are shifted up"
+      ],
+      "correct_answer": "The cell content of selected cells disappears from the cell and is stored in a clipboard"
+    },
+    {
+      "id": "804",
+      "question_set": "Set 33",
+      "question": "A numeric data analysis tool that allows us to create a computerized ledger is:",
+      "options": [
+        "Word processing package",
+        "Spreadsheet package",
+        "Graphic package",
+        "Mathematical package"
+      ],
+      "correct_answer": "Spreadsheet package"
+    },
+    {
+      "id": "805",
+      "question_set": "Set 33",
+      "question": "In Google Sheets, columns are represented by:",
+      "options": ["Numbers", "Letters", "Letters and Numbers", "Cells"],
+      "correct_answer": "Letters"
+    },
+    {
+      "id": "806",
+      "question_set": "Set 33",
+      "question": "Which sign is used in a formula to use absolute reference?",
+      "options": ["Underscore (_)", "Equal (=)", "Dollar ($)", "Colon (:)"],
+      "correct_answer": "Dollar ($)"
+    },
+    {
+      "id": "807",
+      "question_set": "Set 33",
+      "question": "Which feature allows you to narrow down the data in your worksheet?",
+      "options": ["Filters", "Reporting", "Sorting", "Statistics"],
+      "correct_answer": "Filters"
+    },
+    {
+      "id": "808",
+      "question_set": "Set 33",
+      "question": "Which format represents the numbers with the dollar ($) sign?",
+      "options": ["Automatic", "Numbers", "Currency", "Time"],
+      "correct_answer": "Currency"
+    },
+    {
+      "id": "809",
+      "question_set": "Set 33",
+      "question": "A list of various coded instructions is known as:",
+      "options": [
+        "Flowchart",
+        "Utility programs",
+        "Algorithm",
+        "Computer Program"
+      ],
+      "correct_answer": "Algorithm"
+    },
+    {
+      "id": "810",
+      "question_set": "Set 33",
+      "question": "What is URL?",
+      "options": [
+        "An acronym for Unlimited Resources for Learning",
+        "The address of a document or “page” on the World Wide Web",
+        "A type of programming object",
+        "A computer software program"
+      ],
+      "correct_answer": "The address of a document or “page” on the World Wide Web"
+    },
+    {
+      "id": "811",
+      "question_set": "Set 33",
+      "question": "Which of the following is NOT an operating system?",
+      "options": ["UNIX", "MS-DOS", "CP/M", "PASCAL"],
+      "correct_answer": "PASCAL"
+    },
+    {
+      "id": "812",
+      "question_set": "Set 33",
+      "question": "Which is used to store firmware?",
+      "options": ["EPROM", "ROM", "RAM", "PROM"],
+      "correct_answer": "ROM"
+    },
+    {
+      "id": "813",
+      "question_set": "Set 33",
+      "question": "Documents can be ______ with MS Word.",
+      "options": ["Created", "Edited", "Saved", "All of the above"],
+      "correct_answer": "All of the above"
+    },
+    {
+      "id": "814",
+      "question_set": "Set 33",
+      "question": "Which of the following tabs is the default in MS Word?",
+      "options": ["Home", "Insert", "Page Layout", "Reference"],
+      "correct_answer": "Home"
+    },
+    {
+      "id": "815",
+      "question_set": "Set 33",
+      "question": "Which of the following is automatically counted in MS Word?",
+      "options": [
+        "Number of Words",
+        "Number of Pages",
+        "Number of Characters",
+        "All of the above"
+      ],
+      "correct_answer": "Number of Words"
+    },
+    {
+      "id": "816",
+      "question_set": "Set 34",
+      "question": "Which is not an edition of MS Word?",
+      "options": [
+        "MS Word 2019",
+        "MS Word 2010",
+        "MS Word 2007",
+        "MS Word 1206"
+      ],
+      "correct_answer": "MS Word 1206"
+    },
+    {
+      "id": "817",
+      "question_set": "Set 34",
+      "question": "Which tab do you use to change the page orientation in MS Word?",
+      "options": ["Home", "Insert", "Design", "Layout"],
+      "correct_answer": "Layout"
+    },
+    {
+      "id": "818",
+      "question_set": "Set 34",
+      "question": "From which menu tab is a new document created?",
+      "options": ["Home Tab", "File Tab", "Insert Tab", "Layout Tab"],
+      "correct_answer": "File Tab"
+    },
+    {
+      "id": "819",
+      "question_set": "Set 34",
+      "question": "What is the purpose of the ‘Style’ feature in MS Word?",
+      "options": [
+        "To Check Spelling",
+        "To Format text consistently",
+        "To Save documents",
+        "To Insert images"
+      ],
+      "correct_answer": "To Format text consistently"
+    },
+    {
+      "id": "820",
+      "question_set": "Set 34",
+      "question": "How to adjust the width of a column automatically in a table to fit the content?",
+      "options": ["AutoFit", "Split Cells", "Merge Cells", "Table Tools"],
+      "correct_answer": "AutoFit"
+    },
+    {
+      "id": "821",
+      "question_set": "Set 34",
+      "question": "Which command is used to apply a consistent format to multiple text selections?",
+      "options": ["Format Painter", "Styles", "Text Effects", "Font"],
+      "correct_answer": "Format Painter"
+    },
+    {
+      "id": "822",
+      "question_set": "Set 34",
+      "question": "Which MS Word feature helps to prevent accidental changes to a document?",
+      "options": ["Protect Document", "Track Changes"],
+      "correct_answer": "Protect Document"
+    },
+    {
+      "id": "823",
+      "question_set": "Set 34",
+      "question": "How to insert a page break in MS Word?",
+      "options": [
+        "Insert > Page Break",
+        "Layout > Break > Page Break",
+        "Home > Break > Page Break",
+        "Insert > Break > Page Break"
+      ],
+      "correct_answer": "Insert > Page Break"
+    },
+    {
+      "id": "824",
+      "question_set": "Set 34",
+      "question": "Greater Than Sign (>) exemplifies a/an ______ operator?",
+      "options": ["Arithmetic", "Conditional", "Logical", "Greater"],
+      "correct_answer": "Conditional"
+    },
+    {
+      "id": "825",
+      "question_set": "Set 34",
+      "question": "______ is not a function in Excel.",
+      "options": ["SUM", "MIN", "SUBTRACT", "MAX"],
+      "correct_answer": "SUBTRACT"
+    },
+    {
+      "id": "826",
+      "question_set": "Set 34",
+      "question": "Which keyboard shortcut is used to easily switch open workbook?",
+      "options": ["Alt+S", "CTRL+S", "CTRL+Alt", "CTRL+Tab"],
+      "correct_answer": "CTRL+Tab"
+    },
+    {
+      "id": "827",
+      "question_set": "Set 34",
+      "question": "The placement of information within a cell at the left edge, right edge, or center is called:",
+      "options": ["Indentation", "Placement", "Identification", "Alignment"],
+      "correct_answer": "Alignment"
+    },
+    {
+      "id": "828",
+      "question_set": "Set 34",
+      "question": "In a computer spreadsheet, the tool used to construct formulas is called:",
+      "options": ["Formula Bar", "Placement", "Identification", "Alignment"],
+      "correct_answer": "Formula Bar"
+    },
+    {
+      "id": "829",
+      "question_set": "Set 34",
+      "question": "What is the maximum number of slides you can add in a PowerPoint presentation?",
+      "options": ["100", "250", "500", "There is no maximum limit"],
+      "correct_answer": "There is no maximum limit"
+    },
+    {
+      "id": "830",
+      "question_set": "Set 34",
+      "question": "Which of these sections does a slide layout NOT have?",
+      "options": ["Lists", "Animations", "Titles", "Check"],
+      "correct_answer": "Check"
+    },
+    {
+      "id": "831",
+      "question_set": "Set 34",
+      "question": "What is the default PowerPoint standard layout?",
+      "options": ["Black", "Title Slide", "Title Only", "Comparison"],
+      "correct_answer": "Title Slide"
+    },
+    {
+      "id": "832",
+      "question_set": "Set 34",
+      "question": "View that displays the text of the Slide only is:",
+      "options": ["Bullet View", "Notes View", "Text View", "Outline View"],
+      "correct_answer": "Outline View"
+    },
+    {
+      "id": "833",
+      "question_set": "Set 34",
+      "question": "Which one of the following is a free e-mail service provider?",
+      "options": ["Foxit PDF editor", "Gmail", "Safari", "None of the above"],
+      "correct_answer": "Gmail"
+    },
+    {
+      "id": "834",
+      "question_set": "Set 34",
+      "question": "Which one of the following is used for file compression?",
+      "options": ["Google Chrome", "WinZip", "7-Zip", "Both B & C"],
+      "correct_answer": "Both B & C"
+    },
+    {
+      "id": "835",
+      "question_set": "Set 34",
+      "question": "Which one of the following is an online meeting platform?",
+      "options": ["Zoom", "Google Meet", "Both A & B", "None of the above"],
+      "correct_answer": "Both A & B"
+    },
+    {
+      "id": "836",
+      "question_set": "Set 34",
+      "question": "What is the purpose of the ‘Mail Merge’ feature?",
+      "options": ["To create personalized letters or labels"],
+      "correct_answer": "To create personalized letters or labels"
+    },
+    {
+      "id": "837",
+      "question_set": "Set 34",
+      "question": "Explain how to use the ‘Format Painter’ tool",
+      "options": [
+        "Select text, go to Home > Format Painter, select the text where the format is to be applied"
+      ],
+      "correct_answer": "Select text, go to Home > Format Painter, select the text where the format is to be applied"
+    },
+    {
+      "id": "838",
+      "question_set": "Set 34",
+      "question": "What is the function of the ‘Page Break’ feature?",
+      "options": [
+        "Page breaks are used to end a page without filling it with text"
+      ],
+      "correct_answer": "Page breaks are used to end a page without filling it with text"
+    },
+    {
+      "id": "839",
+      "question_set": "Set 34",
+      "question": "What is the COUNT() function in Excel normally used for?",
+      "options": [
+        "The COUNT() is generally used to count a range of cells containing numbers or dates, excluding blank cells"
+      ],
+      "correct_answer": "The COUNT() is generally used to count a range of cells containing numbers or dates, excluding blank cells"
+    },
+    {
+      "id": "840",
+      "question_set": "Set 35",
+      "question": "Which ribbon tab contains options related to font formatting in Microsoft Word?",
+      "options": ["Home", "Insert", "Review", "Page Layout"],
+      "correct_answer": "Home"
+    },
+    {
+      "id": "841",
+      "question_set": "Set 35",
+      "question": "How can you insert a new page in the middle of an existing document in Microsoft Word?",
+      "options": [
+        "Press Enter until new page appears",
+        "Use Ctrl+N",
+        "Insert a page break",
+        "Click on the Page Layout tab"
+      ],
+      "correct_answer": "Insert a page break"
+    },
+    {
+      "id": "842",
+      "question_set": "Set 35",
+      "question": "Which feature in Microsoft Word automatically corrects common spelling mistakes as you type?",
+      "options": ["Auto Format", "AutoCorrect", "AutoComplete", "Autosave"],
+      "correct_answer": "AutoCorrect"
+    },
+    {
+      "id": "843",
+      "question_set": "Set 35",
+      "question": "What is the function of the ‘Find and Replace’ feature in Microsoft Word?",
+      "options": [
+        "It lets you search for specific words or phrases and replace them with new ones",
+        "It helps you format text in different fonts and colors",
+        "It allows you to insert images from your computer",
+        "It creates automatic backups of your document"
+      ],
+      "correct_answer": "It lets you search for specific words or phrases and replace them with new ones"
+    },
+    {
+      "id": "844",
+      "question_set": "Set 35",
+      "question": "Which ribbon tab in Microsoft Word contains options for adjusting the margins and orientation of the document?",
+      "options": ["Home", "Insert", "Page Layout", "References"],
+      "correct_answer": "Page Layout"
+    },
+    {
+      "id": "845",
+      "question_set": "Set 35",
+      "question": "What is the purpose of the ‘Track Changes’ feature in Microsoft Word?",
+      "options": [
+        "It allows you to insert comments into the document",
+        "It keeps a record of all the changes made to the document",
+        "It automatically saves the document at regular intervals",
+        "It adjusts the spacing between lines of text"
+      ],
+      "correct_answer": "It keeps a record of all the changes made to the document"
+    },
+    {
+      "id": "846",
+      "question_set": "Set 35",
+      "question": "How can you insert a picture from your computer into a Microsoft Word document?",
+      "options": [
+        "Go to the Home Tab and click on 'Pictures'",
+        "Press Ctrl+P",
+        "Use the Insert tab and click on 'Pictures'",
+        "Go to the View tab and click on 'Layout'"
+      ],
+      "correct_answer": "Use the Insert tab and click on 'Pictures'"
+    },
+    {
+      "id": "847",
+      "question_set": "Set 35",
+      "question": "Which file format is typically used for saving documents in Microsoft Word to ensure compatibility with older versions?",
+      "options": [".docx", ".txt", ".pdf", ".doc"],
+      "correct_answer": ".doc"
+    },
+    {
+      "id": "848",
+      "question_set": "Set 35",
+      "question": "How can you change the line spacing in a Microsoft Word document?",
+      "options": [
+        "Use the Layout tab and adjust the spacing option",
+        "Press Shift+Enter",
+        "Use the Home tab and adjust the font size",
+        "Use the Insert tab and insert a text box"
+      ],
+      "correct_answer": "Use the Layout tab and adjust the spacing option"
+    },
+    {
+      "id": "849",
+      "question_set": "Set 35",
+      "question": "Which view in PowerPoint allows you to see multiple slides at once for editing purposes?",
+      "options": [
+        "Normal view",
+        "Slide Sorter view",
+        "Slide Show view",
+        "Notes Page view"
+      ],
+      "correct_answer": "Slide Sorter view"
+    },
+    {
+      "id": "850",
+      "question_set": "Set 35",
+      "question": "How can you add a new slide in PowerPoint?",
+      "options": [
+        "Left-click and select 'New Slide'",
+        "Press Ctrl+N",
+        "Use the Insert tab and click 'New Slide'",
+        "Press F5"
+      ],
+      "correct_answer": "Use the Insert tab and click 'New Slide'"
+    },
+    {
+      "id": "851",
+      "question_set": "Set 35",
+      "question": "Which feature in PowerPoint allows you to rehearse timings for your slide show?",
+      "options": [
+        "Slide Sorter",
+        "Presenter view",
+        "Animation",
+        "Slide Show tab > Rehearse Timings"
+      ],
+      "correct_answer": "Slide Show tab > Rehearse Timings"
+    },
+    {
+      "id": "852",
+      "question_set": "Set 35",
+      "question": "What is the purpose of Slide Master in PowerPoint?",
+      "options": [
+        "To add animations to slides",
+        "To design and customize the appearance of all slides",
+        "To record narrations for slides",
+        "To print handouts of the presentation"
+      ],
+      "correct_answer": "To design and customize the appearance of all slides"
+    },
+    {
+      "id": "853",
+      "question_set": "Set 35",
+      "question": "Which feature in PowerPoint allows you to add motion and visual effects to text or objects on slides?",
+      "options": [
+        "Slide Sorter",
+        "Animation Pane",
+        "Slide Show view",
+        "Presenter view"
+      ],
+      "correct_answer": "Animation Pane"
+    },
+    {
+      "id": "854",
+      "question_set": "Set 35",
+      "question": "How can you start a PowerPoint slide show from the beginning?",
+      "options": [
+        "Click on the Slide Sorter button",
+        "Press F5",
+        "Use the Slide Show tab and click on 'Start Slide Show'",
+        "Right-click and select 'Start from Beginning'"
+      ],
+      "correct_answer": "Press F5"
+    },
+    {
+      "id": "855",
+      "question_set": "Set 35",
+      "question": "Which tab in PowerPoint allows you to insert shapes, images, and other objects into slides?",
+      "options": ["Design", "Slide Show", "Insert", "Home"],
+      "correct_answer": "Insert"
+    },
+    {
+      "id": "856",
+      "question_set": "Set 35",
+      "question": "How can you freeze the top row and the first column in Excel?",
+      "options": [
+        "Use the Freeze Panes option under the View tab",
+        "Use the Split option under the Home tab",
+        "Use the Freeze Panes option under the Home tab",
+        "Use the Freeze Panes option under the Format tab"
+      ],
+      "correct_answer": "Use the Freeze Panes option under the View tab"
+    },
+    {
+      "id": "857",
+      "question_set": "Set 35",
+      "question": "Which function in Excel is used to find the highest value in a range of cells?",
+      "options": ["=MAX()", "=MIN()", "=SUM()", "=COUNT()"],
+      "correct_answer": "=MAX()"
+    },
+    {
+      "id": "858",
+      "question_set": "Set 35",
+      "question": "How can you sort data in Excel in descending order based on a selected column?",
+      "options": [
+        "Use the Sort Ascending under the Data tab",
+        "Use the Sort Descending under the Data tab",
+        "Use the Filter option under the Home tab",
+        "Use the PivotTable option under the Insert tab"
+      ],
+      "correct_answer": "Use the Sort Descending under the Data tab"
+    },
+    {
+      "id": "859",
+      "question_set": "Set 35",
+      "question": "The intersection of a column and row in a worksheet is called?",
+      "options": ["Box", "Cell", "Range", "Page Break"],
+      "correct_answer": "Cell"
+    },
+    {
+      "id": "860",
+      "question_set": "Set 36",
+      "question": "Which one is not word processing software?",
+      "options": ["MS Word", "Word Perfect", "Libre Office", "Preigi"],
+      "correct_answer": "Preigi"
+    },
+    {
+      "id": "861",
+      "question_set": "Set 36",
+      "question": "Which one is a valid formula?",
+      "options": ["=A1+A2", "=Add(A1:A2)", "A1+A2", "Sum(A1:A2)"],
+      "correct_answer": "=A1+A2"
+    },
+    {
+      "id": "862",
+      "question_set": "Set 36",
+      "question": "What type of chart will you use to compare performance of sales of two products?",
+      "options": ["Pie Chart", "Column Chart", "Line Chart", "Bar Chart"],
+      "correct_answer": "Column Chart"
+    },
+    {
+      "id": "863",
+      "question_set": "Set 36",
+      "question": "Which one is not a Presentation Program?",
+      "options": ["MS PowerPoint", "Prezi", "Google Slide", "Google Sheet"],
+      "correct_answer": "Google Sheet"
+    },
+    {
+      "id": "864",
+      "question_set": "Set 36",
+      "question": "Which is the right term of PowerPoint Presentation?",
+      "options": ["Chart", "Slides", "Clipart", "Image"],
+      "correct_answer": "Slides"
+    },
+    {
+      "id": "865",
+      "question_set": "Set 36",
+      "question": "What is the shortcut key for creating hyperlink?",
+      "options": ["CTRL+N", "CTRL+K", "CTRL+Z", "Carly"],
+      "correct_answer": "CTRL+K"
+    },
+    {
+      "id": "866",
+      "question_set": "Set 36",
+      "question": "Autocorrect was originally designed to replace ______ words as you type?",
+      "options": [
+        "Misspelled",
+        "Short repetitive",
+        "Grammatically incorrect",
+        "None of this"
+      ],
+      "correct_answer": "Misspelled"
+    },
+    {
+      "id": "867",
+      "question_set": "Set 36",
+      "question": "Excel function returns TRUE or FALSE based on two or more conditions?",
+      "options": ["=AVERAGEIFS", "=CONCAT", "=COUNTA", "=AND"],
+      "correct_answer": "=AND"
+    },
+    {
+      "id": "868",
+      "question_set": "Set 36",
+      "question": "Which ribbon tab in MS Word contains options for adjusting the margins and orientation of the document?",
+      "options": ["Insert", "Home", "Page Layout", "References"],
+      "correct_answer": "Page Layout"
+    },
+    {
+      "id": "869",
+      "question_set": "Set 36",
+      "question": "What is the purpose of Slide Master in PowerPoint?",
+      "options": [
+        "To add Animations to slides",
+        "To design and customize the appearance of all slides",
+        "To record narration for slides",
+        "To record endnotes of slides"
+      ],
+      "correct_answer": "To design and customize the appearance of all slides"
+    },
+    {
+      "id": "870",
+      "question_set": "Set 36",
+      "question": "How can you sort data in Excel in descending order based on a selected column?",
+      "options": [
+        "Use the sort ascending option under the Data tab",
+        "Use the sort descending option under the Data tab",
+        "Use the filter option under the Home tab",
+        "Use the PivotTable option under the Insert tab"
+      ],
+      "correct_answer": "Use the sort descending option under the Data tab"
+    },
+    {
+      "id": "871",
+      "question_set": "Set 36",
+      "question": "To insert a new slide, go to which tab in the Slides group and click New Slide?",
+      "options": ["Animation", "View", "Home", "Slide Show"],
+      "correct_answer": "Home"
+    },
+    {
+      "id": "872",
+      "question_set": "Set 36",
+      "question": "Which one of the following is not a section option?",
+      "options": ["Next Page", "Previous Page", "Odd Page", "Even Page"],
+      "correct_answer": "Previous Page"
+    },
+    {
+      "id": "873",
+      "question_set": "Set 36",
+      "question": "Which bar shows the used formula of the selected active cell?",
+      "options": ["Formula Bar", "Ribbon", "Menu Bar", "Scroll Bar"],
+      "correct_answer": "Formula Bar"
+    },
+    {
+      "id": "874",
+      "question_set": "Set 36",
+      "question": "To select the entire column in Excel, press?",
+      "options": ["Tab+C", "Tab", "Alt+Space", "CTRL+Space"],
+      "correct_answer": "CTRL+Space"
+    },
+    {
+      "id": "875",
+      "question_set": "Set 36",
+      "question": "What is the purpose of the 'Track Change' feature in MS Word?",
+      "options": [
+        "It allows you to insert comments into the document",
+        "It keeps a record of all the changes made to the document",
+        "It automatically saves the document at regular intervals",
+        "It adjusts the spacing between lines of text"
+      ],
+      "correct_answer": "It keeps a record of all the changes made to the document"
+    },
+    {
+      "id": "876",
+      "question_set": "Set 36",
+      "question": "What is motion path?",
+      "options": [
+        "A type of animation entrance effect",
+        "A method of advancing slide",
+        "A method of moving items on a slide",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "id": "877",
+      "question_set": "Set 36",
+      "question": "In Google Sheet, columns are represented by?",
+      "options": ["Numbers", "Letters", "Letters and Numbers"],
+      "correct_answer": "Letters"
+    },
+    {
+      "id": "878",
+      "question_set": "Set 36",
+      "question": "View displays the text of the slide only?",
+      "options": ["Bullet View", "Notes View", "Text View", "Outline View"],
+      "correct_answer": "Text View"
+    },
+    {
+      "id": "879",
+      "question_set": "Set 36",
+      "question": "Which one of the following is a free email service provider?",
+      "options": ["Foxit PDF Editor", "Gmail", "Safari", "None of the above"],
+      "correct_answer": "Gmail"
+    },
+    {
+      "id": "880",
+      "question_set": "Set 36",
+      "question": "Which one of the following is used for file compression?",
+      "options": ["Google Chrome", "WinZip", "7-Zip", "Both B & C"],
+      "correct_answer": "Both B & C"
+    },
+    {
+      "id": "881",
+      "question_set": "Set 36",
+      "question": "Which one of the following is an online meeting platform?",
+      "options": ["Zoom", "Google Meet", "Both A & B", "None of the above"],
+      "correct_answer": "Both A & B"
+    },
+    {
+      "id": "901",
+      "question_set": "Set 37",
+      "question": "Which is not an edition of MS Word?",
+      "options": [
+        "MS Word 2019",
+        "MS Word 2010",
+        "MS Word 2007",
+        "MS Word 1206"
+      ],
+      "correct_answer": "MS Word 1206"
+    },
+    {
+      "id": "902",
+      "question_set": "Set 37",
+      "question": "Which tab do you use to change the page orientation in MS Word?",
+      "options": ["Home", "Insert", "Design", "Layout"],
+      "correct_answer": "Layout"
+    },
+    {
+      "id": "903",
+      "question_set": "Set 37",
+      "question": "From which menu tab is a new document created?",
+      "options": ["Home tab", "File tab", "Insert tab", "Layout tab"],
+      "correct_answer": "File tab"
+    },
+    {
+      "id": "904",
+      "question_set": "Set 37",
+      "question": "What is the purpose of the Styles feature in MS Word?",
+      "options": [
+        "To check spelling",
+        "To format text consistently",
+        "To save document",
+        "To insert image"
+      ],
+      "correct_answer": "To format text consistently"
+    },
+    {
+      "id": "905",
+      "question_set": "Set 37",
+      "question": "How to adjust the width of a column automatically in a table to fit the content?",
+      "options": ["AutoFit", "Split Cells", "Merge Cells", "Table tools"],
+      "correct_answer": "AutoFit"
+    },
+    {
+      "id": "906",
+      "question_set": "Set 37",
+      "question": "Which command is used to apply consistent format to multiple text selections?",
+      "options": ["Format Painter", "Styles", "Text Effects", "Font"],
+      "correct_answer": "Format Painter"
+    },
+    {
+      "id": "907",
+      "question_set": "Set 37",
+      "question": "Which MS Word feature helps to prevent accidental changes to a document?",
+      "options": [
+        "Protect Document",
+        "Password Protect",
+        "Track Changes",
+        "Restrict Editing"
+      ],
+      "correct_answer": "Protect Document"
+    },
+    {
+      "id": "908",
+      "question_set": "Set 37",
+      "question": "How to insert a page break in MS Word?",
+      "options": [
+        "Insert > Page Break",
+        "Layout > Breaks > Page Break",
+        "Home > Page Break",
+        "Insert > Break > Page Break"
+      ],
+      "correct_answer": "Insert > Page Break"
+    },
+    {
+      "id": "909",
+      "question_set": "Set 37",
+      "question": "The greater than sign (>) exemplifies a/an ______ operator?",
+      "options": ["Arithmetic", "Conditional", "Logical", "Greater"],
+      "correct_answer": "Conditional"
+    },
+    {
+      "id": "910",
+      "question_set": "Set 37",
+      "question": "_______ is not a function in Excel.",
+      "options": ["SUM", "MIN", "SUBTRACT", "MAX"],
+      "correct_answer": "SUBTRACT"
+    },
+    {
+      "id": "911",
+      "question_set": "Set 37",
+      "question": "Which keyboard shortcut is used to easily switch open workbooks?",
+      "options": ["Alt+S", "CTRL+S", "CTRL+Alt", "CTRL+Tab"],
+      "correct_answer": "CTRL+Tab"
+    },
+    {
+      "id": "912",
+      "question_set": "Set 37",
+      "question": "The placement of information within a cell at the left edge, right edge, or center is called?",
+      "options": ["Indentation", "Placement", "Identification", "Alignment"],
+      "correct_answer": "Alignment"
+    },
+    {
+      "id": "913",
+      "question_set": "Set 37",
+      "question": "In a computer spreadsheet, the tool used to construct formulas is called?",
+      "options": ["Formula Bar", "Filter", "Auditing", "Format Painter"],
+      "correct_answer": "Formula Bar"
+    },
+    {
+      "id": "914",
+      "question_set": "Set 37",
+      "question": "What is the maximum number of slides you can add in a PowerPoint presentation?",
+      "options": ["100", "250", "500", "There is no maximum limit"],
+      "correct_answer": "There is no maximum limit"
+    },
+    {
+      "id": "915",
+      "question_set": "Set 37",
+      "question": "Which of these sections does a slide layout NOT have?",
+      "options": ["Lists", "Animations", "Titles", "Charts"],
+      "correct_answer": "Charts"
+    },
+    {
+      "id": "916",
+      "question_set": "Set 37",
+      "question": "What is the default PowerPoint standard layout?",
+      "options": ["Blank", "Title Slide", "Title Only", "Comparison"],
+      "correct_answer": "Title Slide"
+    },
+    {
+      "id": "917",
+      "question_set": "Set 37",
+      "question": "Document can be _______ with MS Word.",
+      "options": ["Created", "Edited", "Saved", "All of the above"],
+      "correct_answer": "All of the above"
+    },
+    {
+      "id": "918",
+      "question_set": "Set 37",
+      "question": "Which feature in PowerPoint allows you to add motion and visual effects to text or objects on slides?",
+      "options": [
+        "Slide Sorter",
+        "Animation",
+        "Slide Show View",
+        "Presenter View"
+      ],
+      "correct_answer": "Animation"
+    },
+    {
+      "id": "919",
+      "question_set": "Set 37",
+      "question": "How can you freeze the top row and first column in Excel?",
+      "options": [
+        "Use the Freeze Panes option under the View tab",
+        "Use the Split option under the Home tab",
+        "Use the Freeze Panes option under the Home tab",
+        "Use the Freeze Panes option under the Format tab"
+      ],
+      "correct_answer": "Use the Freeze Panes option under the View tab"
+    },
+    {
+      "id": "920",
+      "question_set": "Set 37",
+      "question": "How can you insert a new page in the middle of an existing document in Microsoft Word?",
+      "options": [
+        "Press Enter until a new page appears",
+        "Click on the Page Layout tab",
+        "Use Ctrl + N",
+        "Insert a page break"
+      ],
+      "correct_answer": "Insert a page break"
+    },
+    {
+      "id": "921",
+      "question_set": "Set 37",
+      "question": "Which is used to store firmware?",
+      "options": ["EPROM", "ROM", "PROM", "RAM"],
+      "correct_answer": "ROM"
+    },
+    {
+      "id": "922",
+      "question_set": "Set 37",
+      "question": "A ______ is a central device that divides a network connection among several devices?",
+      "options": ["Switch", "Hub", "Router", "Modem"],
+      "correct_answer": "Hub"
+    },
+    {
+      "id": "923",
+      "question_set": "Set 37",
+      "question": "Which sign is used in a formula to use absolute reference?",
+      "options": ["Underscore (_)", "Equal (=)", "Dollar ($)", "Colon (:)"],
+      "correct_answer": "Dollar ($)"
     }
-  ]
+  ],
+  "Graphic_Design": [],
+  "Digital Marketing": [],
+  "Web Development": []
 }

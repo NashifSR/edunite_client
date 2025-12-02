@@ -33,6 +33,7 @@ const McqQuestionList = ({ questions, selectedSet, onSubmit }) => {
     setAnswers((prev) => ({ ...prev, [id]: option }));
 
   const handleSubmit = () => {
+    console.log("submit")
     if (onSubmit) {
       const submittedData = Object.entries(answers).map(
         ([id, selectedOption]) => ({
