@@ -77,7 +77,7 @@ const resources = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {categories.map((category, i) => (
           <div key={i} className="bg-gray-50 p-6 rounded-lg shadow hover:shadow-lg transition">
-            <h2 className="text-xl font-semibold mb-4">{category.title}</h2>
+            <h2 className="text-xl font-semibold mb-4">{i+1}: {category.title}</h2>
             <ul className="space-y-2">
               {category.links.map((link, j) => (
                 <li key={j}>
@@ -87,7 +87,7 @@ const resources = () => {
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline"
                   >
-                    {link.label}
+                    {j+1}: {link.label}
                   </a>
                 </li>
               ))}

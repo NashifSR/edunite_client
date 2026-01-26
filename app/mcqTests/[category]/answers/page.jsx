@@ -8,7 +8,7 @@ const McqAnswerPage = ({ params }) => {
   const { mcq } = useMCQ();
   const mcqQuestionSet = mcq?.[cat] || [];
 
-  console.log("testing",mcqQuestionSet)
+  console.log("testing", mcqQuestionSet);
 
   // Get unique set names
   const sets = [...new Set(mcqQuestionSet.map((item) => item.question_set))];
@@ -47,15 +47,25 @@ const McqAnswerPage = ({ params }) => {
       {selectedSet && (
         <div className="w-full max-w-2xl flex flex-col gap-6">
           {filteredQuestions.map((q, index) => (
-            <div
-              key={q.id}
-              className="border p-4 rounded shadow bg-gray-50"
-            >
+            <div key={q.id} className="border p-4 rounded shadow bg-gray-50">
               <p className="font-semibold mb-2">
                 Q{index + 1}: {q.question}
               </p>
-              <p className="text-blue-600 font-medium">
-                Answer: {q.correct_answer}
+              <div className="space-y-2 pl-6 pb-2">
+                {q.options.map((option, i) => (
+                  <label
+                    key={i}
+                    className="flex items-center space-x-2 cursor-pointer"
+                  >
+                    <span>
+                      {i + 1}: {option}
+                    </span>
+                  </label>
+                ))}
+              </div>
+              <p className="text-green-600 font-bold">
+                <span className="text-black font-medium ">Answer:</span>{" "}
+                {q.correct_answer}
               </p>
             </div>
           ))}

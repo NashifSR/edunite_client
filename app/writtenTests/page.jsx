@@ -13,33 +13,62 @@ const categories = [
 
 const WrittenTests = () => {
   const router = useRouter();
-  const [section, setSection] = useState("answers"); // default, or could rely solely on toggle
+  const [section, setSection] = useState("answers");
 
   return (
-    <div className="min-h-screen p-8 bg-white text-black flex flex-col items-center gap-8">
-      <h1 className="text-3xl font-bold mb-4">Written Test Portal</h1>
+    <div className="min-h-screen text-black px-4 py-8 sm:px-8 flex flex-col items-center">
 
-      {/* Section Toggle with parent callback */}
-      <SectionToggle defaultSection="answers" onChange={setSection} />
+      {/* Header */}
+      <div className="max-w-3xl text-center mb-8">
+        <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight mb-2">
+          Written Test Portal
+        </h1>
+        <p className="text-gray-600 text-sm sm:text-base">
+          Choose a category to view written questions or answers
+        </p>
+      </div>
 
-      {/* Categories Buttons */}
-      <div className="w-full flex flex-col items-center">
-        <h2 className="text-2xl font-semibold mb-6 capitalize">
-          {section.charAt(0).toUpperCase() + section.slice(1)}
+      {/* Toggle */}
+      <div className="w-full max-w-md mb-8">
+        <SectionToggle defaultSection="answers" onChange={setSection} />
+      </div>
+
+      {/* Categories */}
+      <div className="w-full max-w-5xl">
+        <h2 className="text-xl sm:text-2xl font-semibold text-center mb-6 capitalize">
+          {section}
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {categories.map((cat) => (
-            <button
+            <div
               key={cat.slug}
-              onClick={() => router.push(`/writtenTests/${cat.slug}/${section}`)}
-              className={`px-5 py-3 rounded-xl font-semibold shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-                section === "answers"
-                  ? "bg-blue-100 text-blue-800 hover:bg-blue-200"
-                  : "bg-red-600 text-white hover:bg-red-700"
-              }`}
+              className="group rounded-2xl border bg-white shadow-sm
+                         hover:shadow-lg transition-all duration-300"
             >
-              {cat.name}
-            </button>
+              <button
+                onClick={() =>
+                  router.push(`/writtenTests/${cat.slug}/${section}`)
+                }
+                className="w-full h-full px-6 py-8 flex flex-col items-center justify-center gap-3
+                           focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400"
+              >
+                <span className="text-lg font-semibold text-center group-hover:scale-105 transition-transform">
+                  {cat.name}
+                </span>
+
+                <span
+                  className={`px-4 py-1 rounded-full text-sm font-medium
+                    ${
+                      section === "answers"
+                        ? "bg-blue-100 text-blue-700"
+                        : "bg-red-100 text-red-700"
+                    }`}
+                >
+                  {section === "answers" ? "View Answers" : "View Questions"}
+                </span>
+              </button>
+            </div>
           ))}
         </div>
       </div>

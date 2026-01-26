@@ -8,7 +8,7 @@ import QrCodes from "./Components/QrCodes";
 
 const Home = () => {
   return (
-    <main className="flex flex-col items-center justify-start px-4 sm:px-6 md:px-12 gap-12">
+    <main className="flex flex-col items-center justify-start px-4 sm:px-6 md:px-12 gap-12 bg-slate-200">
       {/* Full-screen Hero Section */}
       <NoticeBoard></NoticeBoard>
       <section className="flex flex-col items-center justify-center min-h-screen w-full text-center gap-4 sm:gap-6 px-2 sm:px-0">
