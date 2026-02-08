@@ -144,6 +144,10 @@ const resources = () => {
           url: "https://www.pexels.com/videos/",
         },
         {
+          label: "Opus Pro – Ready made Captions",
+          url: "https://www.opus.pro/captions",
+        },
+        {
           label: "Pixabay Videos – Royalty-Free Footage",
           url: "https://pixabay.com/videos/",
         },
