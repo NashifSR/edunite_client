@@ -179,10 +179,6 @@ const resources = () => {
           label: "Jitter Video - Create Faster",
           url: "https://jitter.video/",
         },
-        {
-          label: "Jitter Video - Create Faster",
-          url: "https://jitter.video/",
-        },
       ],
     },
     {
