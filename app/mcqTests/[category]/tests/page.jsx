@@ -1,23 +1,29 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import McqQuestionList from "@/app/Components/McqQuestionList";
 import useMCQ from "@/app/Hooks/useMcq";
 
 const McqSetPage = ({ params }) => {
-  const [mcqKey, setMcqKey] = useState(0); // key to reset McqQuestionList
-  const [selectedSet, setSelectedSet] = useState("");
-  const [result, setResult] = useState(null); // For modal
   const { category: cat } = React.use(params);
   const { mcq } = useMCQ();
+  
+  const [mcqKey, setMcqKey] = useState(0);
+  const [selectedSet, setSelectedSet] = useState("");
+  const [result, setResult] = useState(null);
+  const [mounted, setMounted] = useState(false);
 
-  const mcqQuestionSet = mcq?.[cat] || [];
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
-  const sets = [...new Set(mcqQuestionSet.map((item) => item.question_set))];
+  const mcqQuestionSet = useMemo(() => mcq?.[cat] || [], [mcq, cat]);
+  const sets = useMemo(() => [...new Set(mcqQuestionSet.map((item) => item.question_set))], [mcqQuestionSet]);
 
-  const filteredQuestions = selectedSet
-    ? mcqQuestionSet.filter((q) => q.question_set === selectedSet)
-    : [];
+  const filteredQuestions = useMemo(() => 
+    selectedSet ? mcqQuestionSet.filter((q) => q.question_set === selectedSet) : [],
+    [selectedSet, mcqQuestionSet]
+  );
 
   const handleSubmit = ({ answers }) => {
     let correctCount = 0;
@@ -29,87 +35,96 @@ const McqSetPage = ({ params }) => {
       }
     });
 
-    const percentage = (
-      (correctCount / filteredQuestions.length) *
-      100
-    ).toFixed(0);
+    const percentage = ((correctCount / filteredQuestions.length) * 100).toFixed(0);
     let message = "";
+    let color = "";
 
-    if (percentage === "100") message = "💯 Perfect score! Amazing job!";
-    else if (percentage >= 80) message = "👏 Great work! Keep it up!";
-    else if (percentage >= 50)
-      message = "🙂 Good effort! You can do even better next time!";
-    else message = "😅 Don't worry, try again and you'll improve!";
+    if (percentage === "100") { message = "Perfect score! Amazing job!"; color = "text-emerald-500"; }
+    else if (percentage >= 80) { message = "Great work! Keep it up!"; color = "text-blue-500"; }
+    else if (percentage >= 50) { message = "Good effort! Try for 80%!"; color = "text-orange-500"; }
+    else { message = "Don't worry, keep practicing!"; color = "text-red-500"; }
 
-    // Set modal result
     setResult({
       setName: selectedSet,
       correctCount,
       total: filteredQuestions.length,
       percentage,
       message,
+      color
     });
   };
 
   const closeModal = () => {
-    setResult(null); // Close the modal
-    setSelectedSet((prev) => prev); // Keep the same set
-    setMcqKey((prev) => prev + 1); // Force re-render of McqQuestionList
+    setResult(null);
+    setMcqKey((prev) => prev + 1);
   };
 
-  return (
-    <div className="min-h-screen p-8 flex flex-col items-center bg-white text-black gap-8">
-      <h1 className="text-3xl font-bold mb-4 capitalize">{cat}</h1>
+  if (!mounted) return null;
 
-      {/* Set selection */}
-      <div className="flex flex-col items-center w-full max-w-md gap-4 mb-6">
-        <p className="text-lg font-medium">Select a question set:</p>
-        <select
-          className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300"
-          value={selectedSet}
-          onChange={(e) => setSelectedSet(e.target.value)}
-        >
-          <option value="" disabled>
-            -- Choose a set --
-          </option>
-          {sets.map((setName) => (
-            <option key={setName} value={setName}>
-              {setName}
-            </option>
-          ))}
-        </select>
+  return (
+    <div className="min-h-screen bg-slate-50 pb-20">
+      {/* Slim Selection Header */}
+      <div className="sticky top-0 z-30 bg-white border-b border-slate-200 px-6 py-4">
+        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+          <h1 className="text-xl font-black text-slate-900 tracking-tight capitalize">
+            {cat.replace("_", " ")} <span className="text-blue-600">Assessment</span>
+          </h1>
+
+          <select
+            className="w-full sm:w-64 bg-slate-100 border-none rounded-xl px-4 py-2 text-sm font-bold text-slate-700 outline-none ring-2 ring-transparent focus:ring-blue-500 transition-all cursor-pointer"
+            value={selectedSet}
+            onChange={(e) => setSelectedSet(e.target.value)}
+          >
+            <option value="">Choose Question Set</option>
+            {sets.map((setName) => (
+              <option key={setName} value={setName}>{setName}</option>
+            ))}
+          </select>
+        </div>
       </div>
 
-      {/* MCQ questions */}
-      {selectedSet && (
-        <div className="w-full max-w-2xl flex flex-col gap-6">
-          <McqQuestionList
-            key={mcqKey} // forces rerender and clears answers
-            questions={filteredQuestions}
-            onSubmit={handleSubmit}
-            selectedSet={selectedSet}
-          />
-        </div>
-      )}
+      <main className="max-w-3xl mx-auto px-6 mt-10">
+        {!selectedSet ? (
+          <div className="text-center py-20 bg-white rounded-3xl border-2 border-dashed border-slate-200">
+            <p className="text-slate-400 font-bold">Select a set to begin the test.</p>
+          </div>
+        ) : (
+          <div className="bg-white rounded-3xl shadow-sm border border-slate-200 p-2 sm:p-6">
+            <McqQuestionList
+              key={mcqKey}
+              questions={filteredQuestions}
+              onSubmit={handleSubmit}
+              selectedSet={selectedSet}
+            />
+          </div>
+        )}
+      </main>
 
-      {/* Result Modal */}
+      {/* Modern Result Modal */}
       {result && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-          <div className="bg-white rounded-xl p-6 max-w-sm w-full shadow-lg text-center">
-            <h2 className="text-2xl font-bold mb-4">🎉 Result 🎉</h2>
-            <p className="mb-2">
-              Set: <span className="font-semibold">{result.setName}</span>
-            </p>
-            <p className="mb-2">
-              Score: {result.correctCount} / {result.total} ({result.percentage}
-              %)
-            </p>
-            <p className="mt-4 text-lg">{result.message}</p>
+        <div className="fixed inset-0 flex items-center justify-center bg-slate-900/60 backdrop-blur-sm z-50 p-4">
+          <div className="bg-white rounded-[2.5rem] p-8 max-w-sm w-full shadow-2xl text-center animate-in zoom-in duration-300">
+            <div className={`text-5xl mb-4 ${result.color}`}>
+              {result.percentage >= 80 ? "🏆" : "📝"}
+            </div>
+            
+            <h2 className="text-3xl font-black text-slate-900 mb-2">Result</h2>
+            <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-6">{result.setName}</p>
+            
+            <div className="bg-slate-50 rounded-2xl py-6 mb-6">
+              <p className="text-5xl font-black text-slate-900 mb-1">{result.percentage}%</p>
+              <p className="text-sm font-bold text-slate-500">
+                {result.correctCount} / {result.total} Correct
+              </p>
+            </div>
+
+            <p className={`font-bold mb-8 ${result.color}`}>{result.message}</p>
+            
             <button
               onClick={closeModal}
-              className="mt-6 bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg shadow-lg transition transform hover:scale-105"
+              className="w-full bg-slate-900 hover:bg-blue-600 text-white font-black py-4 rounded-2xl transition-all shadow-lg shadow-blue-100"
             >
-              Close
+              Try Again
             </button>
           </div>
         </div>

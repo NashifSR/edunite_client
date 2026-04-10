@@ -1,8 +1,7 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import useShortQuestions from "@/app/Hooks/useShortQuestions";
-import ButtonDesigns from "@/app/Components/ButtonDesigns";
 
 const QuestionPage = ({ params }) => {
   const { category: cat } = React.use(params);
@@ -16,8 +15,9 @@ const QuestionPage = ({ params }) => {
   const [quizStarted, setQuizStarted] = useState(false);
   const [quizSubmitted, setQuizSubmitted] = useState(false);
 
-  const categoryQuestions = shortQuestions?.[cat] || [];
-  const units = [...new Set(categoryQuestions.map((q) => q.unit))];
+  // Memoize category data to prevent recalculation on every timer tick
+  const categoryQuestions = useMemo(() => shortQuestions?.[cat] || [], [shortQuestions, cat]);
+  const units = useMemo(() => [...new Set(categoryQuestions.map((q) => q.unit))], [categoryQuestions]);
 
   const getRandomQuestions = (questions) => {
     const shuffled = [...questions].sort(() => 0.5 - Math.random());
@@ -42,6 +42,11 @@ const QuestionPage = ({ params }) => {
 
   useEffect(() => {
     if (!quizStarted || quizSubmitted || timeLeft <= 0) return;
+    
+    // Auto-submit if time runs out
+    if (timeLeft === 1) {
+       submitQuiz();
+    }
 
     const timer = setTimeout(() => setTimeLeft((t) => t - 1), 1000);
     return () => clearTimeout(timer);
@@ -57,103 +62,135 @@ const QuestionPage = ({ params }) => {
     setQuizStarted(false);
   };
 
-  return (
-    <div className="min-h-screen bg-white text-black px-4 py-6 sm:px-8 flex flex-col items-center">
-
-      {/* Title */}
-      <h1 className="text-xl sm:text-2xl font-semibold mb-6 capitalize text-center">
-        {cat.replaceAll("_", " ")} — Questions
-      </h1>
-
-      {/* Unit selection */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 mb-6 w-full max-w-4xl">
-        {units.map((unit) => (
-          <ButtonDesigns
-            key={unit}
-            label={unit}
-            variant={selectedUnit === unit ? "primary" : "soft"}
-            onClick={() => handleUnitSelect(unit)}
-          />
-        ))}
-      </div>
-
-      {/* Time selection */}
-      {selectedUnit && !quizStarted && !quizSubmitted && (
-        <div className="flex flex-col items-center gap-4 mb-6 w-full max-w-md text-center">
-          <p className="font-medium">Select time per question</p>
-
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 w-full">
-            {[60, 90, 120, 180].map((sec) => (
-              <ButtonDesigns
-                key={sec}
-                label={`${sec / 60} min`}
-                variant={timePerQuestion === sec ? "primary" : "soft"}
-                onClick={() => setTimePerQuestion(sec)}
-              />
-            ))}
+  if (quizSubmitted) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-slate-50 px-6">
+        <div className="bg-white p-10 rounded-[3rem] border border-slate-200 shadow-xl max-w-sm w-full text-center">
+          <div className="w-20 h-20 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center text-3xl mx-auto mb-6">
+            ✓
           </div>
-
-          <ButtonDesigns
-            label="Start Quiz"
-            variant="success"
-            onClick={startQuiz}
-          />
+          <h2 className="text-2xl font-black text-slate-900 mb-2">Submission Successful</h2>
+          <p className="text-slate-500 mb-8 font-medium">
+            You completed {Object.keys(answers).length} out of {randomQuestions.length} questions.
+          </p>
+          <button 
+            onClick={() => window.location.reload()}
+            className="w-full py-4 bg-slate-900 text-white rounded-2xl font-black transition-transform active:scale-95 shadow-lg shadow-slate-200"
+          >
+            Try Another Set
+          </button>
         </div>
-      )}
+      </div>
+    );
+  }
 
-      {/* Quiz questions */}
-      {quizStarted && randomQuestions.length > 0 && (
-        <div className="w-full max-w-3xl space-y-6">
-
-          {/* Timer */}
-          <div className="sticky top-0 bg-white z-10 py-2">
-            <p className="font-semibold text-right text-sm sm:text-base">
-              ⏱ Time left: {Math.floor(timeLeft / 60)}:
-              {String(timeLeft % 60).padStart(2, "0")}
-            </p>
+  return (
+    <div className="min-h-screen bg-slate-50 pb-32">
+      {/* Dynamic Header */}
+      <header className="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-slate-100 px-6 py-4">
+        <div className="max-w-5xl mx-auto flex items-center justify-between">
+          <div>
+            <h1 className="text-lg font-black text-slate-900 capitalize tracking-tight">
+              {cat.replaceAll("_", " ")}
+            </h1>
+            <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Practice Session</p>
           </div>
-
-          {randomQuestions.map((q, index) => (
-            <div
-              key={q.id}
-              className="border p-4 sm:p-5 rounded-xl shadow-sm bg-white"
-            >
-              <p className="font-semibold text-sm sm:text-base">
-                Q{index + 1} (ID: {q.id}): {q.question}
-              </p>
-
-              <textarea
-                className="mt-3 w-full p-3 border rounded-lg resize-none
-                  focus:outline-none focus:ring-2 focus:ring-blue-300
-                  text-sm sm:text-base"
-                rows={4}
-                placeholder="Type your answer here..."
-                value={answers[q.id] || ""}
-                onChange={(e) => handleAnswerChange(q.id, e.target.value)}
-                disabled={quizSubmitted}
-              />
-            </div>
-          ))}
-
-          {!quizSubmitted && (
-            <div className="flex justify-center pt-4">
-              <ButtonDesigns
-                label="Submit Quiz"
-                variant="success"
-                onClick={submitQuiz}
-              />
+          
+          {quizStarted && (
+            <div className={`px-4 py-1.5 rounded-xl font-mono text-sm font-black transition-colors ${
+              timeLeft < 60 ? "bg-red-50 text-red-600 animate-pulse" : "bg-slate-900 text-white"
+            }`}>
+              {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, "0")}
             </div>
           )}
         </div>
-      )}
+      </header>
 
-      {/* Submission message */}
-      {quizSubmitted && (
-        <div className="mt-6 p-4 rounded-xl bg-green-100 w-full max-w-md text-center">
-          <h2 className="text-lg sm:text-xl font-semibold mb-2">
-            ✅ Quiz Submitted!
-          </h2>
-          <p>You answered {Object.keys(answers).length} questions.</p>
+      <main className="max-w-4xl mx-auto px-6 mt-8">
+        {!quizStarted ? (
+          <div className="flex flex-col items-center">
+            {/* Unit Picker */}
+            <div className="w-full flex flex-wrap justify-center gap-2 mb-10">
+              {units.map((unit) => (
+                <button
+                  key={`unit-${unit}`} // Added unique key
+                  onClick={() => handleUnitSelect(unit)}
+                  className={`px-5 py-2 rounded-xl text-xs font-bold transition-all border-2 ${
+                    selectedUnit === unit 
+                    ? "bg-white border-blue-500 text-blue-600 shadow-sm" 
+                    : "bg-slate-100 border-transparent text-slate-500 hover:bg-slate-200"
+                  }`}
+                >
+                  {unit}
+                </button>
+              ))}
+            </div>
+
+            {selectedUnit && (
+              <div className="w-full max-w-md bg-white border border-slate-200 p-8 rounded-[2.5rem] text-center shadow-sm">
+                <p className="text-slate-400 text-xs font-black uppercase tracking-widest mb-6 italic">Set Timer (Per Question)</p>
+                <div className="grid grid-cols-4 gap-2 mb-8">
+                  {[60, 90, 120, 180].map((sec) => (
+                    <button
+                      key={`timer-${sec}`} // Added unique key
+                      onClick={() => setTimePerQuestion(sec)}
+                      className={`py-3 rounded-xl text-[10px] font-black transition-all ${
+                        timePerQuestion === sec ? "bg-slate-900 text-white" : "bg-slate-50 text-slate-400"
+                      }`}
+                    >
+                      {sec / 60}m
+                    </button>
+                  ))}
+                </div>
+                <button 
+                  onClick={startQuiz}
+                  className="w-full py-4 bg-emerald-500 text-white rounded-2xl font-black shadow-lg shadow-emerald-100 hover:bg-emerald-600 transition-all active:scale-95"
+                >
+                  Launch Quiz
+                </button>
+              </div>
+            )}
+          </div>
+        ) : (
+          <div className="space-y-6">
+            {randomQuestions.map((q, index) => (
+              <div key={`question-${q.id}`} className="bg-white border border-slate-200 rounded-[2rem] p-6 sm:p-8">
+                <div className="flex gap-4 mb-4">
+                  <span className="shrink-0 flex items-center justify-center w-8 h-8 rounded-lg bg-slate-100 text-slate-400 text-[10px] font-black">
+                    #{index + 1}
+                  </span>
+                  <h3 className="text-base sm:text-lg font-bold text-slate-800 leading-snug">
+                    {q.question}
+                  </h3>
+                </div>
+                
+                <textarea
+                  className="w-full p-5 bg-slate-50 rounded-2xl border-none focus:ring-2 focus:ring-blue-500 text-sm sm:text-base text-slate-700 placeholder:text-slate-300 transition-all min-h-[120px] resize-none"
+                  placeholder="Draft your answer here..."
+                  value={answers[q.id] || ""}
+                  onChange={(e) => handleAnswerChange(q.id, e.target.value)}
+                />
+              </div>
+            ))}
+          </div>
+        )}
+      </main>
+
+      {/* Persistent Bottom Controls */}
+      {quizStarted && (
+        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 w-[90%] max-w-md z-50">
+          <div className="bg-slate-900/90 backdrop-blur-xl p-2 rounded-[2rem] shadow-2xl flex items-center justify-between border border-white/10 px-4">
+             <div className="flex flex-col">
+                <span className="text-[9px] font-black text-slate-400 uppercase tracking-tighter">Progress</span>
+                <span className="text-white font-black text-sm">{Object.keys(answers).length} / {randomQuestions.length}</span>
+             </div>
+             <button 
+                onClick={submitQuiz}
+                className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3 rounded-2xl text-xs font-black shadow-lg transition-all active:scale-95"
+             >
+                Submit Now
+             </button>
+          </div>
         </div>
       )}
     </div>

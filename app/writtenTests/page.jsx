@@ -5,10 +5,10 @@ import { useRouter } from "next/navigation";
 import SectionToggle from "../Components/SectionToggle";
 
 const categories = [
-  { name: "Graphic Design", slug: "graphic_design" },
-  { name: "Computer Operation", slug: "computer_operation" },
-  { name: "Digital Marketing", slug: "digital_marketing" },
-  { name: "Web Development", slug: "web_development" },
+  { name: "Graphic Design", slug: "graphic_design", icon: "🎨" },
+  { name: "Computer Operation", slug: "computer_operation", icon: "💻" },
+  { name: "Digital Marketing", slug: "digital_marketing", icon: "📈" },
+  { name: "Web Development", slug: "web_development", icon: "🌐" },
 ];
 
 const WrittenTests = () => {
@@ -16,59 +16,70 @@ const WrittenTests = () => {
   const [section, setSection] = useState("answers");
 
   return (
-    <div className="min-h-screen text-black px-4 py-8 sm:px-8 flex flex-col items-center">
-
-      {/* Header */}
-      <div className="max-w-3xl text-center mb-8">
-        <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight mb-2">
-          Written Test Portal
+    <div className="min-h-screen bg-slate-50 text-slate-900 px-6 py-12 flex flex-col items-center">
+      
+      {/* Header Section */}
+      <div className="max-w-2xl text-center mb-12">
+        <div className="inline-block px-4 py-1.5 mb-4 rounded-full bg-slate-200/50 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
+          Curated Examination Material
+        </div>
+        <h1 className="text-4xl font-black tracking-tight mb-4 text-slate-900">
+          Written Test <span className="text-blue-600">Portal</span>
         </h1>
-        <p className="text-gray-600 text-sm sm:text-base">
-          Choose a category to view written questions or answers
+        <p className="text-slate-500 font-medium">
+          Select a subject area to review past questions or check official answer keys.
         </p>
       </div>
 
-      {/* Toggle */}
-      <div className="w-full max-w-md mb-8">
+      {/* Modern Section Toggle */}
+      <div className="w-full max-w-[340px] mb-12">
         <SectionToggle defaultSection="answers" onChange={setSection} />
       </div>
 
-      {/* Categories */}
+      {/* Category Grid */}
       <div className="w-full max-w-5xl">
-        <h2 className="text-xl sm:text-2xl font-semibold text-center mb-6 capitalize">
-          {section}
-        </h2>
+        <div className="flex items-center gap-3 mb-8">
+          <div className={`h-8 w-1 rounded-full ${section === 'answers' ? 'bg-emerald-500' : 'bg-blue-500'}`} />
+          <h2 className="text-xl font-black capitalize tracking-tight">
+            Browse {section}
+          </h2>
+        </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {categories.map((cat) => (
-            <div
+            <button
               key={cat.slug}
-              className="group rounded-2xl border bg-white shadow-sm
-                         hover:shadow-lg transition-all duration-300"
+              onClick={() => router.push(`/writtenTests/${cat.slug}/${section}`)}
+              className="group relative bg-white border border-slate-200 rounded-[2rem] p-8 text-center transition-all duration-300 hover:border-transparent hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)] active:scale-95 flex flex-col items-center"
             >
-              <button
-                onClick={() =>
-                  router.push(`/writtenTests/${cat.slug}/${section}`)
-                }
-                className="w-full h-full px-6 py-8 flex flex-col items-center justify-center gap-3
-                           focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400"
-              >
-                <span className="text-lg font-semibold text-center group-hover:scale-105 transition-transform">
-                  {cat.name}
-                </span>
+              {/* Icon / Avatar */}
+              <div className="w-16 h-16 rounded-2xl bg-slate-50 flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform duration-300">
+                {cat.icon}
+              </div>
 
-                <span
-                  className={`px-4 py-1 rounded-full text-sm font-medium
-                    ${
-                      section === "answers"
-                        ? "bg-blue-100 text-blue-700"
-                        : "bg-red-100 text-red-700"
-                    }`}
-                >
-                  {section === "answers" ? "View Answers" : "View Questions"}
-                </span>
-              </button>
-            </div>
+              <span className="text-lg font-black text-slate-800 mb-2 block group-hover:text-blue-600 transition-colors">
+                {cat.name}
+              </span>
+
+              <div
+                className={`inline-flex items-center gap-2 px-4 py-1.5 rounded-xl text-[11px] font-black uppercase tracking-wider transition-colors
+                  ${
+                    section === "answers"
+                      ? "bg-emerald-50 text-emerald-600 group-hover:bg-emerald-500 group-hover:text-white"
+                      : "bg-blue-50 text-blue-600 group-hover:bg-blue-500 group-hover:text-white"
+                  }`}
+              >
+                {section === "answers" ? "Key Available" : "Start Review"}
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M9 5l7 7-7 7" />
+                </svg>
+              </div>
+
+              {/* Subtle background decoration */}
+              <div className="absolute top-0 right-0 p-4 opacity-[0.03] group-hover:opacity-[0.07] transition-opacity">
+                <span className="text-6xl font-black italic">{cat.name.charAt(0)}</span>
+              </div>
+            </button>
           ))}
         </div>
       </div>

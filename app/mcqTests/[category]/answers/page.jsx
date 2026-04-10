@@ -1,76 +1,93 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import useMCQ from "@/app/Hooks/useMcq";
 
 const McqAnswerPage = ({ params }) => {
   const { category: cat } = React.use(params);
   const { mcq } = useMCQ();
-  const mcqQuestionSet = mcq?.[cat] || [];
-
-  console.log("testing", mcqQuestionSet);
-
-  // Get unique set names
-  const sets = [...new Set(mcqQuestionSet.map((item) => item.question_set))];
-
+  
   const [selectedSet, setSelectedSet] = useState("");
+  const [mounted, setMounted] = useState(false);
 
-  // Filter questions for the selected set
-  const filteredQuestions = selectedSet
-    ? mcqQuestionSet.filter((q) => q.question_set === selectedSet)
-    : [];
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const mcqQuestionSet = useMemo(() => mcq?.[cat] || [], [mcq, cat]);
+  const sets = useMemo(() => [...new Set(mcqQuestionSet.map((item) => item.question_set))], [mcqQuestionSet]);
+
+  const filteredQuestions = useMemo(() => 
+    selectedSet ? mcqQuestionSet.filter((q) => q.question_set === selectedSet) : [],
+    [selectedSet, mcqQuestionSet]
+  );
+
+  if (!mounted) return null;
 
   return (
-    <div className="min-h-screen p-8 flex flex-col items-center bg-white text-black gap-8">
-      <h1 className="text-3xl font-bold mb-4 capitalize">{cat}</h1>
+    <div className="min-h-screen bg-white pb-10">
+      {/* Slim Header */}
+      <header className="sticky top-0 z-30 bg-white border-b border-slate-200 px-4 py-3">
+        <div className="max-w-5xl mx-auto flex items-center justify-between gap-4">
+          <h1 className="text-lg font-bold text-slate-900 capitalize leading-none">
+            {cat.replace("_", " ")} <span className="text-emerald-600">Key</span>
+          </h1>
 
-      {/* Set selection */}
-      <div className="flex flex-col items-center w-full max-w-md gap-4 mb-6">
-        <p className="text-lg font-medium">Select a question set:</p>
-        <select
-          className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300"
-          value={selectedSet}
-          onChange={(e) => setSelectedSet(e.target.value)}
-        >
-          <option value="" disabled>
-            -- Choose a set --
-          </option>
-          {sets.map((setName) => (
-            <option key={setName} value={setName}>
-              {setName}
-            </option>
-          ))}
-        </select>
-      </div>
-
-      {/* Display questions and answers */}
-      {selectedSet && (
-        <div className="w-full max-w-2xl flex flex-col gap-6">
-          {filteredQuestions.map((q, index) => (
-            <div key={q.id} className="border p-4 rounded shadow bg-gray-50">
-              <p className="font-semibold mb-2">
-                Q{index + 1}: {q.question}
-              </p>
-              <div className="space-y-2 pl-6 pb-2">
-                {q.options.map((option, i) => (
-                  <label
-                    key={i}
-                    className="flex items-center space-x-2 cursor-pointer"
-                  >
-                    <span>
-                      {i + 1}: {option}
-                    </span>
-                  </label>
-                ))}
-              </div>
-              <p className="text-green-600 font-bold">
-                <span className="text-black font-medium ">Answer:</span>{" "}
-                {q.correct_answer}
-              </p>
-            </div>
-          ))}
+          <select
+            className="bg-slate-100 rounded-lg px-3 py-1.5 text-xs font-bold text-slate-700 outline-none border border-slate-200"
+            value={selectedSet}
+            onChange={(e) => setSelectedSet(e.target.value)}
+          >
+            <option value="">Select Set</option>
+            {sets.map((setName) => (
+              <option key={setName} value={setName}>{setName}</option>
+            ))}
+          </select>
         </div>
-      )}
+      </header>
+
+      <main className="max-w-4xl mx-auto px-4 mt-6">
+        {!selectedSet ? (
+          <p className="text-center text-slate-400 text-sm mt-20">Select a set to view answers.</p>
+        ) : (
+          <div className="flex flex-col border border-slate-200 rounded-lg divide-y divide-slate-200">
+            {filteredQuestions.map((q, index) => (
+              <div key={q.id} className="p-4 hover:bg-slate-50 transition-colors">
+                {/* Question Line */}
+                <div className="flex gap-3 mb-3">
+                  <span className="shrink-0 font-black text-slate-400 text-sm w-6">
+                    {index + 1}.
+                  </span>
+                  <p className="text-sm font-semibold text-slate-800 leading-snug">
+                    {q.question}
+                  </p>
+                </div>
+
+                {/* Options Grid - Compact */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-1 ml-9">
+                  {q.options.map((option, i) => {
+                    const isCorrect = option === q.correct_answer;
+                    return (
+                      <div 
+                        key={i}
+                        className={`text-xs py-1 flex items-center gap-2 ${
+                          isCorrect ? "text-emerald-600 font-bold" : "text-slate-400 font-medium"
+                        }`}
+                      >
+                        <span className={`uppercase w-4 h-4 flex items-center justify-center rounded ${isCorrect ? "bg-emerald-600 text-white" : "bg-slate-100"}`}>
+                          {String.fromCharCode(65 + i)}
+                        </span>
+                        {option}
+                        {isCorrect && <span className="text-[10px] ml-1">✔</span>}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </main>
     </div>
   );
 };
