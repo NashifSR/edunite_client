@@ -3208,5 +3208,1811 @@
         }
       ]
     ]
+  ],
+  "CBTA": [
+    {
+      "unit": "Module 1",
+      "question": "Define Technical and Vocational Education and Training (TVET).",
+      "answer": {
+        "en": "TVET refers to education and training that develops practical skills, knowledge, and competencies required for employment and industry needs.",
+        "bn": "TVET হল এমন শিক্ষা ও প্রশিক্ষণ যা কর্মসংস্থান এবং শিল্পের চাহিদা অনুযায়ী ব্যবহারিক দক্ষতা, জ্ঞান এবং যোগ্যতা তৈরি করে।"
+      },
+      "keywords": [
+        "skills development",
+        "vocational training",
+        "employability"
+      ],
+      "id": 357
+    },
+    {
+      "unit": "Module 1",
+      "question": "What is the purpose of the TVET reform system in Bangladesh?",
+      "answer": {
+        "en": "To improve skill development, strengthen industry linkage, introduce competency-based training, and enhance employability.",
+        "bn": "বাংলাদেশে TVET সংস্কার ব্যবস্থার উদ্দেশ্য হলো দক্ষতা উন্নয়ন উন্নত করা, শিল্পের সাথে সংযোগ শক্তিশালী করা, যোগ্যতাভিত্তিক প্রশিক্ষণ চালু করা এবং কর্মসংস্থানযোগ্যতা বৃদ্ধি করা।"
+      },
+      "keywords": ["reform", "CBT&A", "industry linkage", "employability"],
+      "id": 358
+    },
+    {
+      "unit": "Module 1",
+      "question": "Explain Competency Based Training and Assessment (CBT&A).",
+      "answer": {
+        "en": "CBT&A is a system where learners are assessed based on demonstrated skills and competencies required for specific jobs rather than theoretical knowledge.",
+        "bn": "CBT&A হলো এমন একটি ব্যবস্থা যেখানে শিক্ষার্থীদের তাত্ত্বিক জ্ঞানের পরিবর্তে নির্দিষ্ট কাজের জন্য প্রয়োজনীয় দক্ষতা ও যোগ্যতার ভিত্তিতে মূল্যায়ন করা হয়।"
+      },
+      "keywords": ["competency", "assessment", "skills", "performance"],
+      "id": 359
+    },
+    {
+      "unit": "Module 1",
+      "question": "What is the National Skills Development Policy?",
+      "answer": {
+        "en": "It is a government policy that guides skills development strategies and coordinates stakeholders including industry and training providers.",
+        "bn": "এটি একটি সরকারি নীতি যা দক্ষতা উন্নয়ন কৌশল নির্দেশনা দেয় এবং শিল্প ও প্রশিক্ষণ প্রদানকারীসহ সংশ্লিষ্ট পক্ষগুলোর সমন্বয় করে।"
+      },
+      "keywords": ["policy", "coordination", "skills strategy"],
+      "id": 360
+    },
+    {
+      "unit": "Module 1",
+      "question": "Explain the role of Industry Skills Councils (ISCs).",
+      "answer": {
+        "en": "ISCs identify skill demands, advise on curriculum development, and connect industry needs with training systems.",
+        "bn": "ISC গুলো দক্ষতার চাহিদা নির্ধারণ করে, পাঠ্যক্রম উন্নয়নে পরামর্শ দেয় এবং শিল্পের চাহিদার সাথে প্রশিক্ষণ ব্যবস্থার সংযোগ স্থাপন করে।"
+      },
+      "keywords": ["industry demand", "curriculum", "workforce needs"],
+      "id": 361
+    },
+    {
+      "unit": "Module 1",
+      "question": "What is NTVQF?",
+      "answer": {
+        "en": "A framework that defines qualification levels and competencies for vocational skills recognition in Bangladesh.",
+        "bn": "এটি একটি কাঠামো যা বাংলাদেশে পেশাগত দক্ষতার স্বীকৃতির জন্য যোগ্যতার স্তর ও দক্ষতা নির্ধারণ করে।"
+      },
+      "keywords": ["qualification framework", "competency levels"],
+      "id": 362
+    },
+    {
+      "unit": "Module 1",
+      "question": "What is Recognition of Prior Learning (RPL)?",
+      "answer": {
+        "en": "A system that certifies skills gained through work experience or informal learning.",
+        "bn": "এটি এমন একটি ব্যবস্থা যা কাজের অভিজ্ঞতা বা অনানুষ্ঠানিক শিক্ষার মাধ্যমে অর্জিত দক্ষতার সনদ প্রদান করে।"
+      },
+      "keywords": ["experience", "certification", "informal learning"],
+      "id": 363
+    },
+    {
+      "unit": "Module 1",
+      "question": "What are pre-vocational levels in NTVQF?",
+      "answer": {
+        "en": "Entry levels designed for underprivileged learners with limited formal education to access TVET.",
+        "bn": "এগুলো এমন প্রাথমিক স্তর যা সীমিত আনুষ্ঠানিক শিক্ষা থাকা সুবিধাবঞ্চিত শিক্ষার্থীদের TVET-এ প্রবেশের জন্য তৈরি করা হয়েছে।"
+      },
+      "keywords": ["access", "underprivileged", "entry-level"],
+      "id": 364
+    },
+    {
+      "unit": "Module 1",
+      "question": "Why is labour market information important in TVET?",
+      "answer": {
+        "en": "It helps identify current and future skill demands for effective training planning.",
+        "bn": "এটি বর্তমান ও ভবিষ্যৎ দক্ষতার চাহিদা নির্ধারণ করে কার্যকর প্রশিক্ষণ পরিকল্পনায় সহায়তা করে।"
+      },
+      "keywords": ["demand", "planning", "employment trends"],
+      "id": 365
+    },
+    {
+      "unit": "Module 1",
+      "question": "What is apprenticeship in TVET?",
+      "answer": {
+        "en": "A work-based learning system where learners gain skills through practical workplace training.",
+        "bn": "এটি এমন একটি কর্মভিত্তিক শিক্ষাব্যবস্থা যেখানে শিক্ষার্থীরা বাস্তব কর্মস্থলে প্রশিক্ষণের মাধ্যমে দক্ষতা অর্জন করে।"
+      },
+      "keywords": ["workplace learning", "practical training"],
+      "id": 366
+    },
+    {
+      "unit": "Module 1",
+      "question": "Explain quality assurance in TVET.",
+      "answer": {
+        "en": "It ensures training programs meet standardized quality and industry expectations.",
+        "bn": "এটি নিশ্চিত করে যে প্রশিক্ষণ কর্মসূচি নির্ধারিত মান এবং শিল্পের প্রত্যাশা পূরণ করছে।"
+      },
+      "keywords": ["standards", "quality", "evaluation"],
+      "id": 367
+    },
+    {
+      "unit": "Module 1",
+      "question": "What is competency standard development?",
+      "answer": {
+        "en": "It is the process of defining skills and knowledge required for specific occupations.",
+        "bn": "এটি নির্দিষ্ট পেশার জন্য প্রয়োজনীয় দক্ষতা ও জ্ঞান নির্ধারণের প্রক্রিয়া।"
+      },
+      "keywords": ["standards", "occupation", "skills definition"],
+      "id": 368
+    },
+    {
+      "unit": "Module 1",
+      "question": "How does NTVQF support learners’ progression?",
+      "answer": {
+        "en": "It provides clear pathways for moving between qualification levels and career advancement.",
+        "bn": "এটি যোগ্যতার বিভিন্ন স্তরের মধ্যে অগ্রগতি এবং ক্যারিয়ার উন্নয়নের স্পষ্ট পথ প্রদান করে।"
+      },
+      "keywords": ["progression", "pathway", "levels"],
+      "id": 369
+    },
+    {
+      "unit": "Module 1",
+      "question": "What is the role of industry in TVET reform?",
+      "answer": {
+        "en": "Industry helps design curricula, identify skills demand, and ensure training relevance.",
+        "bn": "শিল্প প্রতিষ্ঠান পাঠ্যক্রম তৈরি, দক্ষতার চাহিদা নির্ধারণ এবং প্রশিক্ষণের প্রাসঙ্গিকতা নিশ্চিত করতে সহায়তা করে।"
+      },
+      "keywords": ["curriculum", "relevance", "industry input"],
+      "id": 370
+    },
+    {
+      "unit": "Module 1",
+      "question": "What is demand-driven training?",
+      "answer": {
+        "en": "Training designed according to labour market and industry needs.",
+        "bn": "এটি এমন প্রশিক্ষণ যা শ্রমবাজার ও শিল্পের চাহিদা অনুযায়ী তৈরি করা হয়।"
+      },
+      "keywords": ["market needs", "employment", "relevance"],
+      "id": 371
+    },
+    {
+      "unit": "Module 1",
+      "question": "Explain the importance of flexible training in TVET.",
+      "answer": {
+        "en": "It allows adaptation to changing industry requirements and learner needs.",
+        "bn": "এটি পরিবর্তনশীল শিল্পের চাহিদা এবং শিক্ষার্থীদের প্রয়োজন অনুযায়ী প্রশিক্ষণকে অভিযোজিত করতে সাহায্য করে।"
+      },
+      "keywords": ["adaptability", "flexibility", "responsiveness"],
+      "id": 372
+    },
+    {
+      "unit": "Module 1",
+      "question": "What is the purpose of TVET data systems?",
+      "answer": {
+        "en": "To collect and analyze information for better planning and decision-making.",
+        "bn": "উন্নত পরিকল্পনা ও সিদ্ধান্ত গ্রহণের জন্য তথ্য সংগ্রহ ও বিশ্লেষণ করা।"
+      },
+      "keywords": ["data", "planning", "analysis"],
+      "id": 373
+    },
+    {
+      "unit": "Module 1",
+      "question": "What is the function of Standards and Curriculum Development Committees?",
+      "answer": {
+        "en": "They develop and update competency-based curricula with industry input.",
+        "bn": "তারা শিল্পের সহযোগিতায় যোগ্যতাভিত্তিক পাঠ্যক্রম তৈরি ও হালনাগাদ করে।"
+      },
+      "keywords": ["curriculum", "standards", "industry"],
+      "id": 374
+    },
+    {
+      "unit": "Module 1",
+      "question": "What is meant by vertical mobility in NTVQF?",
+      "answer": {
+        "en": "The ability to progress from lower to higher qualification levels.",
+        "bn": "নিম্ন স্তর থেকে উচ্চ স্তরের যোগ্যতায় অগ্রসর হওয়ার সক্ষমতা।"
+      },
+      "keywords": ["progression", "levels", "advancement"],
+      "id": 375
+    },
+    {
+      "unit": "Module 1",
+      "question": "How does TVET support underprivileged groups?",
+      "answer": {
+        "en": "Through pre-vocational levels and improved access to training opportunities.",
+        "bn": "প্রি-ভোকেশনাল স্তর এবং প্রশিক্ষণের সুযোগ বৃদ্ধি করে সুবিধাবঞ্চিতদের সহায়তা করে।"
+      },
+      "keywords": ["access", "inclusion", "opportunity"],
+      "id": 376
+    },
+    {
+      "unit": "Module 1",
+      "question": "Differentiate between CBT&A and traditional education.",
+      "answer": {
+        "en": "CBT&A focuses on skills and performance, while traditional education focuses on theory and exams.",
+        "bn": "CBT&A দক্ষতা ও কর্মদক্ষতার উপর গুরুত্ব দেয়, আর প্রচলিত শিক্ষা তত্ত্ব ও পরীক্ষার উপর নির্ভরশীল।"
+      },
+      "keywords": ["skills vs theory", "performance-based"],
+      "id": 377
+    },
+    {
+      "unit": "Module 1",
+      "question": "What is the importance of apprenticeships?",
+      "answer": {
+        "en": "They provide real workplace experience and improve employability.",
+        "bn": "এটি বাস্তব কর্মস্থলের অভিজ্ঞতা প্রদান করে এবং কর্মসংস্থানযোগ্যতা বৃদ্ধি করে।"
+      },
+      "keywords": ["experience", "employment", "practice"],
+      "id": 378
+    },
+    {
+      "unit": "Module 1",
+      "question": "Explain sector working groups in TVET.",
+      "answer": {
+        "en": "They are similar to ISCs and support skills planning in specific industries.",
+        "bn": "এগুলো ISC-এর মতো এবং নির্দিষ্ট শিল্পে দক্ষতা পরিকল্পনায় সহায়তা করে।"
+      },
+      "keywords": ["sector", "planning", "industry"],
+      "id": 379
+    },
+    {
+      "unit": "Module 1",
+      "question": "What is the role of certified instructors in TVET?",
+      "answer": {
+        "en": "They ensure quality delivery of competency-based training.",
+        "bn": "তারা যোগ্যতাভিত্তিক প্রশিক্ষণের মানসম্মত বাস্তবায়ন নিশ্চিত করে।"
+      },
+      "keywords": ["quality", "teaching", "certification"],
+      "id": 380
+    },
+    {
+      "unit": "Module 1",
+      "question": "How does TVET support overseas employment?",
+      "answer": {
+        "en": "By developing skills aligned with international labour market demands.",
+        "bn": "আন্তর্জাতিক শ্রমবাজারের চাহিদা অনুযায়ী দক্ষতা উন্নয়ন করে।"
+      },
+      "keywords": ["global skills", "employment", "migration"],
+      "id": 381
+    },
+    {
+      "unit": "Module 1",
+      "question": "Compare NTVQF and traditional qualification systems.",
+      "answer": {
+        "en": "NTVQF is competency-based and structured in levels, while traditional systems are exam-based.",
+        "bn": "NTVQF যোগ্যতাভিত্তিক এবং স্তরভিত্তিক কাঠামো, আর প্রচলিত ব্যবস্থা পরীক্ষাভিত্তিক।"
+      },
+      "keywords": ["competency", "levels", "exams"],
+      "id": 382
+    },
+    {
+      "unit": "Module 1",
+      "question": "What is institutional management in TVET?",
+      "answer": {
+        "en": "The administration and organization of training institutions for effective delivery.",
+        "bn": "প্রশিক্ষণ প্রতিষ্ঠানের কার্যকর পরিচালনা ও ব্যবস্থাপনা।"
+      },
+      "keywords": ["management", "organization", "training"],
+      "id": 383
+    },
+    {
+      "unit": "Module 1",
+      "question": "Describe the role of private sector in TVET.",
+      "answer": {
+        "en": "Private sector provides training opportunities and supports skills development initiatives.",
+        "bn": "বেসরকারি খাত প্রশিক্ষণের সুযোগ প্রদান করে এবং দক্ষতা উন্নয়ন কার্যক্রমে সহায়তা করে।"
+      },
+      "keywords": ["training provider", "partnership"],
+      "id": 384
+    },
+    {
+      "unit": "Module 1",
+      "question": "What are key features of National Skills Development Policy?",
+      "answer": {
+        "en": "CBT&A, NTVQF, apprenticeships, RPL, industry engagement, and quality assurance.",
+        "bn": "CBT&A, NTVQF, শিক্ষানবিশ ব্যবস্থা, RPL, শিল্প অংশগ্রহণ এবং গুণগত মান নিশ্চয়তা।"
+      },
+      "keywords": ["policy features", "reforms", "systems"],
+      "id": 385
+    },
+    {
+      "unit": "Module 1",
+      "question": "Explain how TVET improves employability.",
+      "answer": {
+        "en": "By providing industry-relevant skills, competency-based training, and recognized qualifications.",
+        "bn": "শিল্প উপযোগী দক্ষতা, যোগ্যতাভিত্তিক প্রশিক্ষণ এবং স্বীকৃত সার্টিফিকেশন প্রদান করে।"
+      },
+      "keywords": ["skills", "employment", "industry relevance"],
+      "id": 386
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "Define competency in TVET.",
+      "answer": {
+        "en": "Competency refers to measurable knowledge, skills, and attitude required for successful job performance.",
+        "bn": "TVET-এ competency বলতে এমন পরিমাপযোগ্য জ্ঞান, দক্ষতা এবং আচরণ বোঝায় যা সফল কর্মসম্পাদনের জন্য প্রয়োজন।"
+      },
+      "keywords": ["KSAs", "performance", "job readiness"],
+      "id": 387
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "What are the three types of competencies?",
+      "answer": {
+        "en": "Knowledge, Skill, and Attitude competencies.",
+        "bn": "জ্ঞান (Knowledge), দক্ষতা (Skill) এবং আচরণ (Attitude) ভিত্তিক competency।"
+      },
+      "keywords": ["knowledge", "skill", "attitude"],
+      "id": 388
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "Define skill competency.",
+      "answer": {
+        "en": "It is the ability, natural or learned, to perform tasks effectively.",
+        "bn": "এটি হলো স্বাভাবিক বা শেখা এমন সক্ষমতা যার মাধ্যমে কাজ কার্যকরভাবে সম্পাদন করা যায়।"
+      },
+      "keywords": ["ability", "performance", "learned skill"],
+      "id": 389
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "What is attitude competency?",
+      "answer": {
+        "en": "It refers to patterns of behavior and conduct in the workplace.",
+        "bn": "এটি কর্মক্ষেত্রে আচরণ ও ব্যবহারগত ধরণকে নির্দেশ করে।"
+      },
+      "keywords": ["behavior", "conduct", "workplace attitude"],
+      "id": 390
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "What is knowledge competency?",
+      "answer": {
+        "en": "It is theoretical or practical understanding of subjects.",
+        "bn": "এটি বিষয় সম্পর্কিত তাত্ত্বিক বা ব্যবহারিক জ্ঞান ও বোঝাপড়া।"
+      },
+      "keywords": ["understanding", "theory", "knowledge"],
+      "id": 391
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "List key features of competency.",
+      "answer": {
+        "en": "Doing the job, understanding processes, handling problems, safe work approach.",
+        "bn": "কাজ সম্পাদন, প্রক্রিয়া বোঝা, সমস্যা সমাধান এবং নিরাপদভাবে কাজ করা।"
+      },
+      "keywords": ["performance", "problem solving", "safety"],
+      "id": 392
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "Differentiate skill and competency.",
+      "answer": {
+        "en": "Skill is part of competency, while competency includes knowledge, skill, and attitude.",
+        "bn": "দক্ষতা (skill) competency-এর একটি অংশ, কিন্তু competency এর মধ্যে জ্ঞান, দক্ষতা এবং আচরণ অন্তর্ভুক্ত থাকে।"
+      },
+      "keywords": ["KSA", "difference", "scope"],
+      "id": 393
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "Why is attitude important in competency?",
+      "answer": {
+        "en": "It ensures proper behavior and professional conduct in job performance.",
+        "bn": "এটি কর্মসম্পাদনে সঠিক আচরণ ও পেশাগত ব্যবহার নিশ্চিত করে।"
+      },
+      "keywords": ["behavior", "professionalism", "conduct"],
+      "id": 394
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "Define task skills.",
+      "answer": {
+        "en": "Skills required to perform a task according to workplace standards.",
+        "bn": "কর্মক্ষেত্রের মান অনুযায়ী একটি কাজ সম্পাদনের জন্য প্রয়োজনীয় দক্ষতা।"
+      },
+      "keywords": ["task", "standard", "performance"],
+      "id": 395
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "What are task management skills?",
+      "answer": {
+        "en": "Ability to manage and perform multiple tasks efficiently.",
+        "bn": "একাধিক কাজ দক্ষতার সাথে পরিচালনা ও সম্পাদনের সক্ষমতা।"
+      },
+      "keywords": ["multitasking", "planning", "coordination"],
+      "id": 396
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "What are contingency management skills?",
+      "answer": {
+        "en": "Ability to handle unexpected problems or breakdowns.",
+        "bn": "অপ্রত্যাশিত সমস্যা বা বিঘ্ন মোকাবেলার সক্ষমতা।"
+      },
+      "keywords": ["problem-solving", "unexpected", "response"],
+      "id": 397
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "What are job/role environment skills?",
+      "answer": {
+        "en": "Skills required to work with others and adapt to workplace situations.",
+        "bn": "অন্যদের সাথে কাজ করা এবং কর্মপরিবেশের সাথে মানিয়ে নেওয়ার দক্ষতা।"
+      },
+      "keywords": ["teamwork", "adaptation", "communication"],
+      "id": 398
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "Give an example of task skill.",
+      "answer": {
+        "en": "Operating a photocopy machine.",
+        "bn": "ফটোকপি মেশিন পরিচালনা করা।"
+      },
+      "keywords": ["operation", "task execution"],
+      "id": 399
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "Give an example of task management skill.",
+      "answer": {
+        "en": "Selecting correct paper and machine settings.",
+        "bn": "সঠিক কাগজ ও মেশিন সেটিংস নির্বাচন করা।"
+      },
+      "keywords": ["planning", "selection", "multitask"],
+      "id": 400
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "Give an example of contingency skill.",
+      "answer": {
+        "en": "Clearing paper jams in a machine.",
+        "bn": "মেশিনের কাগজ জ্যাম দূর করা।"
+      },
+      "keywords": ["troubleshooting", "problem-solving"],
+      "id": 401
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "Give an example of job/role environment skill.",
+      "answer": {
+        "en": "Communicating with team members.",
+        "bn": "দলের সদস্যদের সাথে যোগাযোগ করা।"
+      },
+      "keywords": ["communication", "teamwork"],
+      "id": 402
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "Define competency standards.",
+      "answer": {
+        "en": "Industry-set specifications defining required skills, knowledge, and attitude for jobs.",
+        "bn": "শিল্প কর্তৃক নির্ধারিত এমন মানদণ্ড যা চাকরির জন্য প্রয়োজনীয় জ্ঞান, দক্ষতা ও আচরণ নির্ধারণ করে।"
+      },
+      "keywords": ["industry", "standards", "KSAs"],
+      "id": 403
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "What is a unit of competency?",
+      "answer": {
+        "en": "A specific work function or area of competence in an occupation.",
+        "bn": "কোনো পেশার একটি নির্দিষ্ট কাজ বা দক্ষতার ক্ষেত্র।"
+      },
+      "keywords": ["function", "job role"],
+      "id": 404
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "What is a unit descriptor?",
+      "answer": {
+        "en": "A summary describing scope and performance level of a unit.",
+        "bn": "একটি ইউনিটের পরিধি ও কর্মক্ষমতার স্তর বর্ণনা করা সংক্ষিপ্ত বিবরণ।"
+      },
+      "keywords": ["summary", "scope"],
+      "id": 405
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "What are performance criteria?",
+      "answer": {
+        "en": "Standards used to judge whether competency is achieved.",
+        "bn": "যে মানদণ্ডের মাধ্যমে competency অর্জিত হয়েছে কিনা তা মূল্যায়ন করা হয়।"
+      },
+      "keywords": ["assessment", "standards"],
+      "id": 406
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "What is a range statement?",
+      "answer": {
+        "en": "It defines conditions and contexts under which competency applies.",
+        "bn": "এটি এমন শর্ত ও প্রেক্ষাপট নির্ধারণ করে যেখানে competency প্রযোজ্য হয়।"
+      },
+      "keywords": ["context", "conditions"],
+      "id": 407
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "What is an evidence guide?",
+      "answer": {
+        "en": "Guidance on how competency should be assessed and evidenced.",
+        "bn": "কীভাবে competency মূল্যায়ন ও প্রমাণ করা হবে তার নির্দেশনা।"
+      },
+      "keywords": ["assessment", "evidence"],
+      "id": 408
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "What are nominal hours?",
+      "answer": {
+        "en": "Estimated time required to complete a competency unit.",
+        "bn": "একটি competency ইউনিট সম্পন্ন করতে আনুমানিক সময়।"
+      },
+      "keywords": ["time", "duration"],
+      "id": 409
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "Why are competency standards important?",
+      "answer": {
+        "en": "They ensure consistency and quality in workforce performance.",
+        "bn": "এটি কর্মক্ষেত্রে মান ও ধারাবাহিকতা নিশ্চিত করে।"
+      },
+      "keywords": ["quality", "consistency"],
+      "id": 410
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "What is the role of skills in competency?",
+      "answer": {
+        "en": "Skills are one component of competency required for performance.",
+        "bn": "দক্ষতা হলো competency-এর একটি অংশ যা কর্মসম্পাদনের জন্য প্রয়োজন।"
+      },
+      "keywords": ["component", "performance"],
+      "id": 411
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "How is competency assessed?",
+      "answer": {
+        "en": "Through performance criteria, evidence, and practical demonstration.",
+        "bn": "পারফরম্যান্স ক্রাইটেরিয়া, প্রমাণ এবং ব্যবহারিক প্রদর্শনের মাধ্যমে মূল্যায়ন করা হয়।"
+      },
+      "keywords": ["assessment", "evidence", "performance"],
+      "id": 412
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "What is meant by workplace competency?",
+      "answer": {
+        "en": "Ability to perform job tasks effectively using KSAs.",
+        "bn": "KSAs ব্যবহার করে কর্মক্ষেত্রে কার্যকরভাবে কাজ সম্পাদনের সক্ষমতা।"
+      },
+      "keywords": ["workplace", "KSAs", "performance"],
+      "id": 413
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "Why is knowledge important in competency?",
+      "answer": {
+        "en": "It explains how and why tasks are performed.",
+        "bn": "এটি কাজ কীভাবে এবং কেন করা হয় তা ব্যাখ্যা করে।"
+      },
+      "keywords": ["understanding", "theory"],
+      "id": 414
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "What is the purpose of elements of competency?",
+      "answer": {
+        "en": "They define key activities required in a job role.",
+        "bn": "এগুলো একটি চাকরির মূল কাজগুলো নির্ধারণ করে।"
+      },
+      "keywords": ["activities", "job tasks"],
+      "id": 415
+    },
+    {
+      "unit": "Module 1 (Set 2)",
+      "question": "How does competency improve job performance?",
+      "answer": {
+        "en": "By integrating knowledge, skills, and attitude for effective work execution.",
+        "bn": "জ্ঞান, দক্ষতা ও আচরণ একত্রিত করে কার্যকর কর্মসম্পাদন নিশ্চিত করে।"
+      },
+      "keywords": ["KSAs", "performance", "effectiveness"],
+      "id": 416
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "Define inclusive learning environment.",
+      "answer": {
+        "en": "A learning environment that supports and respects individual differences and ensures equal participation.",
+        "bn": "একটি শিক্ষার পরিবেশ যা ব্যক্তিগত পার্থক্যকে সম্মান করে এবং সবার সমান অংশগ্রহণ নিশ্চিত করে।"
+      },
+      "keywords": ["inclusion", "equality", "diversity"],
+      "id": 417
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is competency?",
+      "answer": {
+        "en": "A combination of knowledge, skills, and attitude required for job performance.",
+        "bn": "চাকরির কর্মসম্পাদনের জন্য প্রয়োজনীয় জ্ঞান, দক্ষতা এবং আচরণের সমন্বয়।"
+      },
+      "keywords": ["KSA", "performance"],
+      "id": 418
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What are the types of competencies?",
+      "answer": {
+        "en": "Knowledge, Skill, and Attitude competencies.",
+        "bn": "জ্ঞান, দক্ষতা এবং আচরণভিত্তিক competency।"
+      },
+      "keywords": ["KSA"],
+      "id": 419
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "Define individual differences.",
+      "answer": {
+        "en": "Variations among learners such as age, culture, ability, and background.",
+        "bn": "শিক্ষার্থীদের মধ্যে বয়স, সংস্কৃতি, সক্ষমতা ও পটভূমির পার্থক্য।"
+      },
+      "keywords": ["diversity", "learner variation"],
+      "id": 420
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What are clients with particular needs?",
+      "answer": {
+        "en": "Learners who require additional support such as disability or rural background.",
+        "bn": "যেসব শিক্ষার্থীদের অতিরিক্ত সহায়তা প্রয়োজন যেমন প্রতিবন্ধকতা বা গ্রামীণ পটভূমি।"
+      },
+      "keywords": ["support", "special needs"],
+      "id": 421
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is inclusivity principle?",
+      "answer": {
+        "en": "Ensuring equal opportunity and participation for all learners.",
+        "bn": "সকল শিক্ষার্থীর জন্য সমান সুযোগ ও অংশগ্রহণ নিশ্চিত করা।"
+      },
+      "keywords": ["equality", "participation"],
+      "id": 422
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "Define task skills.",
+      "answer": {
+        "en": "Ability to perform a specific task to required standards.",
+        "bn": "নির্ধারিত মান অনুযায়ী একটি নির্দিষ্ট কাজ সম্পাদনের সক্ষমতা।"
+      },
+      "keywords": ["task", "performance"],
+      "id": 423
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What are task management skills?",
+      "answer": {
+        "en": "Ability to manage multiple tasks effectively.",
+        "bn": "একাধিক কাজ কার্যকরভাবে পরিচালনার সক্ষমতা।"
+      },
+      "keywords": ["multitasking", "planning"],
+      "id": 424
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What are contingency skills?",
+      "answer": {
+        "en": "Ability to handle unexpected workplace problems.",
+        "bn": "কর্মক্ষেত্রে অপ্রত্যাশিত সমস্যা মোকাবেলার সক্ষমতা।"
+      },
+      "keywords": ["problem-solving", "response"],
+      "id": 425
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What are job/role environment skills?",
+      "answer": {
+        "en": "Skills for teamwork, communication, and adaptation.",
+        "bn": "টিমওয়ার্ক, যোগাযোগ এবং মানিয়ে নেওয়ার দক্ষতা।"
+      },
+      "keywords": ["teamwork", "communication"],
+      "id": 426
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is competency standard?",
+      "answer": {
+        "en": "Industry-defined performance requirements for a job role.",
+        "bn": "শিল্প কর্তৃক নির্ধারিত একটি চাকরির জন্য কর্মসম্পাদনের মানদণ্ড।"
+      },
+      "keywords": ["standards", "industry"],
+      "id": 427
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is a unit of competency?",
+      "answer": {
+        "en": "A specific work function within a qualification.",
+        "bn": "একটি যোগ্যতার মধ্যে নির্দিষ্ট কাজের ক্ষেত্র।"
+      },
+      "keywords": ["job function"],
+      "id": 428
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is performance criteria?",
+      "answer": {
+        "en": "Standards used to measure performance achievement.",
+        "bn": "কর্মসম্পাদনের অর্জন মূল্যায়নের মানদণ্ড।"
+      },
+      "keywords": ["assessment", "standard"],
+      "id": 429
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is range statement?",
+      "answer": {
+        "en": "Conditions under which competency is applied.",
+        "bn": "যেসব শর্তে competency প্রয়োগ করা হয়।"
+      },
+      "keywords": ["context", "variation"],
+      "id": 430
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is evidence guide?",
+      "answer": {
+        "en": "Instructions for assessing competency evidence.",
+        "bn": "competency প্রমাণ মূল্যায়নের নির্দেশনা।"
+      },
+      "keywords": ["assessment", "evidence"],
+      "id": 431
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is inclusive communication?",
+      "answer": {
+        "en": "Communication that respects diversity and avoids discrimination.",
+        "bn": "বৈচিত্র্যকে সম্মান করে এবং বৈষম্য এড়িয়ে যোগাযোগ করা।"
+      },
+      "keywords": ["respect", "language"],
+      "id": 432
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is OSH in TVET?",
+      "answer": {
+        "en": "Occupational Safety and Health requirements in training/workplace.",
+        "bn": "প্রশিক্ষণ ও কর্মক্ষেত্রে Occupational Safety and Health (OSH) নিয়মাবলি।"
+      },
+      "keywords": ["safety", "health"],
+      "id": 433
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is a support person?",
+      "answer": {
+        "en": "Individuals who assist learners such as counsellors or interpreters.",
+        "bn": "শিক্ষার্থীদের সহায়তাকারী ব্যক্তি যেমন কাউন্সেলর বা দোভাষী।"
+      },
+      "keywords": ["assistance", "learner support"],
+      "id": 434
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is reasonable adjustment?",
+      "answer": {
+        "en": "Modifying training or assessment to support learners fairly.",
+        "bn": "শিক্ষার্থীদের ন্যায্যভাবে সহায়তার জন্য প্রশিক্ষণ বা মূল্যায়নে পরিবর্তন আনা।"
+      },
+      "keywords": ["flexibility", "inclusion"],
+      "id": 435
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is evidence collection in competency?",
+      "answer": {
+        "en": "Gathering proof of performance in real or simulated workplace.",
+        "bn": "বাস্তব বা সিমুলেটেড কর্মক্ষেত্রে কর্মসম্পাদনের প্রমাণ সংগ্রহ।"
+      },
+      "keywords": ["assessment", "workplace"],
+      "id": 436
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "Why is attitude important in competency?",
+      "answer": {
+        "en": "It ensures proper behavior and professional conduct at work.",
+        "bn": "এটি কর্মক্ষেত্রে সঠিক আচরণ ও পেশাদারিত্ব নিশ্চিত করে।"
+      },
+      "keywords": ["behavior", "professionalism"],
+      "id": 437
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is unit descriptor?",
+      "answer": {
+        "en": "Summary of scope and level of competency unit.",
+        "bn": "একটি competency ইউনিটের পরিধি ও স্তরের সারসংক্ষেপ।"
+      },
+      "keywords": ["summary", "scope"],
+      "id": 438
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is nominal hour?",
+      "answer": {
+        "en": "Estimated time required to complete a unit.",
+        "bn": "একটি ইউনিট সম্পন্ন করতে আনুমানিক সময়।"
+      },
+      "keywords": ["time", "duration"],
+      "id": 439
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What are elements of competency?",
+      "answer": {
+        "en": "Basic work activities required in a job role.",
+        "bn": "একটি চাকরির মূল কাজ বা কার্যক্রম।"
+      },
+      "keywords": ["tasks", "functions"],
+      "id": 440
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is inclusive practice?",
+      "answer": {
+        "en": "Teaching approach that supports all learners equally.",
+        "bn": "সকল শিক্ষার্থীকে সমানভাবে সহায়তা করে এমন শিক্ষণ পদ্ধতি।"
+      },
+      "keywords": ["inclusion", "fairness"],
+      "id": 441
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is cultural sensitivity in TVET?",
+      "answer": {
+        "en": "Respecting and valuing different cultural backgrounds.",
+        "bn": "বিভিন্ন সংস্কৃতি ও পটভূমিকে সম্মান ও মূল্যায়ন করা।"
+      },
+      "keywords": ["culture", "respect"],
+      "id": 442
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is the role of competency in TVET?",
+      "answer": {
+        "en": "To ensure learners can perform real job tasks effectively.",
+        "bn": "শিক্ষার্থীরা বাস্তব কাজ দক্ষতার সাথে করতে পারে তা নিশ্চিত করা।"
+      },
+      "keywords": ["performance", "employability"],
+      "id": 443
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is learner diversity?",
+      "answer": {
+        "en": "Differences among learners in background, ability, and needs.",
+        "bn": "শিক্ষার্থীদের পটভূমি, সক্ষমতা ও প্রয়োজনের পার্থক্য।"
+      },
+      "keywords": ["diversity", "learners"],
+      "id": 444
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "Why is workplace evidence important?",
+      "answer": {
+        "en": "It ensures real demonstration of skills and competence.",
+        "bn": "এটি দক্ষতা ও সক্ষমতার বাস্তব প্রমাণ নিশ্চিত করে।"
+      },
+      "keywords": ["authenticity", "performance"],
+      "id": 445
+    },
+    {
+      "unit": "Module 1 (Set 3)",
+      "question": "What is the goal of inclusive learning environment?",
+      "answer": {
+        "en": "To ensure equal access, participation, and success for all learners.",
+        "bn": "সকল শিক্ষার্থীর জন্য সমান প্রবেশাধিকার, অংশগ্রহণ ও সাফল্য নিশ্চিত করা।"
+      },
+      "keywords": ["equality", "inclusion", "success"],
+      "id": 446
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is task analysis?",
+      "answer": {
+        "en": "Breaking a complex task into simple steps to identify skills and knowledge required.",
+        "bn": "একটি জটিল কাজকে ছোট ছোট ধাপে ভাগ করে প্রয়োজনীয় দক্ষতা ও জ্ঞান নির্ধারণ করাকে টাস্ক অ্যানালাইসিস বলা হয়।"
+      },
+      "keywords": ["breakdown", "steps", "task"],
+      "id": 447
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "Why is task analysis important?",
+      "answer": {
+        "en": "It ensures learners understand both practical skills and required knowledge.",
+        "bn": "এটি শিক্ষার্থীদের ব্যবহারিক দক্ষতা এবং প্রয়োজনীয় জ্ঞান উভয়ই বুঝতে সাহায্য করে।"
+      },
+      "keywords": ["skills", "knowledge", "learning"],
+      "id": 448
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What are key considerations in task analysis?",
+      "answer": {
+        "en": "Safety, clarity, quality, and appropriate detail.",
+        "bn": "নিরাপত্তা, স্পষ্টতা, মান এবং উপযুক্ত বিস্তারিত বিবেচনা করা হয়।"
+      },
+      "keywords": ["safety", "clarity", "quality"],
+      "id": 449
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is a curriculum document?",
+      "answer": {
+        "en": "A structured guide describing competencies and learning outcomes for training.",
+        "bn": "এটি একটি কাঠামোবদ্ধ নির্দেশিকা যা প্রশিক্ষণের যোগ্যতা ও শিক্ষার ফলাফল বর্ণনা করে।"
+      },
+      "keywords": ["curriculum", "competencies"],
+      "id": 450
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is the role of curriculum in TVET?",
+      "answer": {
+        "en": "It guides teaching, learning, and assessment processes.",
+        "bn": "এটি শিক্ষা, শেখানো এবং মূল্যায়ন প্রক্রিয়াকে নির্দেশনা দেয়।"
+      },
+      "keywords": ["teaching", "learning", "assessment"],
+      "id": 451
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is a unit of competency?",
+      "answer": {
+        "en": "A defined work function within a qualification.",
+        "bn": "এটি একটি যোগ্যতার মধ্যে নির্ধারিত কাজের একটি নির্দিষ্ট অংশ।"
+      },
+      "keywords": ["job function", "competency"],
+      "id": 452
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is an industry competency standard?",
+      "answer": {
+        "en": "A specification of skills, knowledge, and attitude required for a job.",
+        "bn": "এটি একটি কাজের জন্য প্রয়োজনীয় দক্ষতা, জ্ঞান এবং মনোভাবের নির্ধারিত মানদণ্ড।"
+      },
+      "keywords": ["industry", "KSAs"],
+      "id": 453
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is the relationship between curriculum and competency standards?",
+      "answer": {
+        "en": "Curriculum is the implementation of competency standards in teaching.",
+        "bn": "কারিকুলাম হলো দক্ষতার মানদণ্ডকে শিক্ষায় বাস্তবায়নের প্রক্রিয়া।"
+      },
+      "keywords": ["mapping", "implementation"],
+      "id": 454
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is a learning outcome?",
+      "answer": {
+        "en": "A statement describing what learners should be able to do.",
+        "bn": "এটি এমন একটি বিবৃতি যা বলে শিক্ষার্থী কী করতে সক্ষম হবে।"
+      },
+      "keywords": ["outcome", "learning"],
+      "id": 455
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is an element of competency?",
+      "answer": {
+        "en": "A basic task or function in a unit of competency.",
+        "bn": "এটি একটি যোগ্যতা ইউনিটের মৌলিক কাজ বা কার্যক্রম।"
+      },
+      "keywords": ["task", "function"],
+      "id": 456
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is performance criteria?",
+      "answer": {
+        "en": "Standards used to measure learner competence.",
+        "bn": "এটি শিক্ষার্থীর দক্ষতা মূল্যায়নের মানদণ্ড।"
+      },
+      "keywords": ["assessment", "standard"],
+      "id": 457
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is QA framework?",
+      "answer": {
+        "en": "A system ensuring quality standards in TVET institutions.",
+        "bn": "এটি TVET প্রতিষ্ঠানে মান নিশ্চিত করার একটি ব্যবস্থা।"
+      },
+      "keywords": ["quality", "standards"],
+      "id": 458
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is RTO?",
+      "answer": {
+        "en": "A registered organization providing nationally recognized training.",
+        "bn": "এটি একটি নিবন্ধিত প্রতিষ্ঠান যা জাতীয় স্বীকৃত প্রশিক্ষণ প্রদান করে।"
+      },
+      "keywords": ["training provider", "certification"],
+      "id": 459
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is apprenticeship?",
+      "answer": {
+        "en": "A training system combining on-the-job and classroom learning.",
+        "bn": "এটি এমন একটি প্রশিক্ষণ ব্যবস্থা যেখানে কর্মস্থল ও শ্রেণিকক্ষ উভয় ধরনের শিক্ষা থাকে।"
+      },
+      "keywords": ["workplace", "training"],
+      "id": 460
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is earn and learn system?",
+      "answer": {
+        "en": "Apprentices earn wages while receiving training.",
+        "bn": "শিক্ষানবিশরা প্রশিক্ষণ নেওয়ার পাশাপাশি বেতন আয় করে।"
+      },
+      "keywords": ["wages", "learning"],
+      "id": 461
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is supervised training?",
+      "answer": {
+        "en": "Training under skilled workers in real workplace conditions.",
+        "bn": "দক্ষ কর্মীদের তত্ত্বাবধানে বাস্তব কর্মস্থলে প্রশিক্ষণ।"
+      },
+      "keywords": ["supervision", "workplace"],
+      "id": 462
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is RPL?",
+      "answer": {
+        "en": "Recognition of prior learning based on existing skills and knowledge.",
+        "bn": "বিদ্যমান দক্ষতা ও জ্ঞানের ভিত্তিতে পূর্ব শিক্ষার স্বীকৃতি।"
+      },
+      "keywords": ["experience", "recognition"],
+      "id": 463
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What are benefits of RPL?",
+      "answer": {
+        "en": "Reduced study time, cost savings, and faster qualification.",
+        "bn": "পড়াশোনার সময় কমানো, খরচ সাশ্রয় এবং দ্রুত যোগ্যতা অর্জন।"
+      },
+      "keywords": ["efficiency", "cost", "time"],
+      "id": 464
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is evidence in RPL?",
+      "answer": {
+        "en": "Proof of skills such as portfolios, observation, or tests.",
+        "bn": "দক্ষতার প্রমাণ যেমন পোর্টফোলিও, পর্যবেক্ষণ বা পরীক্ষা।"
+      },
+      "keywords": ["proof", "assessment"],
+      "id": 465
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "Why is safety important in task analysis?",
+      "answer": {
+        "en": "To ensure safe performance before task execution.",
+        "bn": "কাজ শুরু করার আগে নিরাপদভাবে কাজ সম্পাদন নিশ্চিত করার জন্য।"
+      },
+      "keywords": ["safety", "prevention"],
+      "id": 466
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is curriculum mapping?",
+      "answer": {
+        "en": "Aligning curriculum with industry competency standards.",
+        "bn": "কারিকুলামকে শিল্পের দক্ষতা মানদণ্ডের সাথে সামঞ্জস্য করা।"
+      },
+      "keywords": ["alignment", "standards"],
+      "id": 467
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is difference between curriculum and competency standards?",
+      "answer": {
+        "en": "Standards define skills; curriculum delivers them in training.",
+        "bn": "মানদণ্ড দক্ষতা নির্ধারণ করে, আর কারিকুলাম তা প্রশিক্ষণে বাস্তবায়ন করে।"
+      },
+      "keywords": ["definition vs delivery"],
+      "id": 468
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is unit descriptor?",
+      "answer": {
+        "en": "Summary of scope and performance level of a unit.",
+        "bn": "একটি ইউনিটের পরিধি ও কর্মক্ষমতার সারসংক্ষেপ।"
+      },
+      "keywords": ["scope", "summary"],
+      "id": 469
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What are nominal hours?",
+      "answer": {
+        "en": "Estimated time to complete a unit of competency.",
+        "bn": "একটি যোগ্যতা ইউনিট সম্পন্ন করতে আনুমানিক সময়।"
+      },
+      "keywords": ["duration", "time"],
+      "id": 470
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "Why should curriculum not be ignored?",
+      "answer": {
+        "en": "It ensures all learning outcomes are achieved.",
+        "bn": "এটি নিশ্চিত করে যে সব শিক্ষার ফলাফল অর্জিত হচ্ছে।"
+      },
+      "keywords": ["completeness", "outcomes"],
+      "id": 471
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is inclusion in training context?",
+      "answer": {
+        "en": "Supporting all learners regardless of differences.",
+        "bn": "পার্থক্য নির্বিশেষে সব শিক্ষার্থীকে সহায়তা করা।"
+      },
+      "keywords": ["equality", "diversity"],
+      "id": 472
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is QA objective?",
+      "answer": {
+        "en": "To ensure consistent quality and fair assessment.",
+        "bn": "নিরবচ্ছিন্ন মান এবং ন্যায্য মূল্যায়ন নিশ্চিত করা।"
+      },
+      "keywords": ["quality", "fairness"],
+      "id": 473
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is apprentice contract?",
+      "answer": {
+        "en": "Agreement defining training conditions and responsibilities.",
+        "bn": "প্রশিক্ষণের শর্ত ও দায়িত্ব নির্ধারণকারী চুক্তি।"
+      },
+      "keywords": ["agreement", "training"],
+      "id": 474
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "Why is industry involvement important?",
+      "answer": {
+        "en": "It ensures training matches job market needs.",
+        "bn": "এটি নিশ্চিত করে যে প্রশিক্ষণ শ্রমবাজারের চাহিদার সাথে সামঞ্জস্যপূর্ণ।"
+      },
+      "keywords": ["relevance", "employment"],
+      "id": 475
+    },
+    {
+      "unit": "Module 1 (Set 4)",
+      "question": "What is main goal of TVET system?",
+      "answer": {
+        "en": "To produce competent and employable skilled workers.",
+        "bn": "দক্ষ ও কর্মসংস্থানযোগ্য কর্মী তৈরি করা।"
+      },
+      "keywords": ["employability", "skills"],
+      "id": 476
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is workplace efficiency?",
+      "answer": {
+        "en": "Workplace efficiency is the effective use of time, resources, and skills to achieve desired outcomes.",
+        "bn": "ওয়ার্কপ্লেস দক্ষতা হলো সময়, সম্পদ এবং দক্ষতার কার্যকর ব্যবহার করে কাঙ্ক্ষিত ফলাফল অর্জন।"
+      },
+      "keywords": ["efficiency", "resources", "outcomes"],
+      "id": 477
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is time management?",
+      "answer": {
+        "en": "Time management is planning and controlling how time is used to complete tasks effectively.",
+        "bn": "টাইম ম্যানেজমেন্ট হলো কাজ সম্পন্ন করার জন্য সময় পরিকল্পনা ও নিয়ন্ত্রণ করা।"
+      },
+      "keywords": ["time", "planning", "control"],
+      "id": 478
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is workload management?",
+      "answer": {
+        "en": "Workload management is organizing and distributing tasks to ensure balanced work completion.",
+        "bn": "ওয়ার্কলোড ম্যানেজমেন্ট হলো কাজগুলো সংগঠিত ও ভাগ করে ভারসাম্যপূর্ণভাবে সম্পন্ন করা।"
+      },
+      "keywords": ["workload", "balance", "tasks"],
+      "id": 479
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is prioritization of work?",
+      "answer": {
+        "en": "Prioritization of work is arranging tasks based on importance and urgency.",
+        "bn": "ওয়ার্ক প্রায়োরিটাইজেশন হলো গুরুত্ব ও জরুরিতার ভিত্তিতে কাজ সাজানো।"
+      },
+      "keywords": ["priority", "urgency", "tasks"],
+      "id": 480
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is communication skill?",
+      "answer": {
+        "en": "Communication skill is the ability to share and receive information effectively.",
+        "bn": "কমিউনিকেশন স্কিল হলো কার্যকরভাবে তথ্য প্রদান ও গ্রহণের ক্ষমতা।"
+      },
+      "keywords": ["communication", "information", "clarity"],
+      "id": 481
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "Why is communication important in workplace?",
+      "answer": {
+        "en": "It ensures clarity, coordination, and effective teamwork.",
+        "bn": "এটি স্পষ্টতা, সমন্বয় এবং কার্যকর টিমওয়ার্ক নিশ্চিত করে।"
+      },
+      "keywords": ["clarity", "coordination", "teamwork"],
+      "id": 482
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is teamwork?",
+      "answer": {
+        "en": "Teamwork is working together to achieve common goals.",
+        "bn": "টিমওয়ার্ক হলো সাধারণ লক্ষ্য অর্জনের জন্য একসাথে কাজ করা।"
+      },
+      "keywords": ["teamwork", "cooperation", "goals"],
+      "id": 483
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is problem solving skill?",
+      "answer": {
+        "en": "Problem solving skill is the ability to identify and resolve workplace issues.",
+        "bn": "সমস্যা সমাধান দক্ষতা হলো কর্মক্ষেত্রের সমস্যা চিহ্নিত ও সমাধান করার ক্ষমতা।"
+      },
+      "keywords": ["problem", "solution", "decision"],
+      "id": 484
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is initiative?",
+      "answer": {
+        "en": "Initiative is taking proactive action without being told.",
+        "bn": "ইনিশিয়েটিভ হলো নির্দেশনা ছাড়াই উদ্যোগ গ্রহণ করা।"
+      },
+      "keywords": ["proactive", "action", "initiative"],
+      "id": 485
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is self-management?",
+      "answer": {
+        "en": "Self-management is controlling one’s behavior, tasks, and responsibilities.",
+        "bn": "সেলফ ম্যানেজমেন্ট হলো নিজের আচরণ, কাজ ও দায়িত্ব নিয়ন্ত্রণ করা।"
+      },
+      "keywords": ["discipline", "responsibility", "control"],
+      "id": 486
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is learning skill?",
+      "answer": {
+        "en": "Learning skill is the ability to improve knowledge and performance through reflection.",
+        "bn": "লার্নিং স্কিল হলো প্রতিফলনের মাধ্যমে জ্ঞান ও কর্মক্ষমতা উন্নত করার ক্ষমতা।"
+      },
+      "keywords": ["learning", "improvement", "reflection"],
+      "id": 487
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is technology skill in TVET?",
+      "answer": {
+        "en": "It is the ability to use digital tools for training and workplace tasks.",
+        "bn": "এটি প্রশিক্ষণ ও কর্মক্ষেত্রে ডিজিটাল টুল ব্যবহার করার ক্ষমতা।"
+      },
+      "keywords": ["ICT", "tools", "digital"],
+      "id": 488
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is client-focused approach?",
+      "answer": {
+        "en": "It is a work approach that prioritizes client needs and expectations.",
+        "bn": "এটি এমন একটি কাজের পদ্ধতি যা ক্লায়েন্টের চাহিদা ও প্রত্যাশাকে অগ্রাধিকার দেয়।"
+      },
+      "keywords": ["client", "needs", "service"],
+      "id": 489
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "Who are TVET clients?",
+      "answer": {
+        "en": "TVET clients include learners, industry, and government stakeholders.",
+        "bn": "TVET ক্লায়েন্টদের মধ্যে শিক্ষার্থী, শিল্প প্রতিষ্ঠান এবং সরকার অন্তর্ভুক্ত।"
+      },
+      "keywords": ["learners", "industry", "stakeholders"],
+      "id": 490
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is feedback?",
+      "answer": {
+        "en": "Feedback is information given to improve performance.",
+        "bn": "ফিডব্যাক হলো কর্মক্ষমতা উন্নত করার জন্য দেওয়া তথ্য।"
+      },
+      "keywords": ["improvement", "evaluation"],
+      "id": 491
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "Why is feedback important?",
+      "answer": {
+        "en": "It helps improve performance and learning outcomes.",
+        "bn": "এটি কর্মক্ষমতা ও শেখার ফলাফল উন্নত করতে সাহায্য করে।"
+      },
+      "keywords": ["improvement", "learning"],
+      "id": 492
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is teamwork communication?",
+      "answer": {
+        "en": "It is sharing information among team members.",
+        "bn": "এটি টিম সদস্যদের মধ্যে তথ্য বিনিময়।"
+      },
+      "keywords": ["communication", "team"],
+      "id": 493
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is professional relationship?",
+      "answer": {
+        "en": "It is respectful and cooperative interaction in the workplace.",
+        "bn": "এটি কর্মক্ষেত্রে সম্মানজনক ও সহযোগিতামূলক সম্পর্ক।"
+      },
+      "keywords": ["respect", "cooperation"],
+      "id": 494
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is employability skill?",
+      "answer": {
+        "en": "Employability skills are skills needed to get and maintain a job.",
+        "bn": "এমপ্লয়েবিলিটি স্কিল হলো চাকরি পাওয়া ও ধরে রাখার জন্য প্রয়োজনীয় দক্ষতা।"
+      },
+      "keywords": ["job", "skills", "employment"],
+      "id": 495
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is resource allocation?",
+      "answer": {
+        "en": "Resource allocation is assigning resources efficiently to tasks.",
+        "bn": "রিসোর্স অ্যালোকেশন হলো কাজের জন্য সম্পদ কার্যকরভাবে বরাদ্দ করা।"
+      },
+      "keywords": ["resources", "allocation", "efficiency"],
+      "id": 496
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is organizational skill?",
+      "answer": {
+        "en": "It is the ability to manage tasks and resources systematically.",
+        "bn": "এটি কাজ ও সম্পদকে সুশৃঙ্খলভাবে পরিচালনা করার ক্ষমতা।"
+      },
+      "keywords": ["organization", "planning", "management"],
+      "id": 497
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is workload pressure?",
+      "answer": {
+        "en": "It is stress caused by excessive tasks or responsibilities.",
+        "bn": "অতিরিক্ত কাজ বা দায়িত্বের কারণে সৃষ্ট চাপ।"
+      },
+      "keywords": ["stress", "workload", "pressure"],
+      "id": 498
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is client expectation?",
+      "answer": {
+        "en": "It refers to the needs and goals of clients or stakeholders.",
+        "bn": "এটি ক্লায়েন্ট বা স্টেকহোল্ডারের চাহিদা ও প্রত্যাশা।"
+      },
+      "keywords": ["expectation", "needs"],
+      "id": 499
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is team building?",
+      "answer": {
+        "en": "Team building is creating effective and cooperative teams.",
+        "bn": "টিম বিল্ডিং হলো কার্যকর ও সহযোগিতামূলক দল গঠন করা।"
+      },
+      "keywords": ["teamwork", "cooperation"],
+      "id": 500
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "Why is trust important in teams?",
+      "answer": {
+        "en": "Trust improves cooperation and performance.",
+        "bn": "বিশ্বাস সহযোগিতা ও কর্মক্ষমতা উন্নত করে।"
+      },
+      "keywords": ["trust", "performance"],
+      "id": 501
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is time deadline?",
+      "answer": {
+        "en": "A deadline is the final time by which a task must be completed.",
+        "bn": "ডেডলাইন হলো নির্ধারিত সময় যার মধ্যে কাজ শেষ করতে হয়।"
+      },
+      "keywords": ["deadline", "time"],
+      "id": 502
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is coordination in workplace?",
+      "answer": {
+        "en": "Coordination is organizing work among people to achieve goals.",
+        "bn": "সমন্বয় হলো লক্ষ্য অর্জনের জন্য মানুষের মধ্যে কাজ সংগঠিত করা।"
+      },
+      "keywords": ["coordination", "teamwork"],
+      "id": 503
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is conflict in team?",
+      "answer": {
+        "en": "Conflict is disagreement among team members.",
+        "bn": "দলে মতভেদ বা বিরোধকে কনফ্লিক্ট বলা হয়।"
+      },
+      "keywords": ["conflict", "disagreement"],
+      "id": 504
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is decision making?",
+      "answer": {
+        "en": "Decision making is choosing the best option among alternatives.",
+        "bn": "ডিসিশন মেকিং হলো বিকল্পগুলোর মধ্যে সেরা সিদ্ধান্ত নির্বাচন করা।"
+      },
+      "keywords": ["decision", "choice"],
+      "id": 505
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is adaptability?",
+      "answer": {
+        "en": "Adaptability is the ability to adjust to changes.",
+        "bn": "অ্যাডাপ্টেবিলিটি হলো পরিবর্তনের সাথে খাপ খাওয়ানোর ক্ষমতা।"
+      },
+      "keywords": ["adaptation", "change"],
+      "id": 506
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is planning skill?",
+      "answer": {
+        "en": "Planning skill is organizing tasks to achieve goals effectively.",
+        "bn": "প্ল্যানিং স্কিল হলো লক্ষ্য অর্জনের জন্য কাজ পরিকল্পনা করা।"
+      },
+      "keywords": ["planning", "goals"],
+      "id": 507
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is supervision?",
+      "answer": {
+        "en": "Supervision is monitoring work to ensure quality and correctness.",
+        "bn": "সুপারভিশন হলো কাজ পর্যবেক্ষণ করে মান নিশ্চিত করা।"
+      },
+      "keywords": ["monitoring", "quality"],
+      "id": 508
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is performance improvement?",
+      "answer": {
+        "en": "It is enhancing skills and output quality over time.",
+        "bn": "এটি সময়ের সাথে দক্ষতা ও কাজের মান উন্নত করা।"
+      },
+      "keywords": ["improvement", "performance"],
+      "id": 509
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is training need analysis?",
+      "answer": {
+        "en": "It is identifying skill gaps to design training programs.",
+        "bn": "এটি দক্ষতার ঘাটতি নির্ধারণ করে প্রশিক্ষণ তৈরি করা।"
+      },
+      "keywords": ["skills gap", "training"],
+      "id": 510
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is evaluation?",
+      "answer": {
+        "en": "Evaluation is assessing performance or outcomes.",
+        "bn": "ইভ্যালুয়েশন হলো ফলাফল বা পারফরম্যান্স মূল্যায়ন করা।"
+      },
+      "keywords": ["assessment", "performance"],
+      "id": 511
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is responsibility in workplace?",
+      "answer": {
+        "en": "Responsibility is being accountable for assigned tasks.",
+        "bn": "দায়িত্ব হলো নির্ধারিত কাজের জন্য জবাবদিহি করা।"
+      },
+      "keywords": ["accountability", "duty"],
+      "id": 512
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is collaboration?",
+      "answer": {
+        "en": "Collaboration is working together to achieve shared goals.",
+        "bn": "সহযোগিতা হলো যৌথ লক্ষ্য অর্জনের জন্য একসাথে কাজ করা।"
+      },
+      "keywords": ["cooperation", "teamwork"],
+      "id": 513
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is digital literacy?",
+      "answer": {
+        "en": "Digital literacy is the ability to use digital tools effectively.",
+        "bn": "ডিজিটাল লিটারেসি হলো ডিজিটাল টুল কার্যকরভাবে ব্যবহার করার দক্ষতা।"
+      },
+      "keywords": ["ICT", "digital", "skills"],
+      "id": 514
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is workplace discipline?",
+      "answer": {
+        "en": "Workplace discipline is following rules and maintaining proper behavior.",
+        "bn": "কর্মক্ষেত্রে শৃঙ্খলা হলো নিয়ম মেনে চলা ও সঠিক আচরণ বজায় রাখা।"
+      },
+      "keywords": ["discipline", "rules"],
+      "id": 515
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is quality in work?",
+      "answer": {
+        "en": "Quality is the standard of output that meets expectations.",
+        "bn": "কোয়ালিটি হলো প্রত্যাশা পূরণকারী কাজের মান।"
+      },
+      "keywords": ["quality", "standard"],
+      "id": 516
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is productivity?",
+      "answer": {
+        "en": "Productivity is the amount of output produced with given resources.",
+        "bn": "প্রোডাক্টিভিটি হলো নির্দিষ্ট সম্পদ দিয়ে উৎপাদিত কাজের পরিমাণ।"
+      },
+      "keywords": ["output", "efficiency"],
+      "id": 517
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is monitoring?",
+      "answer": {
+        "en": "Monitoring is continuous checking of work progress.",
+        "bn": "মনিটরিং হলো কাজের অগ্রগতি নিয়মিত পর্যবেক্ষণ করা।"
+      },
+      "keywords": ["tracking", "progress"],
+      "id": 518
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is leadership?",
+      "answer": {
+        "en": "Leadership is guiding and influencing a team to achieve goals.",
+        "bn": "লিডারশিপ হলো দলকে লক্ষ্য অর্জনের জন্য পরিচালনা করা।"
+      },
+      "keywords": ["guidance", "team"],
+      "id": 519
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is ethics in workplace?",
+      "answer": {
+        "en": "Ethics is following moral principles in professional behavior.",
+        "bn": "নৈতিকতা হলো পেশাগত আচরণে নৈতিক নিয়ম অনুসরণ করা।"
+      },
+      "keywords": ["ethics", "morality"],
+      "id": 520
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is stress management?",
+      "answer": {
+        "en": "Stress management is controlling pressure in work situations.",
+        "bn": "স্ট্রেস ম্যানেজমেন্ট হলো কর্মক্ষেত্রে চাপ নিয়ন্ত্রণ করা।"
+      },
+      "keywords": ["stress", "control"],
+      "id": 521
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is innovation?",
+      "answer": {
+        "en": "Innovation is creating new ideas or methods to improve work.",
+        "bn": "ইনোভেশন হলো কাজ উন্নত করার জন্য নতুন ধারণা তৈরি করা।"
+      },
+      "keywords": ["creativity", "new ideas"],
+      "id": 522
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is adaptability in workplace?",
+      "answer": {
+        "en": "It is the ability to adjust to new conditions.",
+        "bn": "এটি নতুন পরিস্থিতির সাথে মানিয়ে নেওয়ার ক্ষমতা।"
+      },
+      "keywords": ["adaptation", "flexibility"],
+      "id": 523
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is coordination skill?",
+      "answer": {
+        "en": "Coordination skill is organizing work smoothly among team members.",
+        "bn": "সমন্বয় দক্ষতা হলো টিম সদস্যদের মধ্যে কাজ সুশৃঙ্খলভাবে পরিচালনা করা।"
+      },
+      "keywords": ["teamwork", "organization"],
+      "id": 524
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is reporting?",
+      "answer": {
+        "en": "Reporting is presenting work information in structured form.",
+        "bn": "রিপোর্টিং হলো কাজের তথ্য কাঠামোবদ্ধভাবে উপস্থাপন করা।"
+      },
+      "keywords": ["information", "documentation"],
+      "id": 525
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is accountability?",
+      "answer": {
+        "en": "Accountability is being responsible for actions and outcomes.",
+        "bn": "জবাবদিহিতা হলো কাজ ও ফলাফলের জন্য দায়িত্ব গ্রহণ করা।"
+      },
+      "keywords": ["responsibility", "duty"],
+      "id": 526
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is workplace culture?",
+      "answer": {
+        "en": "Workplace culture is shared values and behaviors in an organization.",
+        "bn": "ওয়ার্কপ্লেস কালচার হলো প্রতিষ্ঠানের যৌথ মূল্যবোধ ও আচরণ।"
+      },
+      "keywords": ["culture", "behavior"],
+      "id": 527
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is motivation?",
+      "answer": {
+        "en": "Motivation is the drive to achieve goals.",
+        "bn": "মোটিভেশন হলো লক্ষ্য অর্জনের প্রেরণা।"
+      },
+      "keywords": ["drive", "goal"],
+      "id": 528
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is efficiency improvement?",
+      "answer": {
+        "en": "It is increasing output with fewer resources.",
+        "bn": "এটি কম সম্পদ ব্যবহার করে বেশি ফলাফল অর্জন করা।"
+      },
+      "keywords": ["efficiency", "output"],
+      "id": 529
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is workplace safety?",
+      "answer": {
+        "en": "Workplace safety is preventing accidents and hazards at work.",
+        "bn": "কর্মক্ষেত্রের নিরাপত্তা হলো দুর্ঘটনা ও ঝুঁকি প্রতিরোধ করা।"
+      },
+      "keywords": ["safety", "hazard"],
+      "id": 530
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is decision making?",
+      "answer": {
+        "en": "Decision making is selecting the best option among alternatives.",
+        "bn": "সিদ্ধান্ত গ্রহণ হলো বিকল্পের মধ্যে সেরা নির্বাচন করা।"
+      },
+      "keywords": ["decision", "choice"],
+      "id": 531
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is conflict management?",
+      "answer": {
+        "en": "Conflict management is handling disagreements in the workplace effectively.",
+        "bn": "কনফ্লিক্ট ম্যানেজমেন্ট হলো কর্মক্ষেত্রের বিরোধ কার্যকরভাবে সমাধান করা।"
+      },
+      "keywords": ["conflict", "resolution"],
+      "id": 532
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is skill development?",
+      "answer": {
+        "en": "Skill development is improving abilities for better job performance.",
+        "bn": "স্কিল ডেভেলপমেন্ট হলো কর্মক্ষমতা বৃদ্ধির জন্য দক্ষতা উন্নয়ন।"
+      },
+      "keywords": ["skills", "improvement"],
+      "id": 533
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is workplace ethics?",
+      "answer": {
+        "en": "Workplace ethics are moral rules guiding professional behavior.",
+        "bn": "কর্মক্ষেত্রের নৈতিকতা হলো পেশাগত আচরণ নিয়ন্ত্রণকারী নৈতিক নিয়ম।"
+      },
+      "keywords": ["ethics", "morality"],
+      "id": 534
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is goal setting?",
+      "answer": {
+        "en": "Goal setting is defining clear objectives to achieve outcomes.",
+        "bn": "গোল সেটিং হলো কাঙ্ক্ষিত ফলাফল অর্জনের জন্য লক্ষ্য নির্ধারণ।"
+      },
+      "keywords": ["goals", "planning"],
+      "id": 535
+    },
+    {
+      "unit": "Module 1 (Set 5)",
+      "question": "What is main purpose of workplace skills?",
+      "answer": {
+        "en": "To improve productivity and job performance.",
+        "bn": "কর্মক্ষমতা ও উৎপাদনশীলতা বৃদ্ধি করা।"
+      },
+      "keywords": ["productivity", "performance"],
+      "id": 536
+    }
   ]
 }

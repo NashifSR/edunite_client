@@ -12,120 +12,198 @@ const WrittenAnswerPage = ({ params }) => {
   const [showEnglish, setShowEnglish] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
 
-  const categoryQuestions = useMemo(() => shortQuestions?.[cat] || [], [shortQuestions, cat]);
-  const units = useMemo(() => [...new Set(categoryQuestions.map((q) => q.unit))], [categoryQuestions]);
+  const categoryQuestions = useMemo(
+    () => shortQuestions?.[cat] || [],
+    [shortQuestions, cat]
+  );
 
-  const filteredQuestions = useMemo(() =>
-    selectedUnit ? categoryQuestions.filter((q) => q.unit === selectedUnit) : [],
+  const units = useMemo(
+    () => [...new Set(categoryQuestions.map((q) => q.unit))],
+    [categoryQuestions]
+  );
+
+  const filteredQuestions = useMemo(
+    () =>
+      selectedUnit
+        ? categoryQuestions.filter((q) => q.unit === selectedUnit)
+        : [],
     [selectedUnit, categoryQuestions]
   );
 
-  const searchedQuestions = useMemo(() =>
-    filteredQuestions.filter(
-      (q) =>
-        q.question.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        q.id.toString() === searchQuery
-    ),
+  const searchedQuestions = useMemo(
+    () =>
+      filteredQuestions.filter(
+        (q) =>
+          q.question.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          q.id.toString() === searchQuery
+      ),
     [filteredQuestions, searchQuery]
   );
 
   return (
-    <div className="min-h-screen bg-white pb-20">
-      {/* Ultra-Slim Sticky Header */}
-      <header className="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-slate-100 px-4 py-2.5">
-        <div className="max-w-5xl mx-auto flex items-center justify-between gap-x-4">
+    <div className="min-h-screen bg-white text-black">
 
-          {/* 1. Title - Added flex items-center to match sibling height */}
-          <div className="flex items-center min-w-0">
-            <h1 className="text-md font-black text-slate-900 capitalize truncate tracking-tight">
-              {cat.replaceAll("_", " ")}
-            </h1>
-          </div>
+      {/* HEADER */}
+      <header className="sticky top-0 z-50 bg-white border-b border-black/10">
+        <div className="max-w-7xl mx-auto px-3 py-2">
 
-          {/* 2. Search Container - Grouped Right */}
-          <div className="flex items-center gap-2 shrink-0">
-            <div className="hidden sm:block w-32 md:w-48 lg:w-64">
-              <SearchBox
-                value={searchQuery}
-                onChange={setSearchQuery}
-                placeholder="Search..."
-                onClear={() => setSearchQuery("")}
-              />
+          <div className="flex items-center justify-between gap-3">
+
+            <div className="min-w-0">
+              <h1 className="text-base md:text-lg font-black capitalize truncate">
+                {cat.replaceAll("_", " ")}
+              </h1>
+
+              <div className="flex items-center gap-2 mt-1 flex-wrap text-[10px] font-black uppercase tracking-wider">
+                <span>Written Answers</span>
+
+                {selectedUnit && (
+                  <>
+                    <span className="text-black/30">•</span>
+                    <span>{selectedUnit}</span>
+                    <span className="text-black/30">•</span>
+                    <span>{searchedQuestions.length}</span>
+                  </>
+                )}
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2">
+
+              <div className="hidden md:block w-60">
+                <SearchBox
+                  value={searchQuery}
+                  onChange={setSearchQuery}
+                  placeholder="Search..."
+                  onClear={() => setSearchQuery("")}
+                />
+              </div>
+
+              {selectedUnit && (
+                <button
+                  onClick={() => setShowEnglish(!showEnglish)}
+                  className="h-10 px-4 rounded-xl text-[11px] font-black uppercase bg-black text-white active:scale-95"
+                >
+                  {showEnglish ? "EN" : "BN"}
+                </button>
+              )}
             </div>
           </div>
 
-          {/* 3. Language Toggle */}
-          <div className="shrink-0 flex items-center">
-            {selectedUnit && (
-              <button
-                onClick={() => setShowEnglish(!showEnglish)}
-                className="whitespace-nowrap px-4 py-1.5 bg-slate-900 text-white text-[10px] font-black rounded-full transition-all duration-200 hover:bg-blue-600 hover:shadow-lg hover:shadow-blue-100 active:scale-95 border border-transparent"
-              >
-                {showEnglish ? "EN → BN" : "BN → EN"}
-              </button>
-            )}
-          </div>
+          {/* UNITS */}
+          <div className="flex gap-2 overflow-x-auto pt-3 no-scrollbar">
 
+            <button
+              onClick={() => setSelectedUnit(null)}
+              className={`px-3 py-1.5 rounded-xl text-[11px] font-black border whitespace-nowrap transition-all ${
+                selectedUnit === null
+                  ? "bg-black text-white border-black"
+                  : "bg-white text-black border-black/10 hover:bg-black/5"
+              }`}
+            >
+              All Units
+            </button>
+
+            {units.map((unit, index) => (
+              <button
+                key={index}
+                onClick={() => setSelectedUnit(unit)}
+                className={`px-3 py-1.5 rounded-xl text-[11px] font-black border whitespace-nowrap transition-all ${
+                  selectedUnit === unit
+                    ? "bg-black text-white border-black"
+                    : "bg-white text-black border-black/10 hover:bg-black/5"
+                }`}
+              >
+                {unit}
+              </button>
+            ))}
+          </div>
         </div>
       </header>
 
-      <main className="max-w-4xl mx-auto px-4 mt-6">
-        {/* Unit Selection Chips */}
-        <div className="flex flex-wrap gap-2 mb-8">
-          {units.map((unit, index) => (
-            <button
-              key={index}
-              onClick={() => setSelectedUnit(unit)}
-              className={`px-4 py-1.5 rounded-lg text-xs font-bold transition-all ${selectedUnit === unit
-                ? "bg-slate-900 text-white shadow-md"
-                : "bg-slate-50 text-slate-500 hover:bg-slate-100 border border-slate-100"
-                }`}
-            >
-              {unit}
-            </button>
-          ))}
+      <main className="max-w-7xl mx-auto px-3 py-4">
+
+        {/* MOBILE SEARCH */}
+        <div className="md:hidden mb-4">
+          <SearchBox
+            value={searchQuery}
+            onChange={setSearchQuery}
+            placeholder="Search question..."
+            onClear={() => setSearchQuery("")}
+          />
         </div>
 
+        {/* EMPTY STATE */}
         {!selectedUnit ? (
-          <p className="text-center text-slate-400 text-sm mt-20">Select a unit to view questions.</p>
-        ) : (
-          <div className="space-y-6">
-            {/* Mobile Search - only shows when unit selected */}
-            <div className="sm:hidden mb-4">
-              <SearchBox
-                value={searchQuery}
-                onChange={setSearchQuery}
-                placeholder="Search questions..."
-                onClear={() => setSearchQuery("")}
-              />
-            </div>
 
-            {searchedQuestions.length > 0 ? (
-              searchedQuestions.map((q, index) => (
-                <div key={q.id} className="group">
-                  {/* Question Header */}
-                  <div className="flex gap-3 mb-2">
-                    <span className="text-slate-300 font-black text-sm pt-0.5">
-                      {index + 1}.
-                    </span>
-                    <h3 className="text-sm sm:text-base font-bold text-slate-800 leading-snug">
-                      {q.question}
-                    </h3>
-                  </div>
-
-                  {/* Clean Answer Block */}
-                  <div className="ml-7 py-2 text-sm sm:text-base text-slate-600 border-l-2 border-slate-100 pl-4 group-hover:border-emerald-400 transition-colors">
-                    {showEnglish ? q.answer.en : q.answer.bn}
-                    <span className="block text-[9px] font-bold text-slate-300 mt-2 uppercase tracking-tighter">
-                      REF ID: #{q.id}
-                    </span>
-                  </div>
-                </div>
-              ))
-            ) : (
-              <p className="text-center text-slate-400 text-sm py-10">No matches found.</p>
-            )}
+          <div className="border border-black/10 rounded-2xl p-10 text-center">
+            <div className="text-4xl mb-3">📘</div>
+            <h2 className="text-lg font-black">Select a Unit</h2>
+            <p className="text-sm text-black/60 mt-1">
+              Choose a unit from above.
+            </p>
           </div>
+
+        ) : searchedQuestions.length > 0 ? (
+
+          /* QUESTIONS */
+          <div className="space-y-2">
+
+            {searchedQuestions.map((q, index) => (
+              <div
+                key={q.id}
+                className="border border-black/10 rounded-2xl p-3 hover:border-black/30 transition-all"
+              >
+
+                {/* META */}
+                <div className="flex items-center justify-between mb-2">
+
+                  <div className="flex items-center gap-2 flex-wrap">
+
+                    <span className="w-7 h-7 rounded-lg bg-black text-white flex items-center justify-center text-[11px] font-black">
+                      {index + 1}
+                    </span>
+
+                    <span className="px-2 py-1 rounded-lg bg-black/5 text-black text-[10px] font-black uppercase">
+                      ID #{q.id}
+                    </span>
+
+                    <span className="px-2 py-1 rounded-lg bg-black/5 text-black text-[10px] font-black uppercase">
+                      {q.unit}
+                    </span>
+
+                    <span className="px-2 py-1 rounded-lg bg-orange-100 text-orange-600 text-[10px] font-black uppercase">
+                      {showEnglish ? "EN" : "BN"}
+                    </span>
+
+                  </div>
+
+                  <span className="text-black/40 text-xs">→</span>
+                </div>
+
+                {/* QUESTION */}
+                <h3 className="text-sm md:text-[15px] font-black leading-relaxed mb-3">
+                  {q.question}
+                </h3>
+
+                {/* ANSWER */}
+                <div className="rounded-xl border border-black/10 px-3 py-2.5 text-sm leading-relaxed font-medium bg-black/[0.03]">
+                  {showEnglish ? q.answer.en : q.answer.bn}
+                </div>
+              </div>
+            ))}
+          </div>
+
+        ) : (
+
+          <div className="border border-black/10 bg-black/[0.03] rounded-2xl p-10 text-center">
+            <div className="text-4xl mb-3">🔍</div>
+            <h2 className="text-lg font-black">No Results</h2>
+            <p className="text-sm text-black/60 mt-1">
+              Try another keyword or unit.
+            </p>
+          </div>
+
         )}
       </main>
     </div>

@@ -7872,5 +7872,2104 @@
   ],
   "Graphic_Design": [],
   "Digital Marketing": [],
-  "Web Development": []
+  "Web Development": [],
+  "CBTA": [
+    {
+      "id": "701",
+      "question_set": "Module 1 (Set 1)",
+      "question": "Which of the following is a key output of the reformed TVET system in Bangladesh?",
+      "options": [
+        "Private university ranking system",
+        "Modified TVET legislation",
+        "National science curriculum reform",
+        "General education policy update"
+      ],
+      "correct_answer": "Modified TVET legislation"
+    },
+    {
+      "id": "702",
+      "question_set": "Module 1 (Set 1)",
+      "question": "The main purpose of the National Skills Development Policy is to:",
+      "options": [
+        "Replace formal education system",
+        "Control private training institutes only",
+        "Guide and coordinate skills development strategies",
+        "Limit industry involvement in training"
+      ],
+      "correct_answer": "Guide and coordinate skills development strategies"
+    },
+    {
+      "id": "703",
+      "question_set": "Module 1 (Set 1)",
+      "question": "Which system ensures that competencies are assessed based on industry standards in TVET?",
+      "options": [
+        "Traditional exam system",
+        "Competency Based Training and Assessment (CBT&A)",
+        "Lecture-based certification",
+        "Open book examination system"
+      ],
+      "correct_answer": "Competency Based Training and Assessment (CBT&A)"
+    },
+    {
+      "id": "704",
+      "question_set": "Module 1 (Set 1)",
+      "question": "Industry Skills Councils (ISCs) primarily help in:",
+      "options": [
+        "Setting school admission rules",
+        "Identifying skills demand in industries",
+        "Conducting general education exams",
+        "Managing government budgets"
+      ],
+      "correct_answer": "Identifying skills demand in industries"
+    },
+    {
+      "id": "705",
+      "question_set": "Module 1 (Set 1)",
+      "question": "The National Technical and Vocational Qualifications Framework (NTVQF) mainly provides:",
+      "options": [
+        "School grading system for secondary education",
+        "Guidelines for sports training",
+        "Recognition and levels of vocational competencies",
+        "University admission criteria"
+      ],
+      "correct_answer": "Recognition and levels of vocational competencies"
+    },
+    {
+      "id": "706",
+      "question_set": "Module 1 (Set 1)",
+      "question": "Which of the following is NOT an objective of the National Skills Development Policy?",
+      "options": [
+        "Strengthened apprenticeships",
+        "Competency-based training",
+        "Reduction of private sector involvement",
+        "Recognition of prior learning"
+      ],
+      "correct_answer": "Reduction of private sector involvement"
+    },
+    {
+      "id": "707",
+      "question_set": "Module 1 (Set 1)",
+      "question": "A key feature of the reformed TVET system is:",
+      "options": [
+        "Theory-based evaluation only",
+        "Industry-driven skill development",
+        "Removal of workplace training",
+        "Elimination of qualifications framework"
+      ],
+      "correct_answer": "Industry-driven skill development"
+    },
+    {
+      "id": "708",
+      "question_set": "Module 1 (Set 1)",
+      "question": "The NTVQF levels in Bangladesh range from:",
+      "options": [
+        "1 to 10",
+        "1 to 5 only",
+        "1 to 6 plus pre-vocational levels",
+        "Only diploma and degree levels"
+      ],
+      "correct_answer": "1 to 6 plus pre-vocational levels"
+    },
+    {
+      "id": "709",
+      "question_set": "Module 1 (Set 1)",
+      "question": "Recognition of Prior Learning (RPL) allows:",
+      "options": [
+        "Only formal students to progress",
+        "Workers’ existing skills to be certified",
+        "Schools to reduce curriculum",
+        "Employers to avoid training"
+      ],
+      "correct_answer": "Workers’ existing skills to be certified"
+    },
+    {
+      "id": "710",
+      "question_set": "Module 1 (Set 1)",
+      "question": "Which of the following is a demand-driven approach in TVET?",
+      "options": [
+        "Training based on teacher preference",
+        "Training aligned with industry needs",
+        "Training based only on textbooks",
+        "Training without assessment"
+      ],
+      "correct_answer": "Training aligned with industry needs"
+    },
+    {
+      "id": "711",
+      "question_set": "Module 1 (Set 1)",
+      "question": "The TVET Quality Assurance System (QAS) ensures:",
+      "options": [
+        "Financial auditing only",
+        "Standardized quality of training delivery",
+        "Increased exam difficulty",
+        "Reduction of training programs"
+      ],
+      "correct_answer": "Standardized quality of training delivery"
+    },
+    {
+      "id": "712",
+      "question_set": "Module 1 (Set 1)",
+      "question": "Which sector is NOT explicitly mentioned as having Industry Skills Councils?",
+      "options": [
+        "Leather products",
+        "Tourism",
+        "Medicine",
+        "Information technology"
+      ],
+      "correct_answer": "Medicine"
+    },
+    {
+      "id": "713",
+      "question_set": "Module 1 (Set 1)",
+      "question": "A major role of ISCs is:",
+      "options": [
+        "Designing school uniforms",
+        "Recommending technical experts for curriculum committees",
+        "Conducting general elections",
+        "Managing student attendance"
+      ],
+      "correct_answer": "Recommending technical experts for curriculum committees"
+    },
+    {
+      "id": "714",
+      "question_set": "Module 1 (Set 1)",
+      "question": "Competency-based training focuses on:",
+      "options": [
+        "Time spent in classroom",
+        "Memorization of textbooks",
+        "Demonstrated job-related skills",
+        "Teacher lecture quality only"
+      ],
+      "correct_answer": "Demonstrated job-related skills"
+    },
+    {
+      "id": "715",
+      "question_set": "Module 1 (Set 1)",
+      "question": "One major benefit of NTVQF is:",
+      "options": [
+        "Eliminates training institutions",
+        "Provides clear learning pathways",
+        "Reduces qualifications",
+        "Stops skill certification"
+      ],
+      "correct_answer": "Provides clear learning pathways"
+    },
+    {
+      "id": "716",
+      "question_set": "Module 1 (Set 1)",
+      "question": "Which group benefits from pre-vocational levels in NTVQF?",
+      "options": [
+        "Only university graduates",
+        "Underprivileged groups with limited schooling",
+        "Foreign workers only",
+        "Government officials"
+      ],
+      "correct_answer": "Underprivileged groups with limited schooling"
+    },
+    {
+      "id": "717",
+      "question_set": "Module 1 (Set 1)",
+      "question": "TVET reform includes strengthening:",
+      "options": [
+        "Only academic education",
+        "Apprenticeships and work-based learning",
+        "Sports training systems",
+        "Political training programs"
+      ],
+      "correct_answer": "Apprenticeships and work-based learning"
+    },
+    {
+      "id": "718",
+      "question_set": "Module 1 (Set 1)",
+      "question": "Labour Market Information in TVET is important for:",
+      "options": [
+        "School discipline",
+        "Identifying skill demand and employment trends",
+        "Exam marking only",
+        "Library management"
+      ],
+      "correct_answer": "Identifying skill demand and employment trends"
+    },
+    {
+      "id": "719",
+      "question_set": "Module 1 (Set 1)",
+      "question": "Which is a key element of the National Skills Development Policy?",
+      "options": [
+        "Centralized school uniforms",
+        "Accurate labour market data",
+        "Elimination of training diversity",
+        "Reduction of qualifications"
+      ],
+      "correct_answer": "Accurate labour market data"
+    },
+    {
+      "id": "720",
+      "question_set": "Module 1 (Set 1)",
+      "question": "ISCs contribute mainly to:",
+      "options": [
+        "Sports coaching development",
+        "Identifying long-term skill demand",
+        "Political party training",
+        "Medical education reforms"
+      ],
+      "correct_answer": "Identifying long-term skill demand"
+    },
+    {
+      "id": "721",
+      "question_set": "Module 1 (Set 1)",
+      "question": "A common misconception about CBT&A is:",
+      "options": [
+        "It is industry-based",
+        "It assesses real skills",
+        "It is purely theoretical learning",
+        "It is competency-focused"
+      ],
+      "correct_answer": "It is purely theoretical learning"
+    },
+    {
+      "id": "722",
+      "question_set": "Module 1 (Set 1)",
+      "question": "Which statement about NTVQF is correct?",
+      "options": [
+        "It is only for university education",
+        "It removes skill levels",
+        "It allows comparison of qualifications",
+        "It ignores workplace skills"
+      ],
+      "correct_answer": "It allows comparison of qualifications"
+    },
+    {
+      "id": "723",
+      "question_set": "Module 1 (Set 1)",
+      "question": "Flexible institutional management in TVET means:",
+      "options": [
+        "Fixed rigid rules",
+        "Adaptive training systems",
+        "No administration",
+        "Only government control"
+      ],
+      "correct_answer": "Adaptive training systems"
+    },
+    {
+      "id": "724",
+      "question_set": "Module 1 (Set 1)",
+      "question": "Which is NOT part of TVET reform outputs?",
+      "options": [
+        "TVET data system",
+        "Recognition of Prior Learning",
+        "National sports policy",
+        "Competency standards development"
+      ],
+      "correct_answer": "National sports policy"
+    },
+    {
+      "id": "725",
+      "question_set": "Module 1 (Set 1)",
+      "question": "Industry involvement in TVET ensures:",
+      "options": [
+        "Academic isolation",
+        "Training relevance to job market",
+        "Reduced employment opportunities",
+        "Elimination of skills training"
+      ],
+      "correct_answer": "Training relevance to job market"
+    },
+    {
+      "id": "726",
+      "question_set": "Module 1 (Set 1)",
+      "question": "Apprenticeships in TVET refer to:",
+      "options": [
+        "Classroom-only learning",
+        "Work-based training with employers",
+        "Online theoretical courses",
+        "Exam preparation only"
+      ],
+      "correct_answer": "Work-based training with employers"
+    },
+    {
+      "id": "727",
+      "question_set": "Module 1 (Set 1)",
+      "question": "The TVET reform emphasizes training for:",
+      "options": [
+        "Only government jobs",
+        "Overseas employment opportunities",
+        "Artistic careers only",
+        "Sports professions only"
+      ],
+      "correct_answer": "Overseas employment opportunities"
+    },
+    {
+      "id": "728",
+      "question_set": "Module 1 (Set 1)",
+      "question": "Which is a feature of demand-driven training?",
+      "options": [
+        "Fixed outdated syllabus",
+        "Industry-linked curriculum",
+        "Random course selection",
+        "No employer input"
+      ],
+      "correct_answer": "Industry-linked curriculum"
+    },
+    {
+      "id": "729",
+      "question_set": "Module 1 (Set 1)",
+      "question": "The Standards and Curriculum Development Committees (SCDCs) include:",
+      "options": [
+        "Only students",
+        "Industry experts recommended by ISCs",
+        "Political leaders",
+        "Foreign tourists"
+      ],
+      "correct_answer": "Industry experts recommended by ISCs"
+    },
+    {
+      "id": "730",
+      "question_set": "Module 1 (Set 1)",
+      "question": "The main goal of TVET reform is to:",
+      "options": [
+        "Reduce skill development",
+        "Improve skills, employability, and industry linkage",
+        "Replace all education systems",
+        "Eliminate certification frameworks"
+      ],
+      "correct_answer": "Improve skills, employability, and industry linkage"
+    },
+    {
+      "id": "731",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Competency in TVET primarily refers to:",
+      "options": [
+        "Only theoretical knowledge of a subject",
+        "Measurable combination of knowledge, skills, and attitude",
+        "Examination results of learners",
+        "Teaching experience only"
+      ],
+      "correct_answer": "Measurable combination of knowledge, skills, and attitude"
+    },
+    {
+      "id": "732",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Which of the following is NOT a type of competency?",
+      "options": [
+        "Knowledge competency",
+        "Skill competency",
+        "Behaviour competency",
+        "Attitude competency"
+      ],
+      "correct_answer": "Behaviour competency"
+    },
+    {
+      "id": "733",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Skill competency refers to:",
+      "options": [
+        "Understanding of theories only",
+        "Natural or learned ability to perform tasks",
+        "Personal beliefs of a worker",
+        "Educational qualifications only"
+      ],
+      "correct_answer": "Natural or learned ability to perform tasks"
+    },
+    {
+      "id": "734",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Attitude competency is best described as:",
+      "options": [
+        "Written examination skills",
+        "Patterns of action or conduct",
+        "Technical knowledge of machines",
+        "Academic qualification level"
+      ],
+      "correct_answer": "Patterns of action or conduct"
+    },
+    {
+      "id": "735",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Which is NOT a key feature of competency?",
+      "options": [
+        "Knowing how and why things are done",
+        "Being able to do the job",
+        "Memorizing textbooks",
+        "Knowing what to do if things go wrong"
+      ],
+      "correct_answer": "Memorizing textbooks"
+    },
+    {
+      "id": "736",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Competency differs from skill because:",
+      "options": [
+        "Skill includes attitude but competency does not",
+        "Competency includes Knowledge, Skills, and Attitude",
+        "Skill is broader than competency",
+        "Competency is only theoretical"
+      ],
+      "correct_answer": "Competency includes Knowledge, Skills, and Attitude"
+    },
+    {
+      "id": "737",
+      "question_set": "Module 1 (Set 3)",
+      "question": "A person may have welding skill but still not be competent if:",
+      "options": [
+        "They lack tools",
+        "They lack knowledge and attitude required for the job",
+        "They are unemployed",
+        "They have too much experience"
+      ],
+      "correct_answer": "They lack knowledge and attitude required for the job"
+    },
+    {
+      "id": "738",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Task skills refer to:",
+      "options": [
+        "Managing workplace conflicts",
+        "Performing tasks to required standards",
+        "Handling multiple jobs",
+        "Communication with colleagues"
+      ],
+      "correct_answer": "Performing tasks to required standards"
+    },
+    {
+      "id": "739",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Task management skills involve:",
+      "options": [
+        "Doing only one task at a time",
+        "Ignoring deadlines",
+        "Managing multiple tasks simultaneously",
+        "Avoiding workplace responsibilities"
+      ],
+      "correct_answer": "Managing multiple tasks simultaneously"
+    },
+    {
+      "id": "740",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Contingency management skills refer to:",
+      "options": [
+        "Routine task repetition",
+        "Ability to handle unexpected problems",
+        "Academic writing skills",
+        "Memorization techniques"
+      ],
+      "correct_answer": "Ability to handle unexpected problems"
+    },
+    {
+      "id": "731",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Competency in TVET primarily refers to:",
+      "options": [
+        "Only theoretical knowledge of a subject",
+        "Measurable combination of knowledge, skills, and attitude",
+        "Examination results of learners",
+        "Teaching experience only"
+      ],
+      "correct_answer": "Measurable combination of knowledge, skills, and attitude"
+    },
+    {
+      "id": "732",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Which of the following is NOT a type of competency?",
+      "options": [
+        "Knowledge competency",
+        "Skill competency",
+        "Behaviour competency",
+        "Attitude competency"
+      ],
+      "correct_answer": "Behaviour competency"
+    },
+    {
+      "id": "733",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Skill competency refers to:",
+      "options": [
+        "Understanding of theories only",
+        "Natural or learned ability to perform tasks",
+        "Personal beliefs of a worker",
+        "Educational qualifications only"
+      ],
+      "correct_answer": "Natural or learned ability to perform tasks"
+    },
+    {
+      "id": "734",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Attitude competency is best described as:",
+      "options": [
+        "Written examination skills",
+        "Patterns of action or conduct",
+        "Technical knowledge of machines",
+        "Academic qualification level"
+      ],
+      "correct_answer": "Patterns of action or conduct"
+    },
+    {
+      "id": "735",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Which is NOT a key feature of competency?",
+      "options": [
+        "Knowing how and why things are done",
+        "Being able to do the job",
+        "Memorizing textbooks",
+        "Knowing what to do if things go wrong"
+      ],
+      "correct_answer": "Memorizing textbooks"
+    },
+    {
+      "id": "736",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Competency differs from skill because:",
+      "options": [
+        "Skill includes attitude but competency does not",
+        "Competency includes Knowledge, Skills, and Attitude",
+        "Skill is broader than competency",
+        "Competency is only theoretical"
+      ],
+      "correct_answer": "Competency includes Knowledge, Skills, and Attitude"
+    },
+    {
+      "id": "737",
+      "question_set": "Module 1 (Set 2)",
+      "question": "A person may have welding skill but still not be competent if:",
+      "options": [
+        "They lack tools",
+        "They lack knowledge and attitude required for the job",
+        "They are unemployed",
+        "They have too much experience"
+      ],
+      "correct_answer": "They lack knowledge and attitude required for the job"
+    },
+    {
+      "id": "738",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Task skills refer to:",
+      "options": [
+        "Managing workplace conflicts",
+        "Performing tasks to required standards",
+        "Handling multiple jobs",
+        "Communication with colleagues"
+      ],
+      "correct_answer": "Performing tasks to required standards"
+    },
+    {
+      "id": "739",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Task management skills involve:",
+      "options": [
+        "Doing only one task at a time",
+        "Ignoring deadlines",
+        "Managing multiple tasks simultaneously",
+        "Avoiding workplace responsibilities"
+      ],
+      "correct_answer": "Managing multiple tasks simultaneously"
+    },
+    {
+      "id": "740",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Contingency management skills refer to:",
+      "options": [
+        "Routine task repetition",
+        "Ability to handle unexpected problems",
+        "Academic writing skills",
+        "Memorization techniques"
+      ],
+      "correct_answer": "Ability to handle unexpected problems"
+    },
+    {
+      "id": "741",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Job/Role environment skills mainly involve:",
+      "options": [
+        "Financial management only",
+        "Working with others and adapting to situations",
+        "Machine operation only",
+        "Exam preparation skills"
+      ],
+      "correct_answer": "Working with others and adapting to situations"
+    },
+    {
+      "id": "742",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Which is an example of contingency management skill in photocopy operator job?",
+      "options": [
+        "Using photocopier",
+        "Selecting paper type",
+        "Clearing paper jams",
+        "Writing reports"
+      ],
+      "correct_answer": "Clearing paper jams"
+    },
+    {
+      "id": "743",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Task skill example in photocopy operator job is:",
+      "options": [
+        "Clearing paper jam",
+        "Using a photocopier",
+        "Team communication",
+        "Managing workload"
+      ],
+      "correct_answer": "Using a photocopier"
+    },
+    {
+      "id": "744",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Task management skill example is:",
+      "options": [
+        "Using photocopier",
+        "Selecting right paper and functions",
+        "Fixing machine failure",
+        "Supervising staff"
+      ],
+      "correct_answer": "Selecting right paper and functions"
+    },
+    {
+      "id": "745",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Job/role environment skill example is:",
+      "options": [
+        "Operating machine",
+        "Paper selection",
+        "Liaising with team members",
+        "Clearing jams"
+      ],
+      "correct_answer": "Liaising with team members"
+    },
+    {
+      "id": "746",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Competency standards are:",
+      "options": [
+        "Random job descriptions",
+        "Industry-determined performance specifications",
+        "School examination rules",
+        "Government tax rules"
+      ],
+      "correct_answer": "Industry-determined performance specifications"
+    },
+    {
+      "id": "747",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Competency standards are made up of:",
+      "options": [
+        "Exams and marks only",
+        "Units of competency and performance criteria",
+        "Books and notes",
+        "Attendance records"
+      ],
+      "correct_answer": "Units of competency and performance criteria"
+    },
+    {
+      "id": "748",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Units of competency describe:",
+      "options": [
+        "Salary structure",
+        "Key work functions in an occupation",
+        "School rules",
+        "Personal behavior"
+      ],
+      "correct_answer": "Key work functions in an occupation"
+    },
+    {
+      "id": "749",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Performance criteria refer to:",
+      "options": [
+        "Teacher evaluation methods",
+        "Standards of performance required to be competent",
+        "Student attendance",
+        "Training duration"
+      ],
+      "correct_answer": "Standards of performance required to be competent"
+    },
+    {
+      "id": "750",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Range statement defines:",
+      "options": [
+        "Salary range",
+        "Contexts and conditions of competency application",
+        "Exam marks range",
+        "Course duration"
+      ],
+      "correct_answer": "Contexts and conditions of competency application"
+    },
+    {
+      "id": "751",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Evidence guide provides:",
+      "options": [
+        "Financial records",
+        "Guidance for assessing competency evidence",
+        "Student attendance list",
+        "Exam timetable"
+      ],
+      "correct_answer": "Guidance for assessing competency evidence"
+    },
+    {
+      "id": "752",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Unit code and title are used to:",
+      "options": [
+        "Confuse learners",
+        "Identify and describe competency areas",
+        "Replace exams",
+        "Rank teachers"
+      ],
+      "correct_answer": "Identify and describe competency areas"
+    },
+    {
+      "id": "753",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Nominal hours indicate:",
+      "options": [
+        "Salary hours",
+        "Approximate time to complete a unit",
+        "Exam duration",
+        "Attendance requirement"
+      ],
+      "correct_answer": "Approximate time to complete a unit"
+    },
+    {
+      "id": "754",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Unit descriptor gives:",
+      "options": [
+        "Detailed exam questions",
+        "Summary of scope and performance level",
+        "Student grades",
+        "Attendance rules"
+      ],
+      "correct_answer": "Summary of scope and performance level"
+    },
+    {
+      "id": "755",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Elements of competency refer to:",
+      "options": [
+        "Exam questions",
+        "Basic work activities in a unit",
+        "Training cost",
+        "Classroom size"
+      ],
+      "correct_answer": "Basic work activities in a unit"
+    },
+    {
+      "id": "756",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Skills and knowledge requirement refers to:",
+      "options": [
+        "Financial budget",
+        "Required KSAs for competency achievement",
+        "Exam marking rules",
+        "Classroom management only"
+      ],
+      "correct_answer": "Required KSAs for competency achievement"
+    },
+    {
+      "id": "757",
+      "question_set": "Module 1 (Set 2)",
+      "question": "A competent person is someone who:",
+      "options": [
+        "Only has academic certificates",
+        "Can apply knowledge and skills in workplace",
+        "Memorizes textbooks",
+        "Passes written exams only"
+      ],
+      "correct_answer": "Can apply knowledge and skills in workplace"
+    },
+    {
+      "id": "758",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Which is NOT part of competency standards?",
+      "options": [
+        "Evidence guide",
+        "Range statement",
+        "Student gossip record",
+        "Performance criteria"
+      ],
+      "correct_answer": "Student gossip record"
+    },
+    {
+      "id": "759",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Key difference between skill and competency is:",
+      "options": [
+        "Skill includes KSA, competency does not",
+        "Competency includes KSA, skill is only part of it",
+        "Both are identical",
+        "Skill is broader than competency"
+      ],
+      "correct_answer": "Competency includes KSA, skill is only part of it"
+    },
+    {
+      "id": "760",
+      "question_set": "Module 1 (Set 2)",
+      "question": "Competency standards ensure:",
+      "options": [
+        "Random training delivery",
+        "Standardized performance in workplace",
+        "Reduced training quality",
+        "No assessment system"
+      ],
+      "correct_answer": "Standardized performance in workplace"
+    },
+    {
+      "id": "761",
+      "question_set": "Module 1 (Set 3)",
+      "question": "The main purpose of promoting an inclusive learning environment is to:",
+      "options": [
+        "Increase exam pass rates only",
+        "Support and respect individual differences in learning",
+        "Reduce training duration",
+        "Limit learner participation"
+      ],
+      "correct_answer": "Support and respect individual differences in learning"
+    },
+    {
+      "id": "762",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Inclusivity in TVET mainly focuses on:",
+      "options": [
+        "Teacher-centered instruction",
+        "Equal treatment regardless of learner differences",
+        "Strict examination rules",
+        "Memorization-based learning"
+      ],
+      "correct_answer": "Equal treatment regardless of learner differences"
+    },
+    {
+      "id": "763",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Which of the following is NOT part of individual differences?",
+      "options": [
+        "Age and gender",
+        "Learning difficulties",
+        "Exam grading system",
+        "Cultural background"
+      ],
+      "correct_answer": "Exam grading system"
+    },
+    {
+      "id": "764",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Knowledge, Skills, and Attitude together form:",
+      "options": [
+        "Curriculum design",
+        "Competency",
+        "Assessment tools",
+        "Training duration"
+      ],
+      "correct_answer": "Competency"
+    },
+    {
+      "id": "765",
+      "question_set": "Module 1 (Set 3)",
+      "question": "A key principle of inclusivity is:",
+      "options": [
+        "Limiting learner participation",
+        "Making reasonable adjustments for learners",
+        "Standardizing all learners equally",
+        "Ignoring learner differences"
+      ],
+      "correct_answer": "Making reasonable adjustments for learners"
+    },
+    {
+      "id": "766",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Which is an example of a client with particular needs?",
+      "options": [
+        "High-performing student",
+        "Rural learner with access barriers",
+        "Certified trainer",
+        "Curriculum designer"
+      ],
+      "correct_answer": "Rural learner with access barriers"
+    },
+    {
+      "id": "767",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Attitude competency is MOST related to:",
+      "options": [
+        "Machine operation",
+        "Behaviour and professional conduct",
+        "Academic qualifications",
+        "Written exams"
+      ],
+      "correct_answer": "Behaviour and professional conduct"
+    },
+    {
+      "id": "768",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Task management skills involve:",
+      "options": [
+        "Performing one task repeatedly",
+        "Handling multiple tasks efficiently",
+        "Ignoring workplace instructions",
+        "Memorizing procedures only"
+      ],
+      "correct_answer": "Handling multiple tasks efficiently"
+    },
+    {
+      "id": "769",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Contingency management skills are required when:",
+      "options": [
+        "Everything goes as planned",
+        "Unexpected problems occur",
+        "Only theory is taught",
+        "No tools are available"
+      ],
+      "correct_answer": "Unexpected problems occur"
+    },
+    {
+      "id": "770",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Job/role environment skills mainly include:",
+      "options": [
+        "Technical calculations",
+        "Communication and teamwork",
+        "Machine maintenance only",
+        "Written exam skills"
+      ],
+      "correct_answer": "Communication and teamwork"
+    },
+    {
+      "id": "771",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Which is a TRICK option for competency misunderstanding?",
+      "options": [
+        "Competency = only skills",
+        "Competency = KSA integration",
+        "Competency = job performance",
+        "Competency = workplace behavior only"
+      ],
+      "correct_answer": "Competency = KSA integration"
+    },
+    {
+      "id": "772",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Range statement in a unit of competency defines:",
+      "options": [
+        "Student marks",
+        "Context and conditions of performance",
+        "Salary structure",
+        "Training fees"
+      ],
+      "correct_answer": "Context and conditions of performance"
+    },
+    {
+      "id": "773",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Evidence guide is mainly used for:",
+      "options": [
+        "Teaching syllabus design",
+        "Assessment of competency evidence",
+        "Attendance tracking",
+        "Course selection"
+      ],
+      "correct_answer": "Assessment of competency evidence"
+    },
+    {
+      "id": "774",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Unit descriptor provides:",
+      "options": [
+        "Full exam paper",
+        "Summary of unit scope and performance level",
+        "Student ranking",
+        "Job salary details"
+      ],
+      "correct_answer": "Summary of unit scope and performance level"
+    },
+    {
+      "id": "775",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Nominal hours represent:",
+      "options": [
+        "Maximum salary hours",
+        "Estimated time to complete a unit",
+        "Exam marking time",
+        "Training cost"
+      ],
+      "correct_answer": "Estimated time to complete a unit"
+    },
+    {
+      "id": "776",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Inclusive learning requires:",
+      "options": [
+        "Ignoring disabilities",
+        "Supporting individual differences",
+        "Strict uniform teaching",
+        "Fixed curriculum only"
+      ],
+      "correct_answer": "Supporting individual differences"
+    },
+    {
+      "id": "777",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Which is a physical environment support need?",
+      "options": [
+        "Exam timetable change",
+        "Equipment modification",
+        "Teacher promotion",
+        "Curriculum revision"
+      ],
+      "correct_answer": "Equipment modification"
+    },
+    {
+      "id": "778",
+      "question_set": "Module 1 (Set 3)",
+      "question": "OSH in inclusivity refers to:",
+      "options": [
+        "Office study hours",
+        "Occupational Safety and Health",
+        "Open school hierarchy",
+        "Official skill handling"
+      ],
+      "correct_answer": "Occupational Safety and Health"
+    },
+    {
+      "id": "779",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Which is NOT a principle of inclusivity?",
+      "options": [
+        "Supporting equal opportunity",
+        "Encouraging participation",
+        "Bias and discrimination",
+        "Acknowledging learner strengths"
+      ],
+      "correct_answer": "Bias and discrimination"
+    },
+    {
+      "id": "780",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Language in inclusive practice should be:",
+      "options": [
+        "Discriminatory",
+        "Neutral and respectful",
+        "Complex and technical",
+        "Competitive"
+      ],
+      "correct_answer": "Neutral and respectful"
+    },
+    {
+      "id": "781",
+      "question_set": "Module 1 (Set 3)",
+      "question": "A key feature of competency is:",
+      "options": [
+        "Memorizing theory",
+        "Knowing what to do if things go wrong",
+        "Passing written exams",
+        "Listening to lectures"
+      ],
+      "correct_answer": "Knowing what to do if things go wrong"
+    },
+    {
+      "id": "782",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Which is a support person?",
+      "options": [
+        "Examiner",
+        "Peer supporter or counsellor",
+        "Curriculum developer",
+        "Government minister"
+      ],
+      "correct_answer": "Peer supporter or counsellor"
+    },
+    {
+      "id": "783",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Inclusive practice in training requires:",
+      "options": [
+        "Ignoring cultural differences",
+        "Respecting diversity",
+        "Strict discipline only",
+        "Uniform teaching methods"
+      ],
+      "correct_answer": "Respecting diversity"
+    },
+    {
+      "id": "784",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Competency standards are developed by:",
+      "options": [
+        "Random teachers",
+        "Industry requirements",
+        "Students only",
+        "Exam boards only"
+      ],
+      "correct_answer": "Industry requirements"
+    },
+    {
+      "id": "785",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Elements of competency describe:",
+      "options": [
+        "Exam structure",
+        "Key work activities",
+        "Salary grades",
+        "Attendance rules"
+      ],
+      "correct_answer": "Key work activities"
+    },
+    {
+      "id": "786",
+      "question_set": "Module 1 (Set 3)",
+      "question": "One example of inclusive practice is:",
+      "options": [
+        "Ignoring disabled learners",
+        "Making reasonable adjustments",
+        "Strict exam pressure",
+        "Standardized punishment"
+      ],
+      "correct_answer": "Making reasonable adjustments"
+    },
+    {
+      "id": "787",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Communication in inclusivity should be:",
+      "options": ["Biased", "Clear and inclusive", "Aggressive", "Silent"],
+      "correct_answer": "Clear and inclusive"
+    },
+    {
+      "id": "788",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Range of variables ensures:",
+      "options": [
+        "Fixed workplace conditions",
+        "Flexibility in competency application",
+        "Exam uniformity",
+        "Salary variation"
+      ],
+      "correct_answer": "Flexibility in competency application"
+    },
+    {
+      "id": "789",
+      "question_set": "Module 1 (Set 3)",
+      "question": "Evidence collection should mainly occur in:",
+      "options": [
+        "Classroom theory only",
+        "Workplace or simulated workplace",
+        "Exam hall only",
+        "Library"
+      ],
+      "correct_answer": "Workplace or simulated workplace"
+    },
+    {
+      "id": "790",
+      "question_set": "Module 1 (Set 3)",
+      "question": "The main goal of inclusive learning environment is:",
+      "options": [
+        "Reduce diversity",
+        "Ensure equal participation and success",
+        "Increase exam difficulty",
+        "Limit learner access"
+      ],
+      "correct_answer": "Ensure equal participation and success"
+    },
+    {
+      "id": "791",
+      "question_set": "Module 1 (Set X)",
+      "question": "Task analysis in TVET mainly involves:",
+      "options": [
+        "Designing exam questions",
+        "Breaking down a task into simple steps",
+        "Writing curriculum documents",
+        "Marking assessments"
+      ],
+      "correct_answer": "Breaking down a task into simple steps"
+    },
+    {
+      "id": "792",
+      "question_set": "Module 1 (Set X)",
+      "question": "The purpose of task analysis is to identify:",
+      "options": [
+        "Student attendance",
+        "Real work practice and required information",
+        "Exam difficulty level",
+        "Teacher workload"
+      ],
+      "correct_answer": "Real work practice and required information"
+    },
+    {
+      "id": "793",
+      "question_set": "Module 1 (Set X)",
+      "question": "Which is a key principle of task analysis?",
+      "options": [
+        "Using complex language",
+        "Avoiding safety considerations",
+        "Including simple and clear steps",
+        "Ignoring learner background"
+      ],
+      "correct_answer": "Including simple and clear steps"
+    },
+    {
+      "id": "794",
+      "question_set": "Module 1 (Set X)",
+      "question": "Safety in task analysis should be considered:",
+      "options": [
+        "After completing the task",
+        "Before performing related steps",
+        "Only in exams",
+        "At the end of training"
+      ],
+      "correct_answer": "Before performing related steps"
+    },
+    {
+      "id": "795",
+      "question_set": "Module 1 (Set X)",
+      "question": "A curriculum document is best described as:",
+      "options": [
+        "A financial report",
+        "A structured representation of competencies",
+        "A student attendance sheet",
+        "A teacher evaluation form"
+      ],
+      "correct_answer": "A structured representation of competencies"
+    },
+    {
+      "id": "796",
+      "question_set": "Module 1 (Set X)",
+      "question": "Under NTVQF, curriculum is based on:",
+      "options": [
+        "Random topics",
+        "Units of competency",
+        "Student preferences",
+        "Teacher experience only"
+      ],
+      "correct_answer": "Units of competency"
+    },
+    {
+      "id": "797",
+      "question_set": "Module 1 (Set X)",
+      "question": "A curriculum document is used as:",
+      "options": [
+        "Legal punishment tool",
+        "Implementation guide for teaching",
+        "Examination marking guide",
+        "Salary calculation tool"
+      ],
+      "correct_answer": "Implementation guide for teaching"
+    },
+    {
+      "id": "798",
+      "question_set": "Module 1 (Set X)",
+      "question": "A major risk of not following curriculum is:",
+      "options": [
+        "Better student creativity",
+        "Learners missing essential learning outcomes",
+        "Faster completion",
+        "Easier teaching"
+      ],
+      "correct_answer": "Learners missing essential learning outcomes"
+    },
+    {
+      "id": "799",
+      "question_set": "Module 1 (Set X)",
+      "question": "Industry competency standards define:",
+      "options": [
+        "Student behavior",
+        "Skills, knowledge, and attitude required for jobs",
+        "School rules",
+        "Exam formats only"
+      ],
+      "correct_answer": "Skills, knowledge, and attitude required for jobs"
+    },
+    {
+      "id": "800",
+      "question_set": "Module 1 (Set X)",
+      "question": "A curriculum differs from competency standards because:",
+      "options": [
+        "Curriculum is industry-based",
+        "Standards are implementation guides",
+        "Curriculum is delivery-based interpretation of standards",
+        "Both are identical"
+      ],
+      "correct_answer": "Curriculum is delivery-based interpretation of standards"
+    },
+    {
+      "id": "801",
+      "question_set": "Module 1 (Set X)",
+      "question": "A learning outcome is:",
+      "options": [
+        "Industry document",
+        "Curriculum-based action statement",
+        "Exam rule",
+        "Attendance requirement"
+      ],
+      "correct_answer": "Curriculum-based action statement"
+    },
+    {
+      "id": "802",
+      "question_set": "Module 1 (Set X)",
+      "question": "An element of competency is:",
+      "options": [
+        "Curriculum guideline",
+        "Basic building block of a unit of competency",
+        "Student report",
+        "Assessment result"
+      ],
+      "correct_answer": "Basic building block of a unit of competency"
+    },
+    {
+      "id": "803",
+      "question_set": "Module 1 (Set X)",
+      "question": "Performance criteria are:",
+      "options": [
+        "Teacher instructions",
+        "Standards to judge competence",
+        "Student marks",
+        "Course fees"
+      ],
+      "correct_answer": "Standards to judge competence"
+    },
+    {
+      "id": "804",
+      "question_set": "Module 1 (Set X)",
+      "question": "Assessment criteria and performance criteria are:",
+      "options": [
+        "Completely different",
+        "Similar in meaning",
+        "Opposite concepts",
+        "Not related"
+      ],
+      "correct_answer": "Similar in meaning"
+    },
+    {
+      "id": "805",
+      "question_set": "Module 1 (Set X)",
+      "question": "Quality assurance framework ensures:",
+      "options": [
+        "Random training delivery",
+        "Standardized quality in TVET institutions",
+        "Teacher promotion only",
+        "Student punishment"
+      ],
+      "correct_answer": "Standardized quality in TVET institutions"
+    },
+    {
+      "id": "806",
+      "question_set": "Module 1 (Set X)",
+      "question": "One objective of QA framework is:",
+      "options": [
+        "Increase tuition fees",
+        "Ensure fair treatment of learners",
+        "Reduce qualifications",
+        "Limit assessment"
+      ],
+      "correct_answer": "Ensure fair treatment of learners"
+    },
+    {
+      "id": "807",
+      "question_set": "Module 1 (Set X)",
+      "question": "Registered Training Organisation (RTO) is:",
+      "options": [
+        "Private school only",
+        "Authorized training provider for national qualifications",
+        "Exam board",
+        "Government ministry"
+      ],
+      "correct_answer": "Authorized training provider for national qualifications"
+    },
+    {
+      "id": "808",
+      "question_set": "Module 1 (Set X)",
+      "question": "RTO registration ensures:",
+      "options": [
+        "Low-quality training",
+        "Credibility and quality assurance",
+        "No certification",
+        "Free education only"
+      ],
+      "correct_answer": "Credibility and quality assurance"
+    },
+    {
+      "id": "809",
+      "question_set": "Module 1 (Set X)",
+      "question": "Apprenticeship mainly involves:",
+      "options": [
+        "Theory-only learning",
+        "On-the-job and off-the-job training",
+        "Exam preparation only",
+        "Classroom lectures only"
+      ],
+      "correct_answer": "On-the-job and off-the-job training"
+    },
+    {
+      "id": "810",
+      "question_set": "Module 1 (Set X)",
+      "question": "In apprenticeship, on-the-job training is approximately:",
+      "options": ["10%", "50%", "90%", "100%"],
+      "correct_answer": "90%"
+    },
+    {
+      "id": "811",
+      "question_set": "Module 1 (Set X)",
+      "question": "Apprenticeship is defined by:",
+      "options": [
+        "Random training",
+        "Industry-defined skills training",
+        "Academic lectures only",
+        "Self-study only"
+      ],
+      "correct_answer": "Industry-defined skills training"
+    },
+    {
+      "id": "812",
+      "question_set": "Module 1 (Set X)",
+      "question": "A key feature of apprenticeship law is:",
+      "options": [
+        "No supervision",
+        "Regulation of training conditions",
+        "No certificates",
+        "No wages"
+      ],
+      "correct_answer": "Regulation of training conditions"
+    },
+    {
+      "id": "813",
+      "question_set": "Module 1 (Set X)",
+      "question": "Apprenticeship credentials are:",
+      "options": [
+        "Informal certificates",
+        "Government-recognized qualifications",
+        "School attendance sheets",
+        "Temporary documents"
+      ],
+      "correct_answer": "Government-recognized qualifications"
+    },
+    {
+      "id": "814",
+      "question_set": "Module 1 (Set X)",
+      "question": "Apprenticeship is an “earn and learn” system because:",
+      "options": [
+        "Students only study",
+        "Apprentices earn wages while learning",
+        "No training occurs",
+        "Only employers benefit"
+      ],
+      "correct_answer": "Apprentices earn wages while learning"
+    },
+    {
+      "id": "815",
+      "question_set": "Module 1 (Set X)",
+      "question": "Supervised training means:",
+      "options": [
+        "Learning alone",
+        "Learning under skilled workers",
+        "Online learning only",
+        "No supervision required"
+      ],
+      "correct_answer": "Learning under skilled workers"
+    },
+    {
+      "id": "816",
+      "question_set": "Module 1 (Set X)",
+      "question": "Apprentice contract includes:",
+      "options": [
+        "Salary increase only",
+        "Training length and skills outline",
+        "Exam results",
+        "School admission rules"
+      ],
+      "correct_answer": "Training length and skills outline"
+    },
+    {
+      "id": "817",
+      "question_set": "Module 1 (Set X)",
+      "question": "Recognition of Prior Learning (RPL) assesses:",
+      "options": [
+        "Only formal education",
+        "Existing skills regardless of learning source",
+        "Only school certificates",
+        "Teacher experience"
+      ],
+      "correct_answer": "Existing skills regardless of learning source"
+    },
+    {
+      "id": "818",
+      "question_set": "Module 1 (Set X)",
+      "question": "One benefit of RPL is:",
+      "options": [
+        "Increased training duration",
+        "Reduced study time and cost",
+        "No certification",
+        "More exams"
+      ],
+      "correct_answer": "Reduced study time and cost"
+    },
+    {
+      "id": "819",
+      "question_set": "Module 1 (Set X)",
+      "question": "RPL evidence may include:",
+      "options": [
+        "Only written exams",
+        "Portfolio and workplace observation",
+        "Only attendance sheets",
+        "Teacher opinion only"
+      ],
+      "correct_answer": "Portfolio and workplace observation"
+    },
+    {
+      "id": "820",
+      "question_set": "Module 1 (Set X)",
+      "question": "One objective of QA framework is:",
+      "options": [
+        "Reduce learning quality",
+        "Improve international recognition of qualifications",
+        "Remove standards",
+        "Eliminate certification"
+      ],
+      "correct_answer": "Improve international recognition of qualifications"
+    },
+    {
+      "id": "835",
+      "question_set": "Module 1 (Set 5)",
+      "question": "A team works best when members:",
+      "options": [
+        "Compete secretly",
+        "Trust and support each other",
+        "Avoid communication",
+        "Work in isolation"
+      ],
+      "correct_answer": "Trust and support each other"
+    },
+    {
+      "id": "836",
+      "question_set": "Module 1 (Set 5)",
+      "question": "Communication in teams helps to:",
+      "options": [
+        "Increase confusion",
+        "Solve problems early",
+        "Avoid collaboration",
+        "Delay work"
+      ],
+      "correct_answer": "Solve problems early"
+    },
+    {
+      "id": "837",
+      "question_set": "Module 1 (Set 5)",
+      "question": "Flexibility in teamwork means:",
+      "options": [
+        "Refusing changes",
+        "Adapting to unexpected situations",
+        "Ignoring team needs",
+        "Following fixed methods only"
+      ],
+      "correct_answer": "Adapting to unexpected situations"
+    },
+    {
+      "id": "838",
+      "question_set": "Module 1 (Set 5)",
+      "question": "Feedback in workplace is important because it:",
+      "options": [
+        "Has no use",
+        "Improves performance",
+        "Stops learning",
+        "Creates conflict only"
+      ],
+      "correct_answer": "Improves performance"
+    },
+    {
+      "id": "839",
+      "question_set": "Module 1 (Set 5)",
+      "question": "Client-focused approach means:",
+      "options": [
+        "Ignoring learner needs",
+        "Prioritizing client needs in work practices",
+        "Following teacher preferences only",
+        "Avoiding communication"
+      ],
+      "correct_answer": "Prioritizing client needs in work practices"
+    },
+    {
+      "id": "840",
+      "question_set": "Module 1 (Set 5)",
+      "question": "A TVET client can be:",
+      "options": [
+        "Only teachers",
+        "Only government officials",
+        "Learners and industries",
+        "Only administrators"
+      ],
+      "correct_answer": "Learners and industries"
+    },
+    {
+      "id": "841",
+      "question_set": "Module 1 (Set 5)",
+      "question": "A key limitation in client satisfaction is:",
+      "options": [
+        "Unlimited resources",
+        "Institutional constraints like cost and time",
+        "No learners",
+        "No training system"
+      ],
+      "correct_answer": "Institutional constraints like cost and time"
+    },
+    {
+      "id": "842",
+      "question_set": "Module 1 (Set 5)",
+      "question": "Communication with clients should be:",
+      "options": [
+        "Non-responsive",
+        "Clear and effective",
+        "Avoidant",
+        "Random"
+      ],
+      "correct_answer": "Clear and effective"
+    },
+    {
+      "id": "843",
+      "question_set": "Module 1 (Set 5)",
+      "question": "One employability skill is:",
+      "options": ["Memorization", "Teamwork", "Guessing", "Silence"],
+      "correct_answer": "Teamwork"
+    },
+    {
+      "id": "844",
+      "question_set": "Module 1 (Set 5)",
+      "question": "Time management includes:",
+      "options": [
+        "Delaying tasks",
+        "Meeting deadlines",
+        "Ignoring priorities",
+        "Random scheduling"
+      ],
+      "correct_answer": "Meeting deadlines"
+    },
+    {
+      "id": "845",
+      "question_set": "Module 1 (Set 5)",
+      "question": "Professional relationship means:",
+      "options": [
+        "Avoiding colleagues",
+        "Maintaining respectful work interactions",
+        "Ignoring feedback",
+        "Working alone"
+      ],
+      "correct_answer": "Maintaining respectful work interactions"
+    },
+    {
+      "id": "846",
+      "question_set": "Module 1 (Set 5)",
+      "question": "Work prioritization means:",
+      "options": [
+        "Doing easiest tasks first always",
+        "Arranging tasks by importance",
+        "Avoiding planning",
+        "Random task selection"
+      ],
+      "correct_answer": "Arranging tasks by importance"
+    },
+    {
+      "id": "847",
+      "question_set": "Module 1 (Set 5)",
+      "question": "A major goal of workplace management is:",
+      "options": [
+        "Reduce efficiency",
+        "Increase productivity",
+        "Avoid learning",
+        "Limit communication"
+      ],
+      "correct_answer": "Increase productivity"
+    },
+    {
+      "id": "848",
+      "question_set": "Module 1 (Set 5)",
+      "question": "A client-centered training approach focuses on:",
+      "options": [
+        "Teacher preference",
+        "Learner needs and expectations",
+        "Random delivery",
+        "Exam-only system"
+      ],
+      "correct_answer": "Learner needs and expectations"
+    },
+    {
+      "id": "849",
+      "question_set": "Module 1 (Set 5)",
+      "question": "Technology in TVET is used for:",
+      "options": [
+        "Avoiding assessment",
+        "Enhancing training delivery",
+        "Reducing communication",
+        "Removing learning systems"
+      ],
+      "correct_answer": "Enhancing training delivery"
+    },
+    {
+      "id": "850",
+      "question_set": "Module 1 (Set 5)",
+      "question": "Effective workplace performance depends on:",
+      "options": [
+        "Isolation",
+        "Work management and relationships",
+        "Avoiding teamwork",
+        "No planning"
+      ],
+      "correct_answer": "Work management and relationships"
+    },
+    {
+      "id": "851",
+      "question_set": "Module 1 (Set 6)",
+      "question": "In TVET workplace context, “prioritizing work” mainly refers to:",
+      "options": [
+        "Doing easy tasks first",
+        "Completing tasks randomly",
+        "Ordering tasks based on importance and urgency",
+        "Avoiding difficult tasks"
+      ],
+      "correct_answer": "Ordering tasks based on importance and urgency"
+    },
+    {
+      "id": "852",
+      "question_set": "Module 1 (Set 6)",
+      "question": "A common workplace issue in TVET institutions is:",
+      "options": [
+        "Too much student freedom",
+        "Managing work relationships and workload",
+        "Lack of textbooks only",
+        "No exams conducted"
+      ],
+      "correct_answer": "Managing work relationships and workload"
+    },
+    {
+      "id": "853",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Which skill directly supports effective time management?",
+      "options": [
+        "Memorization skill",
+        "Ability to meet deadlines",
+        "Guessing ability",
+        "Writing speed only"
+      ],
+      "correct_answer": "Ability to meet deadlines"
+    },
+    {
+      "id": "854",
+      "question_set": "Module 1 (Set 6)",
+      "question": "A teacher handling multiple assignments simultaneously is using:",
+      "options": [
+        "Task avoidance",
+        "Project management skill",
+        "Passive planning",
+        "Exam preparation skill"
+      ],
+      "correct_answer": "Project management skill"
+    },
+    {
+      "id": "855",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Resource allocation involves:",
+      "options": [
+        "Ignoring available tools",
+        "Identifying and distributing resources for tasks",
+        "Increasing workload randomly",
+        "Avoiding planning tools"
+      ],
+      "correct_answer": "Identifying and distributing resources for tasks"
+    },
+    {
+      "id": "856",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Research skills in workplace help to:",
+      "options": [
+        "Avoid decision making",
+        "Collect and organize relevant information",
+        "Replace teamwork",
+        "Reduce learning outcomes"
+      ],
+      "correct_answer": "Collect and organize relevant information"
+    },
+    {
+      "id": "857",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Which is NOT an employability skill category?",
+      "options": [
+        "Communication",
+        "Teamwork",
+        "Guessing ability",
+        "Problem solving"
+      ],
+      "correct_answer": "Guessing ability"
+    },
+    {
+      "id": "858",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Effective communication in TVET includes:",
+      "options": [
+        "Ignoring feedback",
+        "Using listening and questioning skills",
+        "Avoiding writing reports",
+        "Working silently"
+      ],
+      "correct_answer": "Using listening and questioning skills"
+    },
+    {
+      "id": "859",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Teamwork performance improves when members:",
+      "options": [
+        "Work independently always",
+        "Avoid responsibilities",
+        "Share and cooperate",
+        "Compete secretly"
+      ],
+      "correct_answer": "Share and cooperate"
+    },
+    {
+      "id": "860",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Trust in a team leads to:",
+      "options": [
+        "Reduced cooperation",
+        "Better coordination and performance",
+        "Less communication",
+        "Conflict only"
+      ],
+      "correct_answer": "Better coordination and performance"
+    },
+    {
+      "id": "861",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Flexibility in workplace means:",
+      "options": [
+        "Refusing change",
+        "Adapting to new situations",
+        "Following fixed routine only",
+        "Ignoring team decisions"
+      ],
+      "correct_answer": "Adapting to new situations"
+    },
+    {
+      "id": "862",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Problem solving skill includes:",
+      "options": [
+        "Avoiding issues",
+        "Identifying and resolving workplace challenges",
+        "Copying others blindly",
+        "Delaying decisions"
+      ],
+      "correct_answer": "Identifying and resolving workplace challenges"
+    },
+    {
+      "id": "863",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Initiative in TVET means:",
+      "options": [
+        "Waiting for instructions",
+        "Taking proactive actions",
+        "Avoiding creativity",
+        "Reducing effort"
+      ],
+      "correct_answer": "Taking proactive actions"
+    },
+    {
+      "id": "864",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Self-management includes:",
+      "options": [
+        "Ignoring responsibilities",
+        "Managing work behavior and relationships",
+        "Avoiding planning",
+        "Working without structure"
+      ],
+      "correct_answer": "Managing work behavior and relationships"
+    },
+    {
+      "id": "865",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Learning skill involves:",
+      "options": [
+        "Refusing feedback",
+        "Continuous improvement through reflection",
+        "Stopping skill development",
+        "Memorizing only"
+      ],
+      "correct_answer": "Continuous improvement through reflection"
+    },
+    {
+      "id": "866",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Technology in TVET is used for:",
+      "options": [
+        "Reducing efficiency",
+        "Enhancing training and assessment",
+        "Avoiding communication",
+        "Removing learning systems"
+      ],
+      "correct_answer": "Enhancing training and assessment"
+    },
+    {
+      "id": "867",
+      "question_set": "Module 1 (Set 6)",
+      "question": "A client-focused approach prioritizes:",
+      "options": [
+        "Teacher convenience",
+        "Learner needs and expectations",
+        "Random decisions",
+        "Administrative rules only"
+      ],
+      "correct_answer": "Learner needs and expectations"
+    },
+    {
+      "id": "868",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Which is a TVET client?",
+      "options": [
+        "Only principals",
+        "Learners and industry stakeholders",
+        "Only government officials",
+        "Only examiners"
+      ],
+      "correct_answer": "Learners and industry stakeholders"
+    },
+    {
+      "id": "869",
+      "question_set": "Module 1 (Set 6)",
+      "question": "A limitation in client service is:",
+      "options": [
+        "Unlimited funding",
+        "Resource and time constraints",
+        "No learners",
+        "No training system"
+      ],
+      "correct_answer": "Resource and time constraints"
+    },
+    {
+      "id": "870",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Feedback in workplace is important because it:",
+      "options": [
+        "Stops improvement",
+        "Enhances performance",
+        "Creates confusion",
+        "Has no value"
+      ],
+      "correct_answer": "Enhances performance"
+    },
+    {
+      "id": "871",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Work prioritization helps to:",
+      "options": [
+        "Delay tasks",
+        "Improve efficiency",
+        "Avoid deadlines",
+        "Increase confusion"
+      ],
+      "correct_answer": "Improve efficiency"
+    },
+    {
+      "id": "872",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Effective teamwork requires:",
+      "options": [
+        "Isolation",
+        "Cooperation and communication",
+        "Ignoring roles",
+        "Competition only"
+      ],
+      "correct_answer": "Cooperation and communication"
+    },
+    {
+      "id": "873",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Communication breakdown in teams leads to:",
+      "options": [
+        "Better performance",
+        "Misunderstanding and delays",
+        "Faster output",
+        "More cooperation"
+      ],
+      "correct_answer": "Misunderstanding and delays"
+    },
+    {
+      "id": "874",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Professional relationship in TVET means:",
+      "options": [
+        "Informal behavior only",
+        "Respectful workplace interaction",
+        "Avoiding colleagues",
+        "Competing aggressively"
+      ],
+      "correct_answer": "Respectful workplace interaction"
+    },
+    {
+      "id": "875",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Workload management ensures:",
+      "options": [
+        "Random task distribution",
+        "Balanced task completion",
+        "Ignoring deadlines",
+        "No planning"
+      ],
+      "correct_answer": "Balanced task completion"
+    },
+    {
+      "id": "876",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Time management failure results in:",
+      "options": [
+        "Better efficiency",
+        "Missed deadlines",
+        "Improved teamwork",
+        "Higher productivity"
+      ],
+      "correct_answer": "Missed deadlines"
+    },
+    {
+      "id": "877",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Client satisfaction depends on:",
+      "options": [
+        "Ignoring needs",
+        "Meeting expectations",
+        "Reducing communication",
+        "Avoiding feedback"
+      ],
+      "correct_answer": "Meeting expectations"
+    },
+    {
+      "id": "878",
+      "question_set": "Module 1 (Set 6)",
+      "question": "A client in TVET system can be:",
+      "options": [
+        "Only students",
+        "Students, industry, and government",
+        "Only teachers",
+        "Only administrators"
+      ],
+      "correct_answer": "Students, industry, and government"
+    },
+    {
+      "id": "879",
+      "question_set": "Module 1 (Set 6)",
+      "question": "Technology skill includes:",
+      "options": [
+        "Avoiding software",
+        "Using digital systems in training",
+        "Manual-only work",
+        "Ignoring tools"
+      ],
+      "correct_answer": "Using digital systems in training"
+    },
+    {
+      "id": "880",
+      "question_set": "Module 1 (Set 6)",
+      "question": "The main goal of workplace efficiency is:",
+      "options": [
+        "Reduce learning",
+        "Improve productivity and outcomes",
+        "Avoid teamwork",
+        "Limit communication"
+      ],
+      "correct_answer": "Improve productivity and outcomes"
+    }
+  ]
 }
