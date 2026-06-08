@@ -1,12 +1,12 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 
 const Resources = () => {
   const categories = [
     {
       title: "Typing & Practice",
       icon: "🧠",
-      color: "from-blue-500 to-indigo-600",
+      color: "from-blue-500/20 to-indigo-500/10 border-blue-500/30 text-blue-400",
       links: [
         { label: "Keybr – Smart Practice", url: "https://www.keybr.com/" },
         { label: "TypingClub – Learn Touch", url: "https://www.typingclub.com/" },
@@ -17,7 +17,7 @@ const Resources = () => {
     {
       title: "Google Tools & Forms",
       icon: "📄",
-      color: "from-emerald-500 to-teal-600",
+      color: "from-emerald-500/20 to-teal-500/10 border-emerald-500/30 text-emerald-400",
       links: [
         { label: "Google Forms", url: "https://forms.google.com/" },
         { label: "Google Docs", url: "https://docs.google.com/" },
@@ -28,7 +28,7 @@ const Resources = () => {
     {
       title: "Graphic Inspiration",
       icon: "🎨",
-      color: "from-purple-500 to-pink-600",
+      color: "from-purple-500/20 to-pink-500/10 border-purple-500/30 text-purple-400",
       links: [
         { label: "Behance – Portfolios", url: "https://www.behance.net/" },
         { label: "Pinterest – Design Ideas", url: "https://www.pinterest.com/" },
@@ -39,7 +39,7 @@ const Resources = () => {
     {
       title: "Design Tools",
       icon: "🛠️",
-      color: "from-orange-500 to-red-600",
+      color: "from-orange-500/20 to-red-500/10 border-orange-500/30 text-orange-400",
       links: [
         { label: "Canva – Design Tool", url: "https://www.canva.com/" },
         { label: "Figma – Interface Design", url: "https://www.figma.com/" },
@@ -50,7 +50,7 @@ const Resources = () => {
     {
       title: "Computer Basics",
       icon: "💻",
-      color: "from-slate-700 to-slate-900",
+      color: "from-slate-500/20 to-slate-600/10 border-slate-500/30 text-slate-400",
       links: [
         { label: "GCF Global – Basics", url: "https://edu.gcfglobal.org/en/computerbasics/" },
         { label: "Typing.com – Keyboard", url: "https://www.typing.com/" },
@@ -60,7 +60,7 @@ const Resources = () => {
     {
       title: "Design Downloads",
       icon: "🎁",
-      color: "from-blue-400 to-cyan-600",
+      color: "from-cyan-500/20 to-blue-500/10 border-cyan-500/30 text-cyan-400",
       links: [
         { label: "Freepik – Vectors & PSD", url: "https://www.freepik.com/" },
         { label: "Mockup World – Free PSD", url: "https://www.mockupworld.co/" },
@@ -71,7 +71,7 @@ const Resources = () => {
     {
       title: "Video Resources",
       icon: "🎬",
-      color: "from-red-500 to-rose-700",
+      color: "from-red-500/20 to-rose-500/10 border-red-500/30 text-red-400",
       links: [
         { label: "Mixkit – Video Clips", url: "https://mixkit.co/" },
         { label: "Opus Pro – AI Captions", url: "https://www.opus.pro/captions" },
@@ -82,7 +82,7 @@ const Resources = () => {
     {
       title: "Audio & Music",
       icon: "🎵",
-      color: "from-yellow-500 to-orange-600",
+      color: "from-amber-500/20 to-orange-500/10 border-amber-500/30 text-amber-400",
       links: [
         { label: "Adobe Podcast – Audio Fix", url: "https://podcast.adobe.com/en" },
         { label: "Uppbeat – Music", url: "https://uppbeat.io/" },
@@ -93,7 +93,7 @@ const Resources = () => {
     {
       title: "Useful Links",
       icon: "🔗",
-      color: "from-indigo-500 to-blue-700",
+      color: "from-indigo-500/20 to-blue-500/10 border-indigo-500/30 text-indigo-400",
       links: [
         { label: "NSDA Certificate", url: "https://www.skillsportal.gov.bd/#/home/tci/tci-shared-list" },
       ],
@@ -101,53 +101,69 @@ const Resources = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-200 py-16 px-4 sm:px-8">
-      <div className="max-w-7xl mx-auto">
-        {/* Header Area */}
-        <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-6xl font-black text-slate-800 tracking-tight mb-4">
-            Curated <span className="text-blue-600 italic">Resources</span>
+    <div className="min-h-screen bg-[#090d16] text-slate-200 py-16 px-4 sm:px-6 relative">
+      
+      {/* Background Subtle Ambiance */}
+      <div className="fixed inset-0 -z-10 pointer-events-none overflow-hidden">
+        <div className="absolute top-[-10%] left-[20%] w-[600px] h-[600px] rounded-full bg-blue-600/[0.04] blur-[150px]" />
+        <div className="absolute bottom-[-10%] right-[10%] w-[500px] h-[500px] rounded-full bg-indigo-600/[0.03] blur-[130px]" />
+      </div>
+
+      <div className="max-w-6xl mx-auto">
+        
+        {/* Sleek Minimalist Header Area */}
+        <div className="text-center mb-14">
+          <div className="inline-flex items-center gap-2 mb-3 bg-white/[0.02] border border-white/[0.06] px-3 py-1 rounded-full backdrop-blur-md">
+            <div className="h-1.5 w-1.5 rounded-full bg-blue-500 ring-4 ring-blue-500/10" />
+            <span className="text-[10px] font-black uppercase tracking-[0.15em] text-slate-400">Toolkit Deck</span>
+          </div>
+          
+          <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tight mb-3">
+            Curated <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Resources</span>
           </h1>
-          <p className="text-slate-500 max-w-xl mx-auto font-medium">
-            A hand-picked collection of tools and platforms to accelerate your learning and creative workflow.
+          <p className="text-slate-400 max-w-xl mx-auto font-medium text-xs sm:text-sm leading-relaxed">
+            A hand-picked collection of tools and platforms to accelerate your learning curve and optimize your creative workflow.
           </p>
         </div>
 
-        {/* Bento Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* High-Contrast Bento Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {categories.map((category, i) => (
             <div
               key={i}
-              className="bg-white/80 backdrop-blur-md rounded-[2.5rem] p-8 border border-white shadow-sm hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 group"
+              className="bg-slate-900/40 backdrop-blur-xl rounded-2xl p-6 border border-white/[0.05] hover:border-blue-500/30 hover:bg-slate-900/80 transition-all duration-300 shadow-xl shadow-black/20 flex flex-col group"
             >
-              <div className="flex items-center gap-4 mb-6">
-                <div className={`p-3 rounded-2xl bg-gradient-to-br ${category.color} text-white shadow-lg transform group-hover:rotate-12 transition-transform`}>
-                  <span className="text-2xl">{category.icon}</span>
+              {/* Category Header Row */}
+              <div className="flex items-center gap-3.5 mb-5">
+                <div className={`w-10 h-10 rounded-xl bg-gradient-to-br border flex items-center justify-center shadow-md shadow-black/10 group-hover:scale-105 transition-all duration-300 ${category.color}`}>
+                  <span className="text-xl select-none">{category.icon}</span>
                 </div>
-                <h2 className="text-xl font-bold text-slate-800">
+                <h2 className="text-base font-bold text-slate-100 tracking-tight">
                   {category.title}
                 </h2>
               </div>
 
-              <div className="space-y-3">
+              {/* Resource Links Block */}
+              <div className="space-y-2 mt-auto">
                 {category.links.map((link, j) => (
                   <a
                     key={j}
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-between p-3 rounded-xl bg-slate-100/50 hover:bg-blue-600 group/item transition-all duration-200"
+                    className="flex items-center justify-between p-3 rounded-xl bg-white/[0.02] hover:bg-blue-600 border border-white/[0.04] hover:border-blue-500/50 group/item transition-all duration-200"
                   >
-                    <span className="text-slate-600 group-hover/item:text-white font-semibold text-sm">
+                    <span className="text-slate-300 group-hover/item:text-white font-bold text-xs tracking-wide">
                       {link.label}
                     </span>
                     <svg
-                      className="w-4 h-4 text-slate-400 group-hover/item:text-white transition-transform group-hover/item:translate-x-1"
+                      className="w-3.5 h-3.5 text-slate-500 group-hover/item:text-white transition-all duration-200 group-hover/item:translate-x-0.5 group-hover/item:-translate-y-0.5"
                       fill="none"
                       stroke="currentColor"
+                      strokeWidth="2.5"
                       viewBox="0 0 24 24"
                     >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                     </svg>
                   </a>
                 ))}
@@ -156,10 +172,10 @@ const Resources = () => {
           ))}
         </div>
 
-        {/* Footer Note */}
-        <div className="mt-20 text-center py-10 border-t border-slate-300">
-          <p className="text-slate-400 text-sm font-medium italic">
-            💡 Pro Tip: Bookmark this page (Ctrl+D) for quick access to your toolkit.
+        {/* Low-profile Footer Note */}
+        <div className="mt-16 text-center py-6 border-t border-white/[0.06]">
+          <p className="text-slate-500 text-xs font-semibold tracking-wide">
+            💡 Pro Tip: Bookmark this dashboard page (<kbd className="bg-slate-900 px-1 py-0.5 rounded border border-white/10 text-[10px]">Ctrl</kbd> + <kbd className="bg-slate-900 px-1 py-0.5 rounded border border-white/10 text-[10px]">D</kbd>) for instant toolkit access.
           </p>
         </div>
       </div>

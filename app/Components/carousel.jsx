@@ -33,7 +33,7 @@ const Carousel = () => {
     if (isPaused || images.length === 0) return;
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length);
-    }, 4000);
+    }, 5000);
     return () => clearInterval(interval);
   }, [isPaused, images.length]);
 
@@ -41,85 +41,76 @@ const Carousel = () => {
   const prevSlide = () => setCurrent((prev) => (prev === 0 ? images.length - 1 : prev - 1));
 
   return (
-    <section className="w-full relative px-4 md:px-0">
+    <section className="w-full relative py-6">
       <div 
-        className="max-w-6xl mx-auto relative group overflow-hidden rounded-[2rem] md:rounded-[3rem] bg-slate-100 shadow-[0_32px_64px_-16px_rgba(0,0,0,0.2)]"
+        className="max-w-6xl mx-auto relative group overflow-hidden rounded-[1.5rem] md:rounded-[2.5rem] bg-slate-800 border border-white/5 shadow-2xl"
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
       >
         {/* Main Viewport */}
-        <div className="relative h-[400px] md:h-[550px] overflow-hidden">
+        <div className="relative h-[350px] md:h-[500px] overflow-hidden">
           {images.map((src, index) => (
             <div
               key={index}
-              className={`absolute inset-0 transition-all duration-[1200ms] ease-[cubic-bezier(0.4,0,0.2,1)] ${
+              className={`absolute inset-0 transition-all duration-[1000ms] ease-in-out ${
                 index === current 
-                  ? "opacity-100 translate-x-0 scale-100 z-10" 
-                  : "opacity-0 translate-x-12 scale-110 z-0"
+                  ? "opacity-100 scale-100 z-10" 
+                  : "opacity-0 scale-105 z-0"
               }`}
             >
               <img
                 src={src}
                 alt={`Update ${index + 1}`}
-                className="w-full h-full object-cover transform scale-105 group-hover:scale-100 transition-transform duration-[5000ms]"
+                className="w-full h-full object-cover transition-transform duration-[6000ms] ease-out group-hover:scale-110"
               />
               
-              {/* Intelligent Gradient Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-slate-900/60 via-transparent to-black/20" />
+              {/* Soft Vignette and Glass Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
               
               {/* Bottom Info Bar */}
-              <div className="absolute bottom-10 left-10 right-10 flex items-end justify-between z-20">
-                <div className="space-y-2">
-                  <span className="inline-block px-3 py-1 bg-white/20 backdrop-blur-md border border-white/30 rounded-full text-[10px] font-black text-white uppercase tracking-[0.2em]">
-                    Visual Update
-                  </span>
-                  <p className="text-white/70 text-sm font-medium">Gallery Archive {index + 1}</p>
+              <div className="absolute bottom-6 left-6 right-6 md:bottom-10 md:left-10 md:right-10 flex items-end justify-between z-20">
+                <div className="space-y-1 md:space-y-2">
+                  <div className="flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
+                    <span className="text-[10px] font-bold text-white/90 uppercase tracking-widest">
+                      Latest Activity
+                    </span>
+                  </div>
+                  <p className="text-white text-lg md:text-xl font-bold tracking-tight">Gallery Item {index + 1}</p>
                 </div>
                 
-                <div className="text-white/40 font-black text-5xl md:text-7xl tracking-tighter opacity-20 italic">
-                  #{String(index + 1).padStart(2, '0')}
+                {/* Clean, Non-Glowy Counter */}
+                <div className="bg-white/10 backdrop-blur-md border border-white/10 px-4 py-1 rounded-full">
+                  <span className="text-white/80 font-mono text-sm">
+                    {String(index + 1).padStart(2, '0')} <span className="opacity-40">/</span> {images.length}
+                  </span>
                 </div>
               </div>
             </div>
           ))}
         </div>
 
-        {/* Floating Glass Navigation */}
-        <div className="absolute top-1/2 -translate-y-1/2 inset-x-6 flex justify-between items-center z-30 opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none">
-          <button
-            onClick={prevSlide}
-            className="pointer-events-auto p-4 bg-white/10 backdrop-blur-2xl border border-white/20 rounded-full text-white hover:bg-white/30 hover:scale-110 transition-all"
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M15 19l-7-7 7-7" /></svg>
-          </button>
-          <button
-            onClick={nextSlide}
-            className="pointer-events-auto p-4 bg-white/10 backdrop-blur-2xl border border-white/20 rounded-full text-white hover:bg-white/30 hover:scale-110 transition-all"
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M9 5l7 7-7 7" /></svg>
-          </button>
+        {/* Tactile Navigation Buttons */}
+        <div className="absolute inset-x-4 top-1/2 -translate-y-1/2 flex justify-between items-center z-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+          <NavButton onClick={prevSlide} direction="left" />
+          <NavButton onClick={nextSlide} direction="right" />
         </div>
 
-        {/* Timer Progress Ring (Bottom Right) */}
-        <div className="absolute bottom-10 right-10 z-30 hidden md:flex items-center gap-4">
-             <div className="flex gap-1.5">
-                {images.slice(0, 5).map((_, i) => (
-                    <div key={i} className={`h-1 rounded-full transition-all duration-500 ${current % 5 === i ? "w-8 bg-white" : "w-2 bg-white/30"}`} />
-                ))}
-             </div>
-        </div>
+        {/* Progress Bar (Tactile) */}
+        <div className="absolute bottom-0 left-0 h-1 bg-blue-500/50 z-40 transition-all duration-500 ease-linear" 
+             style={{ width: `${((current + 1) / images.length) * 100}%` }} />
       </div>
 
-      {/* External Scroll Indicators (Modern Dot Array) */}
-      <div className="max-w-6xl mx-auto flex justify-center mt-8 gap-1.5 overflow-x-auto py-2 no-scrollbar">
+      {/* External Micro-Pagination */}
+      <div className="max-w-6xl mx-auto flex justify-center mt-6 gap-2 flex-wrap px-4">
         {images.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrent(index)}
-            className={`h-1 rounded-full transition-all duration-700 shrink-0 ${
+            className={`h-1.5 rounded-full transition-all duration-300 ${
               index === current 
-              ? "w-8 bg-slate-900 shadow-xl" 
-              : "w-1 bg-slate-300 hover:bg-slate-400"
+              ? "w-8 bg-blue-500" 
+              : "w-2 bg-slate-700 hover:bg-slate-600"
             }`}
           />
         ))}
@@ -127,5 +118,23 @@ const Carousel = () => {
     </section>
   );
 };
+
+// Helper Component for Navigation
+const NavButton = ({ onClick, direction }) => (
+  <button
+    onClick={onClick}
+    className="pointer-events-auto w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-white/10 backdrop-blur-xl border border-white/20 rounded-full text-white hover:bg-white/20 active:scale-90 transition-all shadow-xl"
+  >
+    {direction === "left" ? (
+      <svg className="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M15 19l-7-7 7-7" />
+      </svg>
+    ) : (
+      <svg className="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M9 5l7 7-7 7" />
+      </svg>
+    )}
+  </button>
+);
 
 export default Carousel;

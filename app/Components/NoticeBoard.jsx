@@ -1,22 +1,20 @@
 "use client";
-import React, { useState, useEffect } from "react"; // Added useEffect
+import React, { useState, useEffect } from "react";
 import useNotice from "../Hooks/useNotice";
 
 const NoticeBoard = () => {
   const { notice, isLoading, isError } = useNotice();
   const [isOpen, setIsOpen] = useState(false);
-  const [mounted, setMounted] = useState(false); // New state to track mounting
+  const [mounted, setMounted] = useState(false);
 
-  // Set mounted to true once the component hits the browser
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  if (isLoading || isError || !notice.length) return null;
+  if (isLoading || isError || !notice?.length) return null;
 
   const latest = notice[notice.length - 1];
 
-  // Logic for formatting date
   const getFormattedTime = () => {
     return new Date(latest.time).toLocaleString("en-US", {
       dateStyle: "medium",
@@ -28,27 +26,48 @@ const NoticeBoard = () => {
     <div
       className={`
         fixed top-24 right-0 z-50 transition-all duration-300 ease-in-out 
-        bg-yellow-50 border-l-4 border-yellow-500 text-yellow-900 
-        shadow-md rounded-l-lg cursor-pointer overflow-hidden
-        ${isOpen ? "translate-x-0 w-72 p-4" : "translate-x-[calc(100%-28px)] w-72 p-2"}
+        bg-slate-900/90 backdrop-blur-xl border border-r-0 border-white/10
+        shadow-xl shadow-black/40 rounded-l-xl cursor-pointer overflow-hidden
+        ${isOpen ? "w-80 p-5 translate-x-0" : "w-12 h-12 p-0 translate-x-0 flex items-center justify-center hover:bg-slate-800/90"}
       `}
       onClick={() => setIsOpen(!isOpen)}
     >
-      <h3 className="font-semibold mb-2 flex items-center gap-2 text-sm md:text-base">
-        📢 Notice
-      </h3>
+      {isOpen ? (
+        <div className="w-full space-y-3">
+          {/* Header */}
+          <div className="flex items-center justify-between pb-2 border-b border-white/10">
+            <div className="flex items-center gap-2 text-amber-400">
+              <span className="text-base animate-pulse">📢</span>
+              <h3 className="font-bold text-xs uppercase tracking-wider text-white">
+                Latest Notice
+              </h3>
+            </div>
+            {/* Close hint */}
+            <span className="text-[10px] font-bold text-slate-400 uppercase bg-white/5 px-2 py-0.5 rounded border border-white/5">
+              Hide
+            </span>
+          </div>
 
-      {isOpen && (
-        <>
-          <p className="text-sm mb-1">{latest.message}</p>
-          <p className="text-xs text-gray-600">
-            — {latest.author} <br />
-            <span className="text-gray-500">
-              {/* Only render the time if we are on the client */}
+          {/* Message Content */}
+          <p className="text-sm text-slate-200 font-medium leading-relaxed break-words">
+            {latest.message}
+          </p>
+
+          {/* Meta Info */}
+          <div className="pt-1 text-xs text-slate-400 border-t border-white/5 flex items-center justify-between gap-2 flex-wrap">
+            <span className="font-semibold text-slate-300">— {latest.author}</span>
+            <span className="text-[11px] text-slate-500 font-mono">
               {mounted ? getFormattedTime() : "Loading time..."}
             </span>
-          </p>
-        </>
+          </div>
+        </div>
+      ) : (
+        /* Minimalist Closed Tab State */
+        <div className="relative flex items-center justify-center w-full h-full text-lg group">
+          <span className="animate-bounce">📢</span>
+          {/* Unread dot indicator */}
+          <span className="absolute top-2.5 right-2.5 w-2 h-2 bg-amber-500 rounded-full ring-2 ring-slate-900" />
+        </div>
       )}
     </div>
   );

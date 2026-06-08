@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState, useEffect, useMemo } from "react";
 
 const VideoLibrary = () => {
@@ -28,7 +29,6 @@ const VideoLibrary = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [mounted, setMounted] = useState(false);
 
-  // Fix Hydration: Ensure component is mounted before setting default category
   useEffect(() => {
     setMounted(true);
     setActiveCategory(categories[0]);
@@ -39,26 +39,41 @@ const VideoLibrary = () => {
     video.name.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
-  if (!mounted) return null; // Prevent flash of unstyled content/mismatch
+  // Structural loading shell to prevent hydration flickering
+  if (!mounted) {
+    return (
+      <div className="min-h-screen bg-[#090d16] text-slate-200 flex items-center justify-center">
+        <div className="text-xs text-slate-500 uppercase tracking-widest font-bold">Loading Library Matrix...</div>
+      </div>
+    );
+  }
 
   return (
-    <div className="min-h-screen bg-[#F8FAFC] flex flex-col md:flex-row">
-      {/* Left Sidebar - Navigation */}
-      <aside className="w-full md:w-80 bg-white border-r border-slate-200 p-6 flex flex-col gap-8">
+    <div className="min-h-screen bg-[#090d16] text-slate-200 relative flex flex-col md:flex-row">
+      {/* Background Ambience Layers */}
+      <div className="fixed inset-0 -z-10 pointer-events-none overflow-hidden">
+        <div className="absolute top-[-10%] left-[20%] w-[600px] h-[600px] rounded-full bg-orange-500/[0.015] blur-[150px]" />
+        <div className="absolute bottom-[10%] right-[10%] w-[500px] h-[500px] rounded-full bg-emerald-500/[0.015] blur-[130px]" />
+      </div>
+
+      {/* Left Sidebar - Control Panel */}
+      <aside className="w-full md:w-80 bg-[#0c1220]/60 backdrop-blur-xl border-b md:border-b-0 md:border-r border-white/[0.05] p-6 flex flex-col gap-8">
         <div>
-          <h2 className="text-2xl font-black text-slate-800 tracking-tight mb-2">learndesk</h2>
-          <p className="text-xs font-bold uppercase tracking-widest text-slate-400">Video Courseware</p>
+          <h2 className="text-xl font-black text-white tracking-tight flex items-center gap-2">
+            learndesk <span className="text-[10px] bg-orange-500/10 text-orange-400 px-1.5 py-0.5 rounded border border-orange-500/20 uppercase tracking-widest font-black">Core</span>
+          </h2>
+          <p className="text-[9px] font-black uppercase tracking-widest text-slate-500 mt-1">Video Courseware Terminal</p>
         </div>
 
-        <nav className="flex flex-col gap-2">
+        <nav className="flex flex-col gap-1.5">
           {categories.map((cat) => (
             <button
               key={cat}
               onClick={() => setActiveCategory(cat)}
-              className={`text-left px-4 py-3 rounded-xl font-bold text-sm transition-all ${
+              className={`text-left px-4 py-3 rounded-xl font-bold text-xs uppercase tracking-wider transition-all border ${
                 activeCategory === cat 
-                ? "bg-orange-500 text-white shadow-lg shadow-orange-200" 
-                : "text-slate-500 hover:bg-slate-100 hover:text-slate-900"
+                  ? "bg-white text-[#090d16] border-white shadow-lg shadow-white/5 font-black" 
+                  : "bg-transparent text-slate-400 border-transparent hover:bg-white/[0.03] hover:text-slate-200"
               }`}
             >
               {cat}
@@ -67,71 +82,82 @@ const VideoLibrary = () => {
         </nav>
       </aside>
 
-      {/* Main Content Area */}
-      <main className="flex-1 p-6 md:p-12 lg:p-16">
-        <header className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 mb-12">
+      {/* Main Content Workspace */}
+      <main className="flex-1 p-6 md:p-10 lg:p-14 overflow-y-auto">
+        <header className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 mb-10 pb-6 border-b border-white/[0.04]">
           <div>
-            <h1 className="text-3xl md:text-4xl font-black text-slate-900 leading-tight">
+            <h1 className="text-xl md:text-2xl font-black text-white tracking-tight capitalize">
               {activeCategory}
             </h1>
-            <p className="text-slate-500 mt-1 font-medium">Browse through your available video lessons.</p>
+            <p className="text-xs text-slate-400 mt-1 font-medium">Select a system index lesson node to begin runtime streams.</p>
           </div>
 
-          {/* Search Bar */}
-          <div className="relative">
+          {/* Glowing Filter Search Field */}
+          <div className="relative group">
             <input 
               type="text"
-              placeholder="Search lessons..."
+              placeholder="Search target lesson logs..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full lg:w-72 pl-10 pr-4 py-3 bg-white border border-slate-200 rounded-2xl focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition-all shadow-sm"
+              className="w-full lg:w-72 pl-9 pr-4 py-2.5 bg-slate-950/50 border border-white/[0.06] rounded-xl focus:border-orange-500/40 focus:bg-[#0c121e] text-xs text-slate-200 outline-none transition-all placeholder:text-slate-600"
             />
-            <svg className="absolute left-3 top-3.5 w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            <svg className="absolute left-3 top-3 w-4 h-4 text-slate-500 group-focus-within:text-orange-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
           </div>
         </header>
 
-        {/* Video Grid */}
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
+        {/* Dynamic Video Grid Matrix */}
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
           {filteredVideos.map((video, index) => (
-            <div key={index} className="group flex flex-col bg-white rounded-[2.5rem] border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden">
-              <div className="aspect-video relative overflow-hidden bg-slate-900">
-                 <iframe
-                    className="w-full h-full"
-                    src={video.url}
-                    title={video.name}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    loading="lazy"
-                  ></iframe>
+            <div key={index} className="group flex flex-col bg-slate-900/20 backdrop-blur-xl border border-white/[0.05] focus-within:border-orange-500/30 rounded-2xl transition-all duration-300 shadow-xl overflow-hidden">
+              {/* Responsive Video Window Container */}
+              <div className="aspect-video relative overflow-hidden bg-slate-950/80 border-b border-white/[0.04]">
+                <iframe
+                  className="w-full h-full"
+                  src={video.url}
+                  title={video.name}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                ></iframe>
               </div>
-              <div className="p-8">
-                <div className="flex justify-between items-start gap-4">
-                  <h3 className="text-lg font-bold text-slate-800 group-hover:text-orange-600 transition-colors">
+
+              {/* Course Detail Card Blocks */}
+              <div className="p-5 flex-1 flex flex-col justify-between">
+                <div>
+                  <div className="flex justify-between items-start gap-4 mb-2">
+                    <div className="px-2 py-0.5 rounded bg-white/[0.04] border border-white/[0.06] text-slate-400 text-[9px] font-black uppercase tracking-wider">
+                      Module Entry {index + 1}
+                    </div>
+                  </div>
+                  <h3 className="text-sm font-bold text-slate-100 group-hover:text-orange-400 transition-colors leading-snug tracking-tight">
                     {video.name}
                   </h3>
-                  <div className="px-3 py-1 rounded-full bg-slate-100 text-slate-500 text-[10px] font-black uppercase tracking-wider">
-                    Lesson {index + 1}
-                  </div>
                 </div>
-                <div className="mt-6 flex items-center gap-4">
+
+                <div className="mt-5 pt-3 border-t border-white/[0.03]">
                   <a 
                     href={video.url.replace("embed/", "watch?v=")}
                     target="_blank"
-                    className="flex-1 bg-slate-900 text-white text-center py-3.5 rounded-2xl font-bold text-sm hover:bg-red-600 transition-all duration-300 flex items-center justify-center gap-2"
+                    rel="noopener noreferrer"
+                    className="w-full bg-white/[0.03] text-slate-300 border border-white/[0.06] hover:bg-white hover:text-[#090d16] hover:border-white text-center py-2.5 rounded-xl font-black text-[10px] uppercase tracking-widest transition-all duration-200 flex items-center justify-center gap-1.5"
                   >
-                    Watch Full Screen
+                    Watch Full Surface
+                    <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
                   </a>
                 </div>
               </div>
             </div>
           ))}
 
+          {/* Empty Search States */}
           {filteredVideos.length === 0 && (
-            <div className="col-span-full py-20 text-center bg-white rounded-[2.5rem] border border-dashed border-slate-300">
-               <span className="text-4xl">🔍</span>
-               <p className="mt-4 text-slate-500 font-bold">No videos found matching your search.</p>
+            <div className="col-span-full py-16 text-center bg-slate-900/10 border border-dashed border-white/[0.06] rounded-2xl">
+              <span className="text-2xl block mb-2 opacity-60">🔍</span>
+              <p className="text-xs text-slate-500 font-bold uppercase tracking-wider">No matching lesson blocks found inside this index grid.</p>
             </div>
           )}
         </div>

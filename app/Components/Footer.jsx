@@ -6,49 +6,50 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-white border-t border-slate-100 pt-16 pb-12">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+    <footer className="w-full bg-[#090d16]/95 backdrop-blur-xl border-t border-white/[0.04] pt-8 pb-6 mt-auto">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           
-          {/* Brand & Copyright */}
-          <div className="space-y-4">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-6 h-6 bg-slate-900 rounded flex items-center justify-center">
+          {/* Brand & Credit Block */}
+          <div className="space-y-2">
+            <Link href="/" className="flex items-center gap-2.5 group">
+              <div className="w-7 h-7 bg-white/[0.06] border border-white/10 rounded-lg flex items-center justify-center">
                 <span className="text-white font-black text-xs">L</span>
               </div>
-              <span className="text-lg font-black tracking-tighter text-slate-900 uppercase">
-                Learn<span className="text-blue-600">Desk</span>
+              <span className="text-base font-black tracking-tight text-white uppercase">
+                Learn<span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Desk</span>
               </span>
             </Link>
             
-            <div className="text-[11px] font-bold text-slate-400 uppercase tracking-widest leading-loose">
+            <div className="text-[11px] font-medium text-slate-400 space-y-0.5">
               <p>© {currentYear} Student Portal. Built for excellence.</p>
-              <p>
-                Crafted by <span className="text-slate-900">Ahmed Nashif</span>
+              <p className="text-slate-500">
+                Crafted by <span className="text-slate-300 font-bold hover:text-blue-400 transition-colors duration-200 cursor-pointer">Ahmed Nashif</span>
               </p>
             </div>
           </div>
 
-          {/* Links Grid */}
-          <div className="flex flex-wrap gap-x-10 gap-y-4">
+          {/* Quick Page Links */}
+          <div className="flex flex-wrap gap-x-8 gap-y-3">
             {["privacy", "terms", "contact"].map((page) => (
               <Link
                 key={page}
                 href={`/${page}`}
-                className="group flex flex-col"
+                className="group relative py-1"
               >
-                <span className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] group-hover:text-blue-600 transition-colors">
+                <span className="text-[11px] font-bold text-slate-300 uppercase tracking-widest group-hover:text-blue-400 transition-colors duration-200">
                   {page}
                 </span>
-                <span className="h-0.5 w-0 bg-blue-600 group-hover:w-full transition-all duration-300" />
+                {/* Micro accent tracker line */}
+                <span className="absolute bottom-0 left-0 h-[1.5px] w-0 bg-blue-400 group-hover:w-full transition-all duration-200" />
               </Link>
             ))}
           </div>
 
         </div>
 
-        {/* Bottom Accent Line */}
-        <div className="mt-12 h-1 w-full bg-gradient-to-r from-transparent via-slate-100 to-transparent" />
+        {/* Low-profile Separator bar */}
+        <div className="mt-6 h-[1px] w-full bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
       </div>
     </footer>
   );

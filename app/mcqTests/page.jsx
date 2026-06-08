@@ -3,42 +3,41 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import SectionToggle from "@/app/Components/SectionToggle";
-import ButtonDesigns from "@/app/Components/ButtonDesigns";
 
 const categories = [
   {
     name: "Graphic Design",
     slug: "graphic_design",
     icon: "🎨",
-    color: "from-violet-500 to-purple-600",
+    color: "from-violet-500/20 to-purple-500/10 border-purple-500/30 text-purple-400",
     description: "Visual communication & typography."
   },
   {
     name: "Computer Operation",
     slug: "computer_operation",
     icon: "💻",
-    color: "from-blue-500 to-indigo-600",
+    color: "from-blue-500/20 to-indigo-500/10 border-blue-500/30 text-blue-400",
     description: "Office & hardware management."
   },
   {
     name: "Digital Marketing",
     slug: "digital_marketing",
     icon: "📈",
-    color: "from-orange-400 to-rose-500",
+    color: "from-orange-500/20 to-rose-500/10 border-orange-500/30 text-orange-400",
     description: "SEO, SMM & data strategies."
   },
   {
     name: "Web Development",
     slug: "web_development",
     icon: "🌐",
-    color: "from-emerald-400 to-teal-600",
+    color: "from-emerald-500/20 to-teal-500/10 border-emerald-500/30 text-emerald-400",
     description: "Full-stack apps & frameworks."
   },
   {
     name: "CBTA",
     slug: "CBTA",
     icon: "📜",
-    color: "from-amber-400 to-orange-500",
+    color: "from-amber-500/20 to-orange-500/10 border-amber-500/30 text-amber-400",
     description: "Training & Assessment methods."
   },
 ];
@@ -55,97 +54,105 @@ const McqTests = () => {
   if (!mounted) return null;
 
   return (
-    <div className="min-h-screen bg-[#f1f5f9] py-8 px-4">
-      <div className="max-w-7xl mx-auto">
+    <div className="min-h-screen bg-[#090d16] text-slate-200 py-10 px-4 sm:px-6">
+      
+      {/* Background Subtle Radial Glows */}
+      <div className="fixed inset-0 -z-10 pointer-events-none overflow-hidden">
+        <div className="absolute top-[-20%] right-[-10%] w-[600px] h-[600px] rounded-full bg-blue-600/[0.05] blur-[150px]" />
+        <div className="absolute bottom-[20%] left-[-10%] w-[500px] h-[500px] rounded-full bg-slate-600/[0.03] blur-[130px]" />
+      </div>
+
+      <div className="max-w-6xl mx-auto space-y-8">
         
-        {/* Compact Header */}
-        <div className="flex flex-col md:flex-row items-center justify-between border-b border-slate-300/50 pb-6 mb-8 gap-4">
+        {/* Sleek Minimalist Header */}
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between border-b border-white/[0.06] pb-6 gap-4">
           <div>
-            <div className="flex items-center gap-2 mb-1">
-              <div className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse"></div>
-              <span className="text-[10px] font-bold uppercase tracking-widest text-slate-500">System Dashboard</span>
+            <div className="flex items-center gap-2 mb-1.5">
+              <div className="h-1.5 w-1.5 rounded-full bg-blue-500 ring-4 ring-blue-500/10" />
+              <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">System Dashboard</span>
             </div>
-            <h1 className="text-3xl font-black text-slate-900 tracking-tight">
-              Assessment<span className="text-blue-600">Portal</span>
+            <h1 className="text-2xl md:text-3xl font-black text-white tracking-tight">
+              Assessment<span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Portal</span>
             </h1>
           </div>
 
-          <div className="flex items-center gap-4">
-             <div className="bg-slate-200/50 p-1 rounded-lg">
-                <SectionToggle
-                  defaultSection="tests"
-                  onChange={setSection}
-                />
-             </div>
+          {/* Section Toggle Wrapper */}
+          <div className="flex items-center bg-slate-900/90 border border-white/[0.06] p-1 rounded-xl backdrop-blur-md">
+            <SectionToggle
+              defaultSection="tests"
+              onChange={setSection}
+            />
           </div>
         </div>
 
-        {/* Dense Grid */}
+        {/* High-Contrast Info Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {categories.map((cat) => (
             <div
               key={cat.slug}
               onClick={() => router.push(`/mcqTests/${cat.slug}/${section}`)}
-              className="group cursor-pointer bg-white rounded-xl border border-slate-200 hover:border-blue-500 transition-all duration-200 shadow-sm hover:shadow-md"
+              className="group cursor-pointer bg-slate-900/60 backdrop-blur-xl rounded-2xl border border-white/[0.06] hover:border-blue-500/40 hover:bg-slate-900/90 transition-all duration-300 shadow-xl shadow-black/20 flex flex-col justify-between overflow-hidden"
             >
               <div className="p-5">
-                {/* Header: Icon and Slug */}
+                {/* Card Top Row */}
                 <div className="flex items-center justify-between mb-4">
-                  <div className={`w-10 h-10 rounded-lg bg-gradient-to-br ${cat.color} flex items-center justify-center text-xl shadow-sm group-hover:scale-110 transition-transform`}>
+                  <div className={`w-9 h-9 rounded-xl bg-gradient-to-br border ${cat.color} flex items-center justify-center text-lg shadow-inner group-hover:scale-105 transition-transform duration-300`}>
                     {cat.icon}
                   </div>
-                  <span className="text-[9px] font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-500 border border-slate-200">
+                  <span className="text-[9px] font-bold px-2 py-0.5 rounded-md bg-white/[0.04] text-slate-400 border border-white/[0.06] uppercase tracking-wider">
                     {cat.slug === "CBTA" ? "CERT" : "MOD"}
                   </span>
                 </div>
 
-                {/* Content */}
-                <h3 className="text-lg font-bold text-slate-800 mb-1 group-hover:text-blue-600 transition-colors truncate">
+                {/* Main Content Info */}
+                <h3 className="text-base font-bold text-slate-100 mb-1.5 group-hover:text-blue-400 transition-colors duration-200 tracking-tight truncate">
                   {cat.name}
                 </h3>
-                <p className="text-slate-500 text-xs leading-snug mb-4 line-clamp-2 min-h-[2rem]">
+                <p className="text-slate-400 text-xs leading-relaxed line-clamp-2 min-h-[2.5rem]">
                   {cat.description}
                 </p>
+              </div>
 
-                {/* Footer Action */}
-                <div className="flex items-center justify-between pt-3 border-t border-slate-100">
-                   <span className="text-[10px] font-black uppercase text-slate-400">
-                     {section === "tests" ? "Attempt Test" : "Library"}
-                   </span>
-                   <svg className="w-4 h-4 text-slate-300 group-hover:text-blue-500 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                   </svg>
-                </div>
+              {/* Card Footer Action Strip */}
+              <div className="flex items-center justify-between mx-5 py-3.5 border-t border-white/[0.04]">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 group-hover:text-slate-300 transition-colors">
+                  {section === "tests" ? "Attempt Test" : "Library Content"}
+                </span>
+                <svg className="w-3.5 h-3.5 text-slate-500 group-hover:text-blue-400 group-hover:translate-x-1 transition-all duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
               </div>
             </div>
           ))}
         </div>
 
-        {/* Compressed Info Bar */}
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="bg-slate-800 rounded-xl p-4 text-white flex items-center justify-between">
+        {/* Compressed Dark Glass Stats System Bar */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
+          
+          <div className="bg-slate-900/40 backdrop-blur-md border border-white/[0.04] rounded-2xl p-4 flex items-center justify-between shadow-lg shadow-black/10">
             <div>
-              <p className="text-[10px] uppercase font-bold text-slate-400">Available Modules</p>
-              <p className="text-xl font-black">05 Units</p>
+              <p className="text-[10px] uppercase font-black tracking-widest text-slate-500">Available Modules</p>
+              <p className="text-lg font-black text-white mt-0.5">05 Units</p>
             </div>
-            <div className="h-10 w-10 bg-white/10 rounded-lg flex items-center justify-center text-lg">📁</div>
+            <div className="h-9 w-9 bg-white/[0.04] border border-white/[0.06] rounded-xl flex items-center justify-center text-sm shadow-md">📁</div>
           </div>
           
-          <div className="bg-blue-600 rounded-xl p-4 text-white flex items-center justify-between">
+          <div className="bg-slate-900/40 backdrop-blur-md border border-white/[0.04] rounded-2xl p-4 flex items-center justify-between shadow-lg shadow-black/10">
             <div>
-              <p className="text-[10px] uppercase font-bold text-blue-200">Question Database</p>
-              <p className="text-xl font-black">400+ Qs</p>
+              <p className="text-[10px] uppercase font-black tracking-widest text-slate-500">Question Database</p>
+              <p className="text-lg font-black text-blue-400 mt-0.5">400+ Questions</p>
             </div>
-            <div className="h-10 w-10 bg-white/10 rounded-lg flex items-center justify-center text-lg">🧠</div>
+            <div className="h-9 w-9 bg-blue-500/10 border border-blue-500/20 text-blue-400 rounded-xl flex items-center justify-center text-sm shadow-md">🧠</div>
           </div>
 
-          <div className="bg-emerald-600 rounded-xl p-4 text-white flex items-center justify-between">
+          <div className="bg-slate-900/40 backdrop-blur-md border border-white/[0.04] rounded-2xl p-4 flex items-center justify-between shadow-lg shadow-black/10">
             <div>
-              <p className="text-[10px] uppercase font-bold text-emerald-200">Access Status</p>
-              <p className="text-xl font-black">Premium Free</p>
+              <p className="text-[10px] uppercase font-black tracking-widest text-slate-500">Access Status</p>
+              <p className="text-lg font-black text-emerald-400 mt-0.5">Premium Free</p>
             </div>
-            <div className="h-10 w-10 bg-white/10 rounded-lg flex items-center justify-center text-lg">✅</div>
+            <div className="h-9 w-9 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 rounded-xl flex items-center justify-center text-sm shadow-md">✅</div>
           </div>
+
         </div>
       </div>
     </div>
