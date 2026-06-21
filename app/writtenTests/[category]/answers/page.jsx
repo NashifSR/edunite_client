@@ -1,47 +1,53 @@
 "use client";
 
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useState, useMemo } from "react";
 import useShortQuestions from "@/app/Hooks/useShortQuestions";
-import SearchBox from "@/app/Components/SearchBox";
+import SearchBox from "@/app/SharedComponents/SearchBox";
+import CriteriaDropdown from "@/app/Components/criteriaDropDownList";
+
+const toSentenceCase = (str) => {
+  if (!str) return "";
+  const decoded = decodeURIComponent(str);
+  const clean = decoded.replace(/_/g, " ").trim();
+  if (clean.toLowerCase() === "cbta") return "CBTA";
+  return clean.charAt(0).toUpperCase() + clean.slice(1).toLowerCase();
+};
 
 const WrittenAnswerPage = ({ params }) => {
-  // Safe unwrap of dynamic Next async route parameters
   const resolvedParams = React.use(params);
   const cat = resolvedParams?.category;
   
-  const { shortQuestions } = useShortQuestions();
+  const { shortQuestions = [] } = useShortQuestions();
 
   const [selectedUnit, setSelectedUnit] = useState(null);
   const [showEnglish, setShowEnglish] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
-  const [mounted, setMounted] = useState(false);
 
-  // Strictly enforce client-side matching on first paint pass
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  // 1. URL Safe Decoding and Capital Normalization Mapping
+  const targetCategoryUpper = useMemo(() => {
+    if (!cat) return "";
+    return decodeURIComponent(cat).replace(/[\s_]/g, "").toUpperCase();
+  }, [cat]);
 
-  const categoryQuestions = useMemo(
-    () => (cat && shortQuestions?.[cat]) || [],
-    [shortQuestions, cat]
-  );
+  // 2. Global Core Category Filter
+  const categoryQuestions = useMemo(() => {
+    if (!shortQuestions.length || !targetCategoryUpper) return [];
+    return shortQuestions.filter((q) => {
+      if (!q.category) return false;
+      return q.category.replace(/[\s_]/g, "").toUpperCase() === targetCategoryUpper;
+    });
+  }, [shortQuestions, targetCategoryUpper]);
 
-  const units = useMemo(
-    () => [...new Set(categoryQuestions.map((q) => q.unit))].filter(Boolean),
-    [categoryQuestions]
-  );
+  // 3. Selective State Filtering
+  const filteredQuestions = useMemo(() => {
+    return selectedUnit
+      ? categoryQuestions.filter((q) => q.unit === selectedUnit)
+      : categoryQuestions;
+  }, [selectedUnit, categoryQuestions]);
 
-  const filteredQuestions = useMemo(
-    () =>
-      selectedUnit
-        ? categoryQuestions.filter((q) => q.unit === selectedUnit)
-        : categoryQuestions,
-    [selectedUnit, categoryQuestions]
-  );
-
+  // 4. Client Metric Search Query Filter
   const searchedQuestions = useMemo(() => {
     const cleanedQuery = searchQuery.trim().toLowerCase();
-
     if (!cleanedQuery) return filteredQuestions;
 
     return filteredQuestions.filter((q) => {
@@ -59,38 +65,19 @@ const WrittenAnswerPage = ({ params }) => {
     });
   }, [filteredQuestions, searchQuery]);
 
-  const displayTitle = useMemo(() => {
-    if (!cat) return "";
-    return cat.replaceAll("_", " ");
-  }, [cat]);
-
-  // Render a clean fallback matching the SSR tree structure exactly
-  if (!mounted) {
-    return (
-      <div className="min-h-screen bg-[#090d16] text-slate-200 relative pb-12 flex items-center justify-center">
-        <div className="text-center text-xs text-slate-500 py-12">Loading workspace...</div>
-      </div>
-    );
-  }
-
   return (
     <div className="min-h-screen bg-[#090d16] text-slate-200 relative pb-12">
-
-      {/* Background Ambient Cyber Glows */}
       <div className="fixed inset-0 -z-10 pointer-events-none overflow-hidden">
         <div className="absolute top-[-20%] left-[30%] w-[600px] h-[600px] rounded-full bg-emerald-500/[0.02] blur-[150px]" />
         <div className="absolute bottom-[20%] left-[-10%] w-[500px] h-[500px] rounded-full bg-blue-600/[0.02] blur-[130px]" />
       </div>
 
-      {/* STICKY BLUR CORE HEADER */}
       <header className="sticky top-0 z-50 bg-[#090d16]/80 backdrop-blur-xl border-b border-white/[0.06]">
         <div className="max-w-7xl mx-auto px-4 py-3">
-
-          {/* Row 1: Title & Language Toggles */}
           <div className="flex items-center justify-between gap-4 border-b border-white/[0.04] pb-3">
             <div className="min-w-0">
-              <h1 className="text-base md:text-xl font-black text-white capitalize tracking-tight truncate min-h-[24px]">
-                {displayTitle}
+              <h1 className="text-base md:text-xl font-black text-white tracking-tight truncate min-h-[24px]">
+                {toSentenceCase(cat)}
               </h1>
 
               <div className="flex items-center gap-2 mt-0.5 flex-wrap text-[10px] font-bold uppercase tracking-wider text-slate-400">
@@ -112,10 +99,7 @@ const WrittenAnswerPage = ({ params }) => {
             </button>
           </div>
 
-          {/* Row 2: CLEAN RESPONSIVE SEARCH & FILTER CONTROLS */}
           <div className="flex flex-col gap-3 pt-3 md:flex-row md:items-center">
-
-            {/* SEARCH CONTAINER WITH BOUNDED MAX-WIDTH ON DESKTOP */}
             <div className="w-full md:w-80 bg-slate-950/40 rounded-xl border border-white/[0.06] shadow-inner focus-within:border-emerald-500/40 transition-colors">
               <SearchBox
                 value={searchQuery}
@@ -125,39 +109,18 @@ const WrittenAnswerPage = ({ params }) => {
               />
             </div>
 
-            {/* HORIZONTAL UNIT SCROLLER FILTER */}
-            <div className="flex gap-2 overflow-x-auto no-scrollbar py-0.5 flex-1 w-full">
-              <button
-                onClick={() => setSelectedUnit(null)}
-                className={`px-3.5 py-2 rounded-xl text-[11px] font-bold border whitespace-nowrap transition-all ${
-                  selectedUnit === null
-                    ? "bg-white text-[#090d16] border-white shadow-lg shadow-white/5"
-                    : "bg-white/[0.02] text-slate-400 border-white/[0.05] hover:text-white hover:bg-white/[0.05]"
-                }`}
-              >
-                All Units
-              </button>
-
-              {units.map((unit, index) => (
-                <button
-                  key={`unit-filter-${unit}-${index}`}
-                  onClick={() => setSelectedUnit(unit)}
-                  className={`px-3.5 py-2 rounded-xl text-[11px] font-bold border whitespace-nowrap transition-all ${
-                    selectedUnit === unit
-                      ? "bg-emerald-500/10 text-emerald-400 border-emerald-500/40 shadow-lg shadow-emerald-500/5"
-                      : "bg-white/[0.02] text-slate-400 border-white/[0.05] hover:text-white hover:bg-white/[0.05]"
-                  }`}
-                >
-                  {unit}
-                </button>
-              ))}
-            </div>
+            {/* Clean Dropdown Deployment Hook */}
+            <CriteriaDropdown 
+              data={categoryQuestions}
+              criteriaKey="unit"
+              selectedValue={selectedUnit}
+              onSelect={setSelectedUnit}
+              allLabel="All Units"
+            />
           </div>
-
         </div>
       </header>
 
-      {/* CORE VIEWPORT MAIN */}
       <main className="max-w-7xl mx-auto px-4 py-6">
         {searchedQuestions.length > 0 ? (
           <div className="space-y-3">
@@ -171,15 +134,12 @@ const WrittenAnswerPage = ({ params }) => {
                     <span className="w-6 h-6 rounded-lg bg-white/[0.04] border border-white/[0.06] text-slate-300 flex items-center justify-center text-[10px] font-black group-hover:text-emerald-400 group-hover:border-emerald-500/30 transition-colors">
                       {index + 1}
                     </span>
-
                     <span className="px-2 py-0.5 rounded-md bg-white/[0.02] border border-white/[0.04] text-slate-400 text-[9px] font-bold tracking-wide">
                       ID #{q.id}
                     </span>
-
                     <span className="px-2 py-0.5 rounded-md bg-white/[0.02] border border-white/[0.04] text-slate-400 text-[9px] font-bold tracking-wide max-w-[180px] truncate">
                       {q.unit}
                     </span>
-
                     <span className="px-2 py-0.5 rounded-md bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[9px] font-black tracking-wider">
                       {showEnglish ? "EN" : "BN"}
                     </span>

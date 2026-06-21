@@ -1,16 +1,17 @@
-import { useState, useEffect } from 'react';
-import axios from 'axios';
+import axios from "axios";
+import { useState, useEffect } from "react";
 
 const useMCQ = () => {
-  // 1. Initialize all state variables
+  // 1. Initialize all state variables with standard default structures
   const [mcq, setMcq] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);
   const [error, setError] = useState(null);
 
-  const API_URL = "/mcq.json"; 
+  // Updated pointing directly to your live backend server endpoint asset ecosystem
+  const API_URL = "http://localhost:5000/api/tvet/mcqQuestions"; 
 
-  // 2. Define the fetching function
+  // 2. Define the unified fetching function
   const fetchMCQs = async () => {
     setIsLoading(true);
     setIsError(false);
@@ -18,26 +19,31 @@ const useMCQ = () => {
 
     try {
       const response = await axios.get(API_URL);
-      setMcq(response.data); // Axios automatically gives the data in response.data
+      
+      // Defensively parse for nested arrays inside server wrappers (res.data.data)
+      const rawData = response.data?.data || response.data || [];
+      const normalizedData = Array.isArray(rawData) ? rawData : [];
+
+      setMcq(normalizedData);
     } catch (err) {
+      console.error("MCQ data layer processing error:", err);
       setIsError(true);
       setError(err);
-      setMcq([]); // Clear data on error
+      setMcq([]); // Graceful structural fallback containment grid
     } finally {
       setIsLoading(false);
     }
   };
 
-  // 3. Use useEffect to run the fetch function once on mount
+  // 3. Execution lifecycle loop mount matrix
   useEffect(() => {
     fetchMCQs();
-    // The dependency array is empty, so it only runs once (on mount)
   }, []); 
   
-  // 4. Provide a manual refetch function
+  // 4. Exposed reference handle for manual grid refetch requests
   const refetch = fetchMCQs; 
 
-  // 5. Return the state and functions
+  // 5. Destructured state delivery node
   return { mcq, refetch, isLoading, isError, error };
 };
 

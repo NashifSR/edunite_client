@@ -8,7 +8,7 @@ const QuestionCards = ({ question, index, selectedOption, onSelect }) => {
         <span className="shrink-0 flex items-center justify-center font-black text-slate-400 text-xs w-7 h-7 rounded-lg bg-slate-50 border border-slate-200 group-hover/card:text-blue-600 group-hover/card:border-blue-200 transition-colors">
           {index + 1}
         </span>
-        <h3 className="text-sm font-bold text-slate-900 leading-snug pt-1">
+        <h3 className="text-sm font-bold text-gray-300 leading-snug pt-1">
           {question.question}
         </h3>
       </div>
